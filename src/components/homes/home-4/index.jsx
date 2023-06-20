@@ -1,5 +1,5 @@
 import FooterThree from "@/src/layout/footers/footer-3";
-import HeaderFour from "@/src/layout/headers/header-4";
+import Header from "@/src/layout/headers/header-4";
 import React from "react";
 import AboutBrand from "./about-brand";
 import AppFaqArea from "./app-faq-area";
@@ -14,7 +14,7 @@ import PriceArea from "./price-area";
 const HomeFour = () => {
   return (
     <>
-      <HeaderFour />
+      <Header />
       <HeroBanner />
       <Brand />
       <AboutBrand />

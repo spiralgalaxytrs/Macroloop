@@ -1,5 +1,5 @@
 import FooterTwo from "@/src/layout/footers/footer-2";
-import HeaderTwo from "@/src/layout/headers/header-2";
+import Header from "@/src/layout/headers/header-2";
 import React from "react";
 import About from "./about";
 import Brand from "../brand";
@@ -13,7 +13,7 @@ import Testimonial from "./testimonial";
 const HomeTwo = () => {
   return (
     <>
-      <HeaderTwo />
+      <Header />
       <Slider />
       <Service />
       <About />

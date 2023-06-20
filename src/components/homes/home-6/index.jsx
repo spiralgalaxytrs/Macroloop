@@ -1,5 +1,5 @@
 import FooterFive from "@/src/layout/footers/footer-5";
-import HeaderSix from "@/src/layout/headers/header-6";
+import Header from "@/src/layout/headers/header-6";
 import React from "react";
 import Brand from "./brand";
 import GallerySlider from "./gallery-slider";
@@ -10,7 +10,7 @@ import Portfolio from "./portfolio";
 const HomeSix = () => {
   return (
     <>
-      <HeaderSix />
+      <Header />
       <HeroBanner />
       <MpCtaArea />
       <Brand />

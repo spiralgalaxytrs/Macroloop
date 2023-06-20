@@ -1,6 +1,6 @@
 import LineWrap from "@/src/common/line-wrap";
 import FooterThree from "@/src/layout/footers/footer-3";
-import HeaderThree from "@/src/layout/headers/header-3";
+import Header from "@/src/layout/headers/header-3";
 import React from "react";
 import About from "./about";
 import BlogArea from "./blog-area";
@@ -17,7 +17,7 @@ const HomeThree = () => {
   return (
     <>
     <LineWrap />
-      <HeaderThree />
+      <Header />
       <HeroBanner />
       <FeatureLists />
       <About />

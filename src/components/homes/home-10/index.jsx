@@ -1,5 +1,5 @@
 import FooterTwo from "@/src/layout/footers/footer-2";
-import HeaderTen from "@/src/layout/headers/header-10";
+import Header from "@/src/layout/headers/header-10";
 import React from "react";
 
 import AboutArea from "./about-area";
@@ -14,7 +14,7 @@ import ServiceArea from "./service-area";
 const HomeTen = () => {
   return (
     <>
-      <HeaderTen />
+      <Header />
       <HeroBanner /> 
       <ServiceArea />
       <AboutArea />

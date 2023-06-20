@@ -1,5 +1,5 @@
 import FooterTwo from "@/src/layout/footers/footer-2";
-import HeaderEight from "@/src/layout/headers/header-8";
+import Header from "@/src/layout/headers/header-8";
 import React from "react";
 import Brand from "../home-5/brand";
 import AboutArea from "./about-area";
@@ -14,7 +14,7 @@ import Testimonial from "./testimonial";
 const HomeEight = () => {
   return (
     <>
-      <HeaderEight />
+      <Header />
       <HeroBanner />
       <AboutArea />
       <ServiceArea  />

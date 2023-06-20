@@ -1,5 +1,5 @@
 import FooterSix from "@/src/layout/footers/footer-6";
-import HeaderSeven from "@/src/layout/headers/header-7";
+import Header from "@/src/layout/headers/header-7";
 import React from "react";
 import Brand from "../brand";
 import AboutArea from "./about-area";
@@ -14,7 +14,7 @@ import ServiceArea from "./service-area";
 const HomeSeven = () => {
   return (
     <>
-      <HeaderSeven />
+      <Header />
       <HeroAbout />
       <AboutArea />
       <CtaArea />

@@ -1,5 +1,5 @@
 import FooterFour from "@/src/layout/footers/footer-4";
-import HeaderFive from "@/src/layout/headers/header-5";
+import Header from "@/src/layout/headers/header";
 import React from "react";
 import AboutArea from "./about-area";
 import Blog from "./blog";
@@ -12,7 +12,7 @@ import Testimonial from "./testimonial";
 const HomeFive = () => {
   return (
     <>
-      <HeaderFive />
+      <Header />
       <HeroSlider />
       <AboutArea />
       <ServiceArea />
