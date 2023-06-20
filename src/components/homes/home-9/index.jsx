@@ -1,6 +1,6 @@
 import LineWrap from "@/src/common/line-wrap";
 import FooterSeven from "@/src/layout/footers/footer-7";
-import Header from "@/src/layout/headers/header-9";
+import Header from "@/src/layout/headers/header";
 import React from "react";
 import AboutArea from "./about-area";
 import Blog from "./blog";

@@ -1,5 +1,5 @@
 import FooterSix from "@/src/layout/footers/footer-6";
-import Header from "@/src/layout/headers/header-7";
+import Header from "@/src/layout/headers/header";
 import React from "react";
 import Brand from "../brand";
 import AboutArea from "./about-area";

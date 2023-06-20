@@ -1,5 +1,5 @@
 import FooterFive from "@/src/layout/footers/footer-5";
-import Header from "@/src/layout/headers/header-6";
+import Header from "@/src/layout/headers/header";
 import React from "react";
 import Brand from "./brand";
 import GallerySlider from "./gallery-slider";
