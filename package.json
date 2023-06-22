@@ -14,6 +14,7 @@
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.1.0",
     "next": "13.1.6",
+    "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-18-image-lightbox": "^5.1.4",
     "react-countup": "^6.4.1",
@@ -26,7 +27,9 @@
     "react-type-animation": "^2.1.2",
     "react-use": "^17.4.0",
     "sass": "^1.58.3",
+    "styled-components": "^6.0.0-rc.5",
     "swiper": "^9.0.5",
+    "tailwindcss": "^3.3.2",
     "wowjs": "^1.1.3"
   }
 }
