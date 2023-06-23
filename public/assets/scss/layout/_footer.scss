@@ -136,7 +136,7 @@
 
 .it-footer {
     & .tp-footer__widget-title {
-        color: var(--tp-theme-vogue);
+        color: white;
     }
 
     & .ft-blog-cta {
@@ -161,7 +161,7 @@
                     font-size: 16px;
                     margin-bottom: 15px;
                     display: inline-block;
-                    color: var(--tp-grey-1);
+                    color:white;
                     position: relative;
                     @include transition(.3s);
 
@@ -172,14 +172,14 @@
                         right: 0;
                         width: 0;
                         height: 1px;
-                        background-color: #000;
+                        background-color: #ffffff;
                         display: inline-block;
                     }
                 }
 
                 &:hover {
                     & a {
-                        color: var(--tp-common-black);
+                        color: var(--tp-common-white);
 
                         &::after {
                             right: auto;

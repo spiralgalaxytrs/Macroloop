@@ -1,4 +1,4 @@
-import FooterFour from "@/src/layout/footers/footer-4";
+import FooterTwo from "@/src/layout/footers/footer-2";
 import Header from "@/src/layout/headers/header";
 import React from "react";
 import AboutArea from "./about-area";
@@ -9,6 +9,8 @@ import Portfolio from "./portfolio";
 import ServiceArea from "./service-area";
 import Testimonial from "./testimonial";
 import Service from "./services";
+import BusinessJourney from "../../../common/business-journey";
+
 
 const HomeFive = () => {
   return (
@@ -19,11 +21,11 @@ const HomeFive = () => {
       <Service />
       <Brand /> 
 
-      <ServiceArea />
       <Portfolio />
      <Testimonial />
       <Blog />
-      <FooterFour />
+      <BusinessJourney/>
+      <FooterTwo />
     </>
   );
 };
