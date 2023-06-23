@@ -8,6 +8,7 @@ import HeroSlider from "./hero-slider";
 import Portfolio from "./portfolio";
 import ServiceArea from "./service-area";
 import Testimonial from "./testimonial";
+import Service from "./services";
 
 const HomeFive = () => {
   return (
@@ -15,11 +16,12 @@ const HomeFive = () => {
       <Header />
       <HeroSlider />
       <AboutArea />
-      <Blog />
+      <Service />
+      <Brand /> 
+
       <ServiceArea />
       <Portfolio />
      <Testimonial />
-      <Brand /> 
       <Blog />
       <FooterFour />
     </>

@@ -103,21 +103,50 @@ const Brand = ({style_8}) => {
 
     
     <>
+    
       <div className={`ptg-brand-area ${style_8 ? "theme-bg-8 pt-50 pb-50"  : "dark-bg"} `}>  
         <div className="container">
+        <div className="row">
+                    <div className="col-12">
+                        <div className="section-title-wraper text-center">
+                            <div className="tp-section">
+                                <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span>
+                                <h2
+                                    className="tp-section__title text-non-rgb tp-rgb-border text-white text-uppercase mb-65 wow tpfadeUp" data-wow-delay=".4s">
+                                    our  <span> PARTNERS</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
           <div className={`tp-ptg-brand-slider ${style_8 ? "" : "dark-bg-2 pt-60 pb-60 pl-40 pr-40"}`}> 
-            <Swiper
-              {...setting}
-              loop={isLoop}
-              modules={[Navigation]}
-              className="ptg-brand-slider-active swiper-container"
-            >
-              {brands_data.map((item, i) => (
-                <SwiperSlide key={i} className="tp-ptg-brand-item">
-                  <img src={item.img} alt="" />
-                </SwiperSlide>
-              ))}
-            </Swiper>
+          
+          <div className="row align-items-center">
+              <div className="col-lg-3">
+                <div className="tp-bs-brand mr-60">
+                  <h3 className="tp-bs-brand__title wow tpfadeRight text-white">
+                    Trusted by <span>Companies</span> all over the world
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-9">
+                <div className="tp-bs-brand-slider">
+                  <Swiper
+                    {...setting}
+                    loop={isLoop}
+                    modules={[Navigation]}
+                    className="brand-slider-active swiper-container"
+                  >
+                    {brands_data.map((item, i) => (
+                      <SwiperSlide key={i} className={`tp-bs-brand-item wow ${item?.tpfade}`}
+                      data-wow-delay={item?.delay}>
+                          <img src={item.img} alt="" />
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
