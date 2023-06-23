@@ -63,63 +63,6 @@ const MobileMenus = () => {
 
 
 
-          {menu.mega_menu &&  (
-            <li className="has-dropdown has-mega-menu">
-              <Link href={menu.link}>{menu.title}</Link>
-              <ul
-                className="mega-menu"
-                style={{
-                  display: navTitle === menu.title ? "block" : "none",
-                }}
-              >
-                {menu.mega_menus.map((mega_m, i) => (
-                  <li key={i}>
-                    <Link href={mega_m.link} className="mega-menu-title">
-                      {mega_m.title}
-                    </Link>
-
-                    <ul
-                      style={{
-                        display: subMenu === mega_m.title ? "block" : "none",
-                      }}
-                    >
-                      {mega_m.layout.map((sub_m, i) => (
-                        <li key={i}>
-                          <Link href={sub_m.link}>{sub_m.title}</Link>
-                        </li>
-                      ))}
-                    </ul>
-
-                    <a
-                      className={`mean-expand ${
-                        subMenu === mega_m.title ? "mean-clicked" : ""
-                      }`}
-                      onClick={() => openSubMobileMenu(mega_m.title)}
-                      style={{ fontSize: "18px",cursor:'pointer' }}
-                    >
-                      <i className="fal fa-plus"></i>
-                    </a>
-
-
-                  </li>
-                ))}
-              </ul>
-
-
-              <a
-                className={`mean-expand ${
-                  navTitle === menu.title ? "mean-clicked" : ""
-                }`}
-                onClick={() => openMobileMenu(menu.title)}
-                style={{ fontSize: "18px",cursor:'pointer' }}
-              >
-                <i className="fal fa-plus"></i>
-              </a>
-
-              
-            </li>
-          )}
-
            
         </React.Fragment>
       ))}

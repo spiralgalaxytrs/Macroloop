@@ -15,6 +15,7 @@ const HomeFive = () => {
       <Header />
       <HeroSlider />
       <AboutArea />
+      <Blog />
       <ServiceArea />
       <Portfolio />
      <Testimonial />
