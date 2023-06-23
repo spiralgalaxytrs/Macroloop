@@ -6,7 +6,7 @@ const footer_links = [
   {
     id: 1,
     title: "Company",
-    col: "col-xl-3",
+    col: "col-xl-5",
     id: "company",
     links: [
       { title: "About", link: "/about" },
@@ -41,7 +41,7 @@ const CommonFooter = () => {
     <>
       {footer_links.map((item, i) => (
         <div key={i} className={`${item.col} col-md-6`}>
-          <div className="tp-footer__widget mb-40">
+          <div className="tp-footer__widget  mb-40">
             <h3 className="tp-footer__widget-title mb-35">{item.title}</h3>
             <ul id={item.id}>
               {item.links?.map((link, id) => (
@@ -67,7 +67,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright & Design By <a href="#">@Theme Pure</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Copyright & Design By <a href="#" className="text-white">@The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;
@@ -83,7 +83,7 @@ export const FooterCopyRight = ({style_3, style_7, style_9}) => {
             </div>
           </div>
           <div className="col-md-4 d-none d-md-block">
-            <div className="tp-footer-menu text-end">
+            <div className="tp-footer-menu text-end text-white">
               <ul>
                 <li>
                   <Link href="/faq">FAQ</Link>
