@@ -1,6 +1,6 @@
 import SocialLinks from "@/src/common/social-links";
 import React, { useState, useEffect } from "react";
-import { EffectFade, Navigation, Pagination } from "swiper";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const slider_content = [
@@ -44,9 +44,13 @@ const HeroSlider = () => {
         <Swiper
           slidesPerView={1}
           loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           className="swiper-container ptg-slider-active"
           effect="fade"
-          modules={[EffectFade, Navigation, Pagination]}
+          modules={[Autoplay,EffectFade, Navigation, Pagination]}
           pagination={{
             el: ".ptg-sldider-dot",
             clickable: true,
