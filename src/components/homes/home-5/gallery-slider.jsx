@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -34,9 +35,9 @@ const GallerySlider = () => {
 
 
         <div className="container-fluid gx-0">
-        <div className="row">
+          <div className="pt-50">
                     <div className="col-12">
-                        <div className="section-title-wraper text-center pt-50">
+                        <div className="section-title-wraper text-center">
                             <div className="tp-section">
                                 <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span>
                                 <h2
@@ -67,7 +68,15 @@ const GallerySlider = () => {
 
         </div>
 
-
+        <div className="job-btn-wrapper text-center pt-30">
+                     <Link href="/job-details" className="tp-btn wow tpfadeUp">
+                        See More
+                        <span>
+                           <i className="fal fa-long-arrow-right"></i>
+                           <i className="fal fa-long-arrow-right"></i>
+                        </span>
+                     </Link>
+                  </div>
 
 
 

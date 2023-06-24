@@ -46,18 +46,15 @@ const Services = () => {
                     )
                 }
                 </div>
-                <div
-                className="da-header-grd-btn d-inline-block mr-20 mb-30 wow tpfadeUp"
-                data-wow-delay=".3s"
-              >
-                <Link href="/service-3" className="tp-grd-btn">
-                  Our Services
-                  <span className="ml-10">
-                    <i className="fal fa-long-arrow-right"></i>
-                    <i className="fal fa-long-arrow-right"></i>
-                  </span>
-                </Link>
-              </div>
+                <div className="job-btn-wrapper text-center">
+                     <Link href="/job-details" className="tp-btn wow tpfadeUp">
+                        See More
+                        <span>
+                           <i className="fal fa-long-arrow-right"></i>
+                           <i className="fal fa-long-arrow-right"></i>
+                        </span>
+                     </Link>
+                  </div>
             </div>
         </div>
         </>
