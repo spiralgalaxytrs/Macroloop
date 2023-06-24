@@ -21,7 +21,6 @@ const setting_1 = {
 };
 
 
-
 const GallerySlider = () => {
   
   const [isLoop, setIsLoop] = useState(false);
@@ -31,13 +30,13 @@ const GallerySlider = () => {
 
   return (
     <>
-      <div className="tp-mp-sw-slider  dark-bg" >
+      <div className="tp-mp-sw-slider dark-bg">
 
 
         <div className="container-fluid gx-0">
-        <div className="row" >
+        <div className="row">
                     <div className="col-12">
-                        <div className="section-title-wraper text-center" style={{paddingTop:"75px"}}>
+                        <div className="section-title-wraper text-center pt-50">
                             <div className="tp-section">
                                 <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span>
                                 <h2
@@ -66,8 +65,14 @@ const GallerySlider = () => {
             ))}
           </Swiper>
 
-          </div>
-          </div>
+        </div>
+
+
+
+
+
+
+      </div>
     </>
   );
 };
