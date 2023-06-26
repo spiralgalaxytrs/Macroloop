@@ -32,7 +32,7 @@ const Services = () => {
                             <div className="ptg-blog__item-content dark-bg-2">
                                 <div className="ptg-blog__item-meta">
                                     <span><a href="#"><b className="ptg-blog-cta">{item.category}</b></a></span>
-                                    <span><a href="#"> / <b> {item.month} {item.date}</b></a> </span>
+                                    {/* <span><a href="#"> / <b> {item.month} {item.date}</b></a> </span> */}
                                 </div>
                                 <h3 className="ptg-blog__item-title"><Link href="/blog-details">{item.title}</Link></h3>
                                 <Link href="/blog-details" className="ptg-blog-btn text-uppercase">Read More

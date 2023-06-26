@@ -144,7 +144,8 @@ const our_blog_data =[
         month: "Nov",
         category: "Software",
         post_by: "Admin",
-        title: <>A Technology His Improve Business Today</>,
+        title: <>Smart Campus
+        Solutions</>,
         des: <>They play a role in making operations more seamless
         bridging the gap between authorities, consumers &
         businesses running good. …</>,
@@ -162,7 +163,8 @@ const our_blog_data =[
         month: "June",
         category: "Software",
         post_by: "Admin",
-        title: <>the Technology His Improve  Business Today</>,
+        title: <><br/>Smart Campus
+        Solutions</>,
         des: <>They play a role in making operations more seamless
         bridging the gap between authorities, consumers &
         businesses running good. …</>,
@@ -176,7 +178,8 @@ const our_blog_data =[
         month: "June",
         category: "Software",
         post_by: "Admin",
-        title: <>the Technology His Improve  Business Today</>,
+        title: <> <br/> Industry
+        Automations</>,
         des: <>They play a role in making operations more seamless
         bridging the gap between authorities, consumers &
         businesses running good. …</>,
@@ -190,7 +193,9 @@ const our_blog_data =[
         month: "June",
         category: "Software",
         post_by: "Admin",
-        title: <>the Technology His Improve  Business Today</>,
+        title: <>Ai-enabled
+        software
+        consultancy</>,
         des: <>They play a role in making operations more seamless
         bridging the gap between authorities, consumers &
         businesses running good. …</>,
@@ -203,12 +208,13 @@ const our_blog_data =[
     // home 07 
     {
         id: 14,
-        img: "/assets/img/blog/da-blog-1.jpg",
+        img: "/assets/img/blog/ptg-blog-2.jpg",
         date: "23",
         month: "Nov",
         category: "Technology",
         post_by: "Admin",
-        title: <>Way Technology Has Improve Business</>,
+        title: <>Ed tech and e-
+        learning products</>,
         des: <>They play a role in making operations more seamless
         bridging the gap between authorities, consumers &
         businesses running good. …</>,
@@ -217,7 +223,7 @@ const our_blog_data =[
     },
     {
         id: 15,
-        img: "/assets/img/blog/da-blog-2.jpg",
+        img: "/assets/img/blog/da-blog-1.jpg",
         date: "23",
         month: "Nov",
         category: "Technology",

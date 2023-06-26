@@ -7,8 +7,9 @@ const about_content = {
     about: "About Our Agency",
     title: <>Catch Your Memories <br /> In <span> Photo & Video.</span></>,
     service_title: "Service",
-    service_1: <>Fashion Photography <br /> Wedding Photography <br /> Commercial Shooting <br /> Photo Studio</>,
-    service_2: <>Geographic Photo Contest 2022 <br /> <a href="#">Sony World Photography 2018</a> <br /> Monovisions Photography 2017</>,
+    service_2: <>At Macroloop Technologies Pvt Ltd, we vision to be the most<br/> sought
+    customer - centric company providing integrated technology <br /> solutions to
+    enhance the grwoth and sustainability of business and reliability <br /> on data.</>,
     btn: "get in touch"
 
 }
@@ -45,16 +46,14 @@ const AboutArea = () => {
                   className="ptg-about-content d-flex mb-40 wow tpfadeUp"
                   data-wow-delay=".4s"
                 >
-                  <div className="about-step-info mr-100">
-                    <h3>{service_title}</h3>
-                    <p>{service_1}</p>
-                  </div>
+                  
                   <div className="about-step-info">
                     <h3>{service_title}</h3>
                     <p>{service_2}</p>
                   </div>
                 </div>
               </div>
+              <br />
               <div
                 className="ptg-about-btn-wrapper mb-30 wow tpfadeUp"
                 data-wow-delay=".3s"
