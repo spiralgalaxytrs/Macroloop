@@ -36,7 +36,7 @@ const { img, hi_text, title } = contact_info;
 const ContactArea = () => {
   return (
     <>
-      <div className="contact-page-area pt-120 pb-90 wow tpfadeUp">
+      <div className="contact-page-area pt-120 pb-90 wow tpfadeUp dark-bg">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -51,14 +51,14 @@ const ContactArea = () => {
             </div>
             <div className="col-lg-10">
               <div className="tp-contact-page-info ">
-                <h3 className="tp-section__title pb-60 mb-60 tp-border-bottom">
+                <h3 className="tp-section__title pb-60 mb-60 tp-border-bottom text-white">
                   {title}
                 </h3>
               </div>
               <div className="row">
                 {contact_data.map((item, i) => (
                   <div key={i} className="col-lg-3">
-                    <div className="contact-cta-item mb-30">
+                    <div className="contact-cta-item mb-30 text-white">
                       <b>{item.titel}</b> <br />
                       <a href={`mailto:${item.email}`}>{item.email}</a> <br />
                       <a href={`tel:${item.tel}`}>{item.phone}</a>

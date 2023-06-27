@@ -11,7 +11,7 @@ const Service = () => {
       <Header />
       <BreadcrumbArea acive_menu="Services" title="What We Do" />
       <ServiceArea />
-      <PriceArea />
+      {/* <PriceArea /> */}
       <Footer />
     </>
   );

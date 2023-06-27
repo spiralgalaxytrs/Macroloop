@@ -4,7 +4,7 @@ import React from "react";
 const ServiceArea = () => {
   return (
     <>
-      <div className="tp-it-service serive-page-item-title pt-120 pb-90">
+      <div className="tp-it-service serive-page-item-title dark-bg pt-120 pb-90">
         <div className="container">
           <div className="row it-sv-counter">
             {service_data.slice(11, 17).map((item, i) => (
@@ -18,7 +18,7 @@ const ServiceArea = () => {
                   <div className="it-servicce__item-img mb-35">
                     <img src={item.icon} alt="them-pure" />
                   </div>
-                  <h3 className="it-service__item-title mb-20">
+                  <h3 className="it-service__item-title mb-20 text-white">
                     <a href="#">{item.title}</a>
                   </h3>
                   <p className="mb-0">{item.des}</p>

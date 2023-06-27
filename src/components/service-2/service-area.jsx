@@ -11,11 +11,11 @@ const {sircle_img, avatas_img, title}  = service_content
 const ServiceArea = () => {
     return (
         <>
-            <div className="tp-bs-service pt-120 pb-80">
+            <div className="tp-bs-service pt-120 pb-80 dark-bg">
          <div className="container">
             <div className="row">
                <div className="col-12">
-                  <div className="sv-cicle-logo-wraper text-center mb-25 wow tpfadeUp" data-wow-delay=".2s">
+                  <div className="sv-cicle-logo-wraper text-center text-white mb-25 wow tpfadeUp" data-wow-delay=".2s">
                         <img src={sircle_img} alt="them-pure" />
                   </div>
                </div>
@@ -24,11 +24,11 @@ const ServiceArea = () => {
                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
                     {service_data.slice(17, 22).map((item, i) =>
                         <div key={i} className="col">
-                     <div className="tp-bs-service-box text-center pt-40 pb-40 mb-25 wow tpfadeIn" data-wow-delay=".2s">
+                     <div className="tp-bs-service-box text-center  pt-40 pb-40 mb-25 wow tpfadeIn" data-wow-delay=".2s">
                         <div className="tp-bs-sv-icon mb-25">
                            <img src={item.img} alt="them-pure" />
                         </div>
-                        <h3 className="tp-bs-sv-title">
+                        <h3 className="tp-bs-sv-title text-white ">
                            <a href="#"> {item.title}</a>
                         </h3>
                      </div>
@@ -42,7 +42,7 @@ const ServiceArea = () => {
                <div className="tp-bs-sv-avata d-lg-inline-block pr-25">
                   <img src={avatas_img} alt="them-pure" />
                </div>
-               <p className="d-inline-block pr-5">{title}</p>
+               <p className="d-inline-block pr-5 text-white ">{title}</p>
                <a href="#">Make Request <span><i className="fal fa-long-arrow-right"></i></span></a>
             </div>
          </div>
