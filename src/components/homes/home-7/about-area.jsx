@@ -39,7 +39,7 @@ const about_feature_data = [
 const AboutArea = ({style_about}) => {
     return (
         <>
-        <div className="law-about-area pt-120 pb-90">
+        <div className="law-about-area pt-120 pb-90 dark-bg">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-xl-6 wow tpfadeUp">
@@ -89,7 +89,7 @@ const AboutArea = ({style_about}) => {
                             <div className="section-title-wraper mb-40">
                                 <div className="tp-section">
                                  
-                                    <h2 className={`tp-section__title ${style_about ? "wow tpfadeUp mb-30" : "wine-text-color mb-20 text-uppercase"}`}>
+                                    <h2 className={`tp-section__title text-white ${style_about ? "wow tpfadeUp mb-30" : "wine-text-color mb-20 text-uppercase"}`}>
                                         { style_about ? about_P_title : title
                                         }
                                     </h2>

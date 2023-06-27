@@ -13,13 +13,13 @@ const {title, des}  = team_content
 const TeamArea = () => {
     return (
         <>
-            <div className="da-team-area pt-120 pb-90">
+            <div className="da-team-area pt-120 pb-90 dark-bg">
          <div className="container">
             <div className="row align-items-center justify-content-center">
                <div className="col-md-6">
                   <div className="section-title-wraper mb-60">
                      <div className="tp-section text-center">
-                        <h2 className="tp-section__title wow tpfadeUp mb-30">{title}</h2>
+                        <h2 className="tp-section__title text-white wow tpfadeUp mb-30">{title}</h2>
                         <p className="wow tpfadeUp" data-wow-delay=".3s">{des}</p>
                      </div>
                   </div>

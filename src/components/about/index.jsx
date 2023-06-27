@@ -14,7 +14,7 @@ const About = () => {
       <Header />
       <BreadcrumbArea />
       <AboutArea style_about={true} />
-      <AbFactArea />
+      {/* <AbFactArea /> */}
       <TeamArea />
       <AboutDeatialsArea />
       <CtaAre />

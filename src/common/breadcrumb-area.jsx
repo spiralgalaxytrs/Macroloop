@@ -4,7 +4,7 @@ import React from 'react';
 const BreadcrumbArea = ({acive_menu = "About", title = "Our Company Histoy"}) => {
     return (
         <>
-             <div className="breadcrumb__area theme-bg pt-120 pb-120" 
+             <div className="breadcrumb__area dark-bg pt-120 pb-120" 
              style={{backgroundImage: `url(/assets/img/breadcrumb/breadcrumb-bg.png)`}}
              >
          <div className="container">
@@ -16,7 +16,7 @@ const BreadcrumbArea = ({acive_menu = "About", title = "Our Company Histoy"}) =>
                         <span className="dvdr dvdr-line"></span>
                         <span className="tp-bc-acive-menu">{acive_menu}</span>
                      </div>
-                     <h3 className="breadcrumb__title">{title}</h3>
+                     <h3 className="breadcrumb__title text-white">{title}</h3>
                   </div>
                </div>
             </div>
