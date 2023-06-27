@@ -22,6 +22,7 @@ const HomeFive = () => {
       <Brand /> 
       <HeroBanner/>
      <CtaArea/>
+     
       <Blog />
       <FooterTwo />
     </>
