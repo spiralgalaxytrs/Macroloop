@@ -9,7 +9,7 @@ const ServiceTwo = () => {
   return (
     <>
       <Header />
-      <BreadcrumbArea acive_menu="Service V2"  title="What We Do" />
+      <BreadcrumbArea acive_menu="Service V2"  title="Our Partners" />
       <ServiceArea />
       <SerivceVideos />
       <Footer />

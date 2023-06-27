@@ -18,7 +18,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: false,
     title: "Our Solutions",
-    link: "/shop",
+    link: "/service",
     
   },
   {
@@ -27,7 +27,7 @@ const menu_data = [
     has_dropdown: false,
     pages:true,
     title: "Our Partners",
-    link: "#",
+    link: "service-2",
    
   },
   {
@@ -42,7 +42,7 @@ const menu_data = [
     id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "Partner Portal",
+    title: "Case Studies",
     link: "/blog",
    
   },

@@ -20,7 +20,6 @@ const HomeFive = () => {
       <AboutArea />
       <Service />
       <Brand /> 
-      <GallerySlider/>
       <HeroBanner/>
      <CtaArea/>
       <Blog />

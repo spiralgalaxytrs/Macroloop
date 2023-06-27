@@ -92,26 +92,26 @@ const HeroSlider = () => {
                           <i className="fal fa-long-arrow-right"></i>
                           <i className="fal fa-long-arrow-right"></i>
                         </span>
-                        Hire Us Now
+                        Reach Us
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="ptg-slider-social">
+              {/* <div className="ptg-slider-social">
                 <b>Connect Here:</b>
                 <span>  <a href="#"> <i className="fab fa-facebook-f"></i> </a> </span>
                 <span> <a href="#"> <i className="fab fa-twitter"></i> </a> </span>
                 <span> <a href="#"> <i className="fab fa-behance"></i> </a> </span>
                 <span> <a href="#"> <i className="fab fa-youtube"></i> </a> </span>
-              </div>
-              <div className="ptg-contact-slider-info">
+              </div> */}
+              {/* <div className="ptg-contact-slider-info">
                 <span>
                   <a href={`mailto:${email}`}></a>{email}</span>
                 <span className="ptg-spt"> - </span>
                 <span>
                   <a href={`te:${phone}`}></a>{phone}</span>
-              </div>
+              </div> */}
             </SwiperSlide>
           ))}
         </Swiper>
