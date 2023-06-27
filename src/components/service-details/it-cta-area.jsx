@@ -15,8 +15,7 @@ const {title, des}  = it_cta_content
 const ItCtaArea = () => {
     return (
         <>
-        <div className="it-cta-area law-cta-area about-me-cta-area pt-120 pb-85 theme-bg"
-         style={{backgroundImage: `url(/assets/img/cta/sv-detials-cta-bg.png)`}}
+        <div className="it-cta-area law-cta-area about-me-cta-area pt-120 pb-85 dark-bg"
          >
          <div className="container">
             <div className="row align-items-center">
@@ -26,7 +25,7 @@ const ItCtaArea = () => {
                         <div className="section-title-wraper">
                            <div className="tp-section">
                               <div className="pb-40"><img src="/assets/img/icons/red-what-icon.png" alt="" /></div>
-                              <h2 className="tp-section__title text-black text-capitalize mb-25">{title}</h2>
+                              <h2 className="tp-section__title text-white text-capitalize mb-25">{title}</h2>
                               <p className="pr-45">{des}</p>
                            </div>
                         </div>

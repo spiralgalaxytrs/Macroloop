@@ -5,7 +5,7 @@ import Header from "@/src/layout/headers/header";
 import React from "react";
 import ContactArea from "./contact-area";
 import ItCtaArea from "../service-details/it-cta-area";
-      
+
 
 const Contact = () => {
   return (
@@ -14,7 +14,6 @@ const Contact = () => {
       <BreadcrumbArea acive_menu="Contact" title="Get In Touch" />
       <ContactArea />
       <ItCtaArea/>
-      <Contact/>
       <MapArea />
       <Footer />
     </>
