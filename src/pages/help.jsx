@@ -5,7 +5,7 @@ import Help from "../components/help";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Help"} />
+      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Help"} />
       <Help />
     </>
   );

@@ -5,7 +5,7 @@ import Search from "../components/search";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Search"} />
+      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Search"} />
       <Search />
     </>
   );

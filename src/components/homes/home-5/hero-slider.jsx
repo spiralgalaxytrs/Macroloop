@@ -7,19 +7,19 @@ const slider_content = [
   {
     id: 1,
     bg_img: "/assets/img/slider/ptg-hero-1.jpg",
-    title: "Gencio",
+    title: "MACROLOOP TECHNOLOGIES",
     category: "Photography",
   },
   {
     id: 2,
     bg_img: "/assets/img/slider/ptg-hero-2.jpg",
-    title: "Gencio",
+    title: "MACROLOOP TECHNOLOGIES",
     category: "Photography",
   },
   {
     id: 3,
     bg_img: "assets/img/slider/ptg-hero-3.jpg",
-    title: "Gencio",
+    title: "MACROLOOP TECHNOLOGIES",
     category: "Photography",
   },
 ];

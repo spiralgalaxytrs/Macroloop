@@ -16,7 +16,7 @@ const about_me_info ={
                 sFTP. A continuous technology R&D program.</>,
 
     address: "Vesturbraut 17-3 Keflavík, US",
-    email: "gencio@web-agency.com",
+    email: "MACROLOOP TECHNOLOGIES@web-agency.com",
     phone: "+351 258 548 56",
     mobile: "+354 547 244 00 ",
 

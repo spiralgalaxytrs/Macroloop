@@ -4,7 +4,7 @@ import React from 'react';
 
 const job_details_content = {
     job_about: "About Jobs",
-    job_description: <>At Gencio, we are building preventive, continuous and personalized primary
+    job_description: <>At MACROLOOP TECHNOLOGIES, we are building preventive, continuous and personalized primary
                         healthcare that is made affordable and scalable by machine
                         learning. Our ambition is to transform healthcare by building trustworthy products designed
                         for both people and healthcare professionals. Our
@@ -37,7 +37,7 @@ const job_details_content = {
     include_files: [
         <>A link to your online portfolio</>,
         <>Your CV or LinkedIn profile</>,
-        <>A few words describing why you want to join Gencio</>,
+        <>A few words describing why you want to join MACROLOOP TECHNOLOGIES</>,
     ],
 
 

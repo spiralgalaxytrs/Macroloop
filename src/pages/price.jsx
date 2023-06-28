@@ -5,7 +5,7 @@ import Price from "../components/price";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Pricing & Plans"} />
+      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Pricing & Plans"} />
       <Price />
     </>
   );

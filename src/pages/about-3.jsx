@@ -5,7 +5,7 @@ import AboutThree from "../components/about-3";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Aboutt 3"} />
+      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Aboutt 3"} />
       <AboutThree />
     </>
   );

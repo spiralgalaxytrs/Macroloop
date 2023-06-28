@@ -5,7 +5,7 @@ import Portfolio from "../components/portfolios/portfolio";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Portfolio"} />
+      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Portfolio"} />
       <Portfolio />
     </>
   );

@@ -5,7 +5,7 @@ import ShopDetails from "../components/shop-details";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Shop Details"} />
+      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Shop Details"} />
       <ShopDetails />
     </>
   );

@@ -5,7 +5,7 @@ import Team from "../components/team";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Team"} />
+      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Team"} />
       <Team />
     </>
   );

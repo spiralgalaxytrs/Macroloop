@@ -24,7 +24,7 @@ const Cta = () => {
 
                    <TypeAnimation
                           sequence={[
-                            'Gencio', 
+                            'MACROLOOP TECHNOLOGIES', 
                             1000,
                             'Branding', 
                             3000,
