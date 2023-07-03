@@ -7,20 +7,26 @@ const slider_content = [
   {
     id: 1,
     bg_img: "/assets/img/slider/ptg-hero-1.jpg",
-    title: "MACROLOOP TECHNOLOGIES",
-    category: "Photography",
+    title: "Industry Automation",
   },
   {
     id: 2,
     bg_img: "/assets/img/slider/ptg-hero-2.jpg",
-    title: "MACROLOOP TECHNOLOGIES",
-    category: "Photography",
+    title: "Smart campus solutions",
   },
   {
     id: 3,
     bg_img: "assets/img/slider/ptg-hero-3.jpg",
-    title: "MACROLOOP TECHNOLOGIES",
-    category: "Photography",
+    title: "IoT and Digital Transformation",
+  },
+  {
+    id: 4,
+    bg_img: "assets/img/slider/ptg-hero-4.jpg",
+    title: "Wifi solutions",
+  }, {
+    id: 5,
+    bg_img: "assets/img/slider/ptg-hero-5.jpg",
+    title: "AI-enabled software consultancy",
   },
 ];
 
@@ -80,7 +86,6 @@ const HeroSlider = () => {
                         data-delay=".3s"
                       >
                         {item.title} <br />
-                        <span>{item.category}</span>
                       </h3>
                       <a
                         href="#"
