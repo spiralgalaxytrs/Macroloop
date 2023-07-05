@@ -18,7 +18,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: false,
     title: "Our Solutions",
-    link: "/service",
+    link: "/solutions",
     
   },
   {
