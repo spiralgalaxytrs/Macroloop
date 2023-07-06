@@ -11,12 +11,12 @@ const slider_content = [
   },
   {
     id: 2,
-    bg_img: "/assets/img/slider/ptg-hero-2.jpg",
+    bg_img: "/assets/img/solutions/4.jpg",
     title: "Smart campus solutions",
   },
   {
     id: 3,
-    bg_img: "assets/img/slider/ptg-hero-3.jpg",
+    bg_img: "assets/img/solutions/5.jpg",
     title: "IoT and Digital Transformation",
   },
   {

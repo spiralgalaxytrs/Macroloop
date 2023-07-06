@@ -7,7 +7,7 @@ import Tilt from "react-parallax-tilt";
 
 
 const JobDetailsArea = ({data}) => {
-    
+    console.log(data);
     
     return (
         <>
@@ -24,7 +24,7 @@ const JobDetailsArea = ({data}) => {
                     transitionSpeed={1000}
                     gyroscope={true}
                   >
-                     <img src={data?.img} alt="img" />
+                     <img src={`/${data?.img}`} alt={data.title} />
 
                 </Tilt>
                   </div>
