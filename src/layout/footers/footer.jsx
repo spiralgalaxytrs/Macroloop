@@ -27,7 +27,7 @@ const Footer = ({style_8, style_10}) => {
                      <div className="bs-footer__top-logo mb-35">
                         <Link href="/"> 
                         {
-                           <img src={logo} alt="" />
+                           <img width={250} src={logo} alt="" />
 
                         }
                         

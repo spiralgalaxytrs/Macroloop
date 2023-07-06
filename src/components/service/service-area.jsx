@@ -1,35 +1,46 @@
-import service_data from "@/src/data/service-data";
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
-const ServiceArea = () => {
+
+
+const PortfolioItemsArea = ({data}) => {
+  
   return (
     <>
-      <div className="tp-it-service serive-page-item-title dark-bg pt-120 pb-90">
+      <div className="tp-portfoliop-page-area pt-120 pb-120 dark-bg">
         <div className="container">
-          <div className="row it-sv-counter">
-            {service_data.slice(11, 17).map((item, i) => (
+
+
+         
+
+
+          <motion.div layout className="row tp-portfolio-isotop-active">
+            {data.Solutions.map((item, i) => (
               <div
                 key={i}
-                className="col-lg-4 col-md-6"
-                data-aos={item.data_aos}
-                data-aos-duration={item.duration}
+                className={`col-6 tp-portfolio-item mb-25 w-img ${item.cls}`}
               >
-                <div className="it-service__item mb-30 text-center">
-                  <div className="it-servicce__item-img mb-35">
-                    <img src={item.icon} alt="them-pure" />
+                <div className="pf-item-wrapper p-relative">
+                  <div className="pf-single-item">
+                    <img src={item.img} alt={item.title} />
                   </div>
-                  <h3 className="it-service__item-title mb-20 text-white">
-                    <a href="#">{item.title}</a>
-                  </h3>
-                  <p className="mb-0">{item.des}</p>
+                  <div className="pf-single-item__info">
+                    <span>{item.st}</span>
+                    <h3 className="pf-single-item__title">
+                      <Link href={`/solutions/${item.id}`}>{item.title}</Link>
+                    </h3>
+                  </div>
                 </div>
               </div>
             ))}
-          </div>
+          </motion.div>
+
+        
         </div>
       </div>
     </>
   );
 };
 
-export default ServiceArea;
+export default PortfolioItemsArea;

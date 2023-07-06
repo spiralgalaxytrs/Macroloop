@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 
-const Cta = () => {
+const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
   return (
     <>
       <div className="tp-bs-cta-area pt-105 pb-120 dark-bg p-relative">
@@ -45,7 +45,7 @@ const Cta = () => {
           <div className="row">
             <div className="bs-cta-btns text-center">
               <a href="#" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
-                Schedule a meeting
+                {rButton}
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
                   <i className="fal fa-long-arrow-right"></i>
@@ -60,7 +60,7 @@ const Cta = () => {
                   <i className="fab fa-google"></i>
                   <i className="fab fa-google"></i>
                 </span>
-                Google Calendar <b></b>
+                {lbutton}<b></b>
               </a>
             </div>
           </div>

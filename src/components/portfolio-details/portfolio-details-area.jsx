@@ -1,5 +1,5 @@
 import React from "react";
-import CtaArea from "../homes/home/cta-are";
+import CtaArea from "../homes/home-5/cta";
 
 
 
@@ -71,7 +71,7 @@ const PortfolioDetailsArea = () => {
 
   return (
     <>
-      <div className="tp-pf-details-page-area pt-120 wow tpfadeUp">
+      <div className="tp-pf-details-page-area pt-120 wow dark-bg tpfadeUp">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -84,20 +84,20 @@ const PortfolioDetailsArea = () => {
                     <div className="col-lg-8">
                       <div className="pf-details-banner__info-left">
                         <span>
-                          <b>Category:</b> Design & Development
+                          <b>Learn</b> 
                         </span>
                         <span>
-                          <b>Category:</b> Client: Sharif Da Gazi
+                          <b>Contribute</b> 
                         </span>
                         <span>
-                          <b> Budget:</b>$12,000
+                          <b>Grow</b>
                         </span>
                       </div>
                     </div>
                     <div className="col-lg-4">
                       <div className="pf-details-banner__info-right text-lg-end">
                         <a href="#">
-                          Live Preview
+                          Contact Us
                           <span>
                             <i className="fal fa-long-arrow-right"></i>
                           </span>
@@ -112,48 +112,18 @@ const PortfolioDetailsArea = () => {
         </div>
       </div>
 
-      <div className="tp-pf-detials-main pt-60">
+      <div className="tp-pf-detials-main dark-bg pt-60">
         <div className="container wow tpfadeUp">
-          <h3 className="tp-blog-detials-title mb-25">Case study overview</h3>
           <p>
-            When it comes to tools for publishing a blog, it can seem like
-            there’s never a perfect solution that mixes customization with easy
-            admin. In this article, we will see step-by-step how you can get the
-            best of both worlds by using Ghost as a headless <b>CMS</b> for a
-            Gatsby static site. We will cover all the tricky parts in-depth and
-            show you can do everything for free. These days it seems there are
-            an endless number of tools and platforms for creating your own blog.{" "}
-            <b>However</b>, lots of the options out there lean towards{" "}
-            <a href="#">non-technical</a> users and abstract away all of the
-            options for customization and truly making something your own.{" "}
-            <br />
-            <br />
+          "Learn Contribute Grow" (LCG) is an exceptional program offered by Looptech that provides an inclusive community platform for students, freelancers, and startups. LCG aims to connect like-minded groups and individuals, fostering a collaborative environment where participants can freely share ideas, suggestions, support, and resources to develop and enhance their innovations or startups.
+            
           </p>
-          <h3 className="tp-blog-detials-title mb-25">Case study overview</h3>
           <p>
-            Enter the Headless Content Management System (CMS). With a Headless
-            CMS, you can get all of the tools to create and organize your
-            content, while maintaining 100% control of how it is delivered to
-            your readers.
+          By joining LCG, you gain access to a vibrant network of mentors who possess valuable industry experience. These mentors, along with educationists and researchers boasting qualified practical expertise, offer valuable guidance and support to help you navigate the challenges and opportunities encountered during your entrepreneurial journey.
           </p>
-          <div className="pf-deatials-fea mb-60">
-            <div className="row">
-              {study_overview.map((item, i) => (
-                <div key={i} className="col-lg-6">
-                  <div className="tp-bs-about-fea border-bottom-0 mr-30">
-                    <ul>
-                      {item.lists.map((list, i) => (
-                        <li>
-                          <i className="fal fa-check"></i>
-                          {list}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          <p>
+         One of the key features of LCG is the ability to showcase your services to individuals and companies seeking your specific skill set. This platform not only facilitates connections but also enables fruitful collaborations, enabling you to work hand in hand with those in need of your expertise.
+         </p>
           <div className="pf-dt-img-gallery mb-30">
             <div className="row">
               {img_gallery_working_process.map((item, i) => (
@@ -169,46 +139,22 @@ const PortfolioDetailsArea = () => {
               ))}
             </div>
           </div>
-          <h3
-            className="tp-blog-detials-title mb-25 wow tpfadeUp"
-            data-wow-delay
-          >
-            Working process
-          </h3>
-          <p className="wow tpfadeUp">
-            Enter the Headless Content Management System (CMS). With a Headless
-            CMS, you can get all of the tools to create and organize your
-            content, while maintaining 100% control of how it is delivered to
-            your readers.
-          </p>
-
-          <div className="pf-dt-process-wrapper pb-60">
-            <div className="row">
-              {working_process_data.map((item, i) => (
-                <div key={i} className="col-lg-4 col-xl-3">
-                  <div className="pf-dt-process-item  wow tpfadeUp text-center mb-60">
-                    <div className="pf-dt-process-item__border mb-25">
-                      <div
-                        className={`pf-dt-process-item__icon ${item.bg_color}`}
-                      >
-                        <span>
-                          <i className={item.icon}></i>
-                        </span>
-                      </div>
-                    </div>
-                    <h3 className="pf-dt-process-item__title mb-10">
-                      <a href="#">{item.title}</a>{" "}
-                    </h3>
-                    <p>{item.desctiption}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+         
+        
+       
+         <p>
+         Furthermore, LCG has established collaborations with numerous Business and Technology Incubators, widening your horizons and providing you with a diverse range of companies and startups to engage with. Whether you are seeking partners, looking to make purchases, aiming to sell your products or services, or eager to collaborate on innovative projects, LCG offers you a plethora of options to explore.
+         </p>
+         <p>
+         Moreover, LCG offers an exclusive opportunity to access Loop Tech's Innovative Team, a dedicated group of experts ready to provide support and assistance for your viable innovations. With their vast knowledge and resources, the Innovative Team stands poised to propel your ideas forward and help transform them into tangible successes.
+         </p>
+         <p>
+         If you are eager to take your innovation or startup to new heights, we invite you to join LCG today. By becoming a member, you gain entry into a thriving community, access to invaluable mentorship, and a world of possibilities to collaborate, learn, and grow.
+         </p>
         </div>
 
         {/* <!-- cta are  --> */}
-        <CtaArea />  
+        <CtaArea rButton="Join LCG" lButton="Google Form" />  
         {/* <!-- cta end --> */}
       </div>
     </>

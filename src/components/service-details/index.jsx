@@ -11,7 +11,7 @@ const ServiceDetails = () => {
   return (
     <>
       <Header />
-      <BreadcrumbArea acive_menu="Service Details" title="What We Do" />
+      <BreadcrumbArea acive_menu="Solutions" title="What We Do" />
       <ServiceDetailsArea />
       <FeatureArea />
       <FaqArea />

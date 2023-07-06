@@ -13,11 +13,11 @@ const Header = () => {
             <header>
         <div id="header-sticky" className={`tp-ptg-header dark-header black-bg p-relative ${sticky ? "header-sticky" : ""}`}>
             <div className="container-fluid p-0">
-                <div className="tp-ptg-header__main pl-40">
+                <div className="tp-ptg-header__main pl-20">
                     <div className="row align-items-center g-0">
                         <div className="col-xl-3 col-8">
                             <div className="logo">
-                                <Link href="/"><img width={230} src="/assets/img/logo/dark-logo.png" alt="logo" /></Link>
+                                <Link href="/"><img width={200} src="/assets/img/logo/dark-logo.png" alt="logo" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-9 d-none d-xl-block">

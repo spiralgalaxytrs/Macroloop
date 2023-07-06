@@ -5,13 +5,14 @@ import React from "react";
 import PortfolioArea from "../../common/portfolio-area";
 import JobDetailsArea from "./job-details-area";
 
-const JobDetails = () => {
+const JobDetails = ({data}) => {
+  
   return (
     <>
       <Header />
-      <BreadcrumbArea acive_menu="Careers"  title="Job Details"/>
-      <JobDetailsArea />
-      <PortfolioArea />
+      <BreadcrumbArea acive_menu="Solutions"  title={data?.title}/>
+      <JobDetailsArea data={data} />
+      {/* <PortfolioArea /> */}
       <Footer />
     </>
   );

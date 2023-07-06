@@ -21,7 +21,7 @@ const HomeFive = () => {
       <Service />
       <Brand /> 
       <HeroBanner/>
-     <CtaArea/>
+     <CtaArea rButton="Contact Us" lbutton="Join Meeting"/>
      
       <Blog />
       <FooterTwo />
