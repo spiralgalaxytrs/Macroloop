@@ -3,19 +3,19 @@ import React from "react";
 const contact_data = [
   {
     id: 1,
-    titel: "Become a client",
+    titel: "Head office",
     email: "4/608,V.O.C. Street, Kottivakkam, Old Mahabalipuram Road, Perungudi, Chennai,Tamil Nadu 600041",
     phone: "+91 8344445511",
   },
   {
     id: 2,
-    titel: "Media inquiries",
+    titel: "Branch office",
     email: "3rd floor Incubation cell , KPR institute of engineering and technology Avinashi - Coimbatore Road, Arasur, Tamil Nadu 641407",
     phone: "+91 8344445511",
   },
   {
     id: 3,
-    titel: "General",
+    titel: "Branch office",
     email: "2nd Floor ,Technology Business Incubator (TCE-TBI) Thaigarajar College of Engineering Thaigarajar Advance Research Centre, next to Honeywell, Madurai, Tamil Nadu 625015",
     phone: "+91 8344445511",
   },

@@ -1,4 +1,5 @@
 import SocialLinks from "@/src/common/social-links";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -39,9 +40,9 @@ const HeroSlider = () => {
   }, []);
 
   const hero_content = {
-    btn: "Hire Us Now",
-    email: "info@webmail.com",
-    phone: "222 090 000 01",
+    // btn: "Hire Us Now",
+    // email: "info@webmail.com",
+    // phone: "222 090 000 01",
   };
   const { btn, email, phone } = hero_content;
   return (
@@ -85,10 +86,11 @@ const HeroSlider = () => {
                         data-animation="tpfadeUp"
                         data-delay=".3s"
                       >
-                        {item.title} <br />
+                        {/* {item.title}  */}
+                        <br />
                       </h3>
-                      <a
-                        href="#"
+                      <Link
+                        href="/contact"
                         className="ptg-slider-btn"
                         data-animation="tpfadeUp"
                         data-delay=".5s"
@@ -97,8 +99,8 @@ const HeroSlider = () => {
                           <i className="fal fa-long-arrow-right"></i>
                           <i className="fal fa-long-arrow-right"></i>
                         </span>
-                        Reach Us
-                      </a>
+                        Contact Us
+                      </Link>
                     </div>
                   </div>
                 </div>
