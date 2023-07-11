@@ -28,7 +28,7 @@
             border-radius: 6px;
 
             &:hover {
-                background-color: var(--tp-theme-redical);
+                background-color: #0020ff;;
                 color: var(--tp-common-white);
             }
         }
@@ -73,7 +73,7 @@
     & .nice-select{
         border: 0;
         &::after{
-            border-color: var(--tp-theme-redical);
+            border-color: #0020ff;
         }
     }
 }
@@ -371,7 +371,7 @@
             margin-top: 10px;
         }
         &:hover{
-            background-color: var(--tp-theme-redical);
+            background-color: #0020ff;;
             color: var(--tp-common-white);
         }
     }
@@ -658,7 +658,7 @@
 
     &:hover {
         color: var(--tp-common-white);
-        background-color: var(--tp-theme-redical);
+        background-color: #0020ff;;
         border-color: transparent;
     }
 }

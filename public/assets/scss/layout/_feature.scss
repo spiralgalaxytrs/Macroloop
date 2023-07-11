@@ -98,7 +98,7 @@
         @include transition(.3s);
 
         &:hover {
-            color: var(--tp-theme-redical);
+            color: #0020ff;
         }
     }
 
@@ -317,7 +317,7 @@
     height: 140px;
     line-height: 140px;
     border-radius: 50%;
-    color: var(--tp-theme-redical);
+    color: #0020ff;
     animation: pulse 2s infinite;
     margin-bottom: 35px;
     margin-right: 0;
@@ -401,7 +401,7 @@
                 border: 1px solid #232323;
 
                 & i {
-                    color: var(--tp-theme-redical);
+                    color: #0020ff;
                 }
             }
         }
@@ -453,7 +453,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        background-color: var(--tp-theme-redical);
+        background-color: #0020ff;;
         width: 150px;
         height: 150px;
         color: var(--tp-common-white);

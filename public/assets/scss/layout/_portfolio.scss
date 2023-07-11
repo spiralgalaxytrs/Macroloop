@@ -243,7 +243,7 @@
     &-subtitle {
         margin-bottom: 8px;
         display: inline-block;
-        background-image: linear-gradient(90deg, #5a6ef8, #fe7a8f);
+        background-image: linear-gradient(90deg, #001ff3, #ffffff);
         color: var(--tp-grey-1);
         -webkit-background-clip: text;
         background-clip: text;
@@ -644,7 +644,7 @@
         border: 1px solid var(--tp-border-12);
         margin-bottom: 30px;
         &.active {
-            background-color: var(--tp-theme-redical);
+            background-color: #0020ff;;
             border-color: transparent;
             color: #fff;
         }
@@ -764,7 +764,7 @@
                 margin-right: 40px;
                 font-size: 16px;
                 font-weight: 700;
-                color: var(--tp-theme-redical);
+                color: #0020ff;
                 & span {
                     & i {
                         margin-left: 10px;
