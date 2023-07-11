@@ -32,7 +32,7 @@ const ItCtaArea = () => {
                </div>
                <div className="col-xl-6" >
                   <div className="it-cta-form about-cta-form wow tpfadeUp">
-                    <CallToActionForm style_sv_details={true} />
+                    <CallToActionForm />
                     
                   </div>
                </div>

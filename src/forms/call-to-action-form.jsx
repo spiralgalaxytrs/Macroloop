@@ -24,9 +24,7 @@ const CallToActionForm = ({style_sv_details}) => {
               <input type="text" placeholder="Email address" />
             </div>
           </div>
-          {
-            style_sv_details ? ""  : 
-            <>
+          
             <div className="col-lg-6">
               <div className="input-item">
                 <span>
@@ -37,22 +35,28 @@ const CallToActionForm = ({style_sv_details}) => {
             </div>        
 
             <div className="col-lg-6">
-              <div className="input-item">
+            <div className="input-item">
                 <span>
-                  <i className="fas fa-book"></i>
-                </span>
-                <select>
-                  <option value="#">Selected</option>
-                  <option value="#">English</option>
-                  <option value="#">Bangla</option>
-                  <option value="#">science</option>
-                </select>
+                <i className="fa fa-sitemap"></i>                </span>
+                <input type="text" placeholder="Organisation" />
               </div>
             </div>
-            
-            </>
-          }
+            <div className="col-lg-6">
+              <div className="input-item">
+                <span>
+                <i className="fa-brands fa-dropbox"></i>                </span>
+                <input type="text" placeholder="Requirement" />
+              </div>
+            </div>        
 
+            <div className="col-lg-6">
+            <div className="input-item">
+                <span>
+                <i className="fa-solid fa-calendar-circle-user"></i>                </span>
+                <input type="text" placeholder="Agenda" />
+              </div>
+            </div>
+        
 
           <div className="col-12">
             <div className="input-item-textarea">
