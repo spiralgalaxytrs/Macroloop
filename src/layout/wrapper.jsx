@@ -16,15 +16,7 @@ const Wrapper = ({ children }) => {
     <>
       {children}
       <ScrollToTop />
-      <FloatingWhatsApp  phoneNumber="+919342508743"
-        accountName="LoopTech"
-        allowEsc
-        allowClickAway
-        notification
-        notificationSound="true" 
-        placeholder="Type..."
-        statusMessage="Online"
-        chatMessage="How can i help you, Sir?"/>
+      
     </>
   );
 };
