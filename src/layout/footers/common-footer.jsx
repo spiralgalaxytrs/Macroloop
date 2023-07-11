@@ -5,33 +5,40 @@ import React from "react";
 const footer_links = [
   {
     id: 1,
-    title: "Company",
-    col: "col-xl-5",
-    id: "company",
+    title: "Quick Links",
+    col: "col-xl-2",
+    id: "",
     links: [
       { title: "About", link: "/about" },
-      { title: "Affiliates", link: "/faq" },
-      { title: "Careers", link: "/job" },
-      { title: "Legal & Privacy", link: "/privacy-policy" },
-      { title: "Our Team", link: "/team" },
-      { title: "Refund Policy", link: "/privacy-policy" },
-      { title: "Terms & Rules", link: "/terms" },
-      { title: "Get In Touch", link: "/contact" },
-      { title: "other", link: "/" },
+      { title: "Solutions", link: "/solutions" },
+      { title: "LCG", link: "/lcg" },
+      { title: "Contact", link: "/contact" },
+     
     ],
   },
   {
     id: 2,
-    title: "Services",
+    title: "Our Policies",
     col: "col-xl-2",
     id: "",
     links: [
-      { title: "Business Consultancy", link: "/" },
-      { title: "Web Development", link: "/" },
-      { title: "UI & UX Design", link: "/" },
-      { title: "Legal & Privacy", link: "/privacy-policy" },
-      { title: "Engine Optimization", link: "/" },
-      { title: "Digital marketing", link: "/" },
+      { title: "Privacy Policy", link: "/solutions/Industry-Automation" },
+      { title: "Terms and conditions", link: "/solutions/Smart-campus-Solutions" },
+     
+      
+    ],
+  },
+  {
+    id: 3,
+    title: "Solutions",
+    col: "col-xl-2",
+    id: "",
+    links: [
+      { title: "Industry Automation", link: "/solutions/Industry-Automation" },
+      { title: "Smart Campus Solutions", link: "/solutions/Smart-campus-Solutions" },
+      { title: "Wifi Solutions", link: "/solutions/Wifi-solutions" },
+      { title: "IoT and Digital Transformation", link: "/solutions/IoT-and-Digital-Transformation" },
+      
     ],
   },
 ];
@@ -67,7 +74,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  // copy_right_info:  <> Copyright & Design By <a href="https://thereciprocalsolutions.com/" className="text-white">The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Copyright & Design By <a href="https://thereciprocalsolutions.com/" className="text-white">The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;
@@ -82,18 +89,7 @@ export const FooterCopyRight = ({style_3, style_7, style_9}) => {
               <span>{copy_right_info}</span>
             </div>
           </div>
-          <div className="col-md-4 d-none d-md-block">
-            <div className="tp-footer-menu text-end text-white">
-              <ul>
-                <li>
-                  <Link href="/faq">FAQ</Link>
-                </li>
-                <li>
-                  <Link href="/about">Insights</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
+          
         </div>
       </div>
     </>

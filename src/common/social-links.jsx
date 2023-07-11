@@ -2,29 +2,23 @@ import React from "react";
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.linkedin.com/company/loop-tech-corporation/",
     target: "_blank",
-    icon: "fab fa-facebook-f",
-    name: "Facebook",
+    icon: "fab fa-linkedin",
+    name: "Linkedin"
   },
   {
-    link: "http://twitter.com",
+    link: "https://twitter.com/MacroLoopTechnologies",
     target: "_blank",
     icon: "fab fa-twitter",
     name: "Twitter",
   },
   {
-    link: "https://www.behance.com/",
+    link: "https://instagram.com/looptech.in?igshid=NTc4MTIwNjQ2YQ==",
     target: "_blank",
-    icon: "fab fa-behance",
-    name: "Behance",
-  },
-  {
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    name: "Youtube",
-  },
+    icon: "fab fa-instagram",
+    name: "Instagram",
+  }
 ];
 
 const SocialLinks = () => {
@@ -44,34 +38,22 @@ export default SocialLinks;
 
 const social_links_home_two = [
   {
-    link: "http://facebook.com",
+    link: "https://www.linkedin.com/company/loop-tech-corporation/",
     target: "_blank",
-    icon: "fab fa-facebook-f",
-    name: "Facebook",
+    icon: "fab fa-linkedin",
+    name: "Linkedin"
   },
   {
-    link: "http://twitter.com",
+    link: "https://twitter.com/MacroLoopTechnologies",
     target: "_blank",
     icon: "fab fa-twitter",
     name: "Twitter",
   },
   {
-    link: "https://www.behance.com/",
+    link: "https://instagram.com/looptech.in?igshid=NTc4MTIwNjQ2YQ==",
     target: "_blank",
-    icon: "fab fa-behance",
-    name: "Behance",
-  },
-  {
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    name: "Youtube",
-  },
-  {
-    link: "https://www.linkedin.com/en/",
-    target: "_blank",
-    icon: "fab fa-linkedin",
-    name: "Linkedin"
+    icon: "fab fa-instagram",
+    name: "Instagram",
   }
 ];
 

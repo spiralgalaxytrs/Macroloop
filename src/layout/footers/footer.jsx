@@ -7,10 +7,8 @@ import CommonFooter, { FooterCopyRight } from './common-footer';
 
 const foter_two_content = {
     logo: "/assets/img/logo/dark-logo.png",
-    description: <>Your goals are individual. We believe
-    business advice should be too, so we have
-    to help your business thrive in this work
-    environment situation.</>
+    description: <>Our comprehensive approach to Industry 4.0 encompasses not only
+    technological integration but also strategic guidance and support.</>
 }
 
 const {logo, description} = foter_two_content
