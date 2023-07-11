@@ -1,5 +1,7 @@
+import Link from "next/link";
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
+
 
 
 
@@ -22,7 +24,7 @@ const Cta = () => {
                     </span>
                     <span className="cd-words-wrapper bs-cta-wrapper">
 
-                   <TypeAnimation
+                   {/* <TypeAnimation
                           sequence={[
                             'MACROLOOP TECHNOLOGIES', 
                             1000,
@@ -34,9 +36,9 @@ const Cta = () => {
                           cursor={false}
                           repeat={Infinity}
                           style={{ color: "#6C60FE", textDecorationLine: "underline" }}
-                        /> 
+                        />  */}
                     </span>
-                    <span>{" "} Consulting</span>
+                    <span>{" "}LoopTech Consulting</span>
                   </h3>
                 </div>
               </div>
@@ -44,24 +46,24 @@ const Cta = () => {
           </div>
           <div className="row">
             <div className="bs-cta-btns text-center">
-              <a href="#" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
-                Schedule a meeting
+              <Link href="/contact" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
+                Contact Us
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
                   <i className="fal fa-long-arrow-right"></i>
                 </span>
                 <b></b>
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/"
                 className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
               >
                 <span>
                   <i className="fab fa-google"></i>
                   <i className="fab fa-google"></i>
                 </span>
-                Google Calendar <b></b>
-              </a>
+                Join Meeting <b></b>
+              </Link>
             </div>
           </div>
         </div>

@@ -7,33 +7,27 @@ const about_content = {
     img_2: "/assets/img/about/law-about-2.jpg",
     img_3: "/assets/img/about/law-icon.png",
     img_4: "/assets/img/about/it-ab-avata.png",
-    img_5: "/assets/img/about/law-signature.png", 
 
-    left_title: "Good Expertise In Law",
+    left_title: "KEEP PUSHING LIMITS APART",
     title: <>about our lawyer <br /> firm agency</>,
     about_P_title: <>We help you build and  grow your business.</>,
-    des: <>Lawyer's content marketing strategy should include adding & updating your most important and high-performing. Certain circumstances seds
-    owing to the claims duty ourighteous.</>,
+    des: <>At Macroloop Technologies Pvt Ltd, we vision to be the most sought
+    customer - centric company providing integrated technology solutions to
+    enhance the grwoth and sustainability of business and reliability on data. We
+    also focus on equipping the students with most sought Industry 4.0
+    technologies.</>,
+    des1:<>We develop and collaborate with the industry's leading Original Equipment
+    Manufacturers (OEMs) to seamlessly incorporate the most suitable and cutting-edge
+    technologies, enabling us to create innovative solutions in the realm of Industry 4.0. Our
+    primary objective is to alleviate the challenges faced by our customers, providing them
+    with valuable problem-solving capabilities and actively support them on their journey
+    of digital transformation, empowering them to enhance their productivity and
+    manageability.</>
 }
 
-const {img_1, img_2, img_3, img_4, img_5,  left_title, title,about_P_title, des}  = about_content 
+const {img_1, img_2, img_3, img_4, img_5,  left_title, title,about_P_title, des, des1}  = about_content 
 
 
-
-const about_feature_data = [
-    {
-        id: 1,
-        icon: "/assets/img/about/low-about-icon-1.png",
-        about_icon: "/assets/img/about/icon-ab-chat.png",
-        text: <>Tailored Advice <br /> & Support</>
-    },
-    {
-        id: 2,
-        icon: "/assets/img/about/law-about-icon-2.png",
-        about_icon: "/assets/img/about/icon-tp-laptop.png",
-        text: <>Tailored Advice <br /> & Support</>
-    },
-]
 
 
 const AboutArea = ({style_about}) => {
@@ -62,24 +56,7 @@ const AboutArea = ({style_about}) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={`law-icon ${style_about && "law-icon-text"}`}>
-
-                                {
-                                    style_about ? 
-                                    <div className="d-inline-block p-relative">
-                                        <div>
-                                            <img src="/assets/img/about/law-sm-img-3.png" alt="" />
-                                        </div>
-                                        <div className="law-icon-info">
-                                            <span><b>30</b>Years Experience</span>
-                                        </div>
-                                    </div>
-                                    :
-
-                                <img src={img_3} alt="" />
-                                }
-
-                            </div>
+                           
                             <div className={`red-dot ${style_about ? "law-ab-dot" : ""}`}>
                             </div>
                         </div>
@@ -96,48 +73,14 @@ const AboutArea = ({style_about}) => {
                                     <p className="text-grey">
                                         {des}
                                     </p>
+
+                                    <p className="text-grey">
+                                        {des1}
+                                    </p>
                                 </div>
                             </div>
-                            <div className={`law-ab-author ${style_about ? "theme-bg" : "wine-bg mb-30"}`}> 
-                                <div className="row align-items-center">
-                                    <div className="col-sm-8 col-12 wow tpfadeUp">
-                                        <div className="law-ab-avata-box d-flex align-items-center">
-                                            <div className="law-ab-avata mr-20">
-                                                <img src={img_4} alt="" />
-                                            </div>
-                                            <div className="law-ab-author-head">
-                                                <span className={`${style_about && "cornblue-text-color"}`}>Head Of Idea</span>
-                                                <h4 className={`law-ab-auther-name ${style_about && "text-black"}`}>Alonso D. Cosdos</h4>
-                                            </div>
-                                        </div>
-    
-                                    </div>
-                                    <div className="col-sm-4 d-none d-sm-block wow tpfadeUp" data-wow-delay=".4s">
-                                        <div className="law-author-signature text-end">
-                                            {
-                                                style_about && <img src="/assets/img/about/signature-ab.png" alt="" />
-                                            }
-                                            <img src={img_5} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row gx-md-5">
-                            {about_feature_data.map((item, i) =>
-                                <div key={i} className="col-sm-6 col-12">
-                                        <div className="low-ab-feature d-flex align-items-center">
-                                            <div className="low-ab-fea-icon mr-20">
-                                                <img src={ `${style_about ? item.about_icon : item.icon}` } alt={item.text} />
-                                            </div>
-                                            <div>
-                                            <h4 className="law-ab-fea-title wine-text-color text-uppercase">
-                                            {item.text}
-                                            </h4>
-                                        </div>  
-                                    </div>                                          
-                                </div>
-                            )}
-                            </div>
+                           
+                            
                         </div>
                     </div>
                 </div>

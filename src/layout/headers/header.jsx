@@ -15,12 +15,12 @@ const Header = () => {
             <div className="container-fluid p-0">
                 <div className="tp-ptg-header__main pl-20">
                     <div className="row align-items-center g-0">
-                        <div className="col-xl-3 col-8">
+                        <div className="col-xl-4 col-8">
                             <div className="logo">
                                 <Link href="/"><img width={200} src="/assets/img/logo/dark-logo.png" alt="logo" /></Link>
                             </div>
                         </div>
-                        <div className="col-xl-7 col-lg-9 d-none d-xl-block">
+                        <div className="col-xl-6 col-lg-9 d-none d-xl-block">
                             <div className="main-menu ptg-menu">  
                                 <nav id="mobile-menu">
                                     <NavMenu />

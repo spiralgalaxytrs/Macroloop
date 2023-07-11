@@ -4,23 +4,20 @@ const contact_data = [
   {
     id: 1,
     titel: "Become a client",
-    email: "info@MACROLOOP TECHNOLOGIES-works.com",
-    phone: "720.797.2031",
-    tel: "78568065900",
+    email: "4/608,V.O.C. Street, Kottivakkam, Old Mahabalipuram Road, Perungudi, Chennai,Tamil Nadu 600041",
+    phone: "+91 8344445511",
   },
   {
     id: 2,
     titel: "Media inquiries",
-    email: "info@MACROLOOP TECHNOLOGIES-works.com",
-    phone: "720.797.2031",
-    tel: "78568065900",
+    email: "3rd floor Incubation cell , KPR institute of engineering and technology Avinashi - Coimbatore Road, Arasur, Tamil Nadu 641407",
+    phone: "+91 8344445511",
   },
   {
     id: 3,
     titel: "General",
-    email: "info@MACROLOOP TECHNOLOGIES-works.com",
-    phone: "720.797.2031",
-    tel: "78568065900",
+    email: "2nd Floor ,Technology Business Incubator (TCE-TBI) Thaigarajar College of Engineering Thaigarajar Advance Research Centre, next to Honeywell, Madurai, Tamil Nadu 625015",
+    phone: "+91 8344445511",
   },
 ];
 
@@ -28,7 +25,8 @@ const contact_data = [
 const contact_info = {
   img: "/assets/img/cta/contact-page-1.jpg",
   hi_text: "Say Hello",
-  title: <>The feeling is mutual. These are the best ways to make it happen.</>,
+  title: <>Empowering the Future: 
+  Revolutionizing Living with LoopTech</>,
 };
 
 const { img, hi_text, title } = contact_info;
@@ -61,6 +59,7 @@ const ContactArea = () => {
                     <div className="contact-cta-item mb-30 text-white">
                       <b>{item.titel}</b> <br />
                       <a href={`mailto:${item.email}`}>{item.email}</a> <br />
+                      <br />
                       <a href={`tel:${item.tel}`}>{item.phone}</a>
                     </div>
                   </div>

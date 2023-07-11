@@ -14,17 +14,18 @@ const HeroBanner = () => {
             <div className="col-lg-5">
               <div className="da-hero-section mt-40">
                 <span className="da-hero-section__subtitle dark-bg mb-15 d-inline-block wow tpfadeUp">
-                  Digital Experience In <b style={{color:"white"}}> NYC </b>
+                  <b style={{color:"white"}}> LCG </b>
                 </span>
                 <div className="cd-intro">
-                  <h3
+                  <h4
                     className="da-hero-section__title cd-headline text-white loading-bar mb-45 wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
-                    <span>Solid product experiences is that </span>
+                    <span>Join in the movement of our Deep Tech Network
+</span>
                     <span className="cd-words-wrapper text_style" >
 
-                    <TypeAnimation
+                    {/* <TypeAnimation
                           sequence={[
                             'Convert.', 
                             1000,
@@ -36,17 +37,17 @@ const HeroBanner = () => {
                           cursor={false}
                           repeat={Infinity}
                           // style={{ textDecorationLine: "underline" }}
-                        />  
+                        />   */}
                     </span>
-                  </h3>
+                  </h4>
                 </div>
               </div>
               <div
                 className="da-header-grd-btn d-inline-block mr-20 mb-30 wow tpfadeUp"
                 data-wow-delay=".3s"
               >
-                <Link href="/service-3" className="tp-grd-btn">
-                  Our Services
+                <Link href="/lcg" className="tp-grd-btn">
+                  Join LCG
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>
                     <i className="fal fa-long-arrow-right"></i>
@@ -57,8 +58,8 @@ const HeroBanner = () => {
                 className="da-header-gey-btn d-inline-block mb-30 wow tpfadeUp"
                 data-wow-delay=".5s"
               >
-                <Link href="/portfolio-4" className="tp-grey-btn">
-                  Case study
+                <Link href="/" className="tp-grey-btn">
+                        Google Form
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>
                     <i className="fal fa-long-arrow-right"></i>
@@ -88,12 +89,14 @@ const HeroBanner = () => {
               </div>
               <div className="da-hero-black-box bg-black float-end">
                 <span>
-                  <a href="mailto:info@genico.com">info@genico.com</a>
+                  <a href="mailto:info@genico.com">info@looptech.in</a>
                 </span>
                 <span className="float-end">
-                  <a href="mailto:info@genico.com">
-                    Our Portfolio <i className="fal fa-long-arrow-right"></i>
-                  </a>
+                  <Link href="/lcg">
+                  
+                    LCG<i className="fal fa-long-arrow-right"></i>
+                  
+                  </Link>
                 </span>
               </div>
             </Tilt>

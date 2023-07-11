@@ -4,9 +4,9 @@ import Tilt from "react-parallax-tilt";
 
 
 const about_content = {
-    about: "About Our Agency",
-    title: <>Catch Your Memories <br /> In <span> Photo & Video.</span></>,
-    service_title: "Service",
+    about: "About Us",
+    title: <>Empowering the Future: 
+     <span> Revolutionizing Living <br /> with LoopTech</span></>,
     service_2: <>At Macroloop Technologies Pvt Ltd, we vision to be the most<br/> sought
     customer - centric company providing integrated technology <br /> solutions to
     enhance the grwoth and sustainability of business and reliability <br /> on data.</>,
@@ -34,12 +34,12 @@ const AboutArea = () => {
                     >
                       {about}
                     </span>
-                    <h2
+                    <h6
                       className="tp-section__title text-non-rgb tp-rgb-border text-white text-uppercase mb-30 wow tpfadeUp"
                       data-wow-delay=".4s"
                     >
                       {title}
-                    </h2>
+                    </h6>
                   </div>
                 </div>
                 <div
@@ -48,7 +48,6 @@ const AboutArea = () => {
                 >
                   
                   <div className="about-step-info">
-                    <h3>{service_title}</h3>
                     <p>{service_2}</p>
                   </div>
                 </div>
@@ -89,9 +88,9 @@ const AboutArea = () => {
                     />
                   </div>
                 </Tilt>
-                <div className="pta-about-circle">
+                {/* <div className="pta-about-circle">
                   <img src="/assets/img/about/ptg-ab-circle.png" alt="circe" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

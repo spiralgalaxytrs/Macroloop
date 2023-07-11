@@ -22,9 +22,9 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                     </span>
                     <span className="cd-words-wrapper bs-cta-wrapper">
 
-                   <TypeAnimation
+                   {/* <TypeAnimation
                           sequence={[
-                            'MACROLOOP TECHNOLOGIES', 
+                            'LoopTech', 
                             1000,
                             'Branding', 
                             3000,
@@ -34,9 +34,9 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                           cursor={false}
                           repeat={Infinity}
                           style={{ color: "#6C60FE", textDecorationLine: "underline" }}
-                        /> 
+                        />  */}
                     </span>
-                    <span>{" "} Consulting</span>
+                    <span>{" "}LoopTech Consulting</span>
                   </h3>
                 </div>
               </div>

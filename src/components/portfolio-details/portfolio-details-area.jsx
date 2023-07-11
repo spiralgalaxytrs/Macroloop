@@ -1,5 +1,6 @@
 import React from "react";
 import CtaArea from "../homes/home-5/cta";
+import Link from "next/link";
 
 
 
@@ -96,12 +97,13 @@ const PortfolioDetailsArea = () => {
                     </div>
                     <div className="col-lg-4">
                       <div className="pf-details-banner__info-right text-lg-end">
-                        <a href="#">
-                          Contact Us
+                        
+                         <Link href="/contact">
+                         Contact Us
                           <span>
                             <i className="fal fa-long-arrow-right"></i>
-                          </span>
-                        </a>
+                          </span></Link>
+                        
                       </div>
                     </div>
                   </div>
@@ -115,7 +117,7 @@ const PortfolioDetailsArea = () => {
       <div className="tp-pf-detials-main dark-bg pt-60">
         <div className="container wow tpfadeUp">
           <p>
-          "Learn Contribute Grow" (LCG) is an exceptional program offered by Looptech that provides an inclusive community platform for students, freelancers, and startups. LCG aims to connect like-minded groups and individuals, fostering a collaborative environment where participants can freely share ideas, suggestions, support, and resources to develop and enhance their innovations or startups.
+          "Learn-Contribute-Grow" (LCG) is an exceptional program offered by Looptech that provides an inclusive community platform for students, freelancers, and startups. LCG aims to connect like-minded groups and individuals, fostering a collaborative environment where participants can freely share ideas, suggestions, support, and resources to develop and enhance their innovations or startups.
             
           </p>
           <p>

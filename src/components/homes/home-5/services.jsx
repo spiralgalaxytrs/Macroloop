@@ -13,7 +13,7 @@ const Services = () => {
                     <div className="col-12">
                         <div className="section-title-wraper text-center">
                             <div className="tp-section">
-                                <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span>
+                                {/* <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span> */}
                                 <h2
                                     className="tp-section__title text-non-rgb tp-rgb-border text-white text-uppercase mb-65 wow tpfadeUp" data-wow-delay=".4s">
                                     our  <span> Solutions</span>

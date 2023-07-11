@@ -8,7 +8,7 @@ const PortfolioDetails = () => {
   return (
     <>
       <Header />
-      <BreadcrumbArea acive_menu="LCG" title="Learn Contribute Grow" />
+      <BreadcrumbArea acive_menu="LCG" title="Learn-Contribute-Grow" />
       <PortfolioDetailsArea />
       <Footer tp_border={true} />
     </>

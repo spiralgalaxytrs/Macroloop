@@ -4,9 +4,7 @@ import React from 'react';
 
 const it_cta_content = {
     title: "Any project on your mind. Let us know.",
-    des: <>We bring to the table win-win survival strategies to ensure proactive
-    domination. At the end of the day, going forward, a new normal that
-    has evolved from generation X is on the runway heading towards.</>
+   
 }
 const {title, des}  = it_cta_content
 
@@ -26,7 +24,7 @@ const ItCtaArea = () => {
                            <div className="tp-section">
                               <div className="pb-40"><img src="/assets/img/icons/red-what-icon.png" alt="" /></div>
                               <h2 className="tp-section__title text-white text-capitalize mb-25">{title}</h2>
-                              <p className="pr-45">{des}</p>
+                             
                            </div>
                         </div>
                      </div>

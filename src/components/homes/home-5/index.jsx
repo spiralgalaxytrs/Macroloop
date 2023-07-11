@@ -19,11 +19,11 @@ const HomeFive = () => {
       <HeroSlider />
       <AboutArea />
       <Service />
-      <Brand /> 
+      {/* <Brand />  */}
       <HeroBanner/>
      <CtaArea rButton="Contact Us" lbutton="Join Meeting"/>
      
-      <Blog />
+      {/* <Blog /> */}
       <FooterTwo />
     </>
   );
