@@ -2,6 +2,8 @@ import SocialLinks from '@/src/common/social-links';
 import Link from 'next/link';
 import React from 'react';
 import CommonFooter, { FooterCopyRight } from './common-footer';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+
 
 
 
@@ -52,6 +54,15 @@ const Footer = ({style_8, style_10}) => {
       </div>
    </div>
 </footer>
+<FloatingWhatsApp  phoneNumber="+919342508743"
+        accountName="LoopTech"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound="true" 
+        placeholder="Type..."
+        statusMessage="Online"
+        chatMessage="How can i help you, Sir?"/>
         </>
     );
 };
