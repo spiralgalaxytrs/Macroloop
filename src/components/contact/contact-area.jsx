@@ -11,13 +11,13 @@ const contact_data = [
     id: 2,
     titel: "Branch office",
     email: "3rd floor Incubation cell , KPR institute of engineering and technology Avinashi - Coimbatore Road, Arasur, Tamil Nadu 641407",
-    phone: "+91 8344445511",
+    phone: "",
   },
   {
     id: 3,
     titel: "Branch office",
     email: "2nd Floor ,Technology Business Incubator (TCE-TBI) Thaigarajar College of Engineering Thaigarajar Advance Research Centre, next to Honeywell, Madurai, Tamil Nadu 625015",
-    phone: "+91 8344445511",
+    phone: "",
   },
 ];
 

@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const it_cta_content = {
-    title: "Any project on your mind. Let us know.",
+    title: "Any requirement on your mind. Let us know.",
    
 }
 const {title, des}  = it_cta_content
