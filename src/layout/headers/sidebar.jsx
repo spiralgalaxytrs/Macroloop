@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 import MobileMenus from './mobile-menus';
+import { SocialLinksHomeTwo } from '@/src/common/social-links';
+
+
 
 const Sidebar = ({isActive, setIsActive}) => {
 
@@ -18,12 +21,9 @@ const Sidebar = ({isActive, setIsActive}) => {
                 <div className="tp-offcanvas__logo mb-50">
                     <Link href="/"><img src="/assets/img/logo/black-logo.png" width={150} alt="sticky-logo" /></Link>
                 </div>
-                <p> We bring your ideas to better product. Base in NYC</p>
+                <p>KEEP PUSHING LIMITS APART</p>
                 <div className="tp-offcanvas__social">
-                    <span> <a href="#"><i className="fab fa-facebook-f"></i></a></span>
-                    <span> <a href="#"><i className="fab fa-twitter"></i></a></span>
-                    <span> <a href="#"><i className="fab fa-behance"></i></a></span>
-                    <span> <a href="#"><i className="fab fa-youtube"></i></a></span>
+                    <SocialLinksHomeTwo />
                 </div>
             </div>
             <div className="tp-offcanvas__widget mb-40 d-none d-xl-block">
@@ -34,7 +34,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                     <span className="icon mr-20"><img src="/assets/img/icons/ofp-phone.png" alt="" /></span>
                     <span>
                         <span className="d-block mb-0">Phone number</span>
-                        <b><a href="callto:0002229090"> Call Us: 000-222-9090 </a></b>
+                        <b><a href="callto:+918344445511"> Call Us: +91 8344445511 </a></b>
                     </span>
                 </div>
 
@@ -42,14 +42,16 @@ const Sidebar = ({isActive, setIsActive}) => {
                     <span className="icon mr-20"><img src="/assets/img/icons/ofc-mail-icon.png" alt="" /></span>
                     <span>
                         <span className="d-block mb-0">Email address</span>
-                        <b><a href="mailto:info@webmail.com"> info@webmail.com </a></b>
+                        <b><a href="mailto:info@webmail.com"> info@looptech.in </a></b>
                     </span>
                 </div>
                 <div className="tp-offcanvas-cta d-flex align-items-center pb-20  mb-30">
                     <span className="icon mr-20"><img src="/assets/img/icons/ofc-locaiton.png" alt="" /></span>
                     <span>
-                         <span className="d-block mb-0">1300 Don City, NYC</span>
-                        <b><a href="callto:0002229090"> Call Us: 000-222-9090 </a></b>
+                         <span className="d-block mb-0">Chennai <br />
+                         Coimbatore <br />
+                         Madurai</span>
+                      
                     </span>
                 </div>
             </div>
