@@ -54,7 +54,7 @@ const Footer = ({style_8, style_10}) => {
       </div>
    </div>
 </footer>
-<FloatingWhatsApp  phoneNumber="+919342508743"
+<FloatingWhatsApp  phoneNumber="+918344445511"
         accountName="LoopTech"
         allowEsc
         allowClickAway
@@ -62,7 +62,7 @@ const Footer = ({style_8, style_10}) => {
         notificationSound="true" 
         placeholder="Type..."
         statusMessage="Online"
-        chatMessage="How can i help you, Sir?"/>
+        chatMessage="How can i help you?"/>
         </>
     );
 };
