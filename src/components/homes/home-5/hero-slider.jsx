@@ -99,7 +99,7 @@ const HeroSlider = () => {
                           <i className="fal fa-long-arrow-right"></i>
                           <i className="fal fa-long-arrow-right"></i>
                         </span>
-                        Contact Us
+                        Connect With Us
                       </Link>
                     </div>
                   </div>
