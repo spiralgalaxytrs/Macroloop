@@ -74,7 +74,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright & Design By <a href="https://thereciprocalsolutions.com/" className="text-white">The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Copyright & Design By <a > MacroLoop Technologies</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;
