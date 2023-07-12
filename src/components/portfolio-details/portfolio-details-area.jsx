@@ -83,7 +83,7 @@ const PortfolioDetailsArea = () => {
                 <div className="pf-details-banner__info">
                   <div className="row align-items-center align-items-xl-start">
                     <div className="col-lg-8">
-                      <div className="pf-details-banner__info-left">
+                      <div className="pf-details-banner__info-left pl-30">
                         <span>
                           <b>Learn</b> 
                         </span>
@@ -96,7 +96,7 @@ const PortfolioDetailsArea = () => {
                       </div>
                     </div>
                     <div className="col-lg-4">
-                      <div className="pf-details-banner__info-right text-lg-end">
+                      <div className="pf-details-banner__info-right text-lg-end pl-30">
                         
                          <Link href="/contact">
                          Contact Us
