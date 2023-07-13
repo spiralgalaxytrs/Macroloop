@@ -78,7 +78,9 @@ const PortfolioDetailsArea = () => {
             <div className="col-12">
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img">
-                  <img src="/assets/img/portfolio/pf-details-thum.jpg" alt="" />
+<Link href="/contact">
+<img src="/assets/img/portfolio/pf-details-thum.jpg" alt="" />
+</Link>
                 </div>
                 {/* <div className="pf-details-banner__info">
                   <div className="row align-items-center align-items-xl-start">
