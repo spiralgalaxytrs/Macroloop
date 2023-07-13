@@ -80,7 +80,7 @@ const PortfolioDetailsArea = () => {
                 <div className="pf-details-banner-img1 w-img">
                   <img src="/assets/img/portfolio/pf-details-thum.jpg" alt="" />
                 </div>
-                <div className="pf-details-banner__info">
+                {/* <div className="pf-details-banner__info">
                   <div className="row align-items-center align-items-xl-start">
                     <div className="col-lg-8">
                       <div className="pf-details-banner__info-left pl-30">
@@ -107,7 +107,7 @@ const PortfolioDetailsArea = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
