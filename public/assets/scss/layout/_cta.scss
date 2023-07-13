@@ -100,8 +100,9 @@
 .bs-cta-btns {
     & .tp-btn {
         @media #{$xs} {
-            margin-right: 0px;
+            margin-right: 30px;
             margin-bottom: 30px;
+            margin-left: 30px;
         }
     } 
     & .tp-white-btn {

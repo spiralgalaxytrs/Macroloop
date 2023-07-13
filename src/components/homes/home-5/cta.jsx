@@ -44,7 +44,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
           </div>
           <div className="row">
             <div className="bs-cta-btns text-center">
-              <a href="#" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
+              <a href="#" className="tp-btn tp-btn-hover wow tpfadeRight">
                 {rButton}
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
