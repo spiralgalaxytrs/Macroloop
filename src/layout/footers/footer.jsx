@@ -62,7 +62,9 @@ const Footer = ({style_8, style_10}) => {
         notificationSound="true" 
         placeholder="Type..."
         statusMessage="Online"
-        chatMessage="How can i help you?"/>
+        chatMessage="How can i help you?"
+        avatar='/favicon.png'/>
+
         </>
     );
 };
