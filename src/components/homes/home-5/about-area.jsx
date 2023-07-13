@@ -1,12 +1,14 @@
 import Link from "next/link";
 import React from "react";
 import Tilt from "react-parallax-tilt";
+import { TypeAnimation } from "react-type-animation";
+
 
 
 const about_content = {
     about: "About Us",
     title: <>Empowering the Future: 
-     <span> Revolutionizing Living <br /> with LoopTech</span></>,
+     <span> Revolutionizing Living <br /> with </span></>,
     service_2: <>At Macroloop Technologies Pvt Ltd, we vision to be the most<br/> sought
     customer - centric company providing integrated technology <br /> solutions to
     enhance the grwoth and sustainability of business and reliability <br /> on data.</>,
@@ -34,11 +36,31 @@ const AboutArea = () => {
                     >
                       {about}
                     </span>
+                    
                     <h6
                       className="tp-section__title text-non-rgb tp-rgb-border text-white text-uppercase mb-30 wow tpfadeUp"
                       data-wow-delay=".4s"
                     >
+                      
                       {title}
+                      <span className="cd-words-wrapper bs-cta-wrapper">
+
+<TypeAnimation
+       sequence={[
+         'Us', 
+         3000,
+         'LoopTech', 
+         3000,
+         'MacroLoop', 
+         3000,
+       ]}
+       wrapper="div"
+       cursor={false}
+       repeat={Infinity}
+       style={{ color: "#6C60FE", textDecorationLine: "underline" }}
+     /> 
+ </span>
+                      
                     </h6>
                   </div>
                 </div>
