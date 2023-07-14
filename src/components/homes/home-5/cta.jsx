@@ -17,26 +17,30 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline text-white loading-bar mb-55 wow tpfadeUp">
                     <span>
-                      Start your business journey better <br />
-                      with {" "}
+                      Start your technology journey better with LoopTech<br />
+                       {" "}
                     </span>
                     <span className="cd-words-wrapper bs-cta-wrapper">
 
-                   {/* <TypeAnimation
+                   <TypeAnimation
                           sequence={[
-                            'LoopTech', 
-                            1000,
-                            'Branding', 
+                            'INDUSTRY AUTOMATION', 
                             3000,
-                            'Markting', 
+                            'SMART CAMPUS SOLUTIONS', 
+                            3000,
+                            'WIFI SOLUTIONS', 
+                            3000,
+                            'IOT AND DIGITAL TRANSFORMATION', 
+                            3000,
+
                           ]}
                           wrapper="div"
                           cursor={false}
                           repeat={Infinity}
-                          style={{ color: "#6C60FE", textDecorationLine: "underline" }}
-                        />  */}
+                          style={{ color: "#0020FF", textDecorationLine: "underline" }}
+                        /> 
                     </span>
-                    <span>{" "}LoopTech Consulting</span>
+                    <span> {" "} Consulting</span>
                   </h3>
                 </div>
               </div>
@@ -44,7 +48,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
           </div>
           <div className="row">
             <div className="bs-cta-btns text-center">
-              <a href="#" className="tp-btn tp-btn-hover wow tpfadeRight">
+              <a href="#" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
                 {rButton}
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
