@@ -57,7 +57,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                 <b></b>
               </a>
               <a
-                href="#"
+                href="mailtoinfo@looptech.in"
                 className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
               >
                 <span>

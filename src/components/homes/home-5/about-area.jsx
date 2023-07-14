@@ -42,23 +42,22 @@ const AboutArea = () => {
                       data-wow-delay=".4s"
                     >
                       
-                      {title}
-                      <span className="cd-words-wrapper bs-cta-wrapper">
-
-<TypeAnimation
+                      {title}<TypeAnimation
        sequence={[
          'Us', 
          3000,
          'LoopTech', 
          3000,
-         'MacroLoop', 
-         3000,
+        
        ]}
        wrapper="div"
        cursor={false}
        repeat={Infinity}
-       style={{ color: "#6C60FE", textDecorationLine: "underline" }}
+       style={{ color: "#0020FF", textDecorationLine: "underline" }}
      /> 
+                      <span className="cd-words-wrapper bs-cta-wrapper">
+
+
  </span>
                       
                     </h6>
