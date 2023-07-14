@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
 
@@ -48,16 +49,16 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
           </div>
           <div className="row">
             <div className="bs-cta-btns text-center">
-              <a href="#" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
+              <Link href="/contact" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
                 {rButton}
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
                   <i className="fal fa-long-arrow-right"></i>
                 </span>
                 <b></b>
-              </a>
+              </Link>
               <a
-                href="mailtoinfo@looptech.in"
+                href="mailto:info@looptech.in?subject = Feedback&body = Message"
                 className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
               >
                 <span>
