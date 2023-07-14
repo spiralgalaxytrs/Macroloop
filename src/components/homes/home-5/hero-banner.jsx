@@ -87,18 +87,7 @@ const HeroBanner = () => {
               <div className="tp-da-hero-img text-end pr-30">
                 <img src="/assets/img/hero/da-hero-img.jpg" alt="" />
               </div>
-              <div className="da-hero-black-box bg-black float-end">
-                <span>
-                  <a href="mailto:info@genico.com">info@looptech.in</a>
-                </span>
-                <span className="float-end">
-                  <Link href="/lcg">
-                  
-                    LCG<i className="fal fa-long-arrow-right"></i>
-                  
-                  </Link>
-                </span>
-              </div>
+              
             </Tilt>
             </div>
           

@@ -18,7 +18,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline text-white loading-bar mb-55 wow tpfadeUp">
                     <span>
-                      Start your technology journey better with LoopTech<br />
+                      Start your technology journey better <br /> with LoopTech's<br />
                        {" "}
                     </span>
                     <span className="cd-words-wrapper bs-cta-wrapper">
@@ -41,7 +41,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                           style={{ color: "#0020FF", textDecorationLine: "underline" }}
                         /> 
                     </span>
-                    <span> {" "} Consulting</span>
+                    <span> {" "}</span>
                   </h3>
                 </div>
               </div>
@@ -73,12 +73,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
         <div className="red-nots">
           <img src="/assets/img/cta/point-bg.png" alt="" />
         </div>
-        <div className="thumb-animation d-none d-lg-block">
-          <div className="like-thumb">
-            <img src="/assets/img/cta/like-thumb.jpg" alt="" />
-          </div>
-          <div className="like-thumb-border"></div>
-        </div>
+        
       </div>
     </>
   );

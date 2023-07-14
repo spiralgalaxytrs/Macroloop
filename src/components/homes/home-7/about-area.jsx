@@ -57,8 +57,7 @@ const AboutArea = ({style_about}) => {
                                 </div>
                             </div>
                            
-                            <div className={`red-dot ${style_about ? "law-ab-dot" : ""}`}>
-                            </div>
+                            
                         </div>
                     </div>
                     <div className="col-xl-6 wow tpfadeUp">
