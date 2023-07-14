@@ -26,7 +26,7 @@ const PortfolioItemsArea = ({data}) => {
                     <img src={item.img} alt={item.title} />
                   </div>
                   <div className="pf-single-item__info">
-                    <span>{item.st}</span>
+                    {/* <span>{item.st}</span> */}
                     <h3 className="pf-single-item__title">
                       <Link href={`/solutions/${item.id}`}>{item.title}</Link>
                     </h3>
