@@ -21,7 +21,7 @@ const HomeFive = () => {
       <Service />
       {/* <Brand />  */}
       <HeroBanner/>
-     <CtaArea rButton="Contact Us" lbutton="Join Meeting"/>
+     <CtaArea rButton="Contact Us" lbutton="Request Meeting"/>
      
       {/* <Blog /> */}
       <FooterTwo />
