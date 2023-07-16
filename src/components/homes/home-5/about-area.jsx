@@ -38,7 +38,7 @@ const AboutArea = () => {
                     </span>
                     
                     <h6
-                      className="tp-section__title text-non-rgb tp-rgb-border text-white text-uppercase mb-30 wow tpfadeUp"
+                      className="tp-section__title tp-rgb-border text-white text-uppercase mb-30 wow tpfadeUp"
                       data-wow-delay=".4s"
                     >
                       
