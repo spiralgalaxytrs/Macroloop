@@ -8,7 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 const about_content = {
     about: "About Us",
     title: <>Empowering the Future: 
-     <span> Revolutionizing Living <br /> with </span></>,
+     Revolutionizing Living <br /> with </>,
     service_2: <>At Macroloop Technologies Pvt Ltd, we vision to be the most<br/> sought
     customer - centric company providing integrated technology <br /> solutions to
     enhance the grwoth and sustainability of business and reliability <br /> on data.</>,
