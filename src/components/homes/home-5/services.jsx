@@ -26,9 +26,10 @@ const Services = () => {
 
                 {Solutions.Solutions.map((item, i) => 
                     <div key={i} className="col-xl-3 col-lg-6">
-                        <div className="ptg-blog__item mb-30 wow tpfadeUp" data-wow-delay={item.delay}>
-                            <div className="ptg-blog__item-thumb w-img">
-                                <img src={item.img} alt="" />
+		
+                        <div className="ptg-blog__item mb-30 wow tpfadeUp" data-wow-delay={item.delay} >
+                            <div className="ptg-blog__item-thumb w-img" >
+                                <img src={item.img} height={135} alt="" />
                             </div>
                             <div className="ptg-blog__item-content dark-bg-2">
                                 <div className="ptg-blog__item-meta">
