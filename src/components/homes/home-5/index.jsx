@@ -21,7 +21,7 @@ const HomeFive = () => {
       <Service />
       {/* <Brand />  */}
       <HeroBanner/>
-     <CtaArea rButton="Contact Us" lbutton="Request Meeting"/>
+     <CtaArea rButton="Contact Us" lbutton="Request Meeting" link="mailto:info@looptech.in?subject=Requesting+a+meeting+to+discuss+our+requirement+-+Reg."/>
      
       {/* <Blog /> */}
       <FooterTwo />

@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 
-const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
+const Cta = ({rButton="Join LCG" ,lbutton="Google Form",link="https://forms.gle/kUcPf5uABWBxdjKq9"}) => {
   return (
     <>
       <div className="tp-bs-cta-area pt-105 pb-120 dark-bg p-relative">
@@ -58,7 +58,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                 <b></b>
               </Link>
               <a
-                href="mailto:info@looptech.in?subject=Requesting+a+meeting+to+discuss+our+requirement+-+Reg."
+                href={link}
                 className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
               >
                 <span>
