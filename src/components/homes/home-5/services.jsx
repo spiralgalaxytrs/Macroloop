@@ -29,7 +29,7 @@ const Services = () => {
 		
                         <div className="ptg-blog__item mb-30 wow tpfadeUp" data-wow-delay={item.delay} >
                             <div className="ptg-blog__item-thumb w-img" >
-                                <img src={item.img} height={135} alt="" />
+                                <img src={item.img} height={150} alt="" />
                             </div>
                             <div className="ptg-blog__item-content dark-bg-2">
                                 <div className="ptg-blog__item-meta">
