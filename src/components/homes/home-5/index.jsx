@@ -2,12 +2,10 @@ import FooterTwo from "@/src/layout/footers/footer";
 import Header from "@/src/layout/headers/header";
 import React from "react";
 import AboutArea from "./about-area";
-import Blog from "./blog";
-import Brand from "./brand";
+
 import HeroSlider from "./hero-slider";
 import Service from "./services";
-import CtaArea from "./cta"
-import GallerySlider from "./gallery-slider"
+import CtaArea from "../../about/cta-are"
 import HeroBanner from "./hero-banner";
 
 

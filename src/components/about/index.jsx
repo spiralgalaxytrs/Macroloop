@@ -17,7 +17,7 @@ const About = () => {
       {/* <AbFactArea /> */}
       {/* <TeamArea /> */}
       <AboutDeatialsArea />
-      <CtaAre rButton="Contact Us" lbutton="Request Meeting" link="" />
+      <CtaAre rButton="Contact Us" lbutton="Request Meeting" link="mailto:info@looptech.in?subject=Requesting+a+meeting+to+discuss+our+requirement+-+Reg." />
       <Footer />
     </>
   );
