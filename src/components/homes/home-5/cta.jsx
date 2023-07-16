@@ -58,7 +58,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                 <b></b>
               </Link>
               <a
-                href="mailto:info@looptech.in?subject = Feedback&body = Message"
+                href="mailto:info@looptech.in?subject=Requesting+a+meeting+to+discuss+our+requirement+-+Reg."
                 className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
               >
                 <span>
@@ -70,9 +70,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
             </div>
           </div>
         </div>
-        <div className="red-nots">
-          <img src="/assets/img/cta/point-bg.png" alt="" />
-        </div>
+        
         
       </div>
     </>
