@@ -14,7 +14,7 @@ const MapArea = () => {
           ></iframe>
         </div>
         <div className="contact-map-img">
-          <img src="/favicon.png" alt="" />
+          <img width={100} src="/favicon.png" alt="" />
         </div>
       </div>
     </>

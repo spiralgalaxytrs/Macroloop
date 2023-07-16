@@ -1,4 +1,4 @@
-import ApplyForm from '@/src/forms/apply-form';
+import CallToActionForm from '@/src/forms/call-to-action-form';
 import React from 'react';
 import Tilt from "react-parallax-tilt";
 
@@ -56,8 +56,12 @@ const JobDetailsArea = ({data}) => {
                         <h4 className="tp-inner-pt-section__title text-white mb-30">Contact Us</h4>
 
                         <div className="tp-inner-pg-form wow tpfadeUp" data-wow-delay=".4s">
-                           <div className="it-cta-form">
-                            <ApplyForm /> 
+                  <div className="it-cta-form about-cta-form wow tpfadeUp">
+                           
+                          
+                    <CallToActionForm />
+                    
+                
                            </div>
                         </div>
                      </div>
