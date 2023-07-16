@@ -158,7 +158,7 @@ const PortfolioDetailsArea = () => {
         </div>
 
         {/* <!-- cta are  --> */}
-        <CtaArea rButton="Join LCG" lButton="Google Form" />  
+        <CtaArea rButton="Join LCG"  />  
         {/* <!-- cta end --> */}
       </div>
     </>

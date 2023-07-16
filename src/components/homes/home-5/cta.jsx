@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 
-const Cta = ({rButton="Join LCG" ,lbutton="Google Form",link="https://forms.gle/kUcPf5uABWBxdjKq9"}) => {
+const Cta = ({rButton="Join LCG" ,link="https://forms.gle/kUcPf5uABWBxdjKq9"}) => {
   return (
     <>
       <div className="tp-bs-cta-area pt-105 pb-120 dark-bg p-relative">
@@ -49,7 +49,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form",link="https://forms.gle/
           </div>
           <div className="row">
             <div className="bs-cta-btns text-center">
-              <Link href="/contact" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
+              <Link href={link} className="tp-btn tp-btn-hover mr-33 wow tpfadeRight">
                 {rButton}
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
@@ -57,16 +57,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form",link="https://forms.gle/
                 </span>
                 <b></b>
               </Link>
-              <a
-                href={link}
-                className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
-              >
-                <span>
-                  <i className="fab fa-google"></i>
-                  <i className="fab fa-google"></i>
-                </span>
-                {lbutton}<b></b>
-              </a>
+              
             </div>
           </div>
         </div>
