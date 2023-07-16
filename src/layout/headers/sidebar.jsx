@@ -60,7 +60,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                 <MobileMenus />
             </div>
             </div>
-            <div className="tp-offcanvas__bottom mt-80 d-none d-lg-block">
+            <div className="tp-offcanvas__bottom mt-80 d-none d-lg-block " >
                 <p>Our team applies its wide ranging in
                     experience to determining.</p>
                 <div className="tp-offcanvas-btn-wrapper">
