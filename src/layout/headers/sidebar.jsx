@@ -64,7 +64,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                 <p>Our team applies its wide ranging in
                     experience to determining.</p>
                 <div className="tp-offcanvas-btn-wrapper">
-                    <a href="#" className="tp-common-btn">get in touch
+                    <a href="mailto:info@looptech.in?subject=Requesting+a+meeting+to+discuss+our+requirement+-+Reg." className="tp-common-btn">Request Meeting
                         <span>
                             <i className="fal fa-long-arrow-right"></i>
                             <i className="fal fa-long-arrow-right"></i>
