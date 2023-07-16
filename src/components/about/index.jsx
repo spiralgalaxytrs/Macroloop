@@ -17,7 +17,7 @@ const About = () => {
       {/* <AbFactArea /> */}
       {/* <TeamArea /> */}
       <AboutDeatialsArea />
-      <CtaAre />
+      <CtaAre rButton="Contact Us" lbutton="Request Meeting" link="" />
       <Footer />
     </>
   );
