@@ -25,7 +25,7 @@ const contact_data = [
 const contact_info = {
   img: "/assets/img/cta/contact-page-1.jpg",
   hi_text: "Say Hello",
-  title: <>Empowering the Future: 
+  title: <> <br />Empowering the Future: 
   Revolutionizing Living with LoopTech</>,
 };
 
@@ -44,10 +44,10 @@ const ContactArea = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-2">
-              <span className="say-hello">{hi_text}</span>
+            <div className="">
+              <span className="say-hello">{hi_text} </span>
             </div>
-            <div className="col-lg-10">
+            <div className="col-lg-12">
               <div className="tp-contact-page-info ">
                 <h3 className="tp-section__title pb-60 mb-60 tp-border-bottom text-white">
                   {title}
