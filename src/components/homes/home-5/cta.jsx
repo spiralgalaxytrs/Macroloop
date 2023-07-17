@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 
-const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
+const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
   return (
     <>
       <div className="tp-bs-cta-area pt-105 pb-120 dark-bg p-relative">

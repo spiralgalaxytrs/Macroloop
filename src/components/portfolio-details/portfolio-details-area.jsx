@@ -156,9 +156,25 @@ const PortfolioDetailsArea = () => {
          If you are eager to take your innovation or startup to new heights, we invite you to join LCG today. By becoming a member, you gain entry into a thriving community, access to invaluable mentorship, and a world of possibilities to collaborate, learn, and grow.
          </p>
         </div>
+         <div className="container d-flex justify-content-center" >
+         <div
+                className="da-header-gey-btn d-inline-block wow tpfadeUp"
+                data-wow-delay=".5s"
+              >
+                <Link href="https://forms.gle/kUcPf5uABWBxdjKq9" className="tp-grey-btn">
+                        Join LCG
+                  <span className="ml-10">
+                    <i className="fal fa-long-arrow-right"></i>
+                    <i className="fal fa-long-arrow-right"></i>
+                  </span>
+                  <b></b>
+                </Link>
+              </div>
+
+        </div>
 
         {/* <!-- cta are  --> */}
-        <CtaArea rButton="Join LCG"  />  
+        <CtaArea/>  
         {/* <!-- cta end --> */}
       </div>
     </>
