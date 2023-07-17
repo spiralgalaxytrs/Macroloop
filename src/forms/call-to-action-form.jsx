@@ -21,7 +21,8 @@ const CallToActionForm = ({style_sv_details}) => {
       org,
       re,
       agen,
-      msg
+      msg,
+      submited
     }
   fetch('/api/contact', {
       method: 'POST',
@@ -33,7 +34,6 @@ const CallToActionForm = ({style_sv_details}) => {
     }).then((res) => {
       console.log('Response received')
       if (res.status === 200) {
-        setSubmitted(true)
         setName('')
         setMail('')
         setPhone('')
@@ -41,6 +41,7 @@ const CallToActionForm = ({style_sv_details}) => {
         setReq('')
         setAgen('')
         setMsg('')
+        setSubmitted(true)
         console.log('Response succeeded!')
 
       }
