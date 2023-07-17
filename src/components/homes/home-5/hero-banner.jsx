@@ -54,19 +54,7 @@ const HeroBanner = () => {
                   </span>
                 </Link>
               </div>
-              <div
-                className="da-header-gey-btn d-inline-block mb-30 wow tpfadeUp"
-                data-wow-delay=".5s"
-              >
-                <Link href="https://forms.gle/kUcPf5uABWBxdjKq9" className="tp-grey-btn">
-                        Google Form
-                  <span className="ml-10">
-                    <i className="fal fa-long-arrow-right"></i>
-                    <i className="fal fa-long-arrow-right"></i>
-                  </span>
-                  <b></b>
-                </Link>
-              </div>
+             
             </div>
 
             <div
