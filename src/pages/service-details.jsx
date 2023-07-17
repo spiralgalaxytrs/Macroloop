@@ -5,7 +5,7 @@ import ServiceDetails from "../components/service-details";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Service Details"} />
+      <SEO pageTitle={"MacroLoop Technologies  - Service Details"} />
       <ServiceDetails />
     </>
   );

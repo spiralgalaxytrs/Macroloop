@@ -5,7 +5,7 @@ import About from "../components/about";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"ABOUT US - MACROLOOP TECHNOLOGIES "} />
+      <SEO pageTitle={"ABOUT US - MacroLoop Technologies  "} />
       <About />
     </>
   );

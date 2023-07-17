@@ -7,7 +7,7 @@ const call_to_action_data = {
     title: "Any Project On Your Mind. Let Us Know.",
     phone: "+123 488 9652",
     address: "25 West 21th Street, Miami FL, US",
-    email:"info@MACROLOOP TECHNOLOGIES-itsolutions.com",
+    email:"info@MacroLoop Technologies -itsolutions.com",
     date: "Mon-Fri: 10:00 - 18:0"
 }
 

@@ -21,7 +21,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                 <div className="tp-offcanvas__logo mb-50">
                     <Link href="/"><img src="/assets/img/logo/black-logo.png" width={150} alt="sticky-logo" /></Link>
                 </div>
-                <p>KEEP PUSHING LIMITS APART</p>
+                <p>Keep Pushing Limits Apart</p>
                 <div className="tp-offcanvas__social">
                     <SocialLinksHomeTwo />
                 </div>

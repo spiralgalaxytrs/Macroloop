@@ -24,7 +24,7 @@ const CtaArea = () => {
 
                    <TypeAnimation
                           sequence={[
-                            'MACROLOOP TECHNOLOGIES', 
+                            'MacroLoop Technologies ', 
                             1000,
                             'Branding', 
                             3000,

@@ -4,7 +4,7 @@ import React from "react";
 const contact_content = {
   title: "Project On Your Mind. Let Us...",
   phone: "+123 488 9652",
-  email: "info@MACROLOOP TECHNOLOGIES-itsolutions.com",
+  email: "info@MacroLoop Technologies -itsolutions.com",
   address: "25 West 21th Street, Miami FL, US",
   date: "Mon-Fri: 10:00 - 18:0",
 };

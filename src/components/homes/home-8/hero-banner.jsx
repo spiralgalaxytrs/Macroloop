@@ -3,7 +3,7 @@ import React from "react";
 
 
 const hero_content = {
-    sub_title: "Welcome to our MACROLOOP TECHNOLOGIES",
+    sub_title: "Welcome to our MacroLoop Technologies ",
     title: "Creative Agency",
     phone: "78568065900", 
     btn_text: "Discover Now"

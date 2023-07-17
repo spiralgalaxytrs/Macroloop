@@ -25,7 +25,7 @@ const index = ({datas}) => {
   const [data] = datas
   return (
     <>
-      <SEO pageTitle={`${data?.title}- MACROLOOP TECHNOLOGIES`} />
+      <SEO pageTitle={`${data?.title}- MacroLoop Technologies `} />
       <JobDetails data={data} />
     </>
   );

@@ -5,7 +5,7 @@ import Blog from "../components/blog-pages/blog";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"BLOG - MACROLOOP TECHNOLOGIES"} />
+      <SEO pageTitle={"BLOG - MacroLoop Technologies "} />
       <Blog />
     </>
   );

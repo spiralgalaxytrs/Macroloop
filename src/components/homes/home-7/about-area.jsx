@@ -8,10 +8,10 @@ const about_content = {
     img_3: "/assets/img/about/law-icon.png",
     img_4: "/assets/img/about/it-ab-avata.png",
 
-    left_title: "KEEP PUSHING LIMITS APART",
+    left_title: "Keep Pushing Limits Apart",
     title: <>about our lawyer <br /> firm agency</>,
     about_P_title: <>We help you build and  grow your business.</>,
-    des: <>At Macroloop Technologies Pvt Ltd, we vision to be the most sought
+    des: <>At MacroLoop Technologies  Pvt Ltd, we vision to be the most sought
     customer - centric company providing integrated technology solutions to
     enhance the grwoth and sustainability of business and reliability on data. We
     also focus on equipping the students with most sought Industry 4.0

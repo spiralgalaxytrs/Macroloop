@@ -5,7 +5,7 @@ import Terms from "../components/terms";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Terms"} />
+      <SEO pageTitle={"MacroLoop Technologies  - Terms"} />
       <Terms />
     </>
   );

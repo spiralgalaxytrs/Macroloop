@@ -27,7 +27,7 @@ const BusinessJourney = ({style_service}) => {
                                     className="bs-cta-section__title ca-cta-section-title cd-headline loading-bar mb-55 ca-cta-title wow tpfadeUp">
                                     <span>{title}</span>
                                     <span className="cd-words-wrapper bs-cta-wrapper ca-cta-wrapper">
-                                        <b className="is-hidden"> MACROLOOP TECHNOLOGIES</b>
+                                        <b className="is-hidden"> MacroLoop Technologies </b>
                                         {/* <b className="is-hidden">Branding</b>
                                         <b className="is-visible">Markting</b> */}
                                     </span>

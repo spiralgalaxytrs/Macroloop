@@ -7,7 +7,7 @@ import Solutions from "../../data/solutions.json"
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"SOLUTIONS - MACROLOOP TECHNOLOGIES"} />
+      <SEO pageTitle={"SOLUTIONS - MacroLoop Technologies "} />
       <Service data={Solutions} />
     </>
   );

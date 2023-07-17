@@ -5,7 +5,7 @@ import Contact from "../components/contact";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"CONTACT - MACROLOOP TECHNOLOGIES"} />
+      <SEO pageTitle={"CONTACT - MacroLoop Technologies "} />
       <Contact />
     </>
   );

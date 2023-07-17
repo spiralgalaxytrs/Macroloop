@@ -9,7 +9,7 @@ const about_content = {
     about: "About Us",
     title: <>Empowering the Future: 
      Revolutionizing Living <br /> with </>,
-    service_2: <>At Macroloop Technologies Pvt Ltd, we vision to be the most<br/> sought
+    service_2: <>At MacroLoop Technologies  Pvt Ltd, we vision to be the most<br/> sought
     customer - centric company providing integrated technology <br /> solutions to
     enhance the grwoth and sustainability of business and reliability <br /> on data.</>,
     btn: "get in touch"

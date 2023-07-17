@@ -4,10 +4,10 @@ const terms_conditions_content = {
     updated: <>November 21, 2022</>,
     des: <>This Terms of Service (the “Terms”) describes the rights and responsibilities
             that apply to your use of Dribbble’s websites, services, and mobile app (collectively, the
-            “Service”), each owned and operated by MACROLOOP TECHNOLOGIES Holdings Ltd. (“MACROLOOP TECHNOLOGIES”, “we”, “our” or
+            “Service”), each owned and operated by MacroLoop Technologies  Holdings Ltd. (“MacroLoop Technologies ”, “we”, “our” or
             “us”).<br />
             Please read the Terms carefully before using the Service. If you don’t agree to the Terms, as
-            well as Dribbble’s Privacy Policy (the “Privacy Policy”) and MACROLOOP TECHNOLOGIES’s
+            well as Dribbble’s Privacy Policy (the “Privacy Policy”) and MacroLoop Technologies ’s
             Community Guidelines (the “Community Guidelines”), you may not use the Service. If you are
             entering into the Terms on behalf of a company or other legal entity,
             you represent that you have the authority to bind such entity to the Terms. If you do not
@@ -19,18 +19,18 @@ const terms_conditions_content = {
     terms_list : [
         {
             id: "01",
-            text: <>Your MACROLOOP TECHNOLOGIES Account. If you create an account on the Service (your “Account”), you are
+            text: <>Your MacroLoop Technologies  Account. If you create an account on the Service (your “Account”), you are
                 responsible for maintaining the security of your Account and its
                 Content (as defined below), and you are fully responsible for all activities that occur
                 under
                 your Account and any other actions taken on the Service. You
                 must not describe or assign Content to your Account in a misleading or unlawful manner,
                 including in a manner intended to trade on the name/ reputation
-                of others, and MACROLOOP TECHNOLOGIES may change or remove any description or keyword that it considers
-                inappropriate or unlawful, or otherwise likely to cause MACROLOOP TECHNOLOGIES
-                liability. You must immediately notify MACROLOOP TECHNOLOGIES of any unauthorized uses of your Account or
+                of others, and MacroLoop Technologies  may change or remove any description or keyword that it considers
+                inappropriate or unlawful, or otherwise likely to cause MacroLoop Technologies 
+                liability. You must immediately notify MacroLoop Technologies  of any unauthorized uses of your Account or
                 any
-                other breaches of security. MACROLOOP TECHNOLOGIES will not be liable for
+                other breaches of security. MacroLoop Technologies  will not be liable for
                 any acts or omissions by you, including any damages of any kind incurred as a result of
                 such
                 acts or omissions.</>,
@@ -39,7 +39,7 @@ const terms_conditions_content = {
             id: "02",
             text: <>Fees and Renewals. Pricing for Paid Accounts will be provided at the time of purchase.
                     Unless otherwise set out at the time of purchase or as agreed to
-                    by MACROLOOP TECHNOLOGIES, fees for a Paid Account will be billed in advance for each year and are
+                    by MacroLoop Technologies , fees for a Paid Account will be billed in advance for each year and are
                     non-refundable. There will be no refunds or credits for partial months of
                     service or for periods in which your Paid Account remains open but you do not use the
                     Service. <br />
@@ -58,7 +58,7 @@ const terms_conditions_content = {
             id: "03",
             text: <>Fees and Renewals. Pricing for Paid Accounts will be provided at the time of purchase.
                     Unless otherwise set out at the time of purchase or as agreed to
-                    by MACROLOOP TECHNOLOGIES, fees for a Paid Account will be billed in advance for each year and are
+                    by MacroLoop Technologies , fees for a Paid Account will be billed in advance for each year and are
                     non-refundable. There will be no refunds or credits for partial months of
                     service or for periods in which your Paid Account remains open but you do not use the
                     Service. <br />

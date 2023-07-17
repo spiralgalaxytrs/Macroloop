@@ -5,7 +5,7 @@ import PrivacyPolicy from "../components/privacy-policy";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"MACROLOOP TECHNOLOGIES - Privacy Policy"} />
+      <SEO pageTitle={"MacroLoop Technologies  - Privacy Policy"} />
       <PrivacyPolicy />
 
       
