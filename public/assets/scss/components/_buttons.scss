@@ -543,19 +543,19 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: rgba($color: var(--tp-common-dark), $alpha: .2);
-	color: white;
+	background-color: white;
+	color: #0020FF;
 	padding: 16px 29px;
 	border-radius: 8px;
 	display: inline-block;
 	border: 2px solid rgba(255, 255, 255, 0.2);
 
 	&:hover {
-		color: var(--tp-common-white);
+		color: #0020FF;
 		background-color: var(--tp-theme-orange);
 
 		&.br-btn-bg-dark {
-			background-color: var(--tp-common-black);
+			background-color: white;
 		}
 
 		& span svg:first-child,
