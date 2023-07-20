@@ -403,11 +403,11 @@
 
 .tp-copyrigh-text {
     font-size: 16px;
-    color: var(--tp-grey-1);
+    color: white;
 
     & a {
         font-weight: 700;
-        color: var(--tp-common-black);
+        color: white;
 
         &:hover {
             color: #0020ff;
@@ -420,7 +420,7 @@
 
         & a {
             &:hover {
-                color: var(--tp-theme-orange);
+                color: white;
             }
         }
     }
@@ -434,7 +434,7 @@
 
                 &:hover {
                     & a {
-                        color: var(--tp-theme-orange);
+                        color: white;
                     }
                 }
             }
