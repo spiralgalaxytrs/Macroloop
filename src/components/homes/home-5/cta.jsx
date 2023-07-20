@@ -25,13 +25,13 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
 
                    <TypeAnimation
                           sequence={[
-                            'INDUSTRY AUTOMATION', 
+                            'Industry Automation', 
                             3000,
-                            'SMART CAMPUS SOLUTIONS', 
+                            'Smart Campus Solutions', 
                             3000,
-                            'WIFI SOLUTIONS', 
+                            'Wifi Solutions', 
                             3000,
-                            'IOT AND DIGITAL TRANSFORMATION', 
+                            'IOT And Digital Transformation', 
                             3000,
 
                           ]}
