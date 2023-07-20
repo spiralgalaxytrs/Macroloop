@@ -99,7 +99,7 @@ const HeroSlider = () => {
                           <i className="fal fa-long-arrow-right"></i>
                           <i className="fal fa-long-arrow-right"></i>
                         </span>
-                        MacroLoop Technologies Private Limited \n Keep Pushing Limits Apart
+                        MacroLoop Technologies Private Limited \ Keep Pushing Limits Apart
                       </Link>
                     </div>
                   </div>
