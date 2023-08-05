@@ -96,10 +96,10 @@ const HeroSlider = () => {
                         data-delay=".5s"
                       >
                         <span className="circle mr-20">
-                          <i className="fal fa-long-arrow-right"></i>
+                          <i  className="fal fa-long-arrow-right"></i>
                           <i className="fal fa-long-arrow-right"></i>
                         </span>
-                        MacroLoop Technologies Private Limited \ Keep Pushing Limits Apart
+                        MacroLoop Technologies Private Limited 
                       </Link>
                     </div>
                   </div>
