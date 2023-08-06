@@ -39,7 +39,7 @@ const ContactArea = () => {
           <div className="row">
             <div className="col-12">
               <div className="contact-img-1 pb-100 w-img">
-                <img src={img} alt="" />
+                <img  src={img} alt="" />
               </div>
             </div>
           </div>
