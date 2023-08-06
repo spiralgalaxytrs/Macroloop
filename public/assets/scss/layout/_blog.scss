@@ -152,11 +152,11 @@
             & b {
                 color: var(--tp-theme-mirage);
                 &:hover{
-                    color: #0020ff;
+                    color: #2b46ff;
                 }
 
                 &.it-blog-cta {
-                    color: #0020ff;
+                    color: #2b46ff;
                     &:hover{
                         color: var(--tp-theme-mirage);
                     }
@@ -390,7 +390,7 @@
             top: -2px;
             bottom: -2px;
             display: inline-block;
-                background-image: linear-gradient(100.16deg, #0020ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
+                background-image: linear-gradient(100.16deg, #2b46ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
             z-index: 3;
             border-radius: 6px;
             opacity: 0;
@@ -550,7 +550,7 @@
 }
 
 .ca-blog-area-bg {
-        background-image: linear-gradient(100.16deg, #0020ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
+        background-image: linear-gradient(100.16deg, #2b46ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
     margin-bottom: -130px;
 }
 
@@ -711,7 +711,7 @@
     margin-bottom: 60px;
 
     & .it-blog-date {
-        border-color: #0020ff;
+        border-color: #2b46ff;
     }
 
     & .it-blog__title {
@@ -751,7 +751,7 @@
 
         &:hover {
             color: var(--tp-common-white);
-            background-color: #0020ff;;
+            background-color: #2b46ff;;
         }
 
         & span {
@@ -801,7 +801,7 @@
             line-height: 80px;
             border-radius: 50%;
             background-color: var(--tp-common-white);
-            color: #0020ff;
+            color: #2b46ff;
             box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
             animation: pulse 2s infinite;
         }
@@ -819,7 +819,7 @@
     }
 
     &__tag {
-        background-color: #0020ff;;
+        background-color: #2b46ff;;
         display: inline-block;
         position: absolute;
         left: 50px;
@@ -864,7 +864,7 @@
 
     &__read-more-btn {
         padding: 15px 30px;
-        background-color: #0020ff;;
+        background-color: #2b46ff;;
         font-size: 16px;
         font-weight: 700;
         color: var(--tp-common-white);
@@ -922,7 +922,7 @@
 
             & i {
                 padding-right: 8px;
-                color: #0020ff;
+                color: #2b46ff;
             }
         }
     }
@@ -1007,9 +1007,9 @@ blockquote {
             border-radius: 6px;
 
             &:hover {
-                background-color: #0020ff;;
+                background-color: #2b46ff;;
                 color: var(--tp-common-white);
-                border-color: #0020ff;
+                border-color: #2b46ff;
             }
         }
     }
@@ -1025,7 +1025,7 @@ blockquote {
             }
 
             &:hover {
-                color: #0020ff;
+                color: #2b46ff;
             }
         }
     }
@@ -1081,8 +1081,8 @@ blockquote {
 
                 &:hover,
                 &.current {
-                    background: #0020ff;
-                    border-color: #0020ff;
+                    background: #2b46ff;
+                    border-color: #2b46ff;
                     color: var(--tp-common-white);
                 }
             }
@@ -1182,7 +1182,7 @@ blockquote {
             @include transition(.3S);
 
             &:hover {
-                background-color: #0020ff;;
+                background-color: #2b46ff;;
                 color: var(--tp-common-white);
             }
 
@@ -1247,7 +1247,7 @@ blockquote {
         }
 
         &:focus {
-            border-color: #0020ff;
+            border-color: #2b46ff;
         }
     }
 
@@ -1271,7 +1271,7 @@ blockquote {
         }
 
         &:focus {
-            border-color: #0020ff;
+            border-color: #2b46ff;
         }
     }
 }

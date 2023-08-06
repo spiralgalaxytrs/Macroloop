@@ -38,7 +38,7 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
                           wrapper="div"
                           cursor={false}
                           repeat={Infinity}
-                          style={{ color: "#0020FF", textDecorationLine: "underline" }}
+                          style={{ color: "#2b46ff", textDecorationLine: "underline" }}
                         /> 
                     </span>
                     <span> {" "}</span>

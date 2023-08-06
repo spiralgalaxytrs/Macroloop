@@ -55,7 +55,7 @@
 
     &:hover {
         box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
-        border-color: #0020ff;
+        border-color: #2b46ff;
 
         & .tp-bs-sv-icon {
             &::after {
@@ -92,7 +92,7 @@
         font-size: 16px;
 
         &:hover {
-            color: #0020ff;
+            color: #2b46ff;
         }
 
         & span {
@@ -517,7 +517,7 @@
 
     &:hover {
         & .ca-service__item {
-            border: 1px solid #0020ff;
+            border: 1px solid #2b46ff;
         }
     }
 }
@@ -661,7 +661,7 @@
             }
 
             &.active {
-                background-color: #0020ff;
+                background-color: #2b46ff;
                 color: #fff;
             }
         }
@@ -672,7 +672,7 @@
         margin-bottom: 15px;
 
         & span {
-            color: #0020ff;
+            color: #2b46ff;
         }
     }
 
@@ -765,7 +765,7 @@
         line-height: 120px;
         border-radius: 50%;
         text-align: center;
-        color: #0020ff;
+        color: #2b46ff;
         @include transition(.3s);
 
         @media #{$xs} {
@@ -832,7 +832,7 @@
     &__icon {
         margin-bottom: 10px;
         font-size: 50px;
-        color: #0020ff;
+        color: #2b46ff;
         background-color: white;
         display: inline-block;
     }
@@ -840,11 +840,11 @@
     &__title {
         font-size: 20px;
         &:hover{
-            color: #0020ff;
+            color: #2b46ff;
         }
     }
     &:hover{
-        border-color: #0020ff;
+        border-color: #2b46ff;
     }
     & .counter-number{
         position: absolute;

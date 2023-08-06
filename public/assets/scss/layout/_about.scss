@@ -167,7 +167,7 @@
         }
 
         & span {
-            color: #0020ff;
+            color: #2b46ff;
             position: absolute;
             left: 0;
         }
@@ -187,7 +187,7 @@
             height: 60px;
             text-align: center;
             line-height: 54px;
-            color: #0020ff;
+            color: #2b46ff;
         }
     }
 
@@ -196,7 +196,7 @@
         color: var(--tp-common-black);
 
         &:hover {
-            color: #0020ff;
+            color: #2b46ff;
         }
     }
 }
@@ -529,7 +529,7 @@
     height: 10px;
     background-color: var(--tp-theme-red);
     &.law-ab-dot{
-        background-color: #0020ff;;
+        background-color: #2b46ff;;
         opacity: 90%;
     }
 }
@@ -813,7 +813,7 @@
             font-size: 20px;
             font-weight: 700;
             :hover{
-                color: #0020ff;
+                color: #2b46ff;
             }
         }
     }
@@ -857,7 +857,7 @@
             color: #000;
             &::after{
                 content: "+";
-                color: #0020ff;
+                color: #2b46ff;
             }
         }
         & p{
@@ -935,7 +935,7 @@
         display: block;
         @include transition(.3s);
         & :hover {
-            color: #0020ff;
+            color: #2b46ff;
         }
     }
 }
