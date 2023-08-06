@@ -4,19 +4,19 @@ const contact_data = [
   {
     id: 1,
     titel: "Head office",
-    email: "4/608,V.O.C. Street, Kottivakkam, Old Mahabalipuram Road, Perungudi, Chennai,Tamil Nadu 600041",
+    email: <>4/608,V.O.C. Street, Kottivakkam, <br /> Old Mahabalipuram Road, <br /> Perungudi, Chennai,<br />Tamil Nadu 600041</>,
     phone: "+91 8344445511",
   },
   {
     id: 2,
-    titel: "Branch office(Coimbatore)",
-    email: "3rd floor Incubation cell , KPR institute of engineering and technology Avinashi - Coimbatore Road, Arasur, Tamil Nadu 641407",
+    titel: "Branch office - Coimbatore ",
+    email: <>3rd floor Incubation cell,<br /> KPR institute of engineering and technology <br /> Avinashi - Coimbatore Road, Arasur,<br /> Tamil Nadu 641407</>,
     phone: "",
   },
   {
     id: 3,
-    titel: "Branch office(Madurai)",
-    email: "2nd Floor ,Technology Business Incubator (TCE-TBI) Thaigarajar College of Engineering Thaigarajar Advance Research Centre, next to Honeywell, Madurai, Tamil Nadu 625015",
+    titel: "Branch office - Madurai",
+    email: <>2nd Floor ,Technology Business Incubator (TCE-TBI) <br /> Thaigarajar College of Engineering, <br /> Thaigarajar Advance Research Centre,<br /> Next to Honeywell, Madurai, <br /> Tamil Nadu 625015</>,
     phone: "",
   },
 ];
@@ -55,10 +55,10 @@ const ContactArea = () => {
               </div>
               <div className="row">
                 {contact_data.map((item, i) => (
-                  <div key={i} className="col-lg-3">
+                  <div key={i} className="col-lg-4">
                     <div className="contact-cta-item mb-30 text-white">
                       <b>{item.titel}</b> <br />
-                      <a href={`mailto:${item.email}`}>{item.email}</a> <br />
+                      <a>{item.email}</a> <br />
                       <br />
                       <a href={`tel:${item.tel}`}>{item.phone}</a>
                     </div>
