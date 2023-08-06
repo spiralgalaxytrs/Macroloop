@@ -18,7 +18,7 @@ const slider_content = [
   {
     id: 3,
     bg_img: "assets/img/solutions/5.jpg",
-    title: "IoT and Digital Transformation",
+    title: "IoT & Digital Transformation",
   },
   {
     id: 4,

@@ -31,7 +31,7 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
                             3000,
                             'Wifi Solutions', 
                             3000,
-                            'IOT And Digital Transformation', 
+                            'IoT & Digital Transformation', 
                             3000,
 
                           ]}

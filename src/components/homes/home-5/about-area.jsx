@@ -28,10 +28,11 @@ const AboutArea = () => {
             <div className="col-xl-7 col-lg-6">
               <div className="ptg-about-info pt-50">
                 <div className="section-title-wraper">
-                  <div className="tp-section">
+                  <div className="tp-section" >
                     <span
-                      className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp"
+                      className="tp-section__subtitle mb-15 shadow-none p-0 wow tpfadeUp"
                       data-wow-delay=".3s"
+                      style={{color:"#0020ff"}}
                     >
                       {about}
                     </span>

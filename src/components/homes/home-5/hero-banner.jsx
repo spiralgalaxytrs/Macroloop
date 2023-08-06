@@ -14,7 +14,7 @@ const HeroBanner = () => {
             <div className="col-lg-5">
               <div className="da-hero-section mt-40">
                 <span className="da-hero-section__subtitle dark-bg mb-15 d-inline-block wow tpfadeUp">
-                  <b style={{color:"white"}}> LCG </b>
+                  <b style={{color:"#0020ff"}}> LCG </b>
                 </span>
                 <div className="cd-intro">
                   <h4

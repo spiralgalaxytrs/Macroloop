@@ -37,7 +37,7 @@ const footer_links = [
       { title: "Industry Automation", link: "/solutions/Industry-Automation" },
       { title: "Smart Campus Solutions", link: "/solutions/Smart-campus-Solutions" },
       { title: "Wifi Solutions", link: "/solutions/Wifi-solutions" },
-      { title: "IoT and Digital Transformation", link: "/solutions/IoT-and-Digital-Transformation" },
+      { title: "IoT & Digital Transformation", link: "/solutions/IoT-and-Digital-Transformation" },
       
     ],
   },

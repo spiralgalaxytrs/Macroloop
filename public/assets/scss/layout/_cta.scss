@@ -281,8 +281,8 @@
 }
 
 .it-cta-form-submit {
-    width: 100%;
-    height: 60px;
+    width: 20%;
+    height: 53px;
     text-align: center;
     background-color: var(--tp-theme-orange);
     border: 2px solid var(--tp-border-8);
@@ -659,10 +659,8 @@
         transform: translateY(-8px);
     }
     & .it-cta-form-submit{
-        background-color: var(--tp-theme-cornblue);
-        &:hover {
-            background-color: #0020ff;;
-        }
+        background-color:#0020ff ;
+    
     }
     & .it-cta-form .input-item,
      .input-item-textarea {
