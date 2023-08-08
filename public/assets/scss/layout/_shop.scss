@@ -28,7 +28,7 @@
             border-radius: 6px;
 
             &:hover {
-                background-color: #2b46ff;;
+                background-color: #044CBC;;
                 color: var(--tp-common-white);
             }
         }
@@ -73,7 +73,7 @@
     & .nice-select{
         border: 0;
         &::after{
-            border-color: #2b46ff;
+            border-color: #044CBC;
         }
     }
 }
@@ -371,7 +371,7 @@
             margin-top: 10px;
         }
         &:hover{
-            background-color: #2b46ff;;
+            background-color: #044CBC;;
             color: var(--tp-common-white);
         }
     }
@@ -658,7 +658,7 @@
 
     &:hover {
         color: var(--tp-common-white);
-        background-color: #2b46ff;;
+        background-color: #044CBC;;
         border-color: transparent;
     }
 }

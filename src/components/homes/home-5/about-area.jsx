@@ -32,7 +32,7 @@ const AboutArea = () => {
                     <span
                       className="tp-section__subtitle mb-15 shadow-none p-0 wow tpfadeUp"
                       data-wow-delay=".3s"
-                      style={{color:"#2b46ff"}}
+                      style={{color:"#044CBC"}}
                     >
                       {about}
                     </span>
@@ -54,7 +54,7 @@ const AboutArea = () => {
        wrapper="div"
        cursor={false}
        repeat={Infinity}
-       style={{ color: "#2b46ff", textDecorationLine: "underline" }}
+       style={{ color: "#044CBC", textDecorationLine: "underline" }}
      /> 
                       <span className="cd-words-wrapper bs-cta-wrapper">
 

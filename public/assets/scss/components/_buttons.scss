@@ -29,7 +29,7 @@
 
 	&.alt-color {
 		& b {
-			background-color: #2b46ff;
+			background-color: #044CBC;
 		}
 	}
 
@@ -63,7 +63,7 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: #2b46ff;
+	background-color: #044CBC;
 	color: var(--tp-common-white);
 	padding: 18px 29px;
 	border-radius: 8px;
@@ -123,7 +123,7 @@
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: #2b46ff;
+	background-color: #044CBC;
 	color: var(--tp-common-white);
 	padding: 15px 15px;
 	border-radius: 8px;
@@ -198,7 +198,7 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: #2b46ff;
+	background-color: #044CBC;
 	color: var(--tp-common-white);
 	padding: 18px 29px;
 	border-radius: 8px;
@@ -207,7 +207,7 @@
 	
 	&:hover {
 		color: var(--tp-common-white);
-		background-color: #2b46ff;
+		background-color: #044CBC;
 		& span svg:first-child,
 		& span i:first-child {
 			opacity: 1;
@@ -275,7 +275,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		    background-image: linear-gradient(100.16deg, #2b46ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
+		    background-image: linear-gradient(100.16deg, #044CBC 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
 		z-index: -1;
 		opacity: 0;
 	}
@@ -491,7 +491,7 @@
 
 	&:hover {
 		color: var(--tp-common-white);
-		    background-image: linear-gradient(100.16deg, #2b46ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
+		    background-image: linear-gradient(100.16deg, #044CBC 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
 		border-color: transparent;
 
 		&.br-btn-bg-dark {
@@ -555,7 +555,7 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: #2b46ff;
+	background-color: #044CBC;
 	color: var(--tp-common-white);
 	padding: 18px 29px;
 	border-radius: 8px;
@@ -636,7 +636,7 @@
 		content: '';
 		width: 100%;
 		height: 100%;
-		    background-image: linear-gradient(100.16deg, #2b46ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
+		    background-image: linear-gradient(100.16deg, #044CBC 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
 		position: absolute;
 		z-index: -1;
 		top: 0;
@@ -787,7 +787,7 @@
 
 	&:hover {
 		color: var(--tp-common-white);
-		background-color: #2b46ff;
+		background-color: #044CBC;
 
 		& span svg:first-child,
 		& span i:first-child {
@@ -845,7 +845,7 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: #2b46ff;
+	background-color: #044CBC;
 	color: var(--tp-common-white);
 	padding: 14px 24px;
 	border-radius: 8px;
@@ -866,7 +866,7 @@
 	padding: 16px 34px;
 	border-radius: 8px;
 	display: inline-block;
-	    background-color:  #2b46ff;
+	    background-color:  #044CBC;
 
 	&:hover {
 		color: var(--tp-common-white);
@@ -925,7 +925,7 @@
 	padding: 16px 30px;
 	border-radius: 8px;
 	display: block;
-	    background-image: linear-gradient(100.16deg, #2b46ff 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
+	    background-image: linear-gradient(100.16deg, #044CBC 9.94%, #5a6ef8 54.82%, #ffffff 95.56%);
 	z-index: 1;
 	text-align: center;
 
@@ -998,7 +998,7 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #2b46ff;
+	color: #044CBC;
 	background-color: var(--tp-theme-bg-2);
 	background-color: var();
 	padding: 18px 44px;
@@ -1007,7 +1007,7 @@
 
 	&:hover {
 		color: var(--tp-common-white);
-		background-color: #2b46ff;
+		background-color: #044CBC;
 		& span svg:first-child,
 		& span i:first-child {
 			opacity: 1;
@@ -1436,7 +1436,7 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 400;
-	background-color: #2b46ff;
+	background-color: #044CBC;
 	color: var(--tp-common-white);
 	padding: 18px 28px;
 	border-radius: 8px;

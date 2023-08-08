@@ -419,7 +419,7 @@
     background-image: -webkit-linear-gradient(180deg, #fe7a8f, #5a6ef8);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: #2b46ff;
+    -webkit-text-fill-color: #044CBC;
 
     @media #{$xs} {
       margin-top: 20px;
@@ -471,7 +471,7 @@
     text-align: center;
     line-height: 80px;
     border-radius: 50%;
-    background-color: #2b46ff;;
+    background-color: #044CBC;;
 
     @media #{$xl,$md,$lg,} {
       width: 50px;
@@ -513,7 +513,7 @@
 
   &:hover {
     color: var(--tp-common-white);
-    background-color: #2b46ff;;
+    background-color: #044CBC;;
     border-color:transparent;
   }
 }

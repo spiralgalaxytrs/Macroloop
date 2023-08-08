@@ -12,7 +12,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
           <div className="row">
             <div className="col-12">
               <div className="bs-cta-section text-center">
-                <span className="bs-cta-section__subtitle mb-5 d-inline-block wow tpfadeUp" style={{color:"#2b46ff"}} >
+                <span className="bs-cta-section__subtitle mb-5 d-inline-block wow tpfadeUp" style={{color:"#044CBC"}} >
                   Schedule a 30 minute call
                 </span>
                 <div className="cd-intro">
@@ -38,7 +38,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                           wrapper="div"
                           cursor={false}
                           repeat={Infinity}
-                          style={{ color: "#2b46ff", textDecorationLine: "underline" }}
+                          style={{ color: "#044CBC", textDecorationLine: "underline" }}
                         /> 
                     </span>
                     <span> {" "}</span>

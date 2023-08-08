@@ -181,7 +181,7 @@
         }
 
         & i {
-            color: #2b46ff;
+            color: #044CBC;
             margin-right: 5px;
         }
     }
@@ -221,7 +221,7 @@
     border-radius: 0;
     text-align: center;
     flex: 0 0 auto;
-        background-color:#2b46ff ;
+        background-color:#044CBC ;
     padding-left: 0;
     margin-left: 30px;
 
@@ -388,7 +388,7 @@
                         content: '\f067';
                         @include transform(translateY(1px));
                         font-size: 16px;
-                        color: #2b46ff;
+                        color: #044CBC;
                         font-family: var(--tp-ff-fontawesome);
                         font-weight: 400;
                         margin-left: 5px;
@@ -457,7 +457,7 @@
                             width: 14px;
                             height: 1px;
                             display: inline-block;
-                            background-color: #2b46ff;;
+                            background-color: #044CBC;;
                             transform: translateY(-50%);
                             opacity: 0;
                         }
@@ -473,12 +473,12 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
                             padding-left: 40px;
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
 
@@ -572,7 +572,7 @@
                                     width: 14px;
                                     height: 1px;
                                     display: inline-block;
-                                    background-color: #2b46ff;;
+                                    background-color: #044CBC;;
                                     transform: translateY(-50%);
                                     opacity: 0;
                                 }
@@ -580,11 +580,11 @@
 
                             &:hover {
                                 &>a {
-                                    color: #2b46ff;
+                                    color: #044CBC;
                                     transform: translateX(25px);
 
                                     &::after {
-                                        color: #2b46ff;
+                                        color: #044CBC;
                                         @include transform(translateY(-50%) rotate(45deg));
                                     }
 
@@ -607,10 +607,10 @@
 
             &:hover {
                 &>a {
-                    color: #2b46ff;
+                    color: #044CBC;
 
                     &::after {
-                        color: #2b46ff;
+                        color: #044CBC;
                     }
                 }
 
@@ -995,11 +995,11 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }
@@ -1023,10 +1023,10 @@
 
             &:hover {
                 &>a {
-                    color: #2b46ff;
+                    color: #044CBC;
 
                     &::after {
-                        color: #2b46ff;
+                        color: #044CBC;
                     }
                 }
 
@@ -1172,11 +1172,11 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }
@@ -1213,10 +1213,10 @@
 
             &:hover {
                 &>a {
-                    color: #2b46ff;
+                    color: #044CBC;
 
                     &::after {
-                        color: #2b46ff;
+                        color: #044CBC;
                     }
                 }
 
@@ -1361,11 +1361,11 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }
@@ -1402,10 +1402,10 @@
 
             &:hover {
                 &>a {
-                    color: #2b46ff;
+                    color: #044CBC;
 
                     &::after {
-                        color: #2b46ff;
+                        color: #044CBC;
                     }
                 }
 
@@ -1548,11 +1548,11 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }
@@ -1576,12 +1576,12 @@
 
             &:hover {
                 &>a {
-                    background-image: #2b46ff;
-                    color: #2b46ff;
+                    background-image: #044CBC;
+                    color: #044CBC;
                    
 
                     &::after {
-                        color: #2b46ff;
+                        color: #044CBC;
                     }
                 }
 
@@ -1742,7 +1742,7 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::before {
@@ -1750,7 +1750,7 @@
                             }
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }
@@ -1946,11 +1946,11 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }
@@ -2131,11 +2131,11 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }
@@ -2320,11 +2320,11 @@
 
                     &:hover {
                         &>a {
-                            color: #2b46ff;
+                            color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
 
                             &::after {
-                                color: #2b46ff;
+                                color: #044CBC;
                                 @include transform(translateY(-50%) rotate(45deg));
                             }
                         }

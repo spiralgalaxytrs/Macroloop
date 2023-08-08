@@ -5,8 +5,6 @@ import CommonFooter, { FooterCopyRight } from './common-footer';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 
-
-
 const foter_two_content = {
     logo: "/assets/img/logo/dark-logo.png",
     dec:"MACROLOOP TECHNOLOGIES PRIVATE LIMITED",
@@ -34,7 +32,7 @@ const Footer = ({style_8, style_10}) => {
                         
                         </Link>
                      </div>
-                     <h5 className=' pr-43' style={{color:"#2b46ff"}}>
+                     <h5 className=' pr-43' style={{color:"#044CBC"}}>
                         {dec}
                      </h5>
                      <p className="pr-43 text-white">
