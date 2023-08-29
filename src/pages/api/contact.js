@@ -19,9 +19,9 @@ export default function (req, res) {
       Name:${req.body.name}<br>
       Email:${req.body.mail}<br>
       Mobile:${req.body.phone}<br>
-      Mobile:${req.body.org}<br>
-      Mobile:${req.body.re}<br>
-      Mobile:${req.body.agen}<br>
+      ORG:${req.body.org}<br>
+      REQUIREMENT:${req.body.re}<br>
+      AGENDA:${req.body.agen}<br>
       Message:${req.body.msg}`
     }
     transporter.sendMail(mailData, function (err, info) {
