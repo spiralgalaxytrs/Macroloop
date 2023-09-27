@@ -13,7 +13,7 @@ const about_content = {
     about_P_title: <>We help you build and  grow your business.</>,
     des: <>At MacroLoop Technologies  Pvt Ltd, we vision to be the most sought
     customer - centric company providing integrated technology solutions to
-    enhance the grwoth and sustainability of business and reliability on data. We
+    enhance the growth and sustainability of business and reliability on data. We
     also focus on equipping the students with most sought Industry 4.0
     technologies.</>,
     des1:<>We develop and collaborate with the industry's leading Original Equipment
