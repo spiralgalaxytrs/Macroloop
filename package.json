@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/metropolis": "^5.0.7",
     "@next/font": "13.1.6",
     "@popperjs/core": "^2.11.8",
     "@vercel/analytics": "^1.0.2",
@@ -16,6 +17,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "framer-motion": "^10.1.0",
+    "gotham-fonts": "^1.0.3",
     "next": "13.1.6",
     "next-themes": "^0.2.1",
     "nextjs-progressbar": "^0.0.16",

@@ -1,4 +1,7 @@
 import React from "react";
+import "@fontsource/metropolis"; // Defaults to weight 400
+import "@fontsource/metropolis/400.css"; // Specify weight
+import "@fontsource/metropolis/400-italic.css"; // Specify weight and style
 
 const portfolio_content = {
   img_1: "/assets/img/brand/1.png",
@@ -48,7 +51,7 @@ const PortfolioArea = () => {
               <div className="section-title-wraper">
                 <div className="tp-section text-center ">
                   <h1>
-                  <span className="tp-section__bigtitle wow "style={{color:"#044cbc",fontFamily:"Gotham" }} >Looper<span style={{color:"white"}}>Hub</span> </span>
+                  <span className="tp-section__bigtitle wow "style={{color:"#044cbc",fontFamily:"Metropolis",letterSpacing:"0.7px" }} >Looper<span style={{color:"white"}}>Hub</span> </span>
                   
                   </h1>
                   
@@ -59,7 +62,7 @@ const PortfolioArea = () => {
           </div>
           <div className="row pt-130">
             <div className="col-xl-6">
-            <h2 className="tp-section__title mb-50 mt-20 text-white" style={{fontFamily:"Gotham" }}>
+            <h2 className="tp-section__title mb-50 mt-20 text-white" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
 A Social Network Company to build the future for Dreamers and Doers.</h2>
               <div
                 className="ca-portfolio-img w-img mb-30 wow tpfadeUp"
@@ -69,7 +72,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <img src={img_1} alt="" />
                 <div className="ca-project-item__info">
                   
-                  <h3 className="ca-project-item__title" style={{fontFamily:"Gotham" }}>
+                  <h3 className="ca-project-item__title" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                     <a >{name}</a>
                   </h3>
                 </div>
@@ -84,7 +87,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <img src={img_2} alt="" />
                 <div className="ca-project-item__info">
                   
-                  <h3 className="ca-project-item__title" style={{fontFamily:"Gotham" }}>
+                  <h3 className="ca-project-item__title" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                     <a >{name2}</a>
                   </h3>
                 </div>
@@ -98,9 +101,9 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                       data-wow-delay=".4s"
                     >
                       <img src={item.img} alt="" />
-                      <div className="ca-project-item__info" style={{fontFamily:"Gotham" }}>
+                      <div className="ca-project-item__info" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                         <span>{item.title}</span>
-                        <h3 className="ca-project-item__title" style={{fontFamily:"Gotham" }}>
+                        <h3 className="ca-project-item__title" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                           <a >{item.name}</a>
                         </h3>
                       </div>

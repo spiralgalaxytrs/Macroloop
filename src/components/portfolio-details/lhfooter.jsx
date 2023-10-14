@@ -81,7 +81,7 @@ const PortfolioDetailsArea = () => {
         <div className="container wow tpfadeUp">
         
     
-        <p style={{fontFamily:"Gotham" }}>
+        <p style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
         Welcome to the future of networking and collaboration. MacroLoop Technologies proudly presents <b>LooperHub</b>, an elite social network app that seamlessly connects startups, individuals, venture
 capitalists, and angel investors. <b>LooperHub</b> is the ultimate platform that empowers everyone to
 engage with the vibrant startup and business ecosystem, fostering a dynamic environment for
@@ -96,7 +96,7 @@ potential collaborators and freelancers to work on projects together, fostering 
 maximizing potential. <b>LooperHub</b> serves as a thriving hub of creativity, where ideas can flourish and
 partnerships can be forged.
           </p>
-          <p style={{fontFamily:"Gotham" }}>
+          <p style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
           For students aspiring to be industry-ready, <b>LooperHub</b> offers a unique opportunity to interact with
 companies directly. Through the app, students can engage with businesses, gaining valuable insights
 and training to develop the skills necessary for success. Virtual classes, hosted within the app itself,
@@ -107,7 +107,7 @@ connect with venture capitalists and angel investors through <b>LooperHub</b>. T
 connecting ambitious founders with investors who are actively seeking investment opportunities in
 their respective product or service areas. By streamlining the investment process, <b>LooperHub</b> accelerates growth, propelling startups towards success.
           </p>
-          <p style={{fontFamily:"Gotham" }}>
+          <p style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
           Moreover, <b>LooperHub</b> simplifies the process of starting a business. Individuals with a basic business
 idea can easily transform their vision into reality by utilizing the app's comprehensive suite of tools.
 From developing a business plan to registering a company, <b>LooperHub</b> provides a seamless
@@ -119,7 +119,7 @@ collaboration, and innovation.
           </p>
          
           
-          <p className="wow tpfadeUp" style={{fontFamily:"Gotham" }}>
+          <p className="wow tpfadeUp" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
           Welcome to <b>LooperHub</b>, where dreams become reality and makes you to push your limits.
           </p>
 
@@ -129,10 +129,10 @@ collaboration, and innovation.
                 <div key={i} className="col-lg-4 col-xl-3">
                   <div className="pf-dt-process-item  wow tpfadeUp text-center mb-60">
                         <Image src={item.img} width={250} height={250} alt="pure" />   
-                    <h3 className="pf-dt-process-item__title text-white mb-10"style={{fontFamily:"Gotham" }}>
+                    <h3 className="pf-dt-process-item__title text-white mb-10"style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                       <a href="#">{item.title}</a>{" "}
                     </h3>
-                    <p style={{fontFamily:"Gotham" }}>{item.desctiption}</p>
+                    <p style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>{item.desctiption}</p>
                   </div>
                 </div>
               ))}
