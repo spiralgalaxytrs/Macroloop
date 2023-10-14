@@ -77,7 +77,7 @@ const PortfolioDetailsArea = () => {
     
 
      <div className="tp-pf-detials-main dark-bg">
-      <img src="/assets/img/breadcrumb/lhbg.png" width={"100%"}/>
+      {/* <img src="/assets/img/breadcrumb/lhbg.png" width={"100%"}/> */}
         <div className="container wow tpfadeUp">
         
     
