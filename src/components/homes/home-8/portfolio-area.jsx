@@ -73,7 +73,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <div className="ca-project-item__info">
                   
                   <h3 className="ca-project-item__title" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
-                    <a >{name}</a>
+                    <a style={{backgroundImage:"linear-gradient(#0800fd, #0121ff), linear-gradient(#0011f9, #0020ff)"}}>{name}</a>
                   </h3>
                 </div>
               </div>
@@ -88,7 +88,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <div className="ca-project-item__info">
                   
                   <h3 className="ca-project-item__title" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
-                    <a >{name2}</a>
+                    <a style={{backgroundImage:"linear-gradient(#0800fd, #0121ff), linear-gradient(#0011f9, #0020ff)"}}>{name2}</a>
                   </h3>
                 </div>
               </div>
@@ -102,9 +102,9 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                     >
                       <img src={item.img} alt="" />
                       <div className="ca-project-item__info" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
-                        <span>{item.title}</span>
+                       
                         <h3 className="ca-project-item__title" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
-                          <a >{item.name}</a>
+                          <a style={{backgroundImage:"linear-gradient(#0800fd, #0121ff), linear-gradient(#0011f9, #0020ff)"}}>{item.name}</a>
                         </h3>
                       </div>
                     </div>
