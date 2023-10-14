@@ -43,7 +43,7 @@ const PortfolioArea = () => {
     <>
       <div className="ca-portfolio-area pt-120 pb-60 dark-bg">
         <div className="container">
-          <div className="row pb-150">
+          <div className="row">
             <div className="col-12 wow tpfadeUp ">
               <div className="section-title-wraper">
                 <div className="tp-section text-center ">
@@ -54,7 +54,7 @@ const PortfolioArea = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row pt-130">
             <div className="col-xl-6">
             <h2 className="tp-section__title mb-50 mt-20 text-white">
 A Social Network Company to build the future for Dreamers and Doers.</h2>
