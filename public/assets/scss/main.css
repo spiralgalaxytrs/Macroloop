@@ -45668,7 +45668,7 @@ xloading-bar
   border-radius: 50%;
   z-index: -1;
   display: inline-block;
-  transition: all 0.3s ease-out 0s;
+ 
 }
 .pf-dt-process-item__icon {
   position: absolute;

@@ -30,9 +30,17 @@ const menu_data = [
     link: "/lcg",
    
   },
- 
   {
     id: 5,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "LooperHub",
+    link: "/LooperHub",
+   
+  },
+ 
+  {
+    id: 6,
     mega_menu: false,
     has_dropdown: false,
     title: "Contact",
