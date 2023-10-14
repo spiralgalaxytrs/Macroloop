@@ -48,7 +48,8 @@ const PortfolioArea = () => {
               <div className="section-title-wraper">
                 <div className="tp-section text-center ">
                   <h1>
-                  <span className="tp-section__bigtitle wow "style={{color:"#044cbc",fontFamily:"Gotham" }} >Looper</span>
+                  <span className="tp-section__bigtitle wow "style={{color:"#044cbc",fontFamily:"Gotham" }} >Looper<span style={{color:"white"}}>Hub</span> </span>
+                  
                   </h1>
                   
 
