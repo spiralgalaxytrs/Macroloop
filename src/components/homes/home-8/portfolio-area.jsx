@@ -41,7 +41,7 @@ const portfolio_data = [
 const PortfolioArea = () => {
   return (
     <>
-      <div className="ca-portfolio-area pt-120 pb-60 dark-bg">
+      <div className="ca-portfolio-area pt-150 pb-60 dark-bg">
         <div className="container">
           <div className="row">
             <div className="col-12 wow tpfadeUp ">
