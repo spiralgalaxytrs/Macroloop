@@ -11,7 +11,7 @@ const { img_1, img_2,name,name2 } = portfolio_content;
 const portfolio_data = [
   {
     id: 1,
-    img: "/assets/img/brand/startups.jpg",
+    img: "/assets/img/brand/Startups.jpg",
    
     name: "Startups",
   },
