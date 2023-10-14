@@ -67,7 +67,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <div className="ca-project-item__info">
                   
                   <h3 className="ca-project-item__title">
-                    <a href="#">{name}</a>
+                    <a >{name}</a>
                   </h3>
                 </div>
               </div>
@@ -82,7 +82,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <div className="ca-project-item__info">
                   
                   <h3 className="ca-project-item__title">
-                    <a href="#">{name2}</a>
+                    <a >{name2}</a>
                   </h3>
                 </div>
               </div>
@@ -98,7 +98,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                       <div className="ca-project-item__info">
                         <span>{item.title}</span>
                         <h3 className="ca-project-item__title">
-                          <a href="#">{item.name}</a>
+                          <a >{item.name}</a>
                         </h3>
                       </div>
                     </div>
