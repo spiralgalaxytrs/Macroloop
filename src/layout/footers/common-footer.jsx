@@ -12,6 +12,7 @@ const footer_links = [
       { title: "About", link: "/about" },
       { title: "Solutions", link: "/solutions" },
       { title: "LCG", link: "/lcg" },
+      { title: "LooperHub", link: "/LooperHub" },
       { title: "Contact", link: "/contact" },
      
     ],
