@@ -47,7 +47,9 @@ const PortfolioArea = () => {
             <div className="col-12 wow tpfadeUp ">
               <div className="section-title-wraper">
                 <div className="tp-section text-center ">
-                  <span className="tp-section__bigtitle wow text-white">LooperHub</span>
+                  <h1>
+                  <span className="tp-section__bigtitle wow "style={{color:"#044cbc",fontFamily:"Gotham" }} >Looper</span>
+                  </h1>
                   
 
                 </div>
@@ -56,7 +58,7 @@ const PortfolioArea = () => {
           </div>
           <div className="row pt-130">
             <div className="col-xl-6">
-            <h2 className="tp-section__title mb-50 mt-20 text-white">
+            <h2 className="tp-section__title mb-50 mt-20 text-white" style={{fontFamily:"Gotham" }}>
 A Social Network Company to build the future for Dreamers and Doers.</h2>
               <div
                 className="ca-portfolio-img w-img mb-30 wow tpfadeUp"
@@ -66,7 +68,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <img src={img_1} alt="" />
                 <div className="ca-project-item__info">
                   
-                  <h3 className="ca-project-item__title">
+                  <h3 className="ca-project-item__title" style={{fontFamily:"Gotham" }}>
                     <a >{name}</a>
                   </h3>
                 </div>
@@ -81,7 +83,7 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                 <img src={img_2} alt="" />
                 <div className="ca-project-item__info">
                   
-                  <h3 className="ca-project-item__title">
+                  <h3 className="ca-project-item__title" style={{fontFamily:"Gotham" }}>
                     <a >{name2}</a>
                   </h3>
                 </div>
@@ -95,9 +97,9 @@ A Social Network Company to build the future for Dreamers and Doers.</h2>
                       data-wow-delay=".4s"
                     >
                       <img src={item.img} alt="" />
-                      <div className="ca-project-item__info">
+                      <div className="ca-project-item__info" style={{fontFamily:"Gotham" }}>
                         <span>{item.title}</span>
-                        <h3 className="ca-project-item__title">
+                        <h3 className="ca-project-item__title" style={{fontFamily:"Gotham" }}>
                           <a >{item.name}</a>
                         </h3>
                       </div>
