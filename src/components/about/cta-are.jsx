@@ -16,32 +16,12 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                   Schedule a 30 minute call
                 </span>
                 <div className="cd-intro">
-                  <h3 className="bs-cta-section__title cd-headline text-white loading-bar mb-55 wow tpfadeUp">
-                    <span>
-                      Start your technology journey better <br /> with LoopTech's<br />
-                       {" "}
-                    </span>
-                    <span className="cd-words-wrapper bs-cta-wrapper">
+                  <h3 className="bs-cta-section__title cd-headline text-black loading-bar mb-55 wow tpfadeUp">
+                   
+                      Start your technology journey better <br /> with LoopTech's<br />Razor-EdgedSolutions
 
-                   <TypeAnimation
-                          sequence={[
-                            'Industry Automation', 
-                            3000,
-                            'Smart Campus Solutions', 
-                            3000,
-                            'Wifi Solutions', 
-                            3000,
-                            'IoT & Digital Transformation', 
-                            3000,
-
-                          ]}
-                          wrapper="div"
-                          cursor={false}
-                          repeat={Infinity}
-                          style={{ color: "#044CBC", textDecorationLine: "underline" }}
-                        /> 
-                    </span>
-                    <span> {" "}</span>
+                       
+                    
                   </h3>
                 </div>
               </div>

@@ -18,7 +18,7 @@ const HeroBanner = () => {
                 </span>
                 <div className="cd-intro">
                   <h4
-                    className="da-hero-section__title cd-headline text-white loading-bar mb-45 wow tpfadeUp"
+                    className="da-hero-section__title cd-headline text-black loading-bar mb-45 wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
                     <span>Join in the movement of our Deep Tech Network

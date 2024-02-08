@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import Tilt from "react-parallax-tilt";
@@ -38,12 +39,13 @@ const AboutArea = () => {
                     </span>
                     
                     <h6
-                      className="tp-section__title tp-rgb-border text-white text-uppercase mb-30 wow tpfadeUp"
+                      className="tp-section__title tp-rgb-border text-black text-uppercase mb-30 wow tpfadeUp"
                       data-wow-delay=".4s"
                     >
                       
-                      Empowering the Future: 
-     Revolutionizing Living with <TypeAnimation
+                    
+                    Empowering the Future: 
+                            Revolutionizing Living with <TypeAnimation
        sequence={[
          'Us', 
          3000,

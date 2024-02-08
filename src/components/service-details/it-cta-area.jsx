@@ -23,7 +23,7 @@ const ItCtaArea = () => {
                         <div className="section-title-wraper">
                            <div className="tp-section">
                               <div className="pb-40"><img src="/assets/img/icons/red-what-icon.png" alt="" /></div>
-                              <h2 className="tp-section__title text-white text-capitalize mb-25">{title}</h2>
+                              <h2 className="tp-section__title text-black text-capitalize mb-25">{title}</h2>
                              
                            </div>
                         </div>

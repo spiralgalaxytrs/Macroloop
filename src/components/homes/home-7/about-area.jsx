@@ -65,11 +65,11 @@ const AboutArea = ({style_about}) => {
                             <div className="section-title-wraper mb-40">
                                 <div className="tp-section">
                                  
-                                    <h2 className={`tp-section__title text-white ${style_about ? "wow tpfadeUp mb-30" : "wine-text-color mb-20 text-uppercase"}`}>
+                                    <h2 className={`tp-section__title text-black ${style_about ? "wow tpfadeUp mb-30" : "wine-text-color mb-20 text-uppercase"}`}>
                                         { style_about ? about_P_title : title
                                         }
                                     </h2>
-                                    <p className="text-grey">
+                                    <p className="text-black">
                                         {des}
                                     </p>
 

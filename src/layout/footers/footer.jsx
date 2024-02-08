@@ -6,7 +6,9 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 
 const foter_two_content = {
-    logo: "/assets/img/logo/dark-logo.png",
+
+   
+    logo: "/assets/img/logo/logo1.png",
     dec:"MACROLOOP TECHNOLOGIES PRIVATE LIMITED",
     description: <>Our comprehensive approach to Industry 4.0 encompasses not only
     technological integration but also strategic guidance and support.</>
@@ -15,9 +17,9 @@ const foter_two_content = {
 const {logo,dec,description} = foter_two_content
 const Footer = ({style_8, style_10}) => {
     return (
-        <>
+        <> <hr />
             <footer>   
-   <div className={`bs-footer it-footer  ${style_8 ? "ca-footer" : ""} ${style_10 && "seo-footer"} dark-bg`} >
+   <div className={`bs-footer it-footer  dark-header ${style_8 ? "ca-footer" : ""} ${style_10 && "seo-footer"} dark-bg`} >
       <div className="container">
          <div className="bs-footer__main pb-10 pt-80 tp-border-bottom">
             <div className="row justify-content-center">
@@ -35,11 +37,11 @@ const Footer = ({style_8, style_10}) => {
                      <h5 className=' pr-43' style={{color:"#044CBC"}}>
                         {dec}
                      </h5>
-                     <p className="pr-43 text-white">
+                     <p className="pr-43 text-black">
                         {description}
                      </p>
                   </div>
-                  <div className="da-footer__top-social mb-30 text-white">
+                  <div className="da-footer__top-social mb-30 text-black">
                     <SocialLinks /> 
                   </div>
                </div>

@@ -17,7 +17,7 @@ const Header = () => {
                     <div className="row align-items-center g-0">
                         <div className="col-xl-4 col-8">
                             <div className="logo">
-                                <Link href="/"><img width={200} src="/assets/img/logo/dark-logo.png" alt="logo" /></Link>
+                                <Link href="/"><img width={200} src="/assets/img/logo/logo1.png" alt="logo" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-9 d-none d-xl-block">
@@ -28,7 +28,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="col-xl-2 col-4">
-                            <div className="tp-header-search-nav d-flex align-items-center justify-content-end">
+                            <div className="tp-header-search-nav d-flex align-items-center dark-header justify-content-end ">
                             
                                 
                                 <div className="tp-header-nav tp-header-nav-2" onClick={() => setIsActive(true)}>

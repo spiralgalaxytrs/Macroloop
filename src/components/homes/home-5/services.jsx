@@ -15,7 +15,7 @@ const Services = () => {
                             <div className="tp-section">
                                 {/* <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span> */}
                                 <h2
-                                    className="tp-section__title text-non-rgb tp-rgb-border text-white text-uppercase mb-65 wow tpfadeUp" data-wow-delay=".4s">
+                                    className="tp-section__title text-non-rgb tp-rgb-border text-black text-uppercase mb-65 wow tpfadeUp" data-wow-delay=".4s">
                                     our   Solutions
                                 </h2>
                             </div>
@@ -31,13 +31,13 @@ const Services = () => {
                             <div className="ptg-blog__item-thumb w-img" >
                                 <img src={item.img} height={190} alt="" />
                             </div>
-                            <div className="ptg-blog__item-content dark-bg-2">
+                            <div className="ptg-blog__item-content white-bg-2">
                                 <div className="ptg-blog__item-meta">
                                     <span><a href="#"><b className="ptg-blog-cta">{item.category}</b></a></span>
                                     {/* <span><a href="#"> / <b> {item.month} {item.date}</b></a> </span> */}
                                 </div>
-                                <h3 className="ptg-blog__item-title"><Link href={`/solutions/${item.id}`}>{item.title}</Link></h3>
-                                <Link href={`/solutions/${item.id}`} className="ptg-blog-btn text-uppercase">Read More
+                                <h3 className="ptg-blog__item-title text-black"><Link href={`/solutions/${item.id}`}>{item.title}</Link></h3>
+                                <Link href={`/solutions/${item.id}`} className="ptg-blog-btn text- text-blue">Read More
                                     <span className="pl-10">
                                         <i className="fal fa-long-arrow-right"></i>
                                     </span>

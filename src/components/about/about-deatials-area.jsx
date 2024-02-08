@@ -48,7 +48,7 @@ const AboutDeatialsArea = () => {
             <div className="row">
                <div className="col-xl-6 wow tpfadeUp">
                   <div className="tp-about-sv-content">
-                     <h3 className="tp-section__title wow text-white tpfadeUp mb-50">{title}</h3>
+                     <h3 className="tp-section__title wow text-black tpfadeUp mb-50">{title}</h3>
                   </div>
                   <div className="tp-ab-sv-tabs mb-30">
                      <ul className="nav nav-pills mb-30" id="pills-tab" role="tablist">
@@ -65,12 +65,12 @@ const AboutDeatialsArea = () => {
                      <div className="tab-content" id="pills-tabContent">
                         <div className="tab-pane fade show active" id="pills-2000" role="tabpanel" aria-labelledby="2000">
                            <div className="tp-ab-sv-tabs-content">
-                              <p className='text-white'>{info_2000}</p>
+                              <p className='text-black'>{info_2000}</p>
                            </div>
                         </div>
                         <div className="tab-pane fade" id="pills-2010" role="tabpanel" aria-labelledby="2010">
                            <div className="tp-ab-sv-tabs-content">
-                              <p className='text-white'>{info_2010}</p>
+                              <p className='text-black'>{info_2010}</p>
                            </div>
                         </div>
                        
