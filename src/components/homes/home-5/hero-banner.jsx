@@ -12,7 +12,7 @@ const HeroBanner = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div
-              className="col-lg-7 wow tpfadeUp"
+              className="col-lg-5 wow tpfadeUp"
               data-tilt=""
               data-tilt-perspective="2000"
               data-wow-delay=".3s"
@@ -26,7 +26,7 @@ const HeroBanner = () => {
                 gyroscope={true}
               >
 
-                <div className="tp-da-hero-img text-end pr-30">
+                <div className="tp-da-hero-img text-end">
                   <img src="/assets/img/hero/da-hero-img.jpg" alt="" />
                 </div>
 

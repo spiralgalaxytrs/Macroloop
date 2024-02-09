@@ -43,23 +43,23 @@ const ContactArea = () => {
     <>
       <div className="contact-page-area pt-120 pb-90 wow tpfadeUp dark-bg">
         <div className="container">
-          <div className="row">
-            <div className="col-12">
+          <div className="row justify-content-around">
+            <div className="col-12 col-lg-6">
               <div className="contact-img-1 pb-100 w-img">
                 <img  src={img} alt="" />
               </div>
             </div>
+            <div className="col-12 col-lg-6 d-flex align-items-center">
+              <div className="tp-contact-page-info">
+              <span className="say-hello">{hi_text} </span>
+                <h2 className="tp-section__title pb-60 mb-60 tp-border-bottom text-black align-items-center" style={{ letterSpacing: "1px", wordSpacing: "10px", textTransform: "capitalize" }}>
+                  {title}
+                </h2>
+              </div>
+            </div>
           </div>
           <div className="row">
-            <div className="">
-              <span className="say-hello">{hi_text} </span>
-            </div>
             <div className="col-lg-12">
-              <div className="tp-contact-page-info ">
-                <h3 className="tp-section__title pb-60 mb-60 tp-border-bottom text-black">
-                  {title}
-                </h3>
-              </div>
               <div className="row">
                 {contact_data.map((item, i) => (
                   <div key={i} className="col-lg-4">
