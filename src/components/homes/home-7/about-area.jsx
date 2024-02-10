@@ -40,9 +40,10 @@ const AboutArea = ({style_about}) => {
                         <div className="law-about-left p-relative mb-30">
                             <div className="row gx-4">
                                 <div className="col-md-6">
-                                    <div className={`law-about-left-title mt-60 mb-20 ${style_about ? "vogue-bg" : "wine-bg"} `}>
-                                        <span><i className="flaticon-global"></i></span>
-                                        <span>{left_title}</span>
+                                    <div className='col-12 mb-20'>
+                                        {/* <span><i className="flaticon-global"></i></span>
+                                        <span>{left_title}</span> */}
+                                        <img className='shadow rounded' src="assets/img/about/keeppushing.jpg" alt="about-image" style={{width: "93%", height: "200px"}} />
                                     </div>
                                     <div className="law-about-img-1">
                                     
