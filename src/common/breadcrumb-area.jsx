@@ -16,7 +16,7 @@ const BreadcrumbArea = ({acive_menu = "About", title = "Our Company Histoy"}) =>
                         <span className="dvdr dvdr-line"></span>
                         <span className="tp-bc-acive-menu">{acive_menu}</span>
                      </div>
-                     <h3 className="breadcrumb__title text-white">{title}</h3>
+                     <h3 className="breadcrumb__title text-black">{title}</h3>
                   </div>
                </div>
             </div>

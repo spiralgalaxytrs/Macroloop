@@ -5,7 +5,7 @@ import AboutArea from "./about-area";
 
 import HeroSlider from "./hero-slider";
 import Service from "./services";
-import CtaArea from "../../about/cta-are"
+import CtaArea from "./cta"
 import HeroBanner from "./hero-banner";
 
 

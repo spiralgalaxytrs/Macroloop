@@ -12,36 +12,16 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
           <div className="row">
             <div className="col-12">
               <div className="bs-cta-section text-center">
-                <span className="bs-cta-section__subtitle text-white mb-5 d-inline-block wow tpfadeUp">
+                <span className="bs-cta-section__subtitle text-blue mb-5 d-inline-block wow tpfadeUp ">
                   Schedule a 30 minute call
                 </span>
                 <div className="cd-intro">
-                  <h3 className="bs-cta-section__title cd-headline text-white loading-bar mb-55 wow tpfadeUp">
-                    <span>
+                  <h3 className="bs-cta-section__title cd-headline text-black loading-bar mb-55 wow tpfadeUp">
+                 <div style={{color:"#000000"}}> 
                       Start your technology journey better <br /> with LoopTech's<br />
-                       {" "}
-                    </span>
-                    <span className="cd-words-wrapper bs-cta-wrapper">
+                      Razor-EdgedSolutions
 
-                   <TypeAnimation
-                          sequence={[
-                            'Industry Automation', 
-                            3000,
-                            'Smart Campus Solutions', 
-                            3000,
-                            'Wifi Solutions', 
-                            3000,
-                            'IoT & Digital Transformation', 
-                            3000,
-
-                          ]}
-                          wrapper="div"
-                          cursor={false}
-                          repeat={Infinity}
-                          style={{ color: "#044CBC", textDecorationLine: "underline" }}
-                        /> 
-                    </span>
-                    <span> {" "}</span>
+  </div>
                   </h3>
                 </div>
               </div>
@@ -49,7 +29,7 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
           </div>
           <div className="row">
             <div className="bs-cta-btns text-center">
-              <Link href="/contact" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
+              <Link href="/contact" className="tp-black-btn mr-30 wow tpfadeRight">
                 {rButton}
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
@@ -59,11 +39,11 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
               </Link>
               <a
                 href="mailto:info@looptech.in?subject=Requesting a meeting to  discuss our requirement-Reg."
-                className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
+                className="tp-black-btn wow tpfadeLeft"
               >
                 <span>
-                  <i className="fab fa-google"></i>
-                  <i className="fab fa-google"></i>
+                  <i className="fab fa-google" style={{marginRight: "5px"}}></i>
+                  <i className="fab fa-google" style={{marginRight: "5px"}}></i>
                 </span>
                 {lbutton}<b></b>
               </a>

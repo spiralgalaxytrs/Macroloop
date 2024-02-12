@@ -40,9 +40,10 @@ const AboutArea = ({style_about}) => {
                         <div className="law-about-left p-relative mb-30">
                             <div className="row gx-4">
                                 <div className="col-md-6">
-                                    <div className={`law-about-left-title mt-60 mb-20 ${style_about ? "vogue-bg" : "wine-bg"} `}>
-                                        <span><i className="flaticon-global"></i></span>
-                                        <span>{left_title}</span>
+                                    <div className='col-12 mb-20'>
+                                        {/* <span><i className="flaticon-global"></i></span>
+                                        <span>{left_title}</span> */}
+                                        <img className='shadow rounded' src="assets/img/about/keeppushing.jpg" alt="about-image" style={{width: "93%", height: "200px"}} />
                                     </div>
                                     <div className="law-about-img-1">
                                     
@@ -65,11 +66,11 @@ const AboutArea = ({style_about}) => {
                             <div className="section-title-wraper mb-40">
                                 <div className="tp-section">
                                  
-                                    <h2 className={`tp-section__title text-white ${style_about ? "wow tpfadeUp mb-30" : "wine-text-color mb-20 text-uppercase"}`}>
+                                    <h2 className={`tp-section__title text-black ${style_about ? "wow tpfadeUp mb-30" : "wine-text-color mb-20 text-uppercase"}`}>
                                         { style_about ? about_P_title : title
                                         }
                                     </h2>
-                                    <p className="text-grey">
+                                    <p className="text-black">
                                         {des}
                                     </p>
 

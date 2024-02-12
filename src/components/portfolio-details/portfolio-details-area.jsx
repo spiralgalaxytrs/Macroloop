@@ -161,7 +161,7 @@ const PortfolioDetailsArea = () => {
                 className="da-header-gey-btn d-inline-block wow tpfadeUp"
                 data-wow-delay=".5s"
               >
-                <Link href="https://forms.gle/kUcPf5uABWBxdjKq9" className="tp-grey-btn">
+                <Link href="https://forms.gle/kUcPf5uABWBxdjKq9" className="tp-black-btn">
                         Join LCG
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>

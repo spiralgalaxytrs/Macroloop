@@ -54,7 +54,7 @@ const CommonFooter = () => {
             <ul id={item.id}>
               {item.links?.map((link, id) => (
                 <li key={id}>
-                  <a href={link.link}>{link.title}</a>
+                  <a style={{color:"#000000"}} href={link.link}>{link.title}</a>
                 </li>
               ))}
             </ul>
@@ -75,7 +75,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright By <a > MacroLoop Technologies </a>& Designed by <a href="https://thereciprocalsolutions.com/"> The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Copyright By <a > MacroLoop Technologies </a>& Designed by <a href="https://thereciprocalsolutions.com/" className="text-black"> The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;
@@ -86,7 +86,7 @@ export const FooterCopyRight = ({style_3, style_7, style_9}) => {
       <div className={`tp-footer__bottom pt-25 pb-25 ${style_3 ? "da-ft-copyright-bg" : ""} ${style_7 ? "law-footer__bottom red-bg"  :''} ${style_9 ? "ha-footer-copyright" : ""}`}>  
         <div className="row align-items-center">
           <div className="col-md-8 col-12">
-            <div className={`tp-copyrigh-text text-white ${style_3 ? "" : "text-center text-md-start"}`}>
+            <div className={`tp-copyrigh-text text-black ${style_3 ? "" : "text-center text-md-start"}`}>
               <span>{copy_right_info}</span>
             </div>
           </div>
