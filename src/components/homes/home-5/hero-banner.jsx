@@ -67,7 +67,7 @@ const HeroBanner = () => {
                 className="da-header-grd-btn d-inline-block mr-20 mb-30 wow tpfadeUp"
                 data-wow-delay=".3s"
               >
-                <Link href="/lcg" className="tp-grd-btn">
+                <Link href="/lcg" className="tp-black-btn">
                   Join LCG
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>

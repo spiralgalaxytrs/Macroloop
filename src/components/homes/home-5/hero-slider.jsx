@@ -85,7 +85,7 @@ const HeroSlider = () => {
                   </div>
                   <div className="col-lg-2 col-12 align-self-end">
                     <div className="ptg-about-btn-wrapper mb-30 wow tpfadeUp" data-wow-delay=".3s">
-                      <Link href="/contact" className="tp-black-btn br-btn-bg-dark">
+                      <Link href="/contact" className="tp-black-btn">
                         {btn}
                         <span className="ml-10">
                           <i className="fal fa-long-arrow-right"></i>

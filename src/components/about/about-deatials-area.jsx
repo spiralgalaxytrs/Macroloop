@@ -77,7 +77,7 @@ const AboutDeatialsArea = () => {
                      </div>
                   </div>
                   <div className="tp-sv-tabs-btn-wrapper mb-30">
-                     <Link href="/contact" className="tp-white-btn">
+                     <Link href="/contact" className="tp-black-btn">
                         Contact Us
                         <span className="ml-10">
                            <i className="fal fa-long-arrow-right"></i>

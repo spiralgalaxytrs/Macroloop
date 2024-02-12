@@ -139,7 +139,7 @@ collaboration, and innovation.
             </div>
         <div className="row">
             <div className="bs-cta-btns text-center">
-              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeyl_iEMh8sRComDCda-kNumK6tBUyM374tiWK90aRXttU02Q/viewform?pli=1" className="tp-btn tp-btn-hover mr-30 wow tpfadeRight">
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeyl_iEMh8sRComDCda-kNumK6tBUyM374tiWK90aRXttU02Q/viewform?pli=1" className="tp-black-btn mr-30 wow tpfadeRight">
                 Review LooperHub
                 <span>
                   <i className="fal fa-long-arrow-right"></i>

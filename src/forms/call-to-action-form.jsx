@@ -118,7 +118,7 @@ const CallToActionForm = ({style_sv_details}) => {
               </span>
               <textarea placeholder="Message" onChange={(e)=>{setMsg(e.target.value)}} name="msg"></textarea>
             </div>
-            <button type="submit"onClick={(e)=>{handleSubmit(e)}} className="it-cta-form-submit border-0">
+            <button type="submit"onClick={(e)=>{handleSubmit(e)}} className="tp-black-btn">
               Submit
             </button>
           </div>

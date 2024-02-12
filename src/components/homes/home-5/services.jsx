@@ -49,7 +49,7 @@ const Services = () => {
                 }
                 </div>
                 <div className="job-btn-wrapper text-center">
-                     <Link href="/solutions" className="tp-btn wow tpfadeUp">
+                     <Link href="/solutions" className="tp-black-btn wow tpfadeUp">
                         See More
                         <span>
                            <i className="fal fa-long-arrow-right"></i>
