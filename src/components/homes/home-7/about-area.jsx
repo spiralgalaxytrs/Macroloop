@@ -33,7 +33,7 @@ const {img_1, img_2, img_3, img_4, img_5,  left_title, title,about_P_title, des,
 const AboutArea = ({style_about}) => {
     return (
         <>
-        <div className="law-about-area pt-120 pb-90 dark-bg">
+        <div className="law-about-area pt-50 pb-30 dark-bg">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-xl-6 wow tpfadeUp">

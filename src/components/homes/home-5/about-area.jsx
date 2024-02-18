@@ -9,9 +9,7 @@ import { TypeAnimation } from "react-type-animation";
 const about_content = {
   about: "About Us",
   title: <></>,
-  service_2: <>At MacroLoop Technologies  Pvt Ltd, we vision to be the most<br /> sought
-    customer - centric company providing integrated technology <br /> solutions to
-    enhance the growth and sustainability of business and reliability <br /> on data.</>,
+
   btn: "get in touch"
 
 }
@@ -72,19 +70,8 @@ const AboutArea = () => {
 
 
                       Empowering the Future:
-                      Revolutionizing Living with <TypeAnimation
-                        sequence={[
-                          'Us',
-                          3000,
-                          'LoopTech',
-                          3000,
-
-                        ]}
-                        wrapper="div"
-                        cursor={false}
-                        repeat={Infinity}
-                        style={{ color: "#044CBC", textDecorationLine: "underline" }}
-                      />
+                      Revolutionizing Living With
+                      Upscale Living With Technology
                       <span className="cd-words-wrapper bs-cta-wrapper">
 
 
@@ -93,15 +80,7 @@ const AboutArea = () => {
                     </h6>
                   </div>
                 </div>
-                <div
-                  className="ptg-about-content d-flex mb-40 wow tpfadeUp"
-                  data-wow-delay=".4s"
-                >
-
-                  <div className="about-step-info">
-                    <p>{service_2}</p>
-                  </div>
-                </div>
+               
               </div>
               <br />
               <div

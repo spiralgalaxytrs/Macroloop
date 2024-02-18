@@ -72,7 +72,7 @@ const PortfolioDetailsArea = () => {
 
   return (
     <>
-      <div className="tp-pf-details-page-area pt-120 wow dark-bg tpfadeUp">
+      <div className="tp-pf-details-page-area pt-50 wow dark-bg tpfadeUp">
         <div className="container">
           <div className="row">
             <div className="col-12">

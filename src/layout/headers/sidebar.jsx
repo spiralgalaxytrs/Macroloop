@@ -19,9 +19,8 @@ const Sidebar = ({isActive, setIsActive}) => {
                     <span><i className="fal fa-times"></i></span>
                 </div>
                 <div className="tp-offcanvas__logo mb-50">
-                    <Link href="/"><img src="/assets/img/logo/black-logo.png" width={150} alt="sticky-logo" /></Link>
+                    <Link href="/"><img src="/assets/img/logo/logo1.png" width={150} alt="sticky-logo" /></Link>
                 </div>
-                <p>Keep Pushing Limits Apart</p>
                 <div className="tp-offcanvas__social">
                     <SocialLinksHomeTwo />
                 </div>
@@ -31,7 +30,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                     Get In Touch
                 </h3>
                 <div className="tp-offcanvas-cta d-flex align-items-center tp-border-bottom pb-20  mb-30">
-                    <span className="icon mr-20"><img src="/assets/img/icons/ofp-phone.png" alt="" width="50" /></span>
+                    <span className="icon mr-20"><img src="/assets/img/icons/ofp-phone.png" alt="" width="40" /></span>
                     <span>
                         <span className="d-block mb-0">Phone number</span>
                         <b><a href="callto:+918344445511"> Call Us: +91 8344445511 </a></b>
@@ -39,14 +38,14 @@ const Sidebar = ({isActive, setIsActive}) => {
                 </div>
 
                 <div className="tp-offcanvas-cta d-flex align-items-center tp-border-bottom pb-20 mb-30">
-                    <span className="icon mr-20"><img src="/assets/img/icons/ofc-mail-icon.png" alt=""width="50"/></span>
+                    <span className="icon mr-20"><img src="/assets/img/icons/ofc-mail-icon.png" alt=""width="40"/></span>
                     <span>
                         <span className="d-block mb-0">Email address</span>
                         <b><a href="mailto:info@webmail.com"> info@looptech.in </a></b>
                     </span>
                 </div>
                 <div className="tp-offcanvas-cta d-flex align-items-center pb-20  mb-30">
-                    <span className="icon mr-20"><img src="/assets/img/icons/ofc-locaiton.png" alt="" width="50"/></span>
+                    <span className="icon mr-20"><img src="/assets/img/icons/ofc-locaiton.png" alt="" width="40"/></span>
                     <span>
                          <span className="d-block mb-0">Chennai <br />
                          Coimbatore <br />

@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
   return (
     <>
-      <div className="tp-bs-cta-area pt-105 pb-120 dark-bg p-relative">
+      <div className="tp-bs-cta-area pt-50 pb-55 dark-bg p-relative">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -18,7 +18,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline text-black loading-bar mb-55 wow tpfadeUp">
                    
-                      Start your technology journey better <br /> with LoopTech's<br />Razor-EdgedSolutions
+                      Start your technology journey better <br /> with LoopTech's<br />Razor-Edged Solutions
 
                        
                     

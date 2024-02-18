@@ -34,9 +34,7 @@ const Footer = ({style_8, style_10}) => {
                         
                         </Link>
                      </div>
-                     <h5 className=' pr-43' style={{color:"#044CBC"}}>
-                        {dec}
-                     </h5>
+                    
                      <p className="pr-43 text-black">
                         {description}
                      </p>

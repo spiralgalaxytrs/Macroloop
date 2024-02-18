@@ -43,7 +43,7 @@ const {
 const AboutDeatialsArea = () => {
     return (
         <>
-            <div className="tp-about-deatials-service dark-bg pt-120 pb-90">
+            <div className="tp-about-deatials-service dark-bg pt-55 pb-55">
          <div className="container">
             <div className="row">
                <div className="col-xl-6 wow tpfadeUp">

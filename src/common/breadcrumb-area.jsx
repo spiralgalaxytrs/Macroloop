@@ -4,7 +4,7 @@ import React from 'react';
 const BreadcrumbArea = ({acive_menu = "About", title = "Our Company Histoy"}) => {
     return (
         <>
-             <div className="breadcrumb__area dark-bg pt-120 pb-120" 
+             <div className="breadcrumb__area dark-bg pt-55 pb-55" 
              style={{backgroundImage: `url(/assets/img/breadcrumb/breadcrumb-bg.png)`}}
              >
          <div className="container">

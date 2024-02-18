@@ -1,13 +1,13 @@
 import our_blog_data from '@/src/data/our-blog-data';
 import Link from 'next/link';
 import React from 'react';
-import Solutions from "../../../data/solutions.json"
+import Solutions from "../../../data/solution1.json"
 
 
 const Services = () => {
     return (
         <>
-            <div className="ptg-blog-area dark-bg pt-120 pb-90">
+            <div className="ptg-blog-area dark-bg pt- pb-90">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -42,7 +42,7 @@ const Services = () => {
                                         <i className="fal fa-long-arrow-right"></i>
                                     </span>
                                 </Link>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     )

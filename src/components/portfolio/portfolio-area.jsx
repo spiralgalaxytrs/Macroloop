@@ -4,7 +4,7 @@ import React from 'react';
 const PortfolioArea = () => {
     return (
         <>
-        <div className="tp-portfoliop-page-area pt-120 pb-120">
+        <div className="tp-portfoliop-page-area pt-50 pb-50">
          <div className="container">
             <div className="tp-portfolio-header mb-30">
                <div className="row">

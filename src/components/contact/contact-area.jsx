@@ -41,7 +41,7 @@ const { img, hi_text, title } = contact_info;
 const ContactArea = () => {
   return (
     <>
-      <div className="contact-page-area pt-120 pb-90 wow tpfadeUp dark-bg">
+      <div className="contact-page-area pt-25 pb-90 wow tpfadeUp dark-bg">
         <div className="container">
           <div className="row justify-content-around">
             <div className="col-12 col-lg-6">

@@ -526,7 +526,8 @@ xloading-bar
 .tp-da-hero-img {
     & img {
         @media #{$xs,$lg,$xl} {
-            max-width: 100%;
+            max-width: 1000px ;
+        padding-right: 100px;
         }
     }
 }

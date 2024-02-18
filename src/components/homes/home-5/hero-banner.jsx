@@ -8,7 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 const HeroBanner = () => {
   return (
     <>
-      <div className="tp-da-hero pb-80 pt-80 dark-bg">
+      <div className="tp-da-hero pb-55 pt-0 dark-bg">
         <div className="container">
           <div className="row justify-content-between">
             <div

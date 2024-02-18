@@ -676,7 +676,7 @@
         padding: 0 30px;
         opacity: 0;
         visibility: hidden;
-        color: var(--tp-common-white);
+        color: #000000;
         z-index: 2;
         @media #{$xs} {
             padding:0 15px;
@@ -691,7 +691,7 @@
     }
 
     &__title {
-        color: var(--tp-common-white);
+        color: var(--tp-common-black);
 
         @media #{$xs} {
             font-size: 22px;
