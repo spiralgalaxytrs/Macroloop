@@ -7,6 +7,21 @@
         "d1": "LoopTech brings together a team with extensive construction expertise and specialized knowledge in information technology to empower large-scale construction projects with cutting-edge end-to-end technologies. Our comprehensive solutions cover managerial and engineering feasibility, precise inventoryand vendor management, meticulous document control, quality analysis and escalations, finance andbudgeting, planning and design, and labor and staff management, ensuring a holistic approach to projectmanagement.",
         "title1":"Cutting-Edge AI-Powered Cloud Infrastructure",
         "d2":"Our AI-driven cloud infrastructure enables stakeholders to access intricate project insights from anywherein the world, delivering unparalleled operational feasibility and real-time decision-making capabilities.LoopTech offers advanced construction information technology and project management solutions that aredesigned to empower large-scale construction projects with cutting-edge end-to-end technologies. Ourcomprehensive solutions cover:",
+       "list":[
+
+       { "id":" Managerial and engineering feasibility"},
+        {"id":" Meticulous document control"},
+        {"id":" Quality analysis and escalations"},
+        {"id":" Finance and budgeting"},
+        {"id":" Planning and design"},
+        {"id":" Labor and staff management"},
+       { "id": " Asset performance management"},
+       { "id":" Project portfolio management"},
+        {"id": " Supplier relationship management"},
+    {    "id": " Finance data management"},
+      {  "id": " Construction safety and risk management"},
+       {"id": " Document management"}
+  ] ,
         "d3":"These solutions are complemented by our collaborative BIM technology, widely utilized in leadinginfrastructure companies, enabling seamless collaboration among project stakeholders and facilitatingpowerful process automation and workflows, while our BIM/ERP integrations ensure seamless data flowand enhanced project management capabilities",
         "title2":"Collaborative BIM - Building Information Modeling",
         "d4":"Our collaborative BIM technology is widely utilized in leading infrastructure companies, enabling architects to collaborate and view 3D models in a cloud-based environment. This platform supports over 50 native formats in our BIM-compliant storage, facilitating viewing, searching, and collaboration on objects in individual and federated models. By leveraging our solutions, construction businesses can benefit from complete visibility and control over their projects and processes, leading to enhanced profits, productivity, and the most up-to-date information. Our solutions also enable the taming of project chaos through a common data environment (CDE), providing a single source of truth and preventing project information from falling through the cracks. our company is committed to harnessing these advanced technologies to elevate construction project management, streamline workflows, and drive profitability within the construction industry.",
