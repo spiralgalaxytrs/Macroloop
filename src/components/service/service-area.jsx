@@ -6,13 +6,14 @@ import Link from "next/link";
 
 const PortfolioItemsArea = ({data}) => {
   
+  console.log(data.Solutions,"img")
   return (
     <>
       <div className="tp-portfoliop-page-area pt-120 pb-120 dark-bg">
         <div className="container">
 
 
-         
+          
 
 
           <motion.div layout className="row tp-portfolio-isotop-active">

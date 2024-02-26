@@ -322,7 +322,7 @@
 
     & img {
         border-radius: 10px;
-
+        max-width: 426px;   
         @media #{$lg,$md,$xs} {
             max-width: 100%;
         }
