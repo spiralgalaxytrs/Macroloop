@@ -23,7 +23,7 @@ const PortfolioItemsArea = ({data}) => {
               >
                 <div className="pf-item-wrapper p-relative">
                   <div className="pf-single-item">
-                    <img src={item.img} alt={item.title} />
+                    <img src={`/assets/img/solutions/${item.img}`} alt={item.title} />
                   </div>
                   <div className="pf-single-item__info">
                     <span>{item.st}</span>

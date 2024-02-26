@@ -1,7 +1,7 @@
 {"Solutions":[
     {
         "id": "Project-Management-Solutions",
-        "img":"assets/img/solutions/9.jpg",
+        "img":"9.jpg",
         "title":"Project Management Solutions",
         "st":"Advanced Construction Information Technology and Project Management Solutions",
         "d1": "LoopTech brings together a team with extensive construction expertise and specialized knowledge in information technology to empower large-scale construction projects with cutting-edge end-to-end technologies. Our comprehensive solutions cover managerial and engineering feasibility, precise inventoryand vendor management, meticulous document control, quality analysis and escalations, finance andbudgeting, planning and design, and labor and staff management, ensuring a holistic approach to projectmanagement.",
@@ -30,7 +30,7 @@
 
     {
         "id": "Digital-Transformation",
-        "img":"assets/img/solutions/8.jpg",
+        "img":"8.jpg",
         "title":"Digital Transformation",
         "st":""
               
@@ -40,7 +40,7 @@
     
     {
         "id": "Edu-Tech",
-        "img":"assets/img/solutions/10.jpg",
+        "img":"10.jpg",
         "title":"Edu Tech",
         "st":"At our Edu-Tech division, we are committed to providing universities with cutting-edge technologies",
         "d1": "At our Edu-Tech division, we are committed to providing universities with cutting-edge technologies that empower smart management features and offer hands-on training for students. Our focus areas include: Certainly! Here's the elaborated content for each focus area:",
@@ -68,12 +68,16 @@
         "title11":"Cisco Netacad",
         "d13":"Partnering with Cisco Netacad enables us to deliver comprehensive training in networking, cyber security, and communication technology. This collaboration equips students with in-depth knowledge and practical skills in critical areas of information technology, empowering them to pursue rewarding careers in the field of networking and cyber security.",
  
-        "d14":"Dedicated to teaching and enriching Industry 4.0 and future technologies, we are committed to preparing students for the technological advancements and challenges of tomorrow. Through our Edu-Tech division, we are dedicated to nurturing the next generation of tech-savvy professionals, providing them with the tools and knowledge to excel in their respective fields."
-    
+        "d14":"Dedicated to teaching and enriching Industry 4.0 and future technologies, we are committed to preparing students for the technological advancements and challenges of tomorrow. Through our Edu-Tech division, we are dedicated to nurturing the next generation of tech-savvy professionals, providing them with the tools and knowledge to excel in their respective fields.",
+        "list":[
+
+            { "id":" "}
+             
+       ] 
     },
     {
         "id": "Security-Systems",
-        "img":"assets/img/solutions/11.jpg",
+        "img":"11.jpg",
         "title":"Security Systems",
         "st":" In today's dynamic business landscape, safeguarding physical assets, personnel, and sensitive data isparamount.",
         "title1":"Comprehensive Security Solutions for Modern Businesses",
@@ -81,7 +85,12 @@
         "d2":"Our range of access control measures, including ID badges, keypads, security guards, and advanced technology-supported solutions such as ID card scanners and NFC ID cards, ensures that only authorized personnel have access to specific assets. Our state-of-the-art surveillance solutions, utilizing closed-circuit television (CCTV) cameras, act as a powerful deterrent and capture criminal behavior. Our solutions extend beyond traditional threats to encompass safeguarding against data breaches and unauthorized access, including preventing unauthorized photography of sensitive data and ensuring secure workspaces. By harnessing AI-powered analytics, our intrusion detection systems excel in discerning routine activities from potential security breaches with a remarkable degree of accuracy, allowing for swift identification of suspicious behavior and real-time alerts.",
         "d3":"In addition to bolstering physical security, our AI-integrated solutions seamlessly integrate with cyber security protocols, creating a cohesive and comprehensive security framework that addresses both physical and digital threats. Our AI-powered intrusion detection systems seamlessly integrate with surveillance cameras, enabling real-time analysis of video feeds and enhancing the system's ability to identify and respond to potential security breaches captured by the surveillance infrastructure.",
         "d4":"We help businesses optimize their security investment by evaluating scenarios based on their risk profile. From data discovery and classification to intrusion detection and prevention systems, we provide comprehensive solutions to protect your sensitive information.",
-        "d5":"In conclusion, physical security and AI-driven cyber security are critical components of business resilience. At LoopTech, we are committed to providing tailored physical security solutions and advanced AIintegrated systems to ensure uncompromising protection for your business. Contact us today to learn more about how our comprehensive security solutions can elevate the security posture of your organization, both physically and in cyberspace."
+        "d5":"In conclusion, physical security and AI-driven cyber security are critical components of business resilience. At LoopTech, we are committed to providing tailored physical security solutions and advanced AIintegrated systems to ensure uncompromising protection for your business. Contact us today to learn more about how our comprehensive security solutions can elevate the security posture of your organization, both physically and in cyberspace.",
+        "list":[
+
+            { "id":" "}
+             
+       ] 
     }
 
     

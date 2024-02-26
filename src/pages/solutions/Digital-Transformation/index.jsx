@@ -1,7 +1,7 @@
 import React from "react";
 import SEO from "@/src/common/seo";
-import Service from "@/src/components/service";
-import Solutions from "../../data/rk.json"
+import Service from "@/src/components/serve";
+import Solutions from "../../../data/rk.json"
 
 
 const index = () => {

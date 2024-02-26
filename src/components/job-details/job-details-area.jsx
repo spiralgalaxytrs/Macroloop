@@ -27,7 +27,7 @@ const JobDetailsArea = ({data}) => {
                     transitionSpeed={1000}
                     gyroscope={true}
                   >
-                     <img src={`/${data?.img}`} alt={data.title} />
+                     <img src={`/assets/img/solutions/${data.img}`} alt={data.title} />
 
                 </Tilt>
                   </div>

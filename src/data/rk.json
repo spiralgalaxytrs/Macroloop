@@ -2,7 +2,7 @@
     {
      
         "id": "Industry-Automation",
-      "img":"assets/img/solutions/3.jpg",
+      "img":"3.jpg",
         "title": "Industry Automation",
       "st": "We collaborate with the industry's...",
       "d1": "We collaborate with the industry's foremost Original Equipment Manufacturers (OEMs) to seamlessly incorporate the most suitable and cutting-edge technologies, enabling us to create innovative solutions in the realm of Industry 4.0. Our primary objective is to alleviate the challenges faced by our customers, providing them with valuable problem-solving capabilities. By doing so, we actively support them on their journey of digital transformation, empowering them to enhance their productivity and manageability.",
@@ -16,7 +16,7 @@
     {
      
         "id": "Smart-Campus-Solutions",
-      "img":"assets/img/solutions/4.jpg",
+      "img":"4.jpg",
         "title": "Smart Campus Solutions",
       "st": "Looptech's Smart Campus Solutions revolutionize...",
       "d1": "Looptech's Smart Campus Solutions revolutionize the way universities manage and transform their entire campus digitally. By harnessing the power of embedded systems, artificial intelligence (AI), and the Internet of Things (IoT), our Smart Campus Solutions seamlessly connect various systems and automate processes, empowering universities to thrive in the digital age.",
@@ -29,7 +29,7 @@
     {
      
         "id": "Wifi-solutions ",
-      "img":"assets/img/solutions/6.jpg",
+      "img":"6.jpg",
         "title": "Wifi Solutions",
       "st": "By partnering with the top OEMs...",
       "d1": "By partnering with the top OEMs in the industry we provide there best wi-fi solutions that provide seamless connectivity and adaptable to various other automations technologies ."
@@ -37,7 +37,7 @@
     {
      
         "id": "IoT-and-Digital-Transformation",
-      "img":"assets/img/solutions/5.jpg",
+      "img":"5.jpg",
         "title": "IoT & Digital Transformation",
       "st": "At our company, we specialize in...",
       "d1": "At our company, we specialize in providing customized IoT & digital transformation solutions tailored to your organization's unique needs. Through in-depth consulting, we carefully analyze your challenges and pain points, ensuring we understand your requirements thoroughly.",
@@ -47,7 +47,7 @@
     {
 
       "id":"Infrastructure-Solutions",
-      "img":"assets/img/solutions/12.jpg",
+      "img":"12.jpg",
       "title":"Infrastructure Solutions",
       "st":"At LoopTech, we offer a comprehensive range of IT infrastructure solutions",
       "d1":"At LoopTech, we offer a comprehensive range of IT infrastructure solutions designed to meet the evolving needs of modern businesses. Our commitment to excellence and innovation has led us topartner with leading industry players to bring you cutting-edge technology and unparalleled support. ",
