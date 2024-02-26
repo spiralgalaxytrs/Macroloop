@@ -18,7 +18,7 @@ const BreadcrumbArea = ({acive_menu = "About", title = "Our Company Histoy"}) =>
                      </div>
                      <h3 className="breadcrumb__title text-black">{title}</h3>
                   </div>
-               </div>
+               </div> 
             </div>
          </div>
       </div>
