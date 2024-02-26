@@ -12,14 +12,10 @@ export const getStaticProps = async ({params})=>{
     }
   }
 
-export const getStaticPaths = async()=>{
-  const paths = data.Solutions.map(data=>({
-    params:{ id: data.id.toString()},
-    
-  }))
-  
-  return {paths, fallback : false }
-}
+  export const getStaticPaths = () => {
+    // Remove the manual paths and return an empty array
+    return { paths: [], fallback: false };
+  };
 
 const index = ({datas}) => {
   const [data] = datas

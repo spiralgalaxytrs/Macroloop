@@ -7,7 +7,7 @@ import Tilt from "react-parallax-tilt";
 
 
 const JobDetailsArea = ({data}) => {
-    console.log(data?.list.id);
+   
     
     return (
         <>
