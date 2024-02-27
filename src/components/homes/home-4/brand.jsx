@@ -82,7 +82,7 @@ const Brand = () => {
           <div className="row">
             <div className="col-12">
               <div className="app-breand-title text-center mb-60">
-                <span>The best teams around the world can back us.</span>
+                <h1>OUR ESTEEMED CLIENTS</h1>
               </div>
               <div className="tp-bs-brand-slider ">
                 <Swiper

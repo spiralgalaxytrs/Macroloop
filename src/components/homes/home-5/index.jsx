@@ -7,6 +7,10 @@ import HeroSlider from "./hero-slider";
 import Service from "./services";
 import CtaArea from "./cta"
 import HeroBanner from "./hero-banner";
+import Brand from "./brand";
+import AboutBrand from "../home-4/brand";
+
+
 
 
 
@@ -16,8 +20,9 @@ const HomeFive = () => {
       <Header />
       <HeroSlider />
       <AboutArea />
+      <Brand /> 
+      <AboutBrand />
       <Service />
-      {/* <Brand />  */}
       <HeroBanner/>
      <CtaArea rButton="Contact Us" lbutton="Request Meeting" link="mailto:info@looptech.in?subject=Requesting a meeting to  discuss our requirement-Reg."/>
      
