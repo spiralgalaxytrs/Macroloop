@@ -2,46 +2,77 @@ import React, { useState, useEffect } from "react";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+// const brands_data = [
+//   {
+//     id: 1,
+//     img: "/assets/img/brand/app-brand-1.jpg",
+//   },
+//   {
+//     id: 2,
+//     img: "/assets/img/brand/app-brand-5.jpg",
+//   },
+//   {
+//     id: 3,
+//     img: "/assets/img/brand/app-brand-3.jpg",
+//   },
+//   {
+//     id: 4,
+//     img: "/assets/img/brand/app-brand-4.jpg",
+//   },
+//   {
+//     id: 5,
+//     img: "/assets/img/brand/app-brand-5.jpg",
+//   },
+//   {
+//     id: 6,
+//     img: "/assets/img/brand/app-brand-3.jpg",
+//   },
+//   {
+//     id: 7,
+//     img: "/assets/img/brand/app-brand-4.jpg",
+//   },
+//   {
+//     id: 8,
+//     img: "/assets/img/brand/app-brand-3.jpg",
+//   },{
+//     id: 9,
+//     img: "/assets/img/brand/app-brand-1.jpg",
+//   },
+//   {
+//     id: 10,
+//     img: "/assets/img/brand/app-brand-5.jpg",
+//   },
+// ];
+
 const brands_data = [
   {
     id: 1,
-    img: "/assets/img/brand/app-brand-1.jpg",
+    img: "/assets/img/brand/bial.png",
   },
   {
-    id: 2,
-    img: "/assets/img/brand/app-brand-5.jpg",
+    id: 1,
+    img: "/assets/img/brand/bharat.svg",
   },
   {
-    id: 3,
-    img: "/assets/img/brand/app-brand-3.jpg",
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
   },
   {
-    id: 4,
-    img: "/assets/img/brand/app-brand-4.jpg",
+    id: 1,
+    img: "/assets/img/brand/kpriet.jpg",
   },
   {
-    id: 5,
-    img: "/assets/img/brand/app-brand-5.jpg",
+    id: 1,
+    img: "/assets/img/brand/ieee.png",
   },
   {
-    id: 6,
-    img: "/assets/img/brand/app-brand-3.jpg",
+    id: 1,
+    img: "/assets/img/brand/kovaividya.png",
   },
   {
-    id: 7,
-    img: "/assets/img/brand/app-brand-4.jpg",
-  },
-  {
-    id: 8,
-    img: "/assets/img/brand/app-brand-3.jpg",
-  },{
-    id: 9,
-    img: "/assets/img/brand/app-brand-1.jpg",
-  },
-  {
-    id: 10,
-    img: "/assets/img/brand/app-brand-5.jpg",
-  },
+    id: 1,
+    img: "/assets/img/brand/govt.svg",
+  }
 ];
 
 // brands setting
