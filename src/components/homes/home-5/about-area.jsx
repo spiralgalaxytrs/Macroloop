@@ -70,7 +70,6 @@ const AboutArea = () => {
 
 
                       Empowering the Future:
-                      Revolutionizing Living With
                       Upscale Living With Technology
                       <span className="cd-words-wrapper bs-cta-wrapper">
 
