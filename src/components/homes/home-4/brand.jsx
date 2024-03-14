@@ -53,10 +53,10 @@ const brands_data = [
     id: 1,
     img: "/assets/img/brand/bharat.svg",
   },
-  // {
-  //   id: 1,
-  //   img: "/assets/img/brand/nalanda.jpg",
-  // },
+  {
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
   {
     id: 1,
     img: "/assets/img/brand/kpriet.jpg",
@@ -120,7 +120,7 @@ const Brand = () => {
                   {...setting}
                   loop={isLoop}
                   modules={[Navigation]}
-                  className="it-brand-slider-active swiper-container"
+                  className="it-brand-slider-active swiper-container d-flex align-items-center"
                 >
                   {brands_data.map((item, i) => (
                     <SwiperSlide key={i}>
