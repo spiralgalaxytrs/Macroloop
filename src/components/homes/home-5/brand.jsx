@@ -64,35 +64,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const brands_data = [
   {
     id: 1,
-    img: "/assets/img/brand/hp.svg",
+    img: "/assets/img/brand/hp_new.png",
   },
   {
     id: 1,
-    img: "/assets/img/brand/cisco.png",
+    img: "/assets/img/brand/CISCO_new.png",
   },
   {
     id: 1,
-    img: "/assets/img/brand/ibm.png",
+    img: "/assets/img/brand/IBM_new.png",
   },
   {
     id: 1,
-    img: "/assets/img/brand/ingrammicro.webp",
+    img: "/assets/img/brand/ingram_new.png",
   },
   {
     id: 1,
-    img: "/assets/img/brand/asite.png",
+    img: "/assets/img/brand/A-SITE.png",
   },
   {
     id: 1,
-    img: "/assets/img/brand/acer.png",
+    img: "/assets/img/brand/acer_new.png",
   },
   {
     id: 1,
-    img: "/assets/img/brand/lucas.png",
+    img: "/assets/img/brand/lucas_new.png",
   },
   {
     id: 1,
-    img: "/assets/img/brand/sensegiz.png",
+    img: "/assets/img/brand/sensegiz_new.png",
   }
 ];
 
@@ -104,7 +104,7 @@ const setting = {
   centeredSlides: true,
   centeredSlidesBounds: true,
   autoplay: {
-    delay: 3000,
+    delay: 2000,
   },
   breakpoints: {
     1200: {
