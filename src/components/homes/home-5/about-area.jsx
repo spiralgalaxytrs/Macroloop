@@ -21,7 +21,7 @@ const { about, title, service_title, service_1, service_2, btn } =
 const AboutArea = () => {
   return (
     <>
-      <div className="ptg-about dark-bg pt-120 pb-90 p-relative">
+      <div className="ptg-about dark-bg pt-120 pb-120 p-relative">
         <div className="container">
           <div className="row justify-content-around">
             <div className="col-xl-4 col-lg-5 ms-lg-5">
@@ -69,7 +69,7 @@ const AboutArea = () => {
                     >
 
 
-                      Empowering the Future:
+                    
                       Upscale Living With Technology
                       <span className="cd-words-wrapper bs-cta-wrapper">
 
