@@ -53,10 +53,10 @@ const brands_data = [
     id: 1,
     img: "/assets/img/brand/bharat.svg",
   },
-  {
-    id: 1,
-    img: "/assets/img/brand/nalanda.jpg",
-  },
+  // {
+  //   id: 1,
+  //   img: "/assets/img/brand/nalanda.jpg",
+  // },
   {
     id: 1,
     img: "/assets/img/brand/kpriet.jpg",
