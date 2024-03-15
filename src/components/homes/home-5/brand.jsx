@@ -104,7 +104,7 @@ const setting = {
   centeredSlides: true,
   centeredSlidesBounds: true,
   autoplay: {
-    delay: 1000,
+    delay: 3000,
   },
   breakpoints: {
     1200: {
