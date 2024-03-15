@@ -1436,6 +1436,21 @@
     }
 }
 
+.hero-logo{
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 475px) {
+    .hero-logo{
+        width: 240px;
+    }
+}
+
+
+
+
+
 .ptg-menu {
     ul {
         @media #{$xl} {
