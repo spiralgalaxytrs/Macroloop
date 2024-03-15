@@ -35,10 +35,10 @@ const footer_links = [
     col: "col-xl-2",
     id: "",
     links: [
-      { title: "Industry Automation", link: "/solutions/Industry-Automation" },
-      { title: "Smart Campus Solutions", link: "/solutions/Smart-campus-Solutions" },
-      { title: "Wifi Solutions", link: "/solutions/Wifi-solutions" },
-      { title: "IoT & Digital Transformation", link: "/solutions/IoT-and-Digital-Transformation" },
+      { title: "Project Management Solutions", link: "/solutions/Project-Management-Solutions" },
+      { title: "Digital Transformation Solutions", link: "/solutions/Digital-Transformation" },
+      { title: "Edu Tech Solutions", link: "/solutions/Edu-Tech" },
+      { title: "Security Systems Solutions", link: "/solutions/Security-Systems" },
       
     ],
   },
