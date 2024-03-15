@@ -550,22 +550,22 @@
 	}
 
 }
-
+// #044CBC
 .tp-black-btn {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: #044CBC;
-	color: var(--tp-common-white);
+	background-color: white;  
+	color: black;
 	padding: 18px 29px;
 	border-radius: 8px;
 	display: inline-block;
 	border: 2px solid #044CBC;
 
 	&:hover {
-		color: #044CBC;
+		color: white;
 		border: 2px solid #044CBC;
-		background-color: white;
+		background-color: #044CBC;
 		
 
 
