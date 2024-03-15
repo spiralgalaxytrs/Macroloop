@@ -75,15 +75,15 @@ const HeroSlider = () => {
               data-background="assets/img/slider/ptg-hero-1.jpg"
               style={{
                 backgroundImage: `url(${item.bg_img})`,
-                height: "90vh"
+                height: "70vh"
               }}
             >
               <div className="container d-flex flex-column" style={{ height: "80vh"}}>
-                <div className="row flex-grow-1">
+                <div className="row pt-120">
                   <div className="col-lg-10 col-12 align-self-end">
-                    <h1 className="text-white display-4 fw-bolder">A LoopTech Venture: <br />LooperHub - A revolution in making.</h1>
+                    <h1 className="text-white display-4 fw-bolder">A LoopTech Venture: <br />LooperHub - A revolution <br /> in making.</h1>
                   </div>
-                  <div className="col-lg-2 col-12 align-self-end">
+                  <div className="self-end pt-50">
                     <div className="ptg-about-btn-wrapper mb-30 wow tpfadeUp" data-wow-delay=".3s">
                       <Link href="/contact" className="tp-black-btn">
                         {btn}
