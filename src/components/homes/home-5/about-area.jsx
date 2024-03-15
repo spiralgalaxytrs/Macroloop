@@ -24,32 +24,26 @@ const AboutArea = () => {
       <div className="ptg-about dark-bg pt-120 pb-120 p-relative">
         <div className="container">
           <div className="row justify-content-around">
-            <div className="col-xl-4 col-lg-5 ms-lg-5">
-              <div className="ptg-about-img-wrapper p-relative wow tpfadeUp">
-                <Tilt
-                  className="tilt-img"
-                  tiltMaxAngleX={5}
-                  tiltMaxAngleY={5}
-                  perspective={900}
-                  scale={1}
-                  transitionSpeed={1000}
-                  gyroscope={true}
-                >
-                  <div
-                    className="ptg-about-img"
-                    data-tilt
-                    data-tilt-perspective="2000"
-                  >
-                    <img
-                      src="/assets/img/about/pta-about-img.jpg"
-                      alt="about"
-                    />
-                  </div>
-                </Tilt>
-                {/* <div className="pta-about-circle">
-                  <img src="/assets/img/about/ptg-ab-circle.png" alt="circe" />
-                </div> */}
-              </div>
+            <div
+              className="col-lg-5 wow tpfadeUp"
+              data-tilt=""
+              data-tilt-perspective="2000"
+              data-wow-delay=".3s"
+            >
+              <Tilt
+                className="tilt-img"
+                tiltMaxAngleX={5}
+                tiltMaxAngleY={5}
+                perspective={900}
+                transitionSpeed={1000}
+                gyroscope={true}
+              >
+
+                <div className="tp-da-hero-img text-end">
+                  <img src="/assets/img/about/pta-about-img.jpg" alt="" />
+                </div>
+
+              </Tilt>
             </div>
             <div className="col-xl-6 col-lg-5">
               <div className="ptg-about-info pt-50">
@@ -63,20 +57,29 @@ const AboutArea = () => {
                       {about}
                     </span>
 
-                    <h6
-                      className="tp-section__title tp-rgb-border text-black text-uppercase mb-30 wow tpfadeUp"
-                      data-wow-delay=".4s"
-                    >
+                    <h4
+                    className="da-hero-section__title cd-headline text-black loading-bar mb-45 wow tpfadeUp"
+                    data-wow-delay=".3s"
+                  >
+                    <span>Empowering the Future : Upscale Living with Technology
+                    </span>
+                    <span className="cd-words-wrapper text_style" >
 
-
-                    
-                      Upscale Living With Technology
-                      <span className="cd-words-wrapper bs-cta-wrapper">
-
-
-                      </span>
-
-                    </h6>
+                      {/* <TypeAnimation
+                          sequence={[
+                            'Convert.', 
+                            1000,
+                            'Branding', 
+                            3000,
+                            'Business', 
+                          ]}
+                          wrapper="div"
+                          cursor={false}
+                          repeat={Infinity}
+                          // style={{ textDecorationLine: "underline" }}
+                        />   */}
+                    </span>
+                  </h4>
                   </div>
                 </div>
                
