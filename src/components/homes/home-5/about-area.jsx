@@ -40,7 +40,7 @@ const AboutArea = () => {
               >
 
                 <div className="tp-da-hero-img text-end">
-                  <img src="/assets/img/about/pta-about-img.jpg" alt="" />
+                  <img className="about_tilt_img" src="/assets/img/about/pta-about-img.jpg" alt="" />
                 </div>
 
               </Tilt>

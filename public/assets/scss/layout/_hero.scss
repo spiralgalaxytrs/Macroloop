@@ -527,9 +527,14 @@ xloading-bar
     & img {
         @media #{$xs,$lg,$xl} {
             max-width: 1000px ;
-        padding-right: 100px;
+        padding-right: 0px;
         }
     }
+}
+
+.about_tilt_img{
+    width: 100%;
+    padding: 0px;
 }
 
 .da-about-img {
