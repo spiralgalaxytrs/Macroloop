@@ -45,7 +45,7 @@ const AboutArea = () => {
 
               </Tilt>
             </div>
-            <div className="col-xl-6 col-lg-5">
+            <div className="col-xl-6 col-lg-5 pt-30">
               <div className="ptg-about-info pt-30">
                 <div className="section-title-wraper">
                   <div className="tp-section" >
@@ -86,7 +86,7 @@ const AboutArea = () => {
               </div>
               <br />
               <div
-                className="ptg-about-btn-wrapper mb-30 wow tpfadeUp"
+                className="ptg-about-btn-wrapper wow tpfadeUp"
                 data-wow-delay=".3s"
               >
                 <Link href="/contact" className="tp-black-btn">
