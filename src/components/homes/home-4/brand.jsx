@@ -108,7 +108,7 @@ const Brand = () => {
 
   return (
     <>
-      <div className="tp-app-brand pt-120 pb-120">
+      <div className="tp-app-brand pt-50 pb-120">
         <div className="container">
           <div className="row">
             <div className="col-12">

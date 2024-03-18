@@ -10,7 +10,7 @@
     }
     &-item{
         & img {
-            opacity: .4;
+            // opacity: .4;
         }
         &.swiper-slide-active{
             & img {
@@ -73,7 +73,7 @@
 }
 
 .tp-it-brand-item {
-    opacity: .5;
+    // opacity: .5;
     @include transition(.3s);
     &:hover{
         opacity: 1;
