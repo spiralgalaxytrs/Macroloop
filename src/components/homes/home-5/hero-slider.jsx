@@ -71,14 +71,14 @@ const HeroSlider = () => {
           {slider_content.map((item, i) => (
             <SwiperSlide
               key={i}
-              className="ptg-slider-item d-flex align-items-center p-relative"
+              className="ptg-slider-item slider_height d-flex align-items-center p-relative"
               data-background="assets/img/slider/ptg-hero-1.jpg"
               style={{
                 backgroundImage: `url(${item.bg_img})`,
-                height: "70vh"
+                // height: "70vh"
               }}
             >
-              <div className="container d-flex flex-column" style={{ height: "80vh"}}>
+              <div className="container d-flex flex-column slider_content" >
                 <div className="row pt-120">
                   <div className="col-lg-10 col-12 align-self-end">
                     <h1 className="text-white display-4 fw-bolder">A LoopTech Venture: <br />LooperHub - A revolution <br /> in making.</h1>

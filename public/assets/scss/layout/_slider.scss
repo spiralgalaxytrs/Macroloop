@@ -410,3 +410,20 @@
 .tp-mp-slider-item {
     width: 600px;
 }
+
+
+.ptg-slider-item{
+    height: 70vh;
+
+    @media #{$xs} {
+		height: 50vh;
+	}
+}
+
+.slider_content{
+    height: 80vh;
+
+    @media #{$xs} {
+		height: 56vh;
+	}
+}
