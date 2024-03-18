@@ -531,6 +531,13 @@ xloading-bar
         }
     }
 }
+.about_da{
+    & img {
+        @media #{$xs,$lg,$xl} {
+            width: 100%;
+        }
+    }
+}
 
 .about_tilt_img{
     width: 100%;

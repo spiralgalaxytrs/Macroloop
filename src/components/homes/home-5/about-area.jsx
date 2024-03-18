@@ -39,7 +39,7 @@ const AboutArea = () => {
                 gyroscope={true}
               >
 
-                <div className="tp-da-hero-img text-end">
+                <div className="text-end">
                   <img className="about_tilt_img" src="/assets/img/about/pta-about-img.jpg" alt="" />
                 </div>
 

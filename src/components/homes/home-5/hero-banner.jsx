@@ -26,7 +26,7 @@ const HeroBanner = () => {
                 gyroscope={true}
               >
 
-                <div className="tp-da-hero-img text-end">
+                <div className="about_da text-end">
                   <img src="/assets/img/hero/da-hero-img.jpg" alt="" />
                 </div>
 
