@@ -30,12 +30,9 @@ const Preloader = () => {
         position: absolute;
         top: 0;
         left: 0;
-        border: 8px solid #f3f3f3; /* Light gray border */
-        border-top: 8px solid #1c428a; /* Blue border */
         border-radius: 50%;
         width: 100%;
         height: 100%;
-        animation: spin 1s linear infinite; /* CSS animation for spinning */
       }
       
       .loaderImage {

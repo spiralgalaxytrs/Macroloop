@@ -1,5 +1,6 @@
+import { delay } from "framer-motion";
 import React, { useState, useEffect } from "react";
-import { Navigation } from "swiper";
+import { Navigation, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // const brands_data = [
@@ -47,15 +48,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const brands_data = [
   {
     id: 1,
-    img: "/assets/img/brand/bial.png",
-  },
-  {
-    id: 1,
     img: "/assets/img/brand/bharat.svg",
   },
   {
     id: 1,
-    img: "/assets/img/brand/nalanda.jpg",
+    img: "/assets/img/brand/BIAL(CLIENT).png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/govt.svg",
   },
   {
     id: 1,
@@ -71,14 +72,182 @@ const brands_data = [
   },
   {
     id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/bharat.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/BIAL(CLIENT).png",
+  },
+  {
+    id: 1,
     img: "/assets/img/brand/govt.svg",
-  }
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kpriet.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ieee.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kovaividya.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/bharat.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/BIAL(CLIENT).png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/govt.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kpriet.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ieee.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kovaividya.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/bharat.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/BIAL(CLIENT).png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/govt.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kpriet.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ieee.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kovaividya.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/bharat.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/BIAL(CLIENT).png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/govt.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kpriet.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ieee.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kovaividya.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/bharat.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/BIAL(CLIENT).png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/govt.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kpriet.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ieee.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kovaividya.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/bharat.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/BIAL(CLIENT).png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/govt.svg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kpriet.jpg",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ieee.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/kovaividya.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/nalanda.jpg",
+  },
 ];
 
 // brands setting
 const setting = {
   slidesPerView: 5,
-  spaceBetween: 30,
+  spaceBetween: 100,
   breakpoints: {
     1200: {
       slidesPerView: 5,
@@ -115,11 +284,15 @@ const Brand = () => {
               <div className="app-breand-title text-center mb-60">
                 <h1>OUR ESTEEMED CLIENTS</h1>
               </div>
-              <div className="tp-bs-brand-slider ">
+              <div className="tp-bs-brand-slider pt-20">
                 <Swiper
+                  autoplay={{
+                  delay: 2000,
+                  disableOnInteraction: false
+                  }}
                   {...setting}
-                  loop={isLoop}
-                  modules={[Navigation]}
+                  // loop={isLoop}
+                  modules={[Autoplay, Navigation]}
                   className="it-brand-slider-active swiper-container d-flex align-items-center"
                 >
                   {brands_data.map((item, i) => (

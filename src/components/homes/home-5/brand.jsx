@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from "swiper";
+import { Navigation , Autoplay} from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // brands_data
@@ -64,11 +64,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const brands_data = [
   {
     id: 1,
+    img: "/assets/img/brand/IBM_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ingram_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/A-SITE.png",
+  },
+  {
+    id: 1,
     img: "/assets/img/brand/hp_new.png",
   },
   {
     id: 1,
     img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/acer_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/lucas_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/sensegiz_new.png",
   },
   {
     id: 1,
@@ -84,6 +108,14 @@ const brands_data = [
   },
   {
     id: 1,
+    img: "/assets/img/brand/hp_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
     img: "/assets/img/brand/acer_new.png",
   },
   {
@@ -93,19 +125,208 @@ const brands_data = [
   {
     id: 1,
     img: "/assets/img/brand/sensegiz_new.png",
-  }
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/IBM_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ingram_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/A-SITE.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/hp_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/acer_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/lucas_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/sensegiz_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/IBM_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ingram_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/A-SITE.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/hp_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/acer_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/lucas_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/sensegiz_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/IBM_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ingram_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/A-SITE.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/hp_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/acer_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/lucas_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/sensegiz_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/IBM_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ingram_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/A-SITE.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/hp_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/acer_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/lucas_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/sensegiz_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/IBM_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ingram_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/A-SITE.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/hp_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/acer_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/lucas_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/sensegiz_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/IBM_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/ingram_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/A-SITE.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/hp_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/CISCO_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/acer_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/lucas_new.png",
+  },
+  {
+    id: 1,
+    img: "/assets/img/brand/sensegiz_new.png",
+  },
 ];
 
 
 // brand setting
 const setting = {
   slidesPerView: 5,
-  spaceBetween: 30,
+  spaceBetween: 80,
   centeredSlides: true,
   centeredSlidesBounds: true,
-  autoplay: {
-    delay: 3000,
-  },
   breakpoints: {
     1200: {
       slidesPerView: 5,
@@ -161,8 +382,12 @@ const Brand = ({ style_8 }) => {
                 <div className="tp-bs-brand-slider d-flex align-items-center justify-content-center">
                   <Swiper
                     {...setting}
-                    loop={isLoop}
-                    modules={[Navigation]}
+                    // loop={isLoop}
+                    autoplay={{
+                      delay: 2000,
+                      disableOnInteraction: false
+                      }}
+                    modules={[Autoplay, Navigation]}
                     className="brand-slider-active swiper-container"
                   >
                     {brands_data.map((item, i) => (
