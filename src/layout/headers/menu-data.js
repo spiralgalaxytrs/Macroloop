@@ -17,6 +17,23 @@ const menu_data = [
     id: 3,
     mega_menu: false,
     has_dropdown: false,
+    sub_menus : [{
+      title : "CONSTRUCTION TECHNICAL",
+      link : "/solutions/Project-Management-Solutions"
+    },
+    {
+      title: "DIGITAL TRANSFORMATION SOLUTIONS",
+      link : "/solutions/Digital-Transformation"
+    },
+    {
+      title : "EDU-TECH",
+      link : "/solutions/Edu-Tech"
+    },
+    {
+      title : "SECURITY SYSTEMS",
+      link : ":/solutions/Security-Systems"
+    }
+  ],
     title: "Our Solutions",
     link: "/solutions",
     
@@ -26,16 +43,16 @@ const menu_data = [
     id: 4,
     mega_menu: false,
     has_dropdown: false,
-    title: "LCG",
-    link: "/lcg",
+    title: "LooperHub",
+    link: "/LooperHub",
    
   },
   {
     id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "LooperHub",
-    link: "/LooperHub",
+    title: "LCG",
+    link: "/lcg",
    
   },
  

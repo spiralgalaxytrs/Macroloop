@@ -408,7 +408,7 @@
                 top: 120%;
                 left: 0;
                 min-width: 200px;
-                background-color: var(--tp-common-black);
+                background-color: white;
                 z-index: 99;
                 @include transition(.3s);
                 visibility: hidden;
@@ -1512,7 +1512,7 @@
                 top: 120%;
                 left: 0;
                 min-width: 220px;
-                background: var(--tp-common-black);
+                background: white;
                 z-index: 99;
                 @include transition(.3s);
                 visibility: hidden;
@@ -1545,7 +1545,7 @@
                         width: 100%;
                         display: block;
                         font-size: 14px;
-                        color: var(--tp-common-white);
+                        color: var(--tp-common-black);
                         padding: 5px 20px;
                         font-weight: 500;
                         text-transform: capitalize;
@@ -1589,10 +1589,13 @@
                 }
             }
 
+
             &:hover {
+                border-bottom: 3px solid #044CBC;
                 &>a {
                     background-image: #044CBC;
                     color: #044CBC;
+                    
                    
 
                     &::after {
