@@ -287,7 +287,7 @@ const Brand = () => {
               <div className="tp-bs-brand-slider pt-20">
                 <Swiper
                   autoplay={{
-                  delay: 2000,
+                  delay: 4000,
                   disableOnInteraction: false
                   }}
                   {...setting}
