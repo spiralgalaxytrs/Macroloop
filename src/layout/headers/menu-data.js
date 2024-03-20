@@ -19,7 +19,7 @@ const menu_data = [
     has_dropdown: false,
     sub_menus : [{
       title : "CONSTRUCTION TECHNICAL",
-      link : "/solutions/Project-Management-Solutions"
+      link : "/solutions/Construction-Technical"
     },
     {
       title: "DIGITAL TRANSFORMATION SOLUTIONS",
