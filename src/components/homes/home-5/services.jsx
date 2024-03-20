@@ -16,7 +16,7 @@ const Services = () => {
                                 {/* <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span> */}
                                 <h2
                                     className="tp-section__title text-non-rgb tp-rgb-border text-black text-uppercase mb-65 wow tpfadeUp" data-wow-delay=".4s">
-                                    our   Solutions
+                                    Our Solutions
                                 </h2>
                             </div>
                         </div>
@@ -25,9 +25,9 @@ const Services = () => {
                 <div className="row">
 
                 {Solutions.Solutions.map((item, i) => 
-                    <div key={i} className="col-xl-3 col-lg-6">
+                    <div key={i} className="col-xl-4 col-lg-6">
 		
-                        <div className="ptg-blog__item mb-30 wow tpfadeUp" data-wow-delay={item.delay} >
+                        <div className="ptg-blog__item mb-30 wow tpfadeUp shadow p-3 rounded-2 h-100 mb-0" data-wow-delay={item.delay} >
                             <div className="ptg-blog__item-thumb w-img" >
                                 <img src={`/assets/img/solutions/${item.img}`} height={190} alt="" />
                             </div>
@@ -48,7 +48,7 @@ const Services = () => {
                     )
                 }
                 </div>
-                <div className="job-btn-wrapper text-center">
+                {/* <div className="job-btn-wrapper text-center">
                      <Link href="/solutions" className="tp-black-btn wow tpfadeUp">
                         See More
                         <span>
@@ -56,7 +56,7 @@ const Services = () => {
                            <i className="fal fa-long-arrow-right"></i>
                         </span>
                      </Link>
-                  </div>
+                  </div> */}
             </div>
         </div>
         </>
