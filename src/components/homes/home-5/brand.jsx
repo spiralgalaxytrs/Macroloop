@@ -365,7 +365,6 @@ const Brand = ({ style_8 }) => {
             <div className="col-12">
               <div className="section-title-wraper text-center">
                 <div className="tp-section">
-
                   <h2
                     className="tp-section__title text-non-rgb tp-rgb-border text-dark text-uppercase  wow tpfadeUp" data-wow-delay=".4s">
                     our PARTNERS

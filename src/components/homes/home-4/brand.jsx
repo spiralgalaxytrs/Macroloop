@@ -64,7 +64,7 @@ const brands_data = [
   },
   {
     id: 1,
-    img: "/assets/img/brand/ieee.png",
+    img: "/assets/img/brand/IEEE-Logo.jpg",
   },
   {
     id: 1,
@@ -92,7 +92,7 @@ const brands_data = [
   },
   {
     id: 1,
-    img: "/assets/img/brand/ieee.png",
+    img: "/assets/img/brand/IEEE-Logo.jpg",
   },
   {
     id: 1,
@@ -120,7 +120,7 @@ const brands_data = [
   },
   {
     id: 1,
-    img: "/assets/img/brand/ieee.png",
+    img: "/assets/img/brand/IEEE-Logo.jpg",
   },
   {
     id: 1,
@@ -148,7 +148,7 @@ const brands_data = [
   },
   {
     id: 1,
-    img: "/assets/img/brand/ieee.png",
+    img: "/assets/img/brand/IEEE-Logo.jpg",
   },
   {
     id: 1,
@@ -176,7 +176,7 @@ const brands_data = [
   },
   {
     id: 1,
-    img: "/assets/img/brand/ieee.png",
+    img: "/assets/img/brand/IEEE-Logo.jpg",
   },
   {
     id: 1,
@@ -204,7 +204,7 @@ const brands_data = [
   },
   {
     id: 1,
-    img: "/assets/img/brand/ieee.png",
+    img: "/assets/img/brand/IEEE-Logo.jpg",
   },
   {
     id: 1,
@@ -232,7 +232,7 @@ const brands_data = [
   },
   {
     id: 1,
-    img: "/assets/img/brand/ieee.png",
+    img: "/assets/img/brand/IEEE-Logo.jpg",
   },
   {
     id: 1,
@@ -282,7 +282,7 @@ const Brand = () => {
           <div className="row">
             <div className="col-12">
               <div className="app-breand-title text-center mb-60">
-                <h1>OUR ESTEEMED CLIENTS</h1>
+                <h2 className="tp-section__title text-non-rgb tp-rgb-border text-dark text-uppercase  wow tpfadeUp" data-wow-delay=".4s">OUR ESTEEMED CLIENTS</h2>
               </div>
               <div className="tp-bs-brand-slider pt-20">
                 <Swiper
