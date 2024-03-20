@@ -7,8 +7,7 @@ const Preloader = () => {
   return (
     <div className='preloaderContainer'>
       <div className='loader fadeOut'>
-        <div className='border'></div>
-        <img src="assets/img/logo/preloader.png" alt="Loading" className='loaderImage' />
+        <img src="/assets/img/logo/preloader.png" alt="Loading" className='loaderImage' />
       </div>
       <style jsx>{
         `
