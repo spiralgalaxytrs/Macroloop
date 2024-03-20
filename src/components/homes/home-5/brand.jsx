@@ -323,6 +323,7 @@ const brands_data = [
 
 // brand setting
 const setting = {
+  speed: 1500,
   slidesPerView: 5,
   spaceBetween: 80,
   centeredSlides: true,
@@ -383,7 +384,7 @@ const Brand = ({ style_8 }) => {
                     {...setting}
                     // loop={isLoop}
                     autoplay={{
-                      delay: 4000,
+                      delay: 3000,
                       disableOnInteraction: false
                       }}
                     modules={[Autoplay, Navigation]}

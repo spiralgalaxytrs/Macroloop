@@ -246,6 +246,7 @@ const brands_data = [
 
 // brands setting
 const setting = {
+  speed: 1500,
   slidesPerView: 5,
   spaceBetween: 100,
   breakpoints: {
@@ -287,7 +288,7 @@ const Brand = () => {
               <div className="tp-bs-brand-slider pt-20">
                 <Swiper
                   autoplay={{
-                  delay: 4000,
+                  delay: 3000,
                   disableOnInteraction: false
                   }}
                   {...setting}
