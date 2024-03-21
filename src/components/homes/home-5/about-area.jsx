@@ -45,7 +45,7 @@ const AboutArea = () => {
 
               </Tilt>
             </div>
-            <div className="col-xl-6 col-lg-5 pt-30">
+            <div className="col-xl-6 col-lg-5 home_about">
               <div className="ptg-about-info pt-30">
                 <div className="section-title-wraper">
                   <div className="tp-section" >

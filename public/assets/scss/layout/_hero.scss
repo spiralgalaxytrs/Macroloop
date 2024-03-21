@@ -533,7 +533,8 @@ xloading-bar
 }
 .about_da{
     & img {
-        @media #{$xs,$lg,$xl} {
+        
+        @media #{$xs} {
             width: 100%;
         }
     }
@@ -1116,4 +1117,20 @@ xloading-bar
     border-image: linear-gradient(100.16deg, #5a6ef8 9.94%, #a874c6 54.82%, #fe7a8f 95.56%);
     border-image-slice: 1;
     width:100%;
+  }
+
+
+  .home_about{
+    @media #{$xs}{
+        padding-top: 30px;
+    }
+  }
+
+  .hero_banner{
+    @media #{$xs}{
+        padding-top : 30px
+    }
+    @media #{$md}{
+        margin-left: 40px ;
+    }
   }
