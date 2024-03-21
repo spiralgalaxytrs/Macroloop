@@ -16,7 +16,7 @@ const menu_data = [
   {
     id: 3,
     mega_menu: false,
-    has_dropdown: false,
+    has_dropdown: true,
     sub_menus : [{
       title : "CONSTRUCTION TECHNICAL",
       link : "/solutions/Construction-Technical"
