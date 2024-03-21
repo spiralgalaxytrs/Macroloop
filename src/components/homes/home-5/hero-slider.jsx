@@ -10,16 +10,16 @@ const slider_content = [
     bg_img: "/assets/img/slider/BlogBanner.jpg",
     title: "Industry Automation",
   },
-  // {
-  //   id: 2,
-  //   bg_img: "/assets/img/solutions/4.jpg",
-  //   title: "Smart campus solutions",
-  // },
-  // {
-  //   id: 3,
-  //   bg_img: "assets/img/solutions/5.jpg",
-  //   title: "IoT & Digital Transformation",
-  // },
+  {
+    id: 2,
+    bg_img: "/assets/img/solutions/10.jpg",
+    title: "Smart campus solutions",
+  },
+  {
+    id: 3,
+    bg_img: "assets/img/solutions/11.jpg",
+    title: "IoT & Digital Transformation",
+  },
   // {
   //   id: 4,
   //   bg_img: "assets/img/slider/ptg-hero-4.jpg",
