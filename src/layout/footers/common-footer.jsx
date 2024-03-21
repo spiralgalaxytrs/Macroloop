@@ -35,7 +35,7 @@ const footer_links = [
     col: "col-xl-2",
     id: "",
     links: [
-      { title: "Contruction Technical", link: "/solutions/Project-Management-Solutions" },
+      { title: "Contruction Technical", link: "/solutions/Construction-Technical" },
       { title: "Digital Transformation Solutions", link: "/solutions/Digital-Transformation" },
       { title: "Edu Tech Solutions", link: "/solutions/Edu-Tech" },
       { title: "Security Systems", link: "/solutions/Security-Systems" },
