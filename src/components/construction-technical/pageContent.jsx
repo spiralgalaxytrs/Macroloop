@@ -18,7 +18,7 @@ const ContentArea = () => {
             <div className="row">
               <div className="col-12">
                 <div className="pf-details-page-banner p-relative">
-                  <div className="pf-details-banner-img1 w-img">
+                  <div className="pf-details-banner-img1 w-img w-imgggg">
                     <Link href="/contact">
                     <img src="/assets/img/solutions/construction.gif" alt="" />
                     </Link>
@@ -60,7 +60,7 @@ const ContentArea = () => {
         <div className="tp-pf-detials-main dark-bg pt-60">
           <div className="container wow tpfadeUp">
             <h2>Advanced Construction Information Technology and Project Management Solutions</h2>
-            <p className="pt-40">
+            <p className="pt-20">
             LoopTech brings together a team with extensive construction expertise and specialized knowledge in
             information technology to empower large-scale construction projects with cutting-edge end-to-end
             technologies. Our comprehensive solutions cover managerial and engineering feasibility, precise inventory
@@ -70,7 +70,7 @@ const ContentArea = () => {
             </p>
 
             <h2>Cutting-Edge AI-Powered Cloud Infrastructure</h2>
-            <p>
+            <p className="pt-20">
             Our AI-driven cloud infrastructure enables stakeholders to access intricate project insights from anywhere
             in the world, delivering unparalleled operational feasibility and real-time decision-making capabilities. LoopTech offers advanced construction information technology and project management solutions that are
             designed to empower large-scale construction projects with cutting-edge end-to-end technologies. Our

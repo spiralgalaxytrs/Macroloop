@@ -21,7 +21,7 @@ const ContentArea = () => {
             <div className="row">
               <div className="col-12">
                 <div className="pf-details-page-banner p-relative">
-                  <div className="pf-details-banner-img1 w-img">
+                  <div className="pf-details-banner-img1 w-img w-imgggg">
                     <Link href="/contact">
                     <img src="/assets/img/solutions/DigT.gif" alt="" />
                     </Link>
@@ -60,10 +60,10 @@ const ContentArea = () => {
           </div>
         </div>
   
-        <div className="tp-pf-detials-main dark-bg pt-60">
+        <div className="tp-pf-detials-main dark-bg">
           <div className="container wow tpfadeUp">
             <h2>Robotic Process Automation Bots</h2>
-            <p className="pt-40">
+            <p className="pt-20">
             Robotic Process Automation bots have the same digital skill sets as people—and then some. Think of RPA
             bots as a Digital Workforce that can interact with any system or application. For example, bots are able to
             copy-paste, scrape web data, make calculations, open and move files, parse emails, log into programs, connect to APIs, and extract unstructured data. And because bots can adapt to any interface or workflow, there’s no need to change business systems, applications, or existing processes in order to automate. RPA bots are easy to set up, use, and share. If you know how to record video on your phone, you’ll be able
@@ -78,8 +78,9 @@ const ContentArea = () => {
             <span>Powered By</span>
           </div>
           <div className="pt-20 pb-100">
-          <img className="solutions_sponsor_img2" src="/assets/img/brand/cisco.png" alt="" />
-          <img className="solutions_sponsor_img2" src="/assets/img/brand/ibm.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/cisco.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/ibm.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/Auto.jpg" alt="" />
           </div>
           </div>
   
