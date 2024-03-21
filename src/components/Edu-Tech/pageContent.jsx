@@ -128,7 +128,7 @@ const ContentArea = () => {
                     <h3 className="pf-dt-process-item__title  mb-10">
                       <a href="#">{item.title}</a>{" "}
                     </h3>
-                    <p className="pt-10">{item.desctiption}</p>
+                    <p className="pt-10 text-justify">{item.desctiption}</p>
                   </div>
                 </div>
               ))}
