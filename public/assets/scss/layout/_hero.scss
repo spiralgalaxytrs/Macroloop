@@ -533,10 +533,17 @@ xloading-bar
 }
 .about_da{
     & img {
-        
         @media #{$xs} {
             width: 100%;
         }
+    }
+}
+
+.hero_img img{
+    width: 600px;
+
+    @media #{$xs}{
+        width:100%
     }
 }
 

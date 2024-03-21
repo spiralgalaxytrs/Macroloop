@@ -26,13 +26,13 @@ const HeroBanner = () => {
                 gyroscope={true}
               >
 
-                <div className="about_da text-end">
+                <div className="hero_img text-end">
                   <img src="/assets/img/hero/da-hero-img.jpg" alt="" />
                 </div>
 
               </Tilt>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 col-md-5">
               <div className="da-hero-section hero_banner">
                 <span className="da-hero-section__subtitle dark-bg mb-15 d-inline-block wow tpfadeUp">
                   <b style={{ color: "#044CBC" }}> LCG </b>
