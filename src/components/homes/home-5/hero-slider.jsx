@@ -40,7 +40,7 @@ const HeroSlider = () => {
   }, []);
 
   const hero_content = {
-    btn: "Read More",
+    btn: "Contact",
     // email: "info@webmail.com",
     // phone: "222 090 000 01",
   };
