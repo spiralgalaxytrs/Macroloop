@@ -31,7 +31,7 @@ const menu_data = [
     },
     {
       title : "SECURITY SYSTEMS",
-      link : ":/solutions/Security-Systems"
+      link : "/solutions/Security-Systems"
     }
   ],
     title: "Our Solutions",
