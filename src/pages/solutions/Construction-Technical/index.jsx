@@ -1,14 +1,13 @@
 import React from "react";
 import SEO from "@/src/common/seo";
-import Service from "@/src/components/serve";
-import Solutions from "../../../data/rk.json"
+import Construction_index from "@/src/components/construction-technical";
 
 
 const index = () => {
   return (
     <>
       <SEO pageTitle={"SOLUTIONS - MacroLoop Technologies "} />
-      <Service data={Solutions} />
+      < Construction_index />
     </>
   );
 };
