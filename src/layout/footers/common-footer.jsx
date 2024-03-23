@@ -23,8 +23,9 @@ const footer_links = [
     col: "col-xl-2",
     id: "",
     links: [
-      { title: "Privacy Policy", link: "/solutions/Industry-Automation" },
-      { title: "Terms and conditions", link: "/solutions/Smart-campus-Solutions" },
+      { title: "Privacy Policy", link: "/privacy-policy" },
+      { title: "Terms and conditions", link: "/terms" },
+      { title: "Data Protection Policy", link : "/dataProtection"},
      
       
     ],
@@ -39,6 +40,7 @@ const footer_links = [
       { title: "Digital Transformation Solutions", link: "/solutions/Digital-Transformation" },
       { title: "Edu Tech Solutions", link: "/solutions/Edu-Tech" },
       { title: "Security Systems", link: "/solutions/Security-Systems" },
+      { title: "IT Infrastructure Solutions", link: "/solutions/Infrastructure" },
       
     ],
   },

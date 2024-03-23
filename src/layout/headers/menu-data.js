@@ -32,7 +32,11 @@ const menu_data = [
     {
       title : "SECURITY SYSTEMS",
       link : "/solutions/Security-Systems"
-    }
+    },
+    {
+      title : "IT INFRASTRUCTURE SOLUTIONS",
+      link : "/solutions/Infrastructure"
+    },
   ],
     title: "Our Solutions",
     link: "/solutions",
