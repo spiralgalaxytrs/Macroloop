@@ -140,7 +140,7 @@ const ContentArea = () => {
           <h2>Support and Managed Services</h2>
 
           <p className="pt-20">
-            e understand the importance of reliable support and proactive
+            We understand the importance of reliable support and proactive
             management of your IT infrastructure. Our support and managed
             services are tailored to ensure the optimal performance and
             availability of your systems. Access expert technical support and
@@ -150,7 +150,7 @@ const ContentArea = () => {
             objectives while we ensure the integrity and performance of your
             systems. Benefit from our IT consulting services to gain strategic
             insights and recommendations for optimizing your IT infrastructure
-            and aligning it with your
+            and aligning it with your business goals.
           </p>
 
           <p className="pt-20">
