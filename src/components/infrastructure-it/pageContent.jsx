@@ -18,7 +18,7 @@ const ContentArea = () => {
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img w-imgggg">
                   <Link href="/contact">
-                    <img src="/assets/img/solutions/DigT.gif" alt="" />
+                    <img src="/assets/img/solutions/IT-infrastructure.gif" alt="" />
                   </Link>
                 </div>
                 {/* <div className="pf-details-banner__info">
@@ -55,7 +55,7 @@ const ContentArea = () => {
         </div>
       </div>
 
-      <div className="tp-pf-detials-main dark-bg">
+      <div className="tp-pf-detials-main dark-bg pt-50">
         <div className="container wow tpfadeUp">
           <h2>Comprehensive IT Infrastructure Solutions</h2>
           <p className="pt-20">
