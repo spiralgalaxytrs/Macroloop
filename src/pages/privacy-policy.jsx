@@ -7,8 +7,6 @@ const index = () => {
     <>
       <SEO pageTitle={"MacroLoop Technologies  - Privacy Policy"} />
       <PrivacyPolicy />
-
-      
     </>
   );
 };

@@ -1,146 +1,144 @@
-import React from 'react';
+import React from "react";
 
-const terms_conditions_content = {
-    updated: <>November 21, 2022</>,
-    des: <>This Terms of Service (the “Terms”) describes the rights and responsibilities
-            that apply to your use of Dribbble’s websites, services, and mobile app (collectively, the
-            “Service”), each owned and operated by MacroLoop Technologies  Holdings Ltd. (“MacroLoop Technologies ”, “we”, “our” or
-            “us”).<br />
-            Please read the Terms carefully before using the Service. If you don’t agree to the Terms, as
-            well as Dribbble’s Privacy Policy (the “Privacy Policy”) and MacroLoop Technologies ’s
-            Community Guidelines (the “Community Guidelines”), you may not use the Service. If you are
-            entering into the Terms on behalf of a company or other legal entity,
-            you represent that you have the authority to bind such entity to the Terms. If you do not
-            have such authority, you must not accept the Terms or use the Service on
-            behalf of such entity. The Service is only available to you if you have entered the age of
-            majority in your jurisdiction of residence and are fully able and competent to
-            enter into, abide by and comply with the Terms.</>,
-
-    terms_list : [
-        {
-            id: "01",
-            text: <>Your MacroLoop Technologies  Account. If you create an account on the Service (your “Account”), you are
-                responsible for maintaining the security of your Account and its
-                Content (as defined below), and you are fully responsible for all activities that occur
-                under
-                your Account and any other actions taken on the Service. You
-                must not describe or assign Content to your Account in a misleading or unlawful manner,
-                including in a manner intended to trade on the name/ reputation
-                of others, and MacroLoop Technologies  may change or remove any description or keyword that it considers
-                inappropriate or unlawful, or otherwise likely to cause MacroLoop Technologies 
-                liability. You must immediately notify MacroLoop Technologies  of any unauthorized uses of your Account or
-                any
-                other breaches of security. MacroLoop Technologies  will not be liable for
-                any acts or omissions by you, including any damages of any kind incurred as a result of
-                such
-                acts or omissions.</>,
-        },
-        {
-            id: "02",
-            text: <>Fees and Renewals. Pricing for Paid Accounts will be provided at the time of purchase.
-                    Unless otherwise set out at the time of purchase or as agreed to
-                    by MacroLoop Technologies , fees for a Paid Account will be billed in advance for each year and are
-                    non-refundable. There will be no refunds or credits for partial months of
-                    service or for periods in which your Paid Account remains open but you do not use the
-                    Service. <br />
-                    <br />
-                    We reserve the right to modify our billing rates at any time upon thirty (30) days written
-                    notice by posting such fee changes to the Service or through email
-                    notification to you. You will be liable to pay such modified billing rates. <br />
-                    Subject to your payment of applicable fees for a Paid Account, we will provide the Service
-                    to you for the period of time that you have paid for such Service
-                    (the “Subscription Period”). At the end of the Subscription Period, your Paid Account
-                    subscription will automatically renew for an additional Subscription
-                    Period until it is expressly cancelled by you as described in the “Termination” section
-                    below. <br /></>,
-        },
-        {
-            id: "03",
-            text: <>Fees and Renewals. Pricing for Paid Accounts will be provided at the time of purchase.
-                    Unless otherwise set out at the time of purchase or as agreed to
-                    by MacroLoop Technologies , fees for a Paid Account will be billed in advance for each year and are
-                    non-refundable. There will be no refunds or credits for partial months of
-                    service or for periods in which your Paid Account remains open but you do not use the
-                    Service. <br />
-                    <br />
-                    We reserve the right to modify our billing rates at any time upon thirty (30) days written
-                    notice by posting such fee changes to the Service or through email
-                    notification to you. You will be liable to pay such modified billing rates. <br />
-                    Subject to your payment of applicable fees for a Paid Account, we will provide the Service
-                    to you for the period of time that you have paid for such Service
-                    (the “Subscription Period”). At the end of the Subscription Period, your Paid Account
-                    subscription will automatically renew for an additional Subscription
-                    Period until it is expressly cancelled by you as described in the “Termination” section
-                    below. <br /></>,
-
-        sb_list: [
-            <>Service providers such as Stripe and Paypal who will utilize your credit card and
-            other payment information in accordance with their respective privacy policies.</>,
-            <>Dribbble’s registered API application providers, including Chrome tab extensions
-            Panda
-            and Muz.li which deliver relevant design stories and inspiration. We
-            invite you to review their applicable data protection policies.</>,
-            <>Dribbble’s related, subsidiary, and affiliate companies.</>
-
-]
-
-
-        },
-    ],
-
-   
-
-}
-const {updated, des, terms_list }  = terms_conditions_content
 
 const TermsArea = () => {
-    return (
-        <>
-            <div className="tp-job-details pt-120 pb-60">
-         <div className="container">
-            <div className="tp-privacy-policy-box ">
-               <div className="tp-inner-page-hero mb-60 pb-20 tp-border-bottom">
-                  <span><b>Updated:</b>{updated}</span>
-               </div>
-
-               <div className="row justify-content-center wow tpfadeUp">
-                  <div className="col-lg-12">
-                     <div className="tp-inner-pt-section">
-                        <p className="mb-30"> {des} </p> 
-                     </div>
-                  </div>
-               </div>
-               <div className="tp-inner-pt-section">
-
-                {terms_list.map((item, i)  => 
-                    <div key={i} className="trem-box wow tpfadeUp mb-40">
-                     <div className="row">
-                        <div className="col-lg-1">
-                           <div className="trems-step">
-                              <span>{item.id}</span>
-                           </div>
-                        </div>
-                        <div className="col-lg-11">
-                           <p>{item.text}</p>
-
-                           {
-                            item.sb_list && <div className="tp-inner-pg-list mb-50">
-                            <ul>
-                                { item.sb_list.map((list, i)  => <li key={i}>{list} </li>)} 
-                            </ul>
-                         </div>
-                           }
-                        </div>
-                     </div>
-                  </div>
-                    )
-                }
-               </div>
+  return (
+    <>
+      <div className="tp-job-details pb-60">
+        <div className="container">
+          <div className="tp-privacy-policy-box ">
+            <div className="tp-inner-page-hero mb-60 pb-20 tp-border-bottom">
+              <span>
+                <b>Effective Date: </b>
+              </span>
             </div>
-         </div>
+
+            <div className="row justify-content-center wow tpfadeUp">
+              <div className="col-lg-12">
+                <div className="tp-inner-pt-section">
+                  <p className="mb-50">
+                    Welcome to Looper Hub, a social media platform dedicated to
+                    fostering technology networking and collaboration. Before
+                    you start exploring and connecting on Looper Hub, please
+                    carefully read and agree to the following User Terms and
+                    Conditions. By accessing or using Looper Hub, you agree to
+                    be bound by these terms.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="tp-inner-pt-section">
+              <h3 className="mb-30">1. Acceptance of Terms</h3>
+
+              <p className="mb-50">
+                By using Looper Hub, you acknowledge that you have read,
+                understood, and agree to comply with these User Terms and
+                Conditions, as well as our Privacy Policy and any other policies
+                or guidelines mentioned herein.
+              </p>
+
+              <h3 className="mb-30">2. Eligibility</h3>
+
+              <p className="mb-50">
+                You must be at least 13 years old to use Looper Hub. If you are
+                under 18, you confirm that you have obtained parental consent to
+                use the platform.
+              </p>
+
+              <h3 className="mb-30">3. Account Registration</h3>
+
+              <p className="mb-50">
+                To fully access Looper Hub, you must create an account. You
+                agree to provide accurate, current, and complete information
+                during the registration process and to update such information
+                to keep it accurate, current, and complete.
+              </p>
+
+              <h3 className="mb-30">4. User Conduct</h3>
+
+              <p className="mb-30">
+                You are responsible for all activities conducted through your
+                account. When using Looper Hub, you agree not to:
+              </p>
+              <div className="col-lg-11">
+                <div className="tp-inner-pg-list mb-50">
+                  <ul>
+                    <li>Violate any laws or regulations.</li>
+                    <li>
+                      Post or share content that is illegal, harmful,
+                      threatening, abusive, harassing, defamatory, or otherwise
+                      objectionable.
+                    </li>
+                    <li>
+                      Engage in any form of bullying, discrimination, or hate
+                      speech.
+                    </li>
+                    <li>
+                      Infringe upon the intellectual property rights of others.
+                    </li>
+                    <li>
+                      Attempt to gain unauthorized access to other users'
+                      accounts or information.
+                    </li>
+                    <li>
+                      Use Looper Hub for commercial purposes without our express
+                      written consent.
+                    </li>
+                    <li>
+                      Engage in any activity that may disrupt or interfere with
+                      the proper functioning of Looper Hub.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 className="mb-30">5. Content Ownership and Rights</h3>
+
+              <p className="mb-50">
+                You retain ownership of the content you post on Looper Hub.
+                However, by posting content, you grant Looper Hub a worldwide,
+                non-exclusive, royalty-free license to use, reproduce, modify,
+                adapt, publish, translate, distribute, and display such content
+                for the purpose of operating and improving Looper Hub.
+              </p>
+
+              <h3 className="mb-30">6. Privacy</h3>
+
+              <p className="mb-50">
+              Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and
+               disclose your personal information.
+              </p>
+
+              <h3 className="mb-30">7. Termination</h3>
+
+              <p className="mb-50">
+              We reserve the right to suspend or terminate your account at our discretion, without prior notice, if we
+               believe you have violated these User Terms and Conditions or engaged in any conduct that is harmful to
+               other users or to Looper Hub.
+              </p>
+
+              <h3 className="mb-30">8. Changes to Terms</h3>
+
+              <p className="mb-50">
+               We may update these User Terms and Conditions from time to time. We will notify you of any material
+               changes, and your continued use of Looper Hub after such changes will constitute your acceptance of the
+               updated terms.
+              </p>
+
+              <h3 className="mb-30">9. Contact Information</h3>
+
+              <p className="mb-50">
+               If you have any questions or concerns about these User Terms and Conditions, please contact us at
+               <span className="text-primary"><a href="mailto:info@looptech.in."> info@looptech.in.</a></span>
+              </p>
+
+              <p className="mb-30">Thank you for being a part of Looper Hub!</p>
+            </div>
+          </div>
+        </div>
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default TermsArea;
