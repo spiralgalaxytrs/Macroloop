@@ -40,7 +40,7 @@ const HeroSlider = () => {
   }, []);
 
   const hero_content = {
-    btn: "Contact",
+    btn: "Read More",
     // email: "info@webmail.com",
     // phone: "222 090 000 01",
   };
@@ -83,7 +83,7 @@ const HeroSlider = () => {
                   <div className="col-lg-10 col-12 align-self-end">
                     <h1 className="text-white display-4 fw-bolder">A LoopTech Venture: <br />LooperHub - A revolution <br /> in making.</h1>
                   </div>
-                  <div className="self-end pt-10">
+                  <div className="self-end pt-10 readMore">
                     <div className="ptg-about-btn-wrapper mb-30 wow tpfadeUp" data-wow-delay=".3s">
                       <Link href="/contact" className="tp-black-btn">
                         {btn}
