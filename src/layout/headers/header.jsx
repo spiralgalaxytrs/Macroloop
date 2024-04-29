@@ -16,7 +16,7 @@ const Header = () => {
     useEffect(() => {
         const fetchData = async () => {
             // Simulate a delay
-            await new Promise(resolve => setTimeout(resolve, 2000));
+            await new Promise(resolve => setTimeout(resolve, 1000));
             setLoading(false);
         };
 
