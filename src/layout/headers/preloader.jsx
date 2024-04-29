@@ -39,7 +39,7 @@ const Preloader = () => {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 80%; /* Adjust the size of the image */
+        width: 100%; /* Adjust the size of the image */
         height: auto; /* Maintain aspect ratio */
         animation: fadeInOut 1.5s ease-in-out infinite; /* CSS animation for fading in and out */
       }
