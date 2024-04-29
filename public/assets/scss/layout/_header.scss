@@ -385,7 +385,7 @@
                     position: relative;
 
                     &::after {
-                        content: '\f067';
+                        // content: '\f067';
                         @include transform(translateY(1px));
                         font-size: 16px;
                         color: #044CBC;
@@ -475,7 +475,7 @@
                         &>a {
                             color: #044CBC;
                             background-color: rgba(150, 144, 162, .06);
-                            padding-left: 40px;
+                            // padding-left: 40px;
 
                             &::after {
                                 color: #044CBC;
@@ -483,7 +483,7 @@
                             }
 
                             &::before {
-                                opacity: 1;
+                                // opacity: 1;
                                 left: 20px;
 
                             }
@@ -617,7 +617,7 @@
                 &.has-dropdown {
                     &>a {
                         &::after {
-                            content: "\f068";
+                            // content: "\f068";
                         }
                     }
                 }
@@ -1599,14 +1599,14 @@
                    
 
                     &::after {
-                        color: #044CBC;
+                        // color: #044CBC;
                     }
                 }
 
                 &.has-dropdown {
                     &>a {
                         &::after {
-                            content: "\f068";
+                            // content: "\f068";
                         }
                     }
                 }
