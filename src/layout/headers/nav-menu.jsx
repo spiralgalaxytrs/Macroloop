@@ -14,6 +14,7 @@ const NavMenu = () => {
             }`}
             
           >
+            {/* header.scss- 388,478,486,620,1602,1609 */}
             <Link href={item.link}>{item.title}</Link>
             {item.sub_menus && (
               <ul className="submenu">
