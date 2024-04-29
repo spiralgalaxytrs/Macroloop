@@ -1620,3 +1620,12 @@
 .border-radious-none {
 	border-radius: 0;
 }
+
+.readMore{
+	margin-left: 1150px;
+	padding-top: 80px;
+	@media #{$xs}{
+		margin-left: 0px;
+		padding-top: 10px;
+	}
+}
