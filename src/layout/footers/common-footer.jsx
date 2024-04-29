@@ -85,7 +85,7 @@ const { copy_right_info } = footer_content;
 export const FooterCopyRight = ({style_3, style_7, style_9}) => {
   return (
     <>    
-      <div className={`tp-footer__bottom pt-25 pb-25 ${style_3 ? "da-ft-copyright-bg" : ""} ${style_7 ? "law-footer__bottom red-bg"  :''} ${style_9 ? "ha-footer-copyright" : ""}`}>  
+      <div className={`tp-footer__bottom pt-15 pb-15 ${style_3 ? "da-ft-copyright-bg" : ""} ${style_7 ? "law-footer__bottom red-bg"  :''} ${style_9 ? "ha-footer-copyright" : ""}`}>  
         <div className="row align-items-center">
           <div className="col-md-8 col-12">
             <div className={`tp-copyrigh-text text-black ${style_3 ? "" : "text-center text-md-start"}`}>
