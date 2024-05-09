@@ -133,7 +133,7 @@ const PortfolioDetailsArea = () => {
               {img_gallery_working_process.map((item, i) => (
                 <div key={i} className="col-lg-4 wow tpfadeUp">
                   <div
-                    className="pf-details-img-gl w-img mb-30 "
+                    className="pf-details-img-gl w-img mb-30 zoomInEffect"
                     data-tilt
                     data-tilt-perspective="2000"
                   >
@@ -156,7 +156,7 @@ const PortfolioDetailsArea = () => {
          If you are eager to take your innovation or startup to new heights, we invite you to join LCG today. By becoming a member, you gain entry into a thriving community, access to invaluable mentorship, and a world of possibilities to collaborate, learn, and grow.
          </p>
         </div>
-         <div className="container d-flex justify-content-center" >
+         <div className="container d-flex justify-content-center mb-30">
          <div
                 className="da-header-gey-btn d-inline-block wow tpfadeUp"
                 data-wow-delay=".5s"

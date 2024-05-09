@@ -29,14 +29,14 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
           </div>
           <div className="row">
             <div className="bs-cta-btns text-center">
-              <Link href="/contact" className="tp-black-btn mr-30 wow tpfadeRight">
+              {/* <Link href="/contact" className="tp-black-btn mr-30 wow tpfadeRight">
                 {rButton}
                 <span>
                   <i className="fal fa-long-arrow-right"></i>
                   <i className="fal fa-long-arrow-right"></i>
                 </span>
                 <b></b>
-              </Link>
+              </Link> */}
               <a
                 href="mailto:info@looptech.in?subject=Requesting a meeting to  discuss our requirement-Reg."
                 className="tp-black-btn wow tpfadeLeft"

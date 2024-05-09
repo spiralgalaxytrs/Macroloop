@@ -26,7 +26,7 @@ const Header = () => {
     return (
         <>
             {/* Conditionally render the Preloader based on the loading state */}
-            {loading ? <Preloader /> : null}
+            {/* {loading ? <Preloader /> : null} */}
 
             <header>
                 <div id="header-sticky" className={`tp-ptg-header dark-header black-bg p-relative ${sticky ? "header-sticky" : ""}`}>
