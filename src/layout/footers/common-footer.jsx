@@ -6,7 +6,7 @@ const footer_links = [
   {
     id: 1,
     title: "Quick Links",
-    col: "col-xl-2",
+    col: "col-lg-2",
     id: "",
     links: [
       { title: "About", link: "/about" },
@@ -20,7 +20,7 @@ const footer_links = [
   {
     id: 2,
     title: "Our Policies",
-    col: "col-xl-2",
+    col: "col-lg-2",
     id: "",
     links: [
       { title: "Privacy Policy", link: "/privacy-policy" },
@@ -33,7 +33,7 @@ const footer_links = [
   {
     id: 3,
     title: "Solutions",
-    col: "col-xl-2",
+    col: "col-lg-3",
     id: "",
     links: [
       { title: "Construction Technical", link: "/solutions/Construction-Technical" },
@@ -50,7 +50,7 @@ const CommonFooter = () => {
   return (
     <>
       {footer_links.map((item, i) => (
-        <div key={i} className={`${item.col} col-md-6`}>
+        <div key={i} className={`${item.col} col-md-6 text-center`}>
           <div className="tp-footer__widget  mb-40">
             <h3 className="tp-footer__widget-title  mb-35" style={{color:"#044CBC"}}>{item.title}</h3>
             <ul id={item.id}>

@@ -18,7 +18,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     sub_menus : [{
-      title : "CONSTRUCTION IT SOLUTIONS",
+      title : "CONSTRUCTION TECHNOLOGY SOLUTIONS",
       link : "/solutions/Construction-Technical"
     },
     {
