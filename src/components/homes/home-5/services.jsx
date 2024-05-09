@@ -22,12 +22,12 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row justify-content-center">
 
                 {Solutions.Solutions.map((item, i) => 
-                    <div key={i} className="col-xl-4 col-lg-6">
+                    <div key={i} className="col-xl-4 col-lg-6 mb-4">
 		
-                        <div className="ptg-blog__item mb-30 wow tpfadeUp shadow p-3 rounded-2 h-100 mb-0" data-wow-delay={item.delay} >
+                        <div className="ptg-blog__item mb-30 wow tpfadeUp shadow p-3 rounded-2 h-100 mb-0 hover-card" data-wow-delay={item.delay} >
                             <div className="ptg-blog__item-thumb w-img" >
                                 <img src={`/assets/img/solutions/${item.img}`} height={190} alt="" />
                             </div>
@@ -36,12 +36,14 @@ const Services = () => {
                                     <span><a href="#"><b className="ptg-blog-cta">{item.category}</b></a></span>
                                     {/* <span><a href="#"> / <b> {item.month} {item.date}</b></a> </span> */}
                                 </div>
-                                <h3 className="ptg-blog__item-title text-black"><Link href={`/solutions/${item.id}`}>{item.title}</Link></h3>
-                                <Link href={`/solutions/${item.id}`} className="ptg-blog-btn text- text-blue">Read More
+                                <h3 className="ptg-blog__item-title text-black"><Link href={`/solutions/${item.id}`} className='title'>{item.title}</Link></h3>
+                                <div className="d-flex flex-row-reverse">
+                                <Link href={`/solutions/${item.id}`} className="ptg-blog-btn">Read More
                                     <span className="pl-10">
                                         <i className="fal fa-long-arrow-right"></i>
                                     </span>
                                 </Link>
+                                </div>
                             </div> 
                         </div>
                     </div>

@@ -8,27 +8,33 @@ const slider_content = [
   {
     id: 1,
     bg_img: "/assets/img/slider/BlogBanner.jpg",
-    title: "Industry Automation",
+    url: "/contact",
   },
   {
     id: 2,
-    bg_img: "/assets/img/solutions/10.jpg",
-    title: "Smart campus solutions",
+    bg_img: "/assets/img/solutions/9.jpg",
+    url: "/solutions/Construction-Technical",
   },
   {
     id: 3,
-    bg_img: "assets/img/solutions/11.jpg",
-    title: "IoT & Digital Transformation",
+    bg_img: "assets/img/solutions/8.jpg",
+    url: "/solutions/Digital-Transformation",
   },
-  // {
-  //   id: 4,
-  //   bg_img: "assets/img/slider/ptg-hero-4.jpg",
-  //   title: "Wifi solutions",
-  // }, {
-  //   id: 5,
-  //   bg_img: "assets/img/slider/ptg-hero-5.jpg",
-  //   title: "AI-enabled software consultancy",
-  // },
+  {
+    id: 4,
+    bg_img: "/assets/img/solutions/10.jpg",
+    url: "/solutions/Edu-Tech",
+  },
+  {
+    id: 5,
+    bg_img: "assets/img/solutions/11.jpg",
+    url: "/solutions/Security-Systems",
+  },
+  {
+    id: 5,
+    bg_img: "assets/img/solutions/13.jpg",
+    url: "/solutions/Infrastructure",
+  }
 ];
 
 
@@ -83,9 +89,9 @@ const HeroSlider = () => {
                   <div className="col-lg-10 col-12 align-self-end">
                     <h1 className="text-white display-4 fw-bolder">A LoopTech Venture: <br />LooperHub - A revolution <br /> in making.</h1>
                   </div>
-                  <div className="self-end pt-10 readMore">
+                  <div className="self-end pt-10 readMore d-flex flex-row-reverse">
                     <div className="ptg-about-btn-wrapper mb-30 wow tpfadeUp" data-wow-delay=".3s">
-                      <Link href="/contact" className="tp-black-btn">
+                      <Link href={item?.url} className="tp-black-btn">
                         {btn}
                         <span className="ml-10">
                           <i className="fal fa-long-arrow-right"></i>
@@ -97,22 +103,6 @@ const HeroSlider = () => {
                 </div>
               </div>
 
-
-
-              {/* <div className="ptg-slider-social">
-                <b>Connect Here:</b>
-                <span>  <a href="#"> <i className="fab fa-facebook-f"></i> </a> </span>
-                <span> <a href="#"> <i className="fab fa-twitter"></i> </a> </span>
-                <span> <a href="#"> <i className="fab fa-behance"></i> </a> </span>
-                <span> <a href="#"> <i className="fab fa-youtube"></i> </a> </span>
-              </div> */}
-              {/* <div className="ptg-contact-slider-info">
-                <span>
-                  <a href={`mailto:${email}`}></a>{email}</span>
-                <span className="ptg-spt"> - </span>
-                <span>
-                  <a href={`te:${phone}`}></a>{phone}</span>
-              </div> */}
             </SwiperSlide>
           ))}
         </Swiper>

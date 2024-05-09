@@ -4,6 +4,20 @@
 /*  22. BLOG CSS
 /*----------------------------------------*/
 
+.hover-card .ptg-blog-btn{
+    color: #0059ff !important;
+}
+
+.hover-card:hover{
+  background-color: #044CBD !important;
+  & .title {
+    color: white !important;
+  }
+  & .ptg-blog-btn {
+    color: white !important;
+  }
+}
+
 .it-blog {
     &__thumb {
         position: relative;
@@ -384,7 +398,7 @@
 
         &::after {
             position: absolute;
-            content: '';
+            // content: '';
             left: -2px;
             right: -2px;
             top: -2px;

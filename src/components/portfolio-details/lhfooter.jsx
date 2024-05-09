@@ -127,7 +127,7 @@ collaboration, and innovation.
             <div className="row">
               {working_process_data.map((item, i) => (
                 <div key={i} className="col-lg-4 col-xl-3">
-                  <div className="pf-dt-process-item  wow tpfadeUp text-center mb-60">
+                  <div className="pf-dt-process-item  wow tpfadeUp text-center mb-60 zoomInEffect">
                         <Image src={item.img} width={250} height={250} alt="pure" />   
                     <h3 className="pf-dt-process-item__title text-white mb-10"style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                       <a href="#">{item.title}</a>{" "}
