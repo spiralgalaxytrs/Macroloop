@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import MobileMenus from './mobile-menus';
-import { SocialLinksHomeTwo } from '@/src/common/social-links';
+import SocialLinks, { SocialLinksHomeTwo } from '@/src/common/social-links';
 
 
 
@@ -22,7 +22,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                     <Link href="/"><img src="/assets/img/logo/logo1.png" width={250} alt="sticky-logo" /></Link>
                 </div>
                 <div className="tp-offcanvas__social">
-                    <SocialLinksHomeTwo />
+                    <SocialLinks />
                 </div>
             </div>
             <div className="tp-offcanvas__widget mb-40 d-none d-xl-block">
