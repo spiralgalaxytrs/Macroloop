@@ -3,8 +3,8 @@ import React from 'react';
 
 
 const about_content = {
-    img_1: "/assets/img/about/law--aout-1.jpg",
-    img_2: "/assets/img/about/law-about-2.jpg",
+    img_1: "/assets/img/about/about1.jpeg",
+    img_2: "/assets/img/about/about2.jpeg",
     img_3: "/assets/img/about/law-icon.png",
     img_4: "/assets/img/about/it-ab-avata.png",
 
@@ -46,14 +46,12 @@ const AboutArea = ({style_about}) => {
                                         <img className='shadow rounded' src="assets/img/about/keeppushing.jpg" alt="about-image" style={{width: "93%", height: "200px"}} />
                                     </div>
                                     <div className="law-about-img-1">
-                                    
-                                        <img src={img_1} alt="" />
-                                    
+                                        <img src={img_1} alt="" style={{width: "100%"}}/>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="law-about-img-2">
-                                        <img src={img_2} alt="" />
+                                        <img src={img_2} alt=""  style={{width: "100%"}}/>
                                     </div>
                                 </div>
                             </div>

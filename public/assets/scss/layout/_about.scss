@@ -4,6 +4,12 @@
 /*  06. ABOUT CSS
 /*----------------------------------------*/
 
+.text-gradient {
+    background: -webkit-linear-gradient(#1f47a4, #3a71e8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
 .tp-bs-about-info {
     @media #{$md,$xs} {
         margin-left: 0;

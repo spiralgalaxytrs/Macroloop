@@ -30,20 +30,20 @@ const footer_links = [
       
     ],
   },
-  {
-    id: 3,
-    title: "Solutions",
-    col: "col-lg-3",
-    id: "",
-    links: [
-      { title: "Construction Technical", link: "/solutions/Construction-Technical" },
-      { title: "Digital Transformation Solutions", link: "/solutions/Digital-Transformation" },
-      { title: "Edu Tech Solutions", link: "/solutions/Edu-Tech" },
-      { title: "Security Systems", link: "/solutions/Security-Systems" },
-      { title: "IT Infrastructure Solutions", link: "/solutions/Infrastructure" },
+  // {
+  //   id: 3,
+  //   title: "Solutions",
+  //   col: "col-lg-3",
+  //   id: "",
+  //   links: [
+  //     { title: "Construction Technical", link: "/solutions/Construction-Technical" },
+  //     { title: "Digital Transformation Solutions", link: "/solutions/Digital-Transformation" },
+  //     { title: "Edu Tech Solutions", link: "/solutions/Edu-Tech" },
+  //     { title: "Security Systems", link: "/solutions/Security-Systems" },
+  //     { title: "IT Infrastructure Solutions", link: "/solutions/Infrastructure" },
       
-    ],
-  },
+  //   ],
+  // },
 ];
 
 const CommonFooter = () => {
@@ -77,7 +77,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright By <a > MacroLoop Technologies </a>& Designed by <a href="https://thereciprocalsolutions.com/" className="text-black"> The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Copyright By <a className="text-black"> MacroLoop Technologies </a>& Designed by <a href="https://thereciprocalsolutions.com/" className="text-black"> The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;
