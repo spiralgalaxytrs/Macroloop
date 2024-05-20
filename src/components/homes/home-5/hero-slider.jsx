@@ -8,31 +8,31 @@ const slider_content = [
   {
     id: 1,
     bg_img: "/assets/img/slider/BlogBanner.jpg",
-    url: "/contact",
+    url: "/LooperHub",
   },
   {
     id: 2,
-    bg_img: "/assets/img/solutions/9.jpg",
+    bg_img: "/assets/img/solutions/construction.gif",
     url: "/solutions/Construction-Technical",
   },
   {
     id: 3,
-    bg_img: "assets/img/solutions/8.jpg",
+    bg_img: "/assets/img/solutions/DigT.gif",
     url: "/solutions/Digital-Transformation",
   },
   {
     id: 4,
-    bg_img: "/assets/img/solutions/10.jpg",
+    bg_img: "/assets/img/solutions/ed.gif",
     url: "/solutions/Edu-Tech",
   },
   {
     id: 5,
-    bg_img: "assets/img/solutions/11.jpg",
+    bg_img: "/assets/img/solutions/system-solutions.gif",
     url: "/solutions/Security-Systems",
   },
   {
-    id: 5,
-    bg_img: "assets/img/solutions/13.jpg",
+    id: 6,
+    bg_img: "/assets/img/solutions/IT-infrastructure.gif",
     url: "/solutions/Infrastructure",
   }
 ];
@@ -53,7 +53,7 @@ const HeroSlider = () => {
   const { btn, email, phone } = hero_content;
   return (
     <>
-      <div className="tp-ptg-slider p-relative">
+      <div className="tp-ptg-slider p-relative bg-black">
         <Swiper
           slidesPerView={1}
           loop={true}

@@ -13,8 +13,6 @@ const Contact = () => {
       <Header />
       <BreadcrumbArea acive_menu="Contact" title="Get In Touch" />
       <ContactArea />
-     
-      <ItCtaArea/>
       <Footer />
     </>
   );
