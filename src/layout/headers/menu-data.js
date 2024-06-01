@@ -18,11 +18,11 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     sub_menus : [{
-      title : "CONSTRUCTION TECHNOLOGY SOLUTIONS",
+      title : "CONSTRUCTION TECHNOLOGY",
       link : "/solutions/Construction-Technical"
     },
     {
-      title: "DIGITAL TRANSFORMATION SOLUTIONS",
+      title: "DIGITAL TRANSFORMATION",
       link : "/solutions/Digital-Transformation"
     },
     {
@@ -30,14 +30,14 @@ const menu_data = [
       link : "/solutions/Edu-Tech"
     },
     {
-      title : "SECURITY SYSTEMS SOLUTIONS",
+      title : "SECURITY SYSTEMS",
       link : "/solutions/Security-Systems"
     },
     {
-      title : "IT INFRASTRUCTURE SOLUTIONS",
+      title : "IT INFRASTRUCTURE",
       link : "/solutions/Infrastructure"
     },
-  ],
+    ],
     title: "Our Solutions",
     link: "/solutions",
     
@@ -49,7 +49,6 @@ const menu_data = [
     has_dropdown: false,
     title: "LooperHub",
     link: "/LooperHub",
-   
   },
   {
     id: 5,
@@ -59,7 +58,6 @@ const menu_data = [
     link: "/lcg",
    
   },
- 
   {
     id: 6,
     mega_menu: false,
