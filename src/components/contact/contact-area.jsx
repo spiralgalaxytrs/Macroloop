@@ -45,7 +45,7 @@ const ContactArea = () => {
         <div className="container">
           <div className="row justify-content-around">
             <div className="col-12 col-lg-6">
-              <div className="contact-img-1 pb-100 w-img">
+              <div className="contact-img-1 pb-10 w-img">
                 <img src={img} alt="" />
               </div>
             </div>
