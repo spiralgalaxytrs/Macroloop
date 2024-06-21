@@ -220,7 +220,7 @@
             padding-left: 45px;
             padding-right: 10px;
             border-radius: 8px;
-            border: 2px solid var(--tp-border-8);
+            border: 2px solid var(--tp-border-10);
             background-color: transparent;
 
             @include tp-placeholder {
@@ -256,7 +256,7 @@
         width: 100%;
         height: 200px;
         resize: none;
-        border: 2px solid var(--tp-border-8);
+        border: 2px solid var(--tp-border-10);
         border-radius: 8px;
         background-color: transparent;
 
