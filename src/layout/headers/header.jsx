@@ -39,7 +39,7 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-9 d-none d-xl-block">
-                                    <div className="main-menu ptg-menu">  
+                                    <div className="main-menu da-menu">  
                                         <nav id="mobile-menu">
                                             <NavMenu />
                                         </nav>

@@ -377,7 +377,7 @@
                 font-weight: 700;
                 color: var(--tp-common-black);
                 padding: 43px 0;
-                text-transform: uppercase;
+                text-transform: capitalize;
             }
 
             &.has-dropdown {

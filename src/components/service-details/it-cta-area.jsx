@@ -38,7 +38,7 @@ const ItCtaArea = ({ location }) => {
                   </div>
                   <div className="col-md-6" >
                      <h4 className='text-center mb-3 text-gradient'>Quick Enquiry</h4>
-                     <div className="it-cta-form about-cta-form wow tpfadeUp rounded px-4 py-5" style={{ backgroundImage: "linear-gradient(#2d56b3, #79a3ff)" }}>
+                     <div className="it-cta-form about-cta-form wow tpfadeUp rounded px-4 py-5">
                         <CallToActionForm />
                      </div>
                   </div>

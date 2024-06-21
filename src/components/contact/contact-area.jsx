@@ -59,7 +59,7 @@ const ContactArea = () => {
             </div>
           </div>
           <ItCtaArea location={contact_data} />
-          <div className="container">
+          {/* <div className="container">
             <div className="row gap-4 gap-lg-0">
               {contact_data.map((item, i) => (
                 <div key={i} className="col-lg-4">
@@ -75,7 +75,7 @@ const ContactArea = () => {
 
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
