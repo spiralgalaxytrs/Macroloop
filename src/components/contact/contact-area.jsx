@@ -33,7 +33,7 @@ const contact_info = {
   img: "/assets/img/cta/contact-page-1.jpg",
   hi_text: "Say Hello",
   title: <> <br />Empowering the Future:
-    Revolutionizing Living with LoopTech</>,
+    Upscale Living with LoopTech</>,
 };
 
 const { img, hi_text, title } = contact_info;
