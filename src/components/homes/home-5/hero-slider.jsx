@@ -16,7 +16,7 @@ const slider_content = [
     id: 2,
     bg_img: "/assets/img/solutions/construction.gif",
     url: "/solutions/Construction-Technical",
-    title: <>IT Infrastructure Solutions :</>,
+    title: <>IT Infrastructure Solutions:</>,
     sub_title:<>Empowering Your Future with Resilient IT Foundations</>
   },
   {
