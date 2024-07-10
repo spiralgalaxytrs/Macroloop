@@ -101,9 +101,14 @@ const HeroSlider = () => {
                   <div className="col-lg-10 col-12 align-self-end">
                   <h4 className="text-white display-5" style={{ fontWeight: 700 }}>{item?.title}</h4>
                   <h6 className="text-white display-5" style={{ fontWeight: 500 }}>{item?.sub_title}</h6> 
-
+              
                   </div>
-                  <div className="self-end pt-10 readMore d-flex flex-row-reverse">
+                  <div className="self-end pt-10 readMore d-flex flex-row-reverse" style={{
+  position: "absolute",
+  bottom: "20px", // Adjust as necessary
+  right: "20px"
+}}>
+
                     <div className="ptg-about-btn-wrapper mb-30 wow tpfadeUp" data-wow-delay=".3s">
                       <Link href={item?.url} className="tp-black-btn">
                         {btn}
