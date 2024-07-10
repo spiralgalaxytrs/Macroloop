@@ -136,7 +136,7 @@ const ContentArea = () => {
             <span>Powered By</span>
           </div>
           <div className="pt-20 pb-100">
-          <img className="solutions_sponsor_img" src="/assets/img/brand/asite.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/asite.png" alt="" />
           </div>
           </div>
   

@@ -104,10 +104,10 @@ const ContentArea = () => {
             <span>Powered By</span>
           </div>
           <div className="pt-20 pb-100">
-          <img className="solutions_sponsor_img2" src="/assets/img/brand/cisco.png" alt="" />
-          <img className="solutions_sponsor_img2" src="/assets/img/brand/ibm.png" alt="" />
-          <img className="solutions_sponsor_img2" src="/assets/img/brand/sensegiz_new.png" alt="" />
-          <img className="solutions_sponsor_img2" src="/assets/img/brand/genetecweb.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/cisco.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/ibm.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/sensegiz_new.png" alt="" />
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/genetecweb.png" alt="" />
           </div>
           </div>
   
