@@ -18,7 +18,7 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline text-black loading-bar mb-55 wow tpfadeUp">
                   <div style={{color:"#000000"}}> 
-                      Start your technology journey better <br /> with LoopTech's<br />
+                      Start your technology journey better <br /> with LoopTech's  <br />
                       Razor-Edged Solutions
                   </div>
                   </h3>

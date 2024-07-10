@@ -4342,7 +4342,7 @@ input[type=color] {
 .main-menu ul li a {
   display: inline-block;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--tp-common-black);
   padding: 43px 0;
   text-transform: uppercase;

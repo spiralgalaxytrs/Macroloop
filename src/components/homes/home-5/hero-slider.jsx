@@ -105,8 +105,8 @@ const HeroSlider = () => {
                   </div>
                   <div className="self-end pt-10 readMore d-flex flex-row-reverse" style={{
   position: "absolute",
-  bottom: "20px", // Adjust as necessary
-  right: "20px"
+  bottom: "90px", 
+  right: "20px",
 }}>
 
                     <div className="ptg-about-btn-wrapper mb-30 wow tpfadeUp" data-wow-delay=".3s">
