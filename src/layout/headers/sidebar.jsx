@@ -19,7 +19,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                     <span><i className="fal fa-times"></i></span>
                 </div>
                 <div className="tp-offcanvas__logo mb-50">
-                    <Link href="/"><img src="/assets/img/logo/logo1.png" width={250} alt="sticky-logo" /></Link>
+                    <Link href="/"><img src="/assets/img/logo/logo.jpg" width={250} alt="sticky-logo" /></Link>
                 </div>
                 <div className="tp-offcanvas__social">
                     <SocialLinks />
