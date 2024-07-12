@@ -1060,6 +1060,7 @@
 
 .da-menu {
     text-align: center;
+    font-weight: 900;
 
     ul {
         @media #{$xl} {
@@ -1071,6 +1072,7 @@
             list-style: none;
             display: inline-block;
             margin-right: 48px;
+            
 
             @media only screen and (min-width: 1711px) and (max-width: 1850px) {
                 margin-right: 35px;
@@ -1095,6 +1097,7 @@
             & a {
                 color: var(--tp-common-black);
                 padding: 38px 0;
+                font-weight: 900;
 
                 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
                     font-size: 14px;
@@ -1160,6 +1163,7 @@
                         text-transform: capitalize;
                         letter-spacing: 0;
                         text-align: left;
+                        font-weight: 900;
                     }
 
                     & .submenu {
@@ -1220,13 +1224,6 @@
                     }
                 }
 
-                &.has-dropdown {
-                    &>a {
-                        &::after {
-                            content: "\f068";
-                        }
-                    }
-                }
 
                 &>.submenu {
                     top: 100%;

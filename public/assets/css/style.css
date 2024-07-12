@@ -4978,6 +4978,7 @@ input[type=color] {
 
 .da-menu {
   text-align: center;
+  font-weight: 900;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .da-menu ul {
@@ -5018,6 +5019,7 @@ input[type=color] {
 .da-menu ul li a {
   color: var(--tp-common-black);
   padding: 38px 0;
+  font-weight: 900;
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
   .da-menu ul li a {
@@ -5133,9 +5135,9 @@ input[type=color] {
 .da-menu ul li:hover > a::after {
   color: #044CBC;
 }
-.da-menu ul li:hover.has-dropdown > a::after {
+/* .da-menu ul li:hover.has-dropdown > a::after {
   content: "\f068";
-}
+} */
 .da-menu ul li:hover > .submenu {
   top: 100%;
   visibility: visible;
