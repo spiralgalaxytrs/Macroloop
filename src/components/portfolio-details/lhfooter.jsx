@@ -72,6 +72,8 @@ const working_process_data = [
 
 const PortfolioDetailsArea = () => {
 
+  const [hover,setHover] = React.useState(-1)
+
   return (
     <>
     
@@ -127,12 +129,21 @@ collaboration, and innovation.
             <div className="row row-cols-5 justify-content-evenly">
               {working_process_data.map((item, i) => (
                 <div key={i} className="col" style={{width:'400px'}}>
-                  <div className="pf-dt-process-item  wow tpfadeUp mb-60 zoomInEffect border rounded shadow d-flex flex-column gap-2 justify-content-between align-items-center" style={{padding:'40px',maxHeight: '650px'}}>
-                    <Image src={item.img} width={250} height={250} alt="pure" className="border" />   
+                  <div 
+                    onMouseEnter={()=>{
+                      setHover(i);
+                    }}
+                    onMouseLeave={()=>{
+                      setHover(-1);
+                    }}
+                    className={`pf-dt-process-item wow tpfadeUp mb-60 zoomInEffect rounded ${ hover==i ? 'shadow-lg' : 'shadow' } d-flex flex-column gap-2 justify-content-start align-items-center`}
+                    style={{padding:'40px',height: '650px'}}
+                  >
+                    <Image src={item.img} width={250} height={250} alt="pure" />   
                     <h3 className="pf-dt-process-item__title mt-20 mb-10"style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                       <a href="#">{item.title}</a>{" "}
                     </h3>
-                    <p className="text-justify mt-5" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>{item.desctiption}</p>
+                    <p className="text-justify mt-5" style={{fontFamily:"Metropolis",letterSpacing:"0.7px",lineHeight: '30px' }}>{item.desctiption}</p>
                   </div>
                 </div>
               ))}
