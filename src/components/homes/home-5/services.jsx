@@ -27,24 +27,25 @@ const Services = () => {
                 {Solutions.Solutions.map((item, i) => 
                     <div key={i} className="col-xl-4 col-lg-6 mb-4">
 		
-                        <div className="ptg-blog__item mb-30 wow tpfadeUp shadow p-3 rounded-2 h-100 mb-0 hover-card" data-wow-delay={item.delay} >
+                        <div className="ptg-blog__item mb-30 wow tpfadeUp shadow p-3 rounded-2 h-100 mb-0 hover-card" data-wow-delay={item.delay}  style={{position:'relative'}}>
                             <div className="ptg-blog__item-thumb w-img" >
                                 <img src={`/assets/img/solutions/${item.img}`} height={190} alt="" />
                             </div>
-                            <div className="ptg-blog__item-content white-bg-2">
+                            <div className="ptg-blog__item-content white-bg-2 border-2">
                                 <div className="ptg-blog__item-meta">
                                     <span><a href="#"><b className="ptg-blog-cta">{item.category}</b></a></span>
                                     {/* <span><a href="#"> / <b> {item.month} {item.date}</b></a> </span> */}
                                 </div>
                                 <h3 className="ptg-blog__item-title text-black"><Link href={`/solutions/${item.id}`} className='title'>{item.title}</Link></h3>
-                                <div className="d-flex flex-row-reverse">
+                                
+                            </div> 
+                            <div className="d-flex flex-row-reverse" style={{position:'absolute', bottom : '40px', right : '40px' }}>
                                 <Link href={`/solutions/${item.id}`} className="ptg-blog-btn">Read More
                                     <span className="pl-10">
                                         <i className="fal fa-long-arrow-right"></i>
                                     </span>
                                 </Link>
-                                </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                     )

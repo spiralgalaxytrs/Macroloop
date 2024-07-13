@@ -6,7 +6,7 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 
 const foter_two_content = {
-    logo: "/assets/img/logo/logo1.png",
+    logo: "/assets/img/logo/logo.jpg",
     dec:"MACROLOOP TECHNOLOGIES PRIVATE LIMITED",
     description: <>Our comprehensive approach to Industry 4.0 encompasses not only
     technological integration but also strategic guidance and support.</>

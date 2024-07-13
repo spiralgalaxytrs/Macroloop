@@ -72,6 +72,8 @@ const working_process_data = [
 
 const PortfolioDetailsArea = () => {
 
+  const [hover,setHover] = React.useState(-1)
+
   return (
     <>
     
@@ -123,21 +125,30 @@ collaboration, and innovation.
           Welcome to <b>LooperHub</b>, where dreams become reality and makes you to push your limits.
           </p>
 
-          <div className="pf-dt-process-wrapper pb-60">
-            <div className="row">
+          <div className="pf-dt-process-wrapper pb-60 container">
+            <div className="row row-cols-5 justify-content-evenly">
               {working_process_data.map((item, i) => (
-                <div key={i} className="col-lg-4 col-xl-3">
-                  <div className="pf-dt-process-item  wow tpfadeUp text-center mb-60 zoomInEffect">
-                        <Image src={item.img} width={250} height={250} alt="pure" />   
-                    <h3 className="pf-dt-process-item__title text-white mb-10"style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
+                <div key={i} className="col" style={{width:'400px'}}>
+                  <div 
+                    onMouseEnter={()=>{
+                      setHover(i);
+                    }}
+                    onMouseLeave={()=>{
+                      setHover(-1);
+                    }}
+                    className={`pf-dt-process-item wow tpfadeUp mb-60 zoomInEffect rounded ${ hover==i ? 'shadow-lg' : 'shadow' } d-flex flex-column gap-2 justify-content-start align-items-center`}
+                    style={{padding:'40px',height: '650px'}}
+                  >
+                    <Image src={item.img} width={250} height={250} alt="pure" />   
+                    <h3 className="pf-dt-process-item__title mt-20 mb-10"style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>
                       <a href="#">{item.title}</a>{" "}
                     </h3>
-                    <p style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>{item.desctiption}</p>
+                    <p className="text-justify mt-5" style={{fontFamily:"Metropolis",letterSpacing:"0.7px",lineHeight: '30px' }}>{item.desctiption}</p>
                   </div>
                 </div>
               ))}
             </div>
-        <div className="row">
+        <div className="row mt-60">
             <div className="bs-cta-btns text-center">
               <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeyl_iEMh8sRComDCda-kNumK6tBUyM374tiWK90aRXttU02Q/viewform?pli=1" className="tp-black-btn mr-30 wow tpfadeRight">
                 Review LooperHub

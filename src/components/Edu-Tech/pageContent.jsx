@@ -1,6 +1,7 @@
 import React from "react";
 import CtaArea from "../homes/home-5/cta";
 import Link from "next/link";
+import Image from "next/image";
 
 // working_process_data 
 const Edu_Tech_data = [
@@ -64,6 +65,7 @@ const Edu_Tech_data = [
 
 const ContentArea = () => {
 
+  const [hover,setHover] = React.useState(-1)
 
     return (
       <>
@@ -120,20 +122,30 @@ const ContentArea = () => {
             Certainly! Here's the elaborated content for each focus area:
             </p>
 
-            <div className="pf-dt-process-wrapper pt-20" >
-            <div className="row justify-content-center">
-              {Edu_Tech_data.map((item, i) => (
-                <div key={i} className="col-lg-4 col-xl-3">
-                  <div className="pf-dt-process-item  wow tpfadeUp text-center mb-60"> 
-                    <h3 className="pf-dt-process-item__title  mb-10">
-                      <a href="#">{item.title}</a>{" "}
-                    </h3>
-                    <p className="pt-10 text-justify">{item.desctiption}</p>
+            <div className="pf-dt-process-wrapper pb-60 container">
+              <div className="row row-cols-5 justify-content-evenly">
+                {Edu_Tech_data.map((item, i) => (
+                  <div key={i} className="col" style={{width:'400px'}}>
+                    <div 
+                      onMouseEnter={()=>{
+                        setHover(i);
+                      }}
+                      onMouseLeave={()=>{
+                        setHover(-1);
+                      }}
+                      className={`pf-dt-process-item wow tpfadeUp mb-60 zoomInEffect rounded ${ hover==i ? 'shadow-lg' : 'shadow' } d-flex flex-column gap-2 justify-content-start align-items-center`}
+                      style={{padding:'40px',height: '800px'}}
+                    >
+                      <Image src={item.img} width={250} height={250} alt="pure" />   
+                      <h3 className="pf-dt-process-item__title mt-20 mb-10">
+                        <a href="#">{item.title}</a>{" "}
+                      </h3>
+                      <p className="text-justify mt-5" style={{lineHeight: '30px' }}>{item.desctiption}</p>
+                    </div>
                   </div>
-                </div>
-              ))}
-          </div>
-          </div>
+                ))}
+              </div>
+            </div>
 
             <p className="pt-20">
             Our organization, we are proud to have established strong partnerships with leading industry players, enabling us to offer innovative educational programs in collaboration with:

@@ -39,12 +39,14 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
               <a
                 href="mailto:info@looptech.in?subject=Requesting a meeting to  discuss our requirement-Reg."
                 className="tp-black-btn wow tpfadeLeft"
+                style={{paddingInlineEnd:"45px"}}
+                // Request Meetting
               >
-                <span>
-                  <i className="fab fa-google" style={{marginRight: "5px"}}></i>
-                  <i className="fab fa-google" style={{marginRight: "5px"}}></i>
-                </span>
-                {lbutton}<b></b>
+                  <span>
+                      <i className="fab fa-google" style={{marginRight: "5px"}}></i>
+                      <i className="fab fa-google" style={{marginRight: "5px"}}></i>
+                  </span>
+                <b>{lbutton}</b>
               </a>
             </div>
           </div>
