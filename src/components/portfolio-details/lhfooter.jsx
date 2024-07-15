@@ -36,33 +36,33 @@ const working_process_data = [
 
     },
     {
-      id: 1,
+      id: 5,
       img:"/assets/img/gallery/5.png",
       title: "Extensive Network",
       desctiption: "LooperHub connects users with a wide network of professionals, experts, and resources, enabling them to tap into valuable connections, gain insights, and access potential partnerships or investment opportunities.",
 
   },
   {
-      id: 2,
+      id: 6,
       img:"/assets/img/gallery/6.png",
       title: "Personalized Recommendations",
       desctiption: " The app offers personalized recommendations and feedback based on user preferences, helping them discover relevant opportunities, content, and resources tailored to their specific needs and interests.",
 
   },
-  {
-      id: 3,
-      img:"/assets/img/gallery/7.png",
-      title: "Community Building",
-      desctiption: " LooperHub focuses on community building and networking, providing a platform where users can connect, share ideas, seek advice, and collaborate to foster a vibrant and supportive entrepreneurial ecosystem",
+  // {
+  //     id: 7,
+  //     img:"/assets/img/gallery/7.png",
+  //     title: "Community Building",
+  //     desctiption: " LooperHub focuses on community building and networking, providing a platform where users can connect, share ideas, seek advice, and collaborate to foster a vibrant and supportive entrepreneurial ecosystem",
 
-  },
-  {
-      id: 4,
-      img:"/assets/img/gallery/8.png",
-      title: "Showcase and Connect",
-      desctiption: "The app allows users to showcase their work, projects, or ideas, providing a platform to attract potential partners, investors, or customers and establish meaningful connections within the entrepreneurial community.",
+  // },
+  // {
+  //     id: 8,
+  //     img:"/assets/img/gallery/8.png",
+  //     title: "Showcase and Connect",
+  //     desctiption: "The app allows users to showcase their work, projects, or ideas, providing a platform to attract potential partners, investors, or customers and establish meaningful connections within the entrepreneurial community.",
 
-  },
+  // },
 ]
 
 

@@ -109,7 +109,16 @@ const HeroSlider = () => {
   right: "20px",
 }}>
 
-                    <div className="ptg-about-btn-wrapper mb-30 wow tpfadeUp" data-wow-delay=".3s">
+                    <div className="ptg-about-btn-wrapper mb-30 d-none d-sm-block wow tpfadeUp" data-wow-delay=".3s">
+                      <Link href={item?.url} className="tp-black-btn">
+                        {btn}
+                        <span className="ml-10">
+                          <i className="fal fa-long-arrow-right"></i>
+                          <i className="fal fa-long-arrow-right"></i>
+                        </span>
+                      </Link>
+                    </div>
+                    <div className="ptg-about-btn-wrapper d-sm-none wow tpfadeUp" style={{marginBottom:'-10px'}} data-wow-delay=".3s">
                       <Link href={item?.url} className="tp-black-btn">
                         {btn}
                         <span className="ml-10">

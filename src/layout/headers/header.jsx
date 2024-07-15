@@ -28,8 +28,8 @@ const Header = () => {
             {/* Conditionally render the Preloader based on the loading state */}
             {/* {loading ? <Preloader /> : null} */}
 
-            <header>
-                <div id="header-sticky" className={`tp-ptg-header dark-header black-bg p-relative ${sticky ? "header-sticky" : ""}`}>
+            <header style={{height:"100px"}}>
+                <div id="header-sticky" className={`tp-ptg-header dark-header black-bg p-relative ${sticky ? "header-sticky" : ""}`} style={{height:"100px"}}>
                     <div className="container-fluid p-0">
                         <div className="tp-ptg-header__main pl-20">
                             <div className="row align-items-center g-0">
@@ -47,7 +47,7 @@ const Header = () => {
                                 </div>
                                 <div className="col-xl-2 col-4">
                                     <div className="tp-header-search-nav d-flex align-items-center dark-header justify-content-end ">
-                                        <div className="tp-header-nav tp-header-nav-2" onClick={() => setIsActive(true)}>
+                                        <div className="tp-header-nav tp-header-nav-2 d-flex" onClick={() => setIsActive(true)}  style={{height:"100px"}}>
                                             <i className="flaticon-more"></i>
                                         </div>
                                     </div>

@@ -20,7 +20,7 @@ const Footer = ({style_8, style_10}) => {
    <div className={`bs-footer it-footer  dark-header ${style_8 ? "ca-footer" : ""} ${style_10 && "seo-footer"} dark-bg`} >
       <div className="container">
          <div className="bs-footer__main pt-10 tp-border-bottom">
-            <div className="row justify-content-center">
+            <div className="row justify-content-between">
                <div className="col-lg-5 col-md-6">
                   <div className="tp-footer__widget mb-40">
                      <div className="bs-footer__top-logo mb-20">
