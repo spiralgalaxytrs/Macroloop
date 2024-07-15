@@ -48,7 +48,7 @@ const CommonFooter = () => {
   return (
     <>
       {footer_links.map((item, i) => (
-        <div key={i} className={`${item.col} col-md-6 border`}>
+        <div key={i} className={`${item.col} col-md-6`}>
           <div className="tp-footer__widget  mb-40">
             <h3 className="tp-footer__widget-title  mb-35" style={{color:"#044CBC"}}>{item.title}</h3>
             <ul id={item.id}>

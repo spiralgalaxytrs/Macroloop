@@ -7,54 +7,54 @@ import Image from "next/image";
 const Edu_Tech_data = [
   {
       id: 1,
-      img:  "/assets/img/gallery/1.png",
+      img:  "/assets/img/eduTech/1.png",
       title: " Automation Technology",
       desctiption: "Our comprehensive training in automation technology encompasses the latest advancements in industrial automation, robotics, and control systems. Students gain practical experience in programming andoperating automated systems, preparing them for careers in manufacturing, process control, and industrial engineering."
   },
   {
       id: 2,
-      img:"/assets/img/gallery/2.png",
+      img:"/assets/img/eduTech/2.png",
       title: "Building Management Training",
       desctiption: "In our building management training programs, students learn to optimize building performance through efficient energy management, sustainable design, and smart building technologies. They gain insights into HVAC systems, building automation, and environmental controls, preparing them for roles in facility management and sustainable construction practices.",
 
   },
   {
       id: 3,
-      img:"/assets/img/gallery/3.png",
+      img:"/assets/img/eduTech/3.png",
       title: "Electrical Power Engineering",
       desctiption: "Through our electrical power engineering training, students delve into power generation, transmission, and distribution systems. They develop a thorough understanding of electrical infrastructure, renewable energy integration, and power electronics, preparing them for careers in power utilities, renewable energy firms, and electrical engineering.",
 
   },
   {
       id: 4,
-      img:"/assets/img/gallery/4.png",
+      img:"/assets/img/eduTech/4.png",
       title: "Automotive and EV Technologies",
       desctiption: "Our hands-on training in automotive and electric vehicle technologies covers vehicle electronics, powertrains, and advanced propulsion systems. Students gain practical skills in electric vehicle design and maintenance, positioning them at the forefront of the automotive industry's shift towards electric andsustainable transportation solutions.",
 
   },
   {
-    id: 1,
-    img:"/assets/img/gallery/5.png",
+    id: 5,
+    img:"/assets/img/eduTech/5.png",
     title: "Microcomputers, IoT, and IIoT",
     desctiption: "Students are immersed in the world of microcomputers, the Internet of Things (IoT), and the Industrial Internet of Things (IIoT). They gain practical experience in sensor networks, data analytics, and embedded systems, preparing them for careers in smart technologies, automation, and connected devices.",
 
 },
 {
-    id: 2,
-    img:"/assets/img/gallery/6.png",
+    id: 6,
+    img:"/assets/img/eduTech/6.png",
     title: "Machinery and System Engineering",
     desctiption: " Our training in machinery and system engineering equips students with the skills to design, analyze, and optimize complex machinery and systems for various industrial applications. They gain insights into mechanical design, automation, and industrial processes, preparing them for roles in manufacturing, product development, and system integration.",
 
 },
-{
-    id: 3,
-    img:"/assets/img/gallery/7.png",
-    title: "Cyber security and Network Training",
-    desctiption: "Our comprehensive cyber security and network training programs cover a wide range of essential skills, from fundamental security concepts to advanced threat detection and network protection techniques. With expert instructors and hands-on training, you'll gain the knowledge and practical experience needed to excel in the dynamic and critical fields of cyber security and network security.",
-
-},
 // {
-//     id: 4,
+//     id: 7,
+//     img:"/assets/img/eduTech/7.png",
+//     title: "Cyber security and Network Training",
+//     desctiption: "Our comprehensive cyber security and network training programs cover a wide range of essential skills, from fundamental security concepts to advanced threat detection and network protection techniques. With expert instructors and hands-on training, you'll gain the knowledge and practical experience needed to excel in the dynamic and critical fields of cyber security and network security.",
+
+// },
+// {
+//     id: 8,
 //     img:"/assets/img/gallery/8.png",
 //     title: "Showcase and Connect",
 //     desctiption: "The app allows users to showcase their work, projects, or ideas, providing a platform to attract potential partners, investors, or customers and establish meaningful connections within the entrepreneurial community.",

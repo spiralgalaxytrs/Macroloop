@@ -5019,7 +5019,7 @@ input[type=color] {
 .da-menu ul li a {
   color: var(--tp-common-black);
   padding: 38px 0;
-  font-weight: 900;
+  
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
   .da-menu ul li a {
@@ -16889,6 +16889,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 .seo-footer .tp-footer__widget-title {
+  font-family: var(--tp-ff-hf);
   color: var(--tp-theme-seagreen);
 }
 .seo-footer .da-footer__top-social a {
@@ -16931,3 +16932,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+footer{
+  font-family: var(--tp-ff-hf);
+}
