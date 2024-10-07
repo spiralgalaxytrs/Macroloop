@@ -40,23 +40,29 @@ const AboutArea = ({style_about}) => {
                         <div className="law-about-left p-relative mb-30">
                             <div className="row gx-4">
                                 <div className="col-md-6">
-                                    <div className='col-12 mb-20'>
+                                    <div className='col-12 mb-5'>
                                         {/* <span><i className="flaticon-global"></i></span>
                                         <span>{left_title}</span> */}
-                                        <img className='shadow rounded' src="assets/img/about/keeppushing.jpg" alt="about-image" style={{width: "93%", height: "200px"}} />
+                                        <img className='shadow rounded img-fluid' src="assets/img/about/keeppushing.jpg" alt="about-image" style={{height: "210px",width:"295px",objectFit: "cover"}} />
                                     </div>
                                     <div className="law-about-img-1">
-                                        <img src={img_1} alt="" style={{width: "100%"}}/>
+                                        <img className="shadow rounded img-fluid" src={img_1} alt="" style={{height: "210px",width:"295px",objectFit: "cover"}}/>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="law-about-img-2">
-                                        <img src={img_2} alt=""  style={{width: "100%"}}/>
+                                    <div className="law-about-img-2 col-12 mb-5">
+                                        <img className="shadow rounded img-fluid" src={img_2} alt=""  style={{height: "210px",width:"295px",objectFit: "cover"}}/>
                                     </div>
+                                    <div className="law-about-img-2">
+                                        <img className="shadow rounded img-fluid" src={img_2} alt=""  style={{height: "210px",width:"295px",objectFit: "cover"}}/>
+                                    </div>
+                                
                                 </div>
+                                
+                                   
                             </div>
                            
-                            
+                             
                         </div>
                     </div>
                     <div className="col-xl-6 wow tpfadeUp">

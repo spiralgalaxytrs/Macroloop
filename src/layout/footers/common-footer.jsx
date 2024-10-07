@@ -11,23 +11,38 @@ const footer_links = [
       { title: "About", link: "/about" },
       { title: "Solutions", link: "/solutions" },
       { title: "LCG", link: "/lcg" },
-      { title: "LooperHub", link: "/LooperHub" },
-      { title: "Contact", link: "/contact" },
+      // { title: "LooperHub", link: "/LooperHub" },
+      // { title: "Contact", link: "/contact" },
+      // { title: "Privacy Policy", link: "/privacy-policy" }
      
     ],
   },
   {
     id: 2,
-    title: "Our Policies",
+    title: "Quick Links",
     col: "col-lg-2",
     links: [
-      { title: "Privacy Policy", link: "/privacy-policy" },
-      { title: "Terms and conditions", link: "/terms" },
-      { title: "Data Protection Policy", link : "/dataProtection"},
+      // { title: "About", link: "/about" },
+      // { title: "Solutions", link: "/solutions" },
+      // { title: "LCG", link: "/lcg" },
+      { title: "LooperHub", link: "/LooperHub" },
+      { title: "Contact", link: "/contact" },
+      { title: "Privacy Policy", link: "/privacy-policy" }
+     
+    ],
+  }
+  // {
+  //   id: 2,
+  //   title: "Our Policies",
+  //   col: "col-lg-2",
+  //   links: [
+  //     { title: "Privacy Policy", link: "/privacy-policy" },
+  //     { title: "Terms and conditions", link: "/terms" },
+  //     { title: "Data Protection Policy", link : "/dataProtection"},
      
       
-    ],
-  },
+  //   ],
+  // },
   // {
   //   id: 3,
   //   title: "Solutions",

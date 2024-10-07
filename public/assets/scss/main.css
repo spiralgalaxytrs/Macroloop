@@ -41106,6 +41106,7 @@ xloading-bar
     margin-top: 58px;
   }
 }
+
 @media (max-width: 767px) {
   .law-about-img-2 {
     display: none;
@@ -48437,6 +48438,7 @@ p.checkout-coupon input[type=text]:focus {
 .tp-footer__widget ul li a {
   font-size: 16px;
   margin-bottom: 15px;
+  font-weight:700;
   display: inline-block;
   color: var(--tp-grey-1);
   position: relative;
