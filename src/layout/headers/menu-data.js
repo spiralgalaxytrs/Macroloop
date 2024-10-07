@@ -27,28 +27,36 @@ const menu_data = [
       sub_menus: [
         {
           title: "IOT SOLUTION",
-          link: "solutions"
+          link: "/solutions/Digital-Transformation/IOT-Solutions"
         },
         {
           title: "ROBOTIC AUTOMATION",
-          link: "solutions"
+          link: "/solutions/Digital-Transformation/Robotic-Automation"
         },
         {
           title: "METAVERSE SOLUTION",
-          link: "solutions"
+          link: "/solutions/Digital-Transformation/Metaverse-Solution"
         },
         {
           title: "SECURITY SYSTEMS",
-          link: "solutions/Digital-Transformation/Security-Systems"
+          link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
           title: "IT INFRASTRUCTURE",
-          link: "solutions/Digital-Transformation/Infrastructure"
+          link: "/solutions/Digital-Transformation/Infrastructure"
         }]
     },
     {
       title: "EDU-TECH",
       link: "/solutions/Edu-Tech"
+    },
+    {
+      title: "LOOPTECH SYSNAPSE",
+      link: "/solutions/Looptech-Synapse"
+    },
+    {
+      title: "HRMS SOLUTION",
+      link: "/solutions/HRMS"
     },
       // {
       //   title : "SECURITY SYSTEMS",
