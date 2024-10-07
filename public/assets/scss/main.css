@@ -41106,6 +41106,7 @@ xloading-bar
     margin-top: 58px;
   }
 }
+
 @media (max-width: 767px) {
   .law-about-img-2 {
     display: none;
