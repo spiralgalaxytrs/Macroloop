@@ -11,9 +11,9 @@ const CtaArea = () => {
           <div className="row">
             <div className="col-12">
               <div className="bs-cta-section text-center">
-                <span className="bs-cta-section__subtitle mb-5 d-inline-block wow tpfadeUp">
+                {/* <span className="bs-cta-section__subtitle mb-5 d-inline-block wow tpfadeUp">
                   Schedule a 30 minute call
-                </span>
+                </span> */}
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline loading-bar mb-55 wow tpfadeUp">
                     <span>

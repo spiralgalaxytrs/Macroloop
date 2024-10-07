@@ -19,9 +19,9 @@ const BusinessJourney = ({style_service}) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="bs-cta-section text-center"> 
-                            <span className={`bs-cta-section__subtitle ${style_service ? "" : "ca-cta-section-subtitle"} wow tpfadeUp`}>
+                            {/* <span className={`bs-cta-section__subtitle ${style_service ? "" : "ca-cta-section-subtitle"} wow tpfadeUp`}>
                                 {sub_title}
-                                </span>
+                                </span> */}
                             <div className="cd-intro">
                                 <h3
                                     className="bs-cta-section__title ca-cta-section-title cd-headline loading-bar mb-55 ca-cta-title wow tpfadeUp">
