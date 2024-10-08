@@ -4,3 +4,15 @@
         transform: scale(1.08) !important;
     }
 }
+.d-hidden{
+    @media (max-width: 1280px) {
+        display: none;
+    }
+}
+
+.d-show{
+    display: none;
+    @media (max-width: 1280px) {
+        display: block;
+    }
+}
