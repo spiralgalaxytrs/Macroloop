@@ -13,7 +13,7 @@ const { title, des } = it_cta_content
 const ItCtaArea = ({ location }) => {
    return (
       <>
-         <div className="it-cta-area law-cta-area about-me-cta-area py-5 dark-bg"
+         <div className="it-cta-area law-cta-area about-me-cta-area py-5 pt-1 dark-bg"
          >
             <div className="container">
                <div className="row align-items-center gap-5 gap-lg-0">

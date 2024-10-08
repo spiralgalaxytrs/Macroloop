@@ -11,23 +11,38 @@ const footer_links = [
       { title: "About", link: "/about" },
       { title: "Solutions", link: "/solutions" },
       { title: "LCG", link: "/lcg" },
-      { title: "LooperHub", link: "/LooperHub" },
-      { title: "Contact", link: "/contact" },
+      // { title: "LooperHub", link: "/LooperHub" },
+      // { title: "Contact", link: "/contact" },
+      // { title: "Privacy Policy", link: "/privacy-policy" }
      
     ],
   },
   {
     id: 2,
-    title: "Our Policies",
+    title: "Quick Links",
     col: "col-lg-2",
     links: [
-      { title: "Privacy Policy", link: "/privacy-policy" },
-      { title: "Terms and conditions", link: "/terms" },
-      { title: "Data Protection Policy", link : "/dataProtection"},
+      // { title: "About", link: "/about" },
+      // { title: "Solutions", link: "/solutions" },
+      // { title: "LCG", link: "/lcg" },
+      { title: "LooperHub", link: "/LooperHub" },
+      { title: "Contact", link: "/contact" },
+      { title: "Privacy Policy", link: "/privacy-policy" }
+     
+    ],
+  }
+  // {
+  //   id: 2,
+  //   title: "Our Policies",
+  //   col: "col-lg-2",
+  //   links: [
+  //     { title: "Privacy Policy", link: "/privacy-policy" },
+  //     { title: "Terms and conditions", link: "/terms" },
+  //     { title: "Data Protection Policy", link : "/dataProtection"},
      
       
-    ],
-  },
+  //   ],
+  // },
   // {
   //   id: 3,
   //   title: "Solutions",
@@ -75,7 +90,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright By <a className="text-black"> MacroLoop Technologies </a>& Designed by <a href="https://thereciprocalsolutions.com/" className="text-black"> The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> ©  {new Date().getFullYear()} <a className="text-black">MacroLoop Technologies </a>  | Design by <a href="https://thereciprocalsolutions.com/" className="text-black"> The Reciprocal Solutions</a></>,
 };
 
 const { copy_right_info } = footer_content;
@@ -84,13 +99,17 @@ export const FooterCopyRight = ({style_3, style_7, style_9}) => {
   return (
     <>    
       <div className={`tp-footer__bottom pt-15 pb-15 ${style_3 ? "da-ft-copyright-bg" : ""} ${style_7 ? "law-footer__bottom red-bg"  :''} ${style_9 ? "ha-footer-copyright" : ""}`}>  
-        <div className="row align-items-center">
+        {/* <div className="row align-items-center">
           <div className="col-md-8 col-12">
             <div className={`tp-copyrigh-text text-black ${style_3 ? "" : "text-center text-md-start"}`}>
               <span>{copy_right_info}</span>
             </div>
           </div>
-          
+        </div> */}
+        <div className="row">
+          <div className="text-center">
+          <h6 className="text-secondary">{copy_right_info}</h6>
+          </div>
         </div>
       </div>
     </>

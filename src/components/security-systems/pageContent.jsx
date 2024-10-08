@@ -100,7 +100,7 @@ const ContentArea = () => {
             organization, both physically. 
             </p>
             
-          <div className="pt-20 solution_sponsor">
+          {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>
           </div>
           <div className="pt-20 pb-100">
@@ -108,7 +108,7 @@ const ContentArea = () => {
           <img className="solutions_sponsor_img3" src="/assets/img/brand/ibm.png" alt="" />
           <img className="solutions_sponsor_img3" src="/assets/img/brand/sensegiz_new.png" alt="" />
           <img className="solutions_sponsor_img3" src="/assets/img/brand/genetecweb.png" alt="" />
-          </div>
+          </div> */}
           </div>
   
           {/* <!-- cta are  --> */}

@@ -5019,6 +5019,7 @@ input[type=color] {
 .da-menu ul li a {
   color: var(--tp-common-black);
   padding: 38px 0;
+  font-weight:700;
   
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
@@ -12144,7 +12145,7 @@ xloading-bar
 .it-cta-form .input-item input, .it-cta-form .input-item select, .it-cta-form .input-item .nice-select {
   width: 100%;
   height: 60px;
-  padding-left: 45px;
+  padding-left: 40px;
   padding-right: 10px;
   border-radius: 8px;
   border: 2px solid var(--tp-border-8);
@@ -12169,7 +12170,7 @@ xloading-bar
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 25px;
+  left: 15px;
   color: var(--tp-theme-vogue);
 }
 .it-cta-form .input-item span.current {
@@ -16265,6 +16266,7 @@ p.checkout-coupon input[type=text]:focus {
   display: inline-block;
   color: var(--tp-grey-1);
   position: relative;
+  font-weight:700;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
