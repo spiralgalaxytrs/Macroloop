@@ -62,7 +62,7 @@ const ContentArea = () => {
   
         <div className="tp-pf-detials-main dark-bg">
           <div className="container wow tpfadeUp">
-            <h2>Robotic Process Automation Bots</h2>
+            {/* <h2>Robotic Process Automation Bots</h2> */}
             <p className="pt-20">
             Robotic Process Automation bots have the same digital skill sets as people—and then some. Think of RPA
             bots as a Digital Workforce that can interact with any system or application. For example, bots are able to

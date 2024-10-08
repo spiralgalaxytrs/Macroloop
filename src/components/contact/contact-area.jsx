@@ -46,7 +46,7 @@ const ContactArea = () => {
           <div className="row justify-content-around">
             <div className="col-12 col-lg-6">
               <div className="contact-img-1 pb-10 w-img">
-                <img src={img} alt="" />
+                <img src={img} alt="" style={{ height: "400px" }}/>
               </div>
             </div>
             <div className="col-12 col-lg-6 d-flex align-items-center">

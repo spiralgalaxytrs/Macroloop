@@ -9,7 +9,7 @@ const IOT_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="IOT Solutions" title="IOT Solutions" />
+        <BreadcrumbArea acive_menu="IOT Solution" title="IOT Solution" />
         <ContentArea />
         <Footer tp_border={true} />
       </>
