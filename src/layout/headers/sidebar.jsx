@@ -25,7 +25,12 @@ const Sidebar = ({isActive, setIsActive}) => {
                     <SocialLinks />
                 </div>
             </div>
-            <div className="tp-offcanvas__widget mb-40 d-none d-xl-block">
+            <div className={`tp-mobile-menu mean-container d-show mb-40`}> 
+                <div className="mean-bar">
+                    <MobileMenus />
+                </div>
+            </div>
+            <div className="tp-offcanvas__widget d-hidden">
                 <h3 className="tp-footer__widget-title mb-35">
                     Get In Touch
                 </h3>
@@ -53,11 +58,6 @@ const Sidebar = ({isActive, setIsActive}) => {
                       
                     </span>
                 </div>
-            </div>
-            <div className={`tp-mobile-menu mean-container d-xl-none`}> 
-            <div className="mean-bar">
-                <MobileMenus />
-            </div>
             </div>
             <div className="tp-offcanvas__bottom mt-80 d-none d-lg-block " >
                 <p>Our team applies its wide ranging in
