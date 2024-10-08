@@ -86,8 +86,6 @@ const ContentArea = () => {
 
       <div className="tp-pf-detials-main dark-bg pt-30">
         <div className="container wow tpfadeUp">
-
-          <h2>Introduction for Metaverse Solution:</h2>
           <p className="pt-20">
             At LoopTech, we collaborate with industry leaders to integrate cutting-edge VR and AR technologies, delivering innovative Metaverse solutions for Industry 4.0. Our solutions streamline project management, enhance decision-making, and provide immersive design experiences, enabling clients to optimize resources and improve productivity. Leveraging technologies like IoT, AI, and big data, we empower businesses to gain deeper insights, automate processes, and unlock new opportunities for innovation.
             With comprehensive strategic support, we guide you through your digital transformation journey, ensuring your success in the rapidly evolving Metaverse landscape.
