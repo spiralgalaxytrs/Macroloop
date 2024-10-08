@@ -46,6 +46,7 @@ const ContentArea = () => {
 
       <div className="tp-pf-detials-main dark-bg">
         <div className="container wow tpfadeUp">
+
           {/* <h2>Introduction to IOT Solution:</h2> */}
           <p className="pt-20 pt-0">
             At our company, we specialize in providing customized IoT and digital transformation solutions tailored to your organization's specific needs. Through detailed consulting, we analyze your challenges and recommend the most suitable solutions available in the market.
