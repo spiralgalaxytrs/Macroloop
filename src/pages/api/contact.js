@@ -6,7 +6,7 @@ export default function (req, res) {
       service: "gmail",
       auth: {
         user: 'mailtrscbe@gmail.com',
-        pass: "mquzkrnblouztdro",
+        pass: "jkdkseaqrzsgduao",
       },
       secure: true,
     })
@@ -27,10 +27,10 @@ export default function (req, res) {
     transporter.sendMail(mailData, function (err, info) {
       if(err)
         console.log(err)
-      else
+      else{
       res.redirect("/contact#200");
         console.log("Email sent: " + info.response)
-        
+        }
     })
     res.status(200)
   }
