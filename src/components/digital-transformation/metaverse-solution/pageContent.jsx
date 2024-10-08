@@ -13,32 +13,32 @@ const working_process_data = [
   },
   {
     id: 2,
-    title: "Why Choose LoopTech?",
-    desctiption: "Innovative Technology: Cutting-edge VR and AR for unparalleled insights.Industry Expertise: Proven track record with leading companies.Comprehensive Solutions: From design visualization to workforce upskilling.Seamless Integration: Smooth data flow with various systems.",
+    title: "Boost Productivity and Profitability  ",
+    desctiption: "Gain complete control and visibility over your projects with LoopTech’s Metaverse solutions, ensuring enhanced productivity and profitability.",
 
   },
   {
     id: 3,
     title: "Immersive Design Visualization",
-    desctiption: "3D Modeling: Bring your concepts to life with dynamic, real-time 3D models.VR Walkthroughs: Experience immersive design walkthroughs for better decision-making.",
+    desctiption: "Bring your concepts to life with dynamic, real-time 3D models.VR Walkthroughs: Experience immersive design walkthroughs for better decision-making.",
 
   },
   {
     id: 4,
     title: "Collaborative Workspace",
-    desctiption: "Digital Space: Enhance teamwork with real-time communication, file sharing, and virtual meetings.AR Models: Overlay models on-site for real-time adjustments.",
+    desctiption: "Enhance teamwork with real-time communication, file sharing, and virtual meetings.AR Models: Overlay models on-site for real-time adjustments.",
 
   },
   {
     id: 5,
     title: " Enhanced Client Experience",
-    desctiption: "3D Exploration: Immerse clients in 3D environments to explore and customize products.Safety Training: Reduce accidents with immersive VR safety protocols.",
+    desctiption: "Immerse clients in 3D environments to explore and customize products.Safety Training: Reduce accidents with immersive VR safety protocols.",
 
   },
   {
     id: 6,
     title: " Personalized Interiors",
-    desctiption: "Custom Design: Enable real-time customization through user-friendly VR interfaces.Virtual Showrooms: Facilitate design exploration with immersive virtual environments.",
+    desctiption: "Enable real-time customization through user-friendly VR interfaces.Virtual Showrooms: Facilitate design exploration with immersive virtual environments.",
 
   },
 ]
@@ -59,12 +59,24 @@ const ContentArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="pf-details-page-banner p-relative">
-                <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
-                    <img src="/assets/img/solutions/DigT.gif" alt="" />
-                  </Link>
-                </div>
+              <div style={{
+                position: 'relative',
+                width: '100%',
+                paddingBottom: '56.25%', 
+                overflow: 'hidden',
+              }}>
+                <Link href="/contact">
+                  <video src="/assets/img/solutions/Metaverse.mp4" alt="Metaverse" autoPlay loop muted playsInline
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}>
+                  </video>
+                </Link>
               </div>
             </div>
           </div>
@@ -74,7 +86,7 @@ const ContentArea = () => {
       <div className="tp-pf-detials-main dark-bg">
         <div className="container wow tpfadeUp">
 
-          <h2>Introduction for Metaverse Solution:</h2>
+          {/* <h2>Introduction for Metaverse Solution:</h2> */}
           <p className="pt-20">
             At LoopTech, we collaborate with industry leaders to integrate cutting-edge VR and AR technologies, delivering innovative Metaverse solutions for Industry 4.0. Our solutions streamline project management, enhance decision-making, and provide immersive design experiences, enabling clients to optimize resources and improve productivity. Leveraging technologies like IoT, AI, and big data, we empower businesses to gain deeper insights, automate processes, and unlock new opportunities for innovation.
             With comprehensive strategic support, we guide you through your digital transformation journey, ensuring your success in the rapidly evolving Metaverse landscape.
@@ -106,15 +118,15 @@ const ContentArea = () => {
             </div>
           </div>
 
-          <h2>Boost Productivity and Profitability</h2>
+          <h2>Why Choose LoopTech?</h2>
           <p className="pt-20">
-            Gain complete control and visibility over your projects with LoopTech’s Metaverse solutions, ensuring enhanced productivity and profitability.
+            Cutting-edge VR and AR for unparalleled insights.Industry Expertise: Proven track record with leading companies.Comprehensive Solutions: From design visualization to workforce upskilling.Seamless Integration: Smooth data flow with various systems.",
           </p>
 
-          <h2>Experience the Future</h2>
+          {/* <h2>Experience the Future</h2>
           <p className="pt-20">
             Discover how LoopTech can elevate your projects with cutting-edge Metaverse technology.
-          </p>
+          </p> */}
 
           {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>

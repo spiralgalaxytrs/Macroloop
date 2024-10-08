@@ -90,7 +90,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright By <a className="text-black"> MacroLoop Technologies </a>& Designed by <a href="https://thereciprocalsolutions.com/" className="text-black"> The Reciprocal Solutions</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> ©  {new Date().getFullYear()} <a className="text-black">MacroLoop Technologies </a>  | Design by <a href="https://thereciprocalsolutions.com/" className="text-black"> The Reciprocal Solutions</a></>,
 };
 
 const { copy_right_info } = footer_content;
@@ -99,13 +99,17 @@ export const FooterCopyRight = ({style_3, style_7, style_9}) => {
   return (
     <>    
       <div className={`tp-footer__bottom pt-15 pb-15 ${style_3 ? "da-ft-copyright-bg" : ""} ${style_7 ? "law-footer__bottom red-bg"  :''} ${style_9 ? "ha-footer-copyright" : ""}`}>  
-        <div className="row align-items-center">
+        {/* <div className="row align-items-center">
           <div className="col-md-8 col-12">
             <div className={`tp-copyrigh-text text-black ${style_3 ? "" : "text-center text-md-start"}`}>
               <span>{copy_right_info}</span>
             </div>
           </div>
-          
+        </div> */}
+        <div className="row">
+          <div className="text-center">
+          <h6 className="text-secondary">{copy_right_info}</h6>
+          </div>
         </div>
       </div>
     </>

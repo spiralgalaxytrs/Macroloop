@@ -20,40 +20,24 @@ const ContentArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="pf-details-page-banner p-relative">
-                <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
-                    <img src="/assets/img/solutions/DigT.gif" alt="" />
-                  </Link>
-                </div>
-                {/* <div className="pf-details-banner__info">
-                    <div className="row align-items-center align-items-xl-start">
-                      <div className="col-lg-8">
-                        <div className="pf-details-banner__info-left pl-30">
-                          <span>
-                            <b>Learn</b> 
-                          </span>
-                          <span>
-                            <b>Contribute</b> 
-                          </span>
-                          <span>
-                            <b>Grow</b>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-lg-4">
-                        <div className="pf-details-banner__info-right text-lg-end pl-30">
-                          
-                           <Link href="/contact">
-                           Contact Us
-                            <span>
-                              <i className="fal fa-long-arrow-right"></i>
-                            </span></Link>
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
+              <div style={{
+                position: 'relative',
+                width: '100%',
+                paddingBottom: '56.25%',
+                overflow: 'hidden',
+              }}>
+                <Link href="/contact">
+                  <video src="/assets/img/solutions/IOT.mp4" alt="Metaverse" autoPlay loop muted playsInline
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}>
+                  </video>
+                </Link>
               </div>
             </div>
           </div>
@@ -62,8 +46,8 @@ const ContentArea = () => {
 
       <div className="tp-pf-detials-main dark-bg">
         <div className="container wow tpfadeUp">
-          <h2>Introduction to IOT Solution:</h2>
-          <p className="pt-20">
+          {/* <h2>Introduction to IOT Solution:</h2> */}
+          <p className="pt-20 pt-0">
             At our company, we specialize in providing customized IoT and digital transformation solutions tailored to your organization's specific needs. Through detailed consulting, we analyze your challenges and recommend the most suitable solutions available in the market.
             By leveraging IoT technologies and digital transformation strategies, we help optimize operations, streamline processes, and drive innovation. Our approach is collaborative, working closely with your team for seamless integration and adoption.
           </p>

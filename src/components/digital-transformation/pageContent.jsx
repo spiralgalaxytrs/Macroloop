@@ -5,76 +5,76 @@ import Link from "next/link";
 const service_data = [
   {
     id: 1,
-    icon: "/assets/img/services/seo-sv-img-4.jpg",
+    icon: "/assets/img/icons/IOT.png",
     link: "/solutions/Digital-Transformation/IOT-Solutions",
     img: "/assets/img/services/seo-sv-img-4.jpg",
     title: "IOT SOLUTION",
     des: <>Our solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.</>,
-    counter: "", 
+    counter: "",
     delay: ".4s"
-},
+  },
 
-{
+  {
     id: 2,
-    icon: "/assets/img/icons/service-icons-4.png",
+    icon: "/assets/img/icons/2.png",
     link: "/solutions/Digital-Transformation/Robotic-Automation",
     img: "/assets/img/icons/service-icons-4.png",
     title: "ROBOTIC AUTOMATION",
     des: <>Robotic Process Automation bots have the same digital skill sets as people—and then some.</>,
-    counter: "", 
+    counter: "",
     delay: ".4s",
     data_aos: "",
     duration: "",
-},
+  },
 
-{
+  {
     id: 3,
-    icon: "/assets/img/icons/service-icons-5.png",
+    icon: "/assets/img/icons/3.png",
     link: "/solutions/Digital-Transformation/Metaverse-Solution",
     img: "/assets/img/icons/service-icons-5.png",
     title: "METAVERSE SOLUTION",
     des: <>At LoopTech, we revolutionize project management with advanced Metaverse solutions.</>,
-    counter: "", 
+    counter: "",
     delay: ".4s",
     data_aos: "",
     duration: "",
-},
-{
+  },
+  {
     id: 4,
     icon: "/assets/img/icons/service-icons-6.png",
     link: "/solutions/Digital-Transformation/Security-Systems",
     img: "/assets/img/icons/service-icons-6.png",
     title: "SECURITY SYSTEMS",
     des: <>In conclusion, physical security and AI-driven cyber security are critical components of business resilience.</>,
-    counter: "", 
+    counter: "",
     delay: ".4s",
     data_aos: "",
     duration: "",
-},
-{
+  },
+  {
     id: 5,
-    icon: "/assets/img/icons/service-icons-7.png",
+    icon: "/assets/img/icons/4.png",
     link: "/solutions/Digital-Transformation/Infrastructure",
     img: "/assets/img/icons/service-icons-7.png",
     title: "IT INFRASTRUCTURE",
     des: <>At LoopTech, we offer a comprehensive range of IT infrastructure solutions designed to meet the evolving needs of modern businesses.</>,
-    counter: "", 
+    counter: "",
     delay: ".4s",
     data_aos: "fade-up",
     duration: "2500",
-},
-// {
-//     id: 6,
-//     icon: "/assets/img/icons/service-icons-8.png",
-//     link: "#",
-//     img: "/assets/img/icons/service-icons-8.png",
-//     title: "Website Development",
-//     des: <>Our typical customer doesn’t want to be distracted by IT Services that don’t add direct value to their customers.</>,
-//     counter: "", 
-//     delay: ".4s",
-//     data_aos: "fade-up",
-//     duration: "2500",
-// }, 
+  },
+  // {
+  //     id: 6,
+  //     icon: "/assets/img/icons/service-icons-8.png",
+  //     link: "#",
+  //     img: "/assets/img/icons/service-icons-8.png",
+  //     title: "Website Development",
+  //     des: <>Our typical customer doesn’t want to be distracted by IT Services that don’t add direct value to their customers.</>,
+  //     counter: "", 
+  //     delay: ".4s",
+  //     data_aos: "fade-up",
+  //     duration: "2500",
+  // }, 
 ]
 
 
@@ -98,14 +98,27 @@ const ContentArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="pf-details-page-banner p-relative">
-                <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
-                    <img src="/assets/img/solutions/DigT.gif" alt="" />
-                  </Link>
-                </div>
+              <div style={{
+                position: 'relative',
+                width: '100%',
+                paddingBottom: '56.25%',
+                overflow: 'hidden',
+              }}>
+                <Link href="/contact">
+                  <video src="/assets/img/solutions/Digital.mp4" alt="Metaverse" autoPlay loop muted playsInline
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}>
+                  </video>
+                </Link>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -115,8 +128,8 @@ const ContentArea = () => {
 
           <h2>Industry Automation</h2>
           <p className="pt-20">
-            We collaborate with leading OEMs to integrate cutting-edge technologies and provide innovative Industry 4.0 solutions, helping customers solve challenges and enhance productivity. Our solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.
-            By leveraging technologies like IoT, AI, big data analytics, and cloud computing, we enable clients to achieve greater efficiency and operational insights. Additionally, we offer strategic support to guide their digital transformation, empowering them to thrive in the competitive, digital landscape.
+            Empower your business with our digital transformation services, designed to drive innovation and streamline operations. We harness cutting-edge technology to create seamless, intelligent solutions that redefine efficiency. Our expertise enables you to stay ahead in a rapidly evolving digital landscape.
+            Let us transform your challenges into opportunities, paving the way for sustained growth. Embrace the future with solutions that deliver real value.
           </p>
 
           <div className="tp-it-service serive-page-item-title pt-30 pb-90">
@@ -144,7 +157,7 @@ const ContentArea = () => {
             </div>
           </div>
 
-{/* 
+          {/* 
           <div className="pt-20 solution_sponsor">
             <span>Powered By</span>
           </div>

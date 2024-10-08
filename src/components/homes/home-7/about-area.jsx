@@ -5,7 +5,7 @@ import React from 'react';
 const about_content = {
     img_1: "/assets/img/about/about1.jpeg",
     img_2: "/assets/img/about/about2.jpeg",
-    img_3: "/assets/img/about/law-icon.png",
+    img_3: "/assets/img/about/1.jpg",
     img_4: "/assets/img/about/it-ab-avata.png",
 
     left_title: "Keep Pushing Limits Apart",
@@ -54,7 +54,7 @@ const AboutArea = ({style_about}) => {
                                         <img className="shadow rounded img-fluid" src={img_2} alt=""  style={{height: "210px",width:"295px",objectFit: "cover"}}/>
                                     </div>
                                     <div className="law-about-img-2">
-                                        <img className="shadow rounded img-fluid" src={img_2} alt=""  style={{height: "210px",width:"295px",objectFit: "cover"}}/>
+                                        <img className="shadow rounded img-fluid" src={img_3} alt=""  style={{height: "210px",width:"295px",objectFit: "cover"}}/>
                                     </div>
                                 
                                 </div>

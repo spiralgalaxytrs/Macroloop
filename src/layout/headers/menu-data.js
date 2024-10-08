@@ -54,14 +54,6 @@ const menu_data = [
       title: "HRMS SOLUTION",
       link: "/solutions/HRMS"
     },
-      // {
-      //   title : "SECURITY SYSTEMS",
-      //   link : "/solutions/Security-Systems"
-      // },
-      // {
-      //   title : "IT INFRASTRUCTURE",
-      //   link : "/solutions/Infrastructure"
-      // },
     ],
     title: "Our Solutions",
     link: "/solutions",
