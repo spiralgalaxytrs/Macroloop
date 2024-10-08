@@ -165,7 +165,7 @@ const LooptechSyanpseDetails = () => {
             Their holistic approach combines digital and traditional marketing for maximum impact, supported by creative innovation and a proven track record of success across industries.{" "}
             With a client-focused partnership, LoopTech provides ongoing support and transparency, ensuring long-term growth and success.{" "}
           </p>
-          <h3 className="tp-blog-detials-title mb-25"> Our Services:</h3>
+          <h3 className="tp-blog-detials-title mb-25"> Our Services</h3>
           <div className="pf-deatials-fea mb-60">
             <div className="row">
               {Why_choose_us.map((item, i) => (
@@ -233,11 +233,11 @@ const LooptechSyanpseDetails = () => {
             </div>
           </div>
 
-          <h3 className="tp-blog-detials-title mb-25">Our Strategies:</h3>
+          <h3 className="tp-blog-detials-title mb-25">Our Strategies</h3>
         <p>  
           LoopTech Synapse leverages cutting-edge tools and technologies to boost campaign efficiency and performance. They integrate AI-powered platforms for predictive insights, employ data analytics for tracking and optimization, and use SEO, social media, and PPC tools to ensure comprehensive digital strategies. Their approach is data-driven, adaptable, and focused on delivering measurable results.
         </p>
-        <h3 className="tp-blog-detials-title mb-25">Tools:</h3>
+        <h3 className="tp-blog-detials-title mb-25">Tools</h3>
         <div className="pf-deatials-fea mb-60">
           <div className="row">
             {tools.map((item, i) => (

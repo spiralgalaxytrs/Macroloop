@@ -6,6 +6,7 @@ const service_data = [
   {
     id: 1,
     icon: "/assets/img/icons/IOT.png",
+    icon: "/assets/img/icons/IOT.png",
     link: "/solutions/Digital-Transformation/IOT-Solutions",
     img: "/assets/img/services/seo-sv-img-4.jpg",
     title: "IOT SOLUTION",
@@ -16,6 +17,7 @@ const service_data = [
 
   {
     id: 2,
+    icon: "/assets/img/icons/2.png",
     icon: "/assets/img/icons/2.png",
     link: "/solutions/Digital-Transformation/Robotic-Automation",
     img: "/assets/img/icons/service-icons-4.png",
@@ -29,6 +31,7 @@ const service_data = [
 
   {
     id: 3,
+    icon: "/assets/img/icons/3.png",
     icon: "/assets/img/icons/3.png",
     link: "/solutions/Digital-Transformation/Metaverse-Solution",
     img: "/assets/img/icons/service-icons-5.png",
@@ -53,6 +56,7 @@ const service_data = [
   },
   {
     id: 5,
+    icon: "/assets/img/icons/4.png",
     icon: "/assets/img/icons/4.png",
     link: "/solutions/Digital-Transformation/Infrastructure",
     img: "/assets/img/icons/service-icons-7.png",
@@ -128,8 +132,8 @@ const ContentArea = () => {
 
           <h2>Industry Automation</h2>
           <p className="pt-20">
-            Empower your business with our digital transformation services, designed to drive innovation and streamline operations. We harness cutting-edge technology to create seamless, intelligent solutions that redefine efficiency. Our expertise enables you to stay ahead in a rapidly evolving digital landscape.
-            Let us transform your challenges into opportunities, paving the way for sustained growth. Embrace the future with solutions that deliver real value.
+            We collaborate with leading OEMs to integrate cutting-edge technologies and provide innovative Industry 4.0 solutions, helping customers solve challenges and enhance productivity. Our solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.
+            By leveraging technologies like IoT, AI, big data analytics, and cloud computing, we enable clients to achieve greater efficiency and operational insights. Additionally, we offer strategic support to guide their digital transformation, empowering them to thrive in the competitive, digital landscape.
           </p>
 
           <div className="tp-it-service serive-page-item-title pt-30 pb-90">
