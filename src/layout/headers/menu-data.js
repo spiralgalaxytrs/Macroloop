@@ -51,10 +51,6 @@ const menu_data = [
       link: "/solutions/Edu-Tech"
     },
     {
-      title: "LOOPTECH SYSNAPSE",
-      link: "/solutions/Looptech-Synapse"
-    },
-    {
       title: "HRMS SOLUTION",
       link: "/solutions/HRMS"
     },
@@ -71,7 +67,6 @@ const menu_data = [
     link: "/solutions",
 
   },
-
   {
     id: 4,
     mega_menu: false,
@@ -83,12 +78,19 @@ const menu_data = [
     id: 5,
     mega_menu: false,
     has_dropdown: false,
+    title: "Looptech Synapse",
+    link: "/LooptechSyanpse"
+  },
+  {
+    id: 6,
+    mega_menu: false,
+    has_dropdown: false,
     title: "LCG",
     link: "/lcg",
 
   },
   {
-    id: 6,
+    id: 7,
     mega_menu: false,
     has_dropdown: false,
     title: "Contact",
