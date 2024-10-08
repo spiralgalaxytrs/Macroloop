@@ -160,7 +160,7 @@ const ContentArea = () => {
             solutions can drive the success of your business.
           </p>
 
-          <div className="pt-20 solution_sponsor">
+          {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>
           </div>
           <div className="pt-20 pb-100">
@@ -184,7 +184,7 @@ const ContentArea = () => {
               src="/assets/img/brand/IBM_new.png"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
 
         {/* <!-- cta are  --> */}
