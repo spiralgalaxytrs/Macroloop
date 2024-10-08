@@ -59,13 +59,24 @@ const ContentArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="pf-details-page-banner p-relative">
-                <div className="pf-details-banner-img1 w-img w-imgggg">
+              <div style={{
+                position: 'relative',
+                width: '100%',
+                paddingBottom: '56.25%', 
+                overflow: 'hidden',
+              }}>
                 <Link href="/contact">
-                    <video src="/assets/img/solutions/Metaverse.mp4" alt="Metaverse" autoPlay loop muted playsInline>
-                    </video>
-                  </Link>
-                </div>
+                  <video src="/assets/img/solutions/Metaverse.mp4" alt="Metaverse" autoPlay loop muted playsInline
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}>
+                  </video>
+                </Link>
               </div>
             </div>
           </div>
@@ -109,7 +120,7 @@ const ContentArea = () => {
 
           <h2>Why Choose LoopTech?</h2>
           <p className="pt-20">
-           Cutting-edge VR and AR for unparalleled insights.Industry Expertise: Proven track record with leading companies.Comprehensive Solutions: From design visualization to workforce upskilling.Seamless Integration: Smooth data flow with various systems.",
+            Cutting-edge VR and AR for unparalleled insights.Industry Expertise: Proven track record with leading companies.Comprehensive Solutions: From design visualization to workforce upskilling.Seamless Integration: Smooth data flow with various systems.",
           </p>
 
           {/* <h2>Experience the Future</h2>

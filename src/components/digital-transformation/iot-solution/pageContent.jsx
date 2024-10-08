@@ -20,41 +20,24 @@ const ContentArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="pf-details-page-banner p-relative">
-                <div className="pf-details-banner-img1 w-img w-imgggg">
+              <div style={{
+                position: 'relative',
+                width: '100%',
+                paddingBottom: '56.25%',
+                overflow: 'hidden',
+              }}>
                 <Link href="/contact">
-                    <video src="/assets/img/solutions/IOT.mp4" alt="IOT" autoPlay loop muted playsInline>
-                    </video>
-                  </Link>
-                </div>
-                {/* <div className="pf-details-banner__info">
-                    <div className="row align-items-center align-items-xl-start">
-                      <div className="col-lg-8">
-                        <div className="pf-details-banner__info-left pl-30">
-                          <span>
-                            <b>Learn</b> 
-                          </span>
-                          <span>
-                            <b>Contribute</b> 
-                          </span>
-                          <span>
-                            <b>Grow</b>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-lg-4">
-                        <div className="pf-details-banner__info-right text-lg-end pl-30">
-                          
-                           <Link href="/contact">
-                           Contact Us
-                            <span>
-                              <i className="fal fa-long-arrow-right"></i>
-                            </span></Link>
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
+                  <video src="/assets/img/solutions/IOT.mp4" alt="Metaverse" autoPlay loop muted playsInline
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}>
+                  </video>
+                </Link>
               </div>
             </div>
           </div>
