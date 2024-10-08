@@ -84,7 +84,7 @@ const ContentArea = () => {
         </div>
       </div>
 
-      <div className="tp-pf-detials-main dark-bg">
+      <div className="tp-pf-detials-main dark-bg pt-30">
         <div className="container wow tpfadeUp">
 
           <h2>Introduction for Metaverse Solution:</h2>
