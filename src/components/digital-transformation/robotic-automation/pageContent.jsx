@@ -8,25 +8,26 @@ import Cta from "../../homes/home-5/cta";
 const ContentArea = () => {
 
 
-    const img_gallery_working_process = [
-        "/assets/img/portfolio/pf-details-gl-1.jpg",
-        "/assets/img/portfolio/pf-details-gl-2.jpg",
-        "/assets/img/portfolio/pf-details-gl-3.jpg",
-    ]
+  const img_gallery_working_process = [
+    "/assets/img/portfolio/pf-details-gl-1.jpg",
+    "/assets/img/portfolio/pf-details-gl-2.jpg",
+    "/assets/img/portfolio/pf-details-gl-3.jpg",
+  ]
 
-    return (
-      <>
-        <div className="tp-pf-details-page-area wow dark-bg tpfadeUp">
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <div className="pf-details-page-banner p-relative">
-                  <div className="pf-details-banner-img1 w-img w-imgggg">
-                    <Link href="/contact">
-                    <img src="/assets/img/solutions/DigT.gif" alt="" />
-                    </Link>
-                  </div>
-                  {/* <div className="pf-details-banner__info">
+  return (
+    <>
+      <div className="tp-pf-details-page-area wow dark-bg tpfadeUp">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="pf-details-page-banner p-relative">
+                <div className="pf-details-banner-img1 w-img w-imgggg">
+                  <Link href="/contact">
+                    <video src="/assets/img/solutions/Robotic.mp4" alt="Robotic" autoPlay loop muted playsInline>
+                    </video>
+                  </Link>
+                </div>
+                {/* <div className="pf-details-banner__info">
                     <div className="row align-items-center align-items-xl-start">
                       <div className="col-lg-8">
                         <div className="pf-details-banner__info-left pl-30">
@@ -72,8 +73,8 @@ const ContentArea = () => {
             processes throughout the organization. Our Expert team in RPA can get the most complex tasks and
             workflow automated for our customers and bring in more output in less time less resources and thereby
             reducing the financial costs .
-            </p>
-            
+          </p>
+
           {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>
           </div>
@@ -82,14 +83,14 @@ const ContentArea = () => {
           <img className="solutions_sponsor_img3" src="/assets/img/brand/ibm.png" alt="" />
           <img className="solutions_sponsor_img3" src="/assets/img/brand/Auto.jpg" alt="" />
           </div> */}
-          </div>
-  
-          {/* <!-- cta are  --> */}
-          <Cta/>  
-          {/* <!-- cta end --> */}
         </div>
-      </>
-    );
-  };
-  
-  export default ContentArea;
+
+        {/* <!-- cta are  --> */}
+        <Cta />
+        {/* <!-- cta end --> */}
+      </div>
+    </>
+  );
+};
+
+export default ContentArea;

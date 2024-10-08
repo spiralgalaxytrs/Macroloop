@@ -22,8 +22,9 @@ const ContentArea = () => {
             <div className="col-12">
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
-                    <img src="/assets/img/solutions/DigT.gif" alt="" />
+                <Link href="/contact">
+                    <video src="/assets/img/solutions/IOT.mp4" alt="IOT" autoPlay loop muted playsInline>
+                    </video>
                   </Link>
                 </div>
                 {/* <div className="pf-details-banner__info">

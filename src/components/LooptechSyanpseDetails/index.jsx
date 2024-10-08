@@ -8,7 +8,7 @@ const working_process_data = [
     {
         id: 1,
         bg_color: "",
-        icon: "flaticon-sketchbook",
+        icon: "fa-solid fa-bullseye",
         title: "Discovery & Strategy",
         // desctiption: "where they assess your brand, industry, and audience to develop a custom marketing plan.",
         desctiption:"Assess your brand, industry, and audience to craft a tailored marketing plan.",
@@ -16,7 +16,7 @@ const working_process_data = [
     {
         id: 2,
         bg_color: "cornblue-bg",
-        icon: "flaticon-sketchbook",
+        icon: "fa-solid fa-magnifying-glass",
         title: "In Planning & Research",
         // desctiption: "they conduct competitive analysis and keyword research to ensure every campaign element is strategically positioned.",
         desctiption: "Perform competitive analysis and keyword research for strategic campaign positioning.",
@@ -24,7 +24,7 @@ const working_process_data = [
     {
         id: 3,
         bg_color: "orange-bg",
-        icon: "flaticon-sketchbook",
+        icon: "fa-solid fa-check-to-slot",
         title: "Execution & Optimization",
         // desctiption: " they implement multi-channel strategies across digital and offline platforms, refining them in real-time.",
         desctiption: "Execute and refine multi-channel strategies across digital and offline platforms.",
@@ -32,7 +32,7 @@ const working_process_data = [
     {
         id: 4,
         bg_color: "blue-bg",
-        icon: "flaticon-sketchbook",
+        icon: "fa-solid fa-chart-line",
         title: "Analytics & Reporting",
         // desctiption: "provides transparency with performance tracking, while Continuous Improvement ensures ongoing monitoring and adjustments for long-term success and growth.",
         desctiption: "Provides transparent tracking with ongoing adjustments for lasting success.",
@@ -42,9 +42,9 @@ const working_process_data = [
 // img_gallery_working_process
 
 const img_gallery_working_process = [
-    "/assets/img/portfolio/pf-details-gl-1.jpg",
-    "/assets/img/portfolio/pf-details-gl-2.jpg",
-    "/assets/img/portfolio/pf-details-gl-3.jpg",
+    "/assets/img/portfolio/3.png",
+    "/assets/img/portfolio/2.png",
+    "/assets/img/portfolio/1.png",
 ]
 
 
@@ -111,7 +111,7 @@ const LooptechSyanpseDetails = () => {
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img">
                   <Link href="/contact">
-                  <img src="/assets/img/portfolio/pf-details-thum.jpg" alt="" />
+                  <img src="/assets/img/portfolio/1.jpg" alt="" />
                   </Link>
                 </div>
                 {/* <div className="pf-details-banner__info">
