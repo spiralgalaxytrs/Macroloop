@@ -26,7 +26,7 @@ const working_process_data = [
   [
     {
       id: 1,
-      img:"/assets/img/gallery/6.png",
+      img:"/assets/img/metaverse/1.png",
       title: "Immersive Design Visualization",
       lists : [
         <><b>3D Modeling:</b> Bring your concepts to life with dynamic, real-time 3D models.</>,
@@ -36,7 +36,7 @@ const working_process_data = [
     },
     {
       id: 2,
-      img:"/assets/img/gallery/6.png",
+      img:"/assets/img/metaverse/2.png",
       title: "Collaborative Workspace",
       lists : [
         <><b>Digital Space:</b> Enhance teamwork with real-time communication, file sharing, and virtual meetings.</>,
@@ -46,7 +46,7 @@ const working_process_data = [
     },
     {
       id: 3,
-      img:"/assets/img/gallery/6.png",
+      img:"/assets/img/metaverse/3.png",
       title: "Enhanced Client Experience",
       lists : [
         <><b>3D Exploration:</b> Immerse clients in 3D environments to explore and customize products.</>,
@@ -56,7 +56,7 @@ const working_process_data = [
     },
     {
       id: 4,
-      img:"/assets/img/gallery/6.png",
+      img:"/assets/img/metaverse/4.png",
       title: "Personalized Interiors",
       lists : [
         <><b>Custom Design:</b> Enable real-time customization through user-friendly VR interfaces.</>,
@@ -68,7 +68,7 @@ const working_process_data = [
   [
     {
       id: 5,
-      img:"/assets/img/gallery/6.png",
+      img:"/assets/img/metaverse/5.png",
       title: "Workforce Upskilling",
       lists : [
         <><b>Remote Tours:</b> Collaborate and make decisions with virtual site tours.</>,
@@ -78,7 +78,7 @@ const working_process_data = [
     },
     {
       id: 6,
-      img:"/assets/img/gallery/6.png",
+      img:"/assets/img/metaverse/6.png",
       title: "Boost Productivity and Profitability  ",
       lists : [
         <>Gain complete control and visibility over your projects with LoopTech’s Metaverse solutions, ensuring enhanced productivity and profitability. </>
@@ -87,7 +87,7 @@ const working_process_data = [
     },
     {
       id: 7,
-      img:"/assets/img/gallery/6.png",
+      img:"/assets/img/metaverse/7.png",
       title: "Experience the Future",
       lists : [
         <>Discover how LoopTech can elevate your projects with cutting-edge Metaverse technology.]</>
