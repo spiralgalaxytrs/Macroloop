@@ -66,13 +66,13 @@ const menu_data = [
     title: "LooperHub",
     link: "/LooperHub",
   },
-  {
-    id: 5,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Looptech Synapse",
-    link: "/LooptechSyanpse"
-  },
+  // {
+  //   id: 5,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "Looptech Synapse",
+  //   link: "/LooptechSyanpse"
+  // },
   {
     id: 6,
     mega_menu: false,
