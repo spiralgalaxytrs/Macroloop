@@ -9,7 +9,7 @@ const Robotic_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="Robotic Automation" title="Robotic Automation" />
+        <BreadcrumbArea acive_menu="Automation Solutions" title="Automation Solutions" />
         <ContentArea />
         <Footer tp_border={true} />
       </>

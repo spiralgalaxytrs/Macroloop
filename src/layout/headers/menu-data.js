@@ -30,10 +30,6 @@ const menu_data = [
           link: "/solutions/Digital-Transformation/IOT-Solutions"
         },
         {
-          title: "ROBOTIC AUTOMATION",
-          link: "/solutions/Digital-Transformation/Robotic-Automation"
-        },
-        {
           title: "METAVERSE SOLUTION",
           link: "/solutions/Digital-Transformation/Metaverse-Solution"
         },
@@ -53,6 +49,10 @@ const menu_data = [
     {
       title: "HRMS SOLUTION",
       link: "/solutions/HRMS"
+    },
+    {
+      title: "AUTOMATION SOLUTIONS",
+      link: "/solutions/Automation"
     },
     ],
     title: "Our Solutions",
