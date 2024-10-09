@@ -5043,7 +5043,7 @@ input[type=color] {
   position: absolute;
   top: 120%;
   left: 0;
-  min-width: 220px;
+  min-width: 300px;
   background: var(--tp-common-white);
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;

@@ -92,28 +92,6 @@
                     "id": " "
                 }
             ]
-        },
-        {
-            "id": "Security-Systems",
-            "img": "11.jpg",
-            "title": "Security Systems Solutions",
-            "st": " In today's dynamic business landscape, safeguarding physical assets, personnel, and sensitive data isparamount.",
-            "title1": "Comprehensive Security Solutions for Modern Businesses",
-            "d1": "In today's dynamic business landscape, safeguarding physical assets, personnel, and sensitive data is paramount. At LoopTech, we offer tailored and comprehensive security solutions to protect your business from a myriad of potential threats, integrating both physical and cyber security measures seamlessly. Physical security plays a crucial role in safeguarding personnel, hardware, software, networks, and data from threats such as theft, vandalism, and natural disasters.",
-            "d2": "Our range of access control measures, including ID badges, keypads, security guards, and advanced technology-supported solutions such as ID card scanners and NFC ID cards, ensures that only authorized personnel have access to specific assets. Our state-of-the-art surveillance solutions, utilizing closed-circuit television (CCTV) cameras, act as a powerful deterrent and capture criminal behavior. Our solutions extend beyond traditional threats to encompass safeguarding against data breaches and unauthorized access, including preventing unauthorized photography of sensitive data and ensuring secure workspaces. By harnessing AI-powered analytics, our intrusion detection systems excel in discerning routine activities from potential security breaches with a remarkable degree of accuracy, allowing for swift identification of suspicious behavior and real-time alerts.",
-            "d3": "In addition to bolstering physical security, our AI-integrated solutions seamlessly integrate with cyber security protocols, creating a cohesive and comprehensive security framework that addresses both physical and digital threats. Our AI-powered intrusion detection systems seamlessly integrate with surveillance cameras, enabling real-time analysis of video feeds and enhancing the system's ability to identify and respond to potential security breaches captured by the surveillance infrastructure.",
-            "d4": "We help businesses optimize their security investment by evaluating scenarios based on their risk profile. From data discovery and classification to intrusion detection and prevention systems, we provide comprehensive solutions to protect your sensitive information.",
-            "d5": "In conclusion, physical security and AI-driven cyber security are critical components of business resilience. At LoopTech, we are committed to providing tailored physical security solutions and advanced AIintegrated systems to ensure uncompromising protection for your business. Contact us today to learn more about how our comprehensive security solutions can elevate the security posture of your organization, both physically and in cyberspace.",
-            "list": [
-                {
-                    "id": " "
-                }
-            ]
-        },
-        {
-            "id": "Infrastructure",
-            "img": "13.jpg",
-            "title": "IT Infrastructure Solutions"
         }
     ]
 }

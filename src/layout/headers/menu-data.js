@@ -26,15 +26,15 @@ const menu_data = [
       link: "/solutions/Digital-Transformation",
       sub_menus: [
         {
-          title: "IOT SOLUTION",
+          title: "IOT SOLUTIONS",
           link: "/solutions/Digital-Transformation/IOT-Solutions"
         },
         {
-          title: "SECURITY SYSTEMS",
+          title: "SECURITY SYSTEMS SOLUTIONS",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
-          title: "HRMS SOLUTION",
+          title: "HRMS SOLUTIONS",
           link: "/solutions/Digital-Transformation/HRMS"
         },
         {
@@ -46,7 +46,7 @@ const menu_data = [
           link: "/solutions/Digital-Transformation/Automation"
         },
         {
-          title: "IT INFRASTRUCTURE",
+          title: "IT INFRASTRUCTURE SOLUTIONS",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }]
     },
