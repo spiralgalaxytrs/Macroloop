@@ -34,6 +34,18 @@ const menu_data = [
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
+          title: "HRMS SOLUTION",
+          link: "/solutions/Digital-Transformation/HRMS"
+        },
+        {
+          title: "METAVERSE SOLUTIONS",
+          link: "/solutions/Digital-Transformation/Metaverse"
+        },
+        {
+          title: "AUTOMATION SOLUTIONS",
+          link: "/solutions/Digital-Transformation/Automation"
+        },
+        {
           title: "IT INFRASTRUCTURE",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }]
@@ -41,18 +53,6 @@ const menu_data = [
     {
       title: "EDU-TECH",
       link: "/solutions/Edu-Tech"
-    },
-    {
-      title: "HRMS SOLUTION",
-      link: "/solutions/HRMS"
-    },
-    {
-      title: "METAVERSE SOLUTIONS",
-      link: "/solutions/Metaverse"
-    },
-    {
-      title: "AUTOMATION SOLUTIONS",
-      link: "/solutions/Automation"
     },
     ],
     title: "Our Solutions",
