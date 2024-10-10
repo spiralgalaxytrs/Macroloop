@@ -57,6 +57,22 @@ const ContentArea = () => {
             workflow automated for our customers and bring in more output in less time less resources and thereby
             reducing the financial costs .
           </p>
+          
+          <h2>IoT Automation</h2>
+          <p className="pt-20">
+            At our company, we specialize in providing customized IoT and digital transformation solutions
+            tailored to your organization's unique needs. Through in-depth consulting, we carefully analyze your
+            challenges and pain points, ensuring we understand your requirements thoroughly. Our teamof
+            experts then leverages their industry knowledge and experience to address these issues and
+            recommend the ideal solutions available in the market. We prioritize delivering the best outcomes for
+            your organization, focusing on efficiency, productivity, and growth. By embracing IoT technologies
+            and digital transformation strategies, we empower your organization to optimize operations, streamline processes, and unlock new opportunities for innovation. Our approach is rooted in
+            collaboration, working closely with your team to ensure seamless integration and adoption of the
+            recommended solutions. We are committed to providing comprehensive and reliable support
+            throughout the entire transformation journey, from strategy development to implementation and
+            beyond. With our customized IoT and digital transformation services, you can stay ahead of the
+            competition, drive sustainable growth, and achieve your organizational objectives effectively
+          </p>
 
           {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>

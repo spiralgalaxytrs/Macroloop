@@ -39,7 +39,7 @@ const AboutArea = ({style_about}) => {
                     <div className="col-xl-6 wow tpfadeUp">
                         <div className="law-about-left p-relative mb-30">
                             <div className="row gx-4">
-                                <div className="col-md-6">
+                                <div className="col-md-6 row g-4">
                                     <div className='col-12 mb-5'>
                                         {/* <span><i className="flaticon-global"></i></span>
                                         <span>{left_title}</span> */}
@@ -49,11 +49,11 @@ const AboutArea = ({style_about}) => {
                                         <img className="shadow rounded img-fluid" src={img_1} alt="" style={{height: "210px",width:"295px",objectFit: "cover"}}/>
                                     </div>
                                 </div>
-                                <div className="col-md-6">
-                                    <div className="law-about-img-2 col-12 mb-5">
+                                <div className="col-md-6 row g-4 ">
+                                    <div className="col-12 mb-5">
                                         <img className="shadow rounded img-fluid" src={img_2} alt=""  style={{height: "210px",width:"295px",objectFit: "cover"}}/>
                                     </div>
-                                    <div className="law-about-img-2">
+                                    <div className="law-about-img-1">
                                         <img className="shadow rounded img-fluid" src={img_3} alt=""  style={{height: "210px",width:"295px",objectFit: "cover"}}/>
                                     </div>
                                 

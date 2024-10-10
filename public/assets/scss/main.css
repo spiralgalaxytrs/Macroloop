@@ -49093,3 +49093,8 @@ footer {
   font-family: var(--tp-ff-hf);
 }
 
+@media (min-width: 1250px) {
+  .d-hidden {
+    display: none !important;
+  }
+}

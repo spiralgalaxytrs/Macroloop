@@ -8,7 +8,7 @@ const HRMS_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="HRMS" title="HRMS Solutions" />
+        <BreadcrumbArea acive_menu="HRMS Solutions" title="HRMS Solutions" />
         <ContentArea />
         <Footer tp_border={true} />
       </>

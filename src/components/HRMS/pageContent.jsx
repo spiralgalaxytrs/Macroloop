@@ -4,6 +4,56 @@ import Link from "next/link";
 
 const ContentArea = () => {
 
+  const Features = [
+    {
+      id: 1,
+      color:"red",
+      title: "Max Recruit",
+      description: "Efficient recruitment for exceptional talant",
+    },
+    {
+      id: 2,
+      color:"blue",
+      title: "Max Foundation",
+      description: "Single source of employee data from hire to retire",
+    },
+    {
+      id: 3,
+      color:"green",
+      title: "Max Workforce",
+      description: "Manage and track employees with efficiency",
+    },
+    {
+      id: 4,
+      color:"orange",
+      title: "Max Engage",
+      description: "Your finger on the employee's pulse",
+    },
+    {
+      id: 5,
+      color:"lightgreen",
+      title: "Max Payroll",
+      description: "Effectively manage compensation and benefits",
+    },
+    {
+      id: 6,
+      color:"#8F00FF",
+      title: "Max Talent",
+      description: "Align employee performance to company goals",
+    },
+    {
+      id: 7,
+      color:"yellow",
+      title: "Max Learn",
+      description: "Upskill and reskill employees for better growth",
+    },
+    {
+      id: 8,
+      color:"gray",
+      title: "Max Insight",
+      description: "Greater insights with effective dashboards",
+    }
+  ]
 
   const img_gallery_working_process = [
     "/assets/img/portfolio/pf-details-gl-1.jpg",
@@ -46,21 +96,20 @@ const ContentArea = () => {
         <div className="container wow tpfadeUp">
           {/* <h2>Introduction</h2> */}
           <p className="pt-20">
-            At MacroLoop Technologies, we are transforming HR by embracing the principles of Contemporary, Contextual, and Composable solutions. Our Max HR Tech Platform is designed to meet the dynamic needs of today’s businesses and workforce.
-            With seamless automation, no-code customizations, and a mobile-first approach, we empower HR teams to optimize processes from recruitment to retirement.Our platform offers powerful features such as AI-driven intelligence, advanced analytics, and scalable architecture, ensuring precision and performance. Whether you’re hiring top talent, engaging employees, or streamlining payroll, MacroLoop Technologies future-proofs your HR strategy and drives business success.
+            At MacroLoop Technologies, we understand that efficient Human Resource Management is the
+            backbone of any successful organization. Our comprehensive, future-ready HRMS platformis
+            designed to streamline your workforce management and elevate employee engagement. Our 
+            HumanResource Management System (HRMS) goes beyond conventional solutions, offering a fully
+            integrated platform that covers every aspect of HR from hire to retire.
           </p>
 
-          <h3>The Power of Three: Transforming HR with MacroLoop Technologies</h3>
-          <p className="pt-20">
-            At MacroLoop Technologies, we understand that today's HR practice needs to be <b>Contemporary, Contextual,</b> and <b>Composable</b>—ready to adapt to the ever-evolving needs of businesses and their people.
-            We’re powering the future of HR with cutting-edge technology that puts people first while driving business success.
-          </p>
-
-
-          <h3>Empowering People, Powering Businesses</h3>
-          <p className="pt-20">
-            Our Max HR Tech Platform caters to every HR requirement, from recruitment to retirement, offering a seamless, pain-free experience with zero hassle.
-            No complex implementations. No long-winded integrations. Just precision, performance, and people empowerment at every step.
+          <h3>Why Choose MAX HCM suite?</h3>
+          <p className="pt-20">            
+            In a rapidly evolving business landscape, organizations need adaptable, scalable, 
+            and user-friendly HRtools. MAX HCM suite empowers your business with intelligent features 
+            that simplify HR processes, improve productivity, and ensure compliance. Whether you're 
+            managing a global workforce or a growing startup, our solutions are tailored to your 
+            unique business needs, ensuring seamless operations across all levels. 
           </p>
 
           <div className="container">
@@ -73,23 +122,54 @@ const ContentArea = () => {
             </div>
           </div>
 
-          <h3>Platform Capabilities: A Closer Look</h3>
-          {/* <div className="pf-dt-img-gallery mb-30">
-              <div className="row">
-                {img_gallery_working_process.map((item, i) => (
-                  <div key={i} className="col-lg-4 wow tpfadeUp">
-                    <div
-                      className="pf-details-img-gl w-img mb-30 "
-                      data-tilt
-                      data-tilt-perspective="2000"
-                    >
-                      <img src={item} alt="theme-pure" />
+          <h3>Seamless Integration Across All Platforms</h3>
+          <p className="pt-20">
+            Our HCM platform is designed to integrate seamlessly with your existing business software, 
+            including ERP, CRM, and other third-party systems, ensuring that you get a unified and 
+            comprehensive approach to HR management. Whether you're accessing the platform from a 
+            desktop or mobile device, MAX HCM suite provides a consistent and intuitive experience for 
+            both HR professionals andemployees. 
+          </p>
+          
+          {/* <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="img-container p-3 mb-4 rounded">
+                  <img src="/assets/img/solutions/HCM2.png" className="img-fluid" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+          <div className="container m-20 py-60">
+            <div className="row">
+              {Features.map((feature,i)=>(
+                <div key={i} className="col-lg-3 col-md-4 col-6">
+                  <div className="content-container" style={{ borderLeft: `5px solid ${feature.color}`, }}>
+                    <div className="border-box ps-3">
+                      <h4>{feature.title}</h4>
+                      <p className="pt-20">{feature.description}</p>
                     </div>
                   </div>
-                ))}
-              </div>
-            </div> */}
+                </div>
+              ))}
+            </div>
+          </div> 
+
+          <h3>Tailored for All Industries</h3>
           <p className="pt-20">
+            No matter your industry, our HRMS platform is adaptable to the unique requirements of your
+            business. We provide scalable solutions for industries such as manufacturing, healthcare, 
+            IT, and more, ensuring that your HR processes are aligned with the specific challenges and 
+            opportunities of your sector. At MacroLoop Technologies, we’re committed to driving the future 
+            of HR management with innovative, scalable, and user-friendly solutions. Let us help you unlock 
+            the full potential of your workforce with a platform built for efficiency, accuracy, and growth. 
+            Connect with us today to learn more about how MAX HCM suite can transform your HR operations.
+          </p>
+
+
+          {/* <h3>Platform Capabilities: A Closer Look</h3> */}
+          {/* <p className="pt-20">
             MacroLoop’s HR Tech Platform future-proofs your HR needs with a powerful suite of features.
             Our <b>no-code automation</b> makes customizing workflows effortless, ensuring a mobile-first experience designed with Gen-Z and the modern workforce in mind.
           </p>
@@ -107,86 +187,13 @@ const ContentArea = () => {
             <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Security Engine</li>
             <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Mobile & Web Framework</li>
             <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> API Integration</li>
-            {/* <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Construction safety and risk management</li>
-            <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Supplier relationship management  </li>
-            <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Document management</li> */}
           </ul>
 
           <h3>Maximizing ROI with Expertise & Scalability</h3>
           <p className="pt-20">
             Benefit from our extensive HR experience. Our platform is built to deliver assured ROI, thanks to its <b>scalable, extensible,</b> and <b>easy-to-integrate</b> architecture.
             Enjoy a <b>comprehensive view</b> of your HR operations while maintaining <b>information and data security</b> at all times.
-          </p>
-
-
-          <div className="container py-20">
-            <div className="row">
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid red", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Recruit</h3>
-                    <p className="pt-20">Efficient recruitment for exceptional talant</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid blue", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Foundation</h3>
-                    <p className="pt-20">Single source of employee data from hire to retire</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid green", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Workforce</h3>
-                    <p className="pt-20">Manage and track employees with efficiency</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid orange", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Engage</h3>
-                    <p className="pt-20">Your finger on the employee's pulse</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid lightgreen", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Payroll</h3>
-                    <p className="pt-20">Effectively manage compensation and benefits</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid #8F00FF", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Talent</h3>
-                    <p className="pt-20">Align employee performance to company goals</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid yellow", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Learn</h3>
-                    <p className="pt-20">Upskill and reskill employees for better growth</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-4 col-6">
-                <div className="content-container" style={{ borderLeft: "5px solid gray", }}>
-                  <div className="border-box ps-3">
-                    <h3>Max Insight</h3>
-                    <p className="pt-20">Greater insights with effective dashboards</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </p> */}
 
           {/* <h2>HR Features That Deliver Impact</h2>
           <p className="pt-5">
@@ -200,12 +207,12 @@ const ContentArea = () => {
             <li className="icon">Efficient Payroll Management: Max HR Payroll simplifies monthly operations, keeping everything on track</li>
             <li className="icon">Boost Employee Loyalty: Max Engage strengthens employee bonds, ensuring higher retention.</li>
           </ul> */}
-
+{/* 
           <h3>The Future of HR is Here, with MacroLoop Technologies</h3>
           <p className="pt-20">
             Our HR Tech platform is more than just a tool—it’s the future of HR.
             With a <b>modular build and deployment,</b> we ensure you get exactly what your organization needs, whether you're scaling for growth or looking for efficiency gains.
-          </p>
+          </p> */}
 
           {/* <p className="pt-5">
             Join us on the journey to <b>future-proof</b> your HR strategy and power your business for success.
