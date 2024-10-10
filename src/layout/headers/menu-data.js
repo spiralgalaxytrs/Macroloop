@@ -30,15 +30,15 @@ const menu_data = [
         //   link: "/solutions/Digital-Transformation/IOT-Solutions"
         // },
         {
-          title: "SECURITY MANAGEMENT SOLUTIONS",
+          title: "SECURITY MANAGEMENT",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
-          title: "HRMS SOLUTIONS",
+          title: "HRMS",
           link: "/solutions/Digital-Transformation/HRMS"
         },
         {
-          title: "METAVERSE SOLUTIONS",
+          title: "METAVERSE",
           link: "/solutions/Digital-Transformation/Metaverse"
         },
         // {
@@ -46,7 +46,7 @@ const menu_data = [
         //   link: "/solutions/Digital-Transformation/Automation"
         // },
         {
-          title: "IT INFRASTRUCTURE SOLUTIONS",
+          title: "IT INFRASTRUCTURE",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }]
     },

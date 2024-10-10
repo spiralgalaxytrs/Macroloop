@@ -9,7 +9,7 @@ const Security_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="Security Management Solutions" title="Security Management Solutions" />
+        <BreadcrumbArea acive_menu="Security Management" title="Security Management" />
         <ContentArea />
         <Footer tp_border={true} />
       </>
