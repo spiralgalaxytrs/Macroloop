@@ -25,10 +25,10 @@ const menu_data = [
       title: "DIGITAL TRANSFORMATION",
       link: "/solutions/Digital-Transformation",
       sub_menus: [
-        {
-          title: "IOT SOLUTIONS",
-          link: "/solutions/Digital-Transformation/IOT-Solutions"
-        },
+        // {
+        //   title: "IOT SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/IOT-Solutions"
+        // },
         {
           title: "SECURITY SYSTEMS SOLUTIONS",
           link: "/solutions/Digital-Transformation/Security-Systems"
@@ -41,10 +41,10 @@ const menu_data = [
           title: "METAVERSE SOLUTIONS",
           link: "/solutions/Digital-Transformation/Metaverse"
         },
-        {
-          title: "AUTOMATION SOLUTIONS",
-          link: "/solutions/Digital-Transformation/Automation"
-        },
+        // {
+        //   title: "AUTOMATION SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/Automation"
+        // },
         {
           title: "IT INFRASTRUCTURE SOLUTIONS",
           link: "/solutions/Digital-Transformation/Infrastructure"

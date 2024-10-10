@@ -5,32 +5,6 @@ import Link from "next/link";
 const service_data = [
   {
     id: 1,
-    icon: "/assets/img/icons/IOT.png",
-    icon: "/assets/img/icons/IOT.png",
-    link: "/solutions/Digital-Transformation/IOT-Solutions",
-    img: "/assets/img/services/seo-sv-img-4.jpg",
-    title: "IOT SOLUTIONS",
-    des: <>Our solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.</>,
-    counter: "",
-    delay: ".4s"
-  },
-
-  {
-    id: 2,
-    icon: "/assets/img/icons/2.png",
-    icon: "/assets/img/icons/2.png",
-    link: "/solutions/Digital-Transformation/Robotic-Automation",
-    img: "/assets/img/icons/service-icons-4.png",
-    title: "AUTOMATION SOLUTIONS",
-    des: <>Robotic Process Automation bots have the same digital skill sets as people—and then some.</>,
-    counter: "",
-    delay: ".4s",
-    data_aos: "",
-    duration: "",
-  },
-
-  {
-    id: 3,
     icon: "/assets/img/icons/3.png",
     icon: "/assets/img/icons/3.png",
     link: "/solutions/Digital-Transformation/Metaverse-Solution",
