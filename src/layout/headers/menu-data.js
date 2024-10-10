@@ -26,33 +26,33 @@ const menu_data = [
       link: "/solutions/Digital-Transformation",
       sub_menus: [
         {
-          title: "IOT SOLUTION",
+          title: "IOT SOLUTIONS",
           link: "/solutions/Digital-Transformation/IOT-Solutions"
         },
         {
-          title: "ROBOTIC AUTOMATION",
-          link: "/solutions/Digital-Transformation/Robotic-Automation"
-        },
-        {
-          title: "METAVERSE SOLUTION",
-          link: "/solutions/Digital-Transformation/Metaverse-Solution"
-        },
-        {
-          title: "SECURITY SYSTEMS",
+          title: "SECURITY SYSTEMS SOLUTIONS",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
-          title: "IT INFRASTRUCTURE",
+          title: "HRMS SOLUTIONS",
+          link: "/solutions/Digital-Transformation/HRMS"
+        },
+        {
+          title: "METAVERSE SOLUTIONS",
+          link: "/solutions/Digital-Transformation/Metaverse"
+        },
+        {
+          title: "AUTOMATION SOLUTIONS",
+          link: "/solutions/Digital-Transformation/Automation"
+        },
+        {
+          title: "IT INFRASTRUCTURE SOLUTIONS",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }]
     },
     {
       title: "EDU-TECH",
       link: "/solutions/Edu-Tech"
-    },
-    {
-      title: "HRMS SOLUTION",
-      link: "/solutions/HRMS"
     },
     ],
     title: "Our Solutions",

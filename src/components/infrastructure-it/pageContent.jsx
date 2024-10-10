@@ -124,7 +124,7 @@ const ContentArea = () => {
             threat protection.
           </p>
 
-          <h2>Collaboration and Communication</h2>
+          {/* <h2>Collaboration and Communication</h2>
 
           <p className="pt-20">
             Efficient collaboration and communication are essential for modern
@@ -158,7 +158,7 @@ const ContentArea = () => {
             we are your trusted partner in navigating the complexities of modern
             IT infrastructure. Contact us today to explore how our tailored
             solutions can drive the success of your business.
-          </p>
+          </p> */}
 
           {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>
