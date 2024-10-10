@@ -23,7 +23,7 @@ const slider_content = [
     id: 3,
     bg_img: "/assets/img/solutions/DigT.gif",
     url: "/solutions/Digital-Transformation",
-    title: <>Security Systems and Solutions: </>,
+    title: <>Security Management and Solutions: </>,
     sub_title:<>Uncompromised Security, Unmatched Peace of Mind</>
   },
   {

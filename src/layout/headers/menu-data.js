@@ -30,7 +30,7 @@ const menu_data = [
         //   link: "/solutions/Digital-Transformation/IOT-Solutions"
         // },
         {
-          title: "SECURITY SYSTEMS SOLUTIONS",
+          title: "SECURITY MANAGEMENT SOLUTIONS",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {

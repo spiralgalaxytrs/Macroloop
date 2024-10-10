@@ -21,7 +21,7 @@ const service_data = [
     icon: "/assets/img/icons/service-icons-6.png",
     link: "/solutions/Digital-Transformation/Security-Systems",
     img: "/assets/img/icons/service-icons-6.png",
-    title: "SECURITY SYSTEMS SOLUTIONS",
+    title: "SECURITY MANAGEMENT",
     des: <>In conclusion, physical security and AI-driven cyber security are critical components of business resilience.</>,
     counter: "",
     delay: ".4s",
