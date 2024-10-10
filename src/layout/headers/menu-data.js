@@ -73,16 +73,16 @@ const menu_data = [
   //   title: "Looptech Synapse",
   //   link: "/LooptechSyanpse"
   // },
+  // {
+  //   id: 6,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "LCG",
+  //   link: "/lcg",
+
+  // },
   {
     id: 6,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "LCG",
-    link: "/lcg",
-
-  },
-  {
-    id: 7,
     mega_menu: false,
     has_dropdown: false,
     title: "Contact",
