@@ -260,6 +260,7 @@
             left: 15px;
             background-color: #ffffff;
             z-index:100;
+            padding: 2px;
         }
 
         & input[value=""] + lable {
@@ -310,6 +311,7 @@
         left: 15px;
         background-color: #ffffff;
         z-index: 100;
+        padding: 2px;
     }
 
     & textarea.content + lable {
