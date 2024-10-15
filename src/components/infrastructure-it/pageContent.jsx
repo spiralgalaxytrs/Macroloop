@@ -1,6 +1,8 @@
 import React from "react";
 import CtaArea from "../homes/home-5/cta";
 import Link from "next/link";
+import { hide } from "@popperjs/core";
+
 
 const ContentArea = () => {
   const img_gallery_working_process = [
@@ -8,6 +10,9 @@ const ContentArea = () => {
     "/assets/img/portfolio/pf-details-gl-2.jpg",
     "/assets/img/portfolio/pf-details-gl-3.jpg",
   ];
+
+  const isMobile = () => window.innerWidth <= 768;
+
 
   return (
     <>
@@ -17,9 +22,23 @@ const ContentArea = () => {
             <div className="col-12">
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
-                    <img src="/assets/img/solutions/IT-infrastructure.gif" alt="" />
-                  </Link>
+                <div className="row">
+           <div className="col-12 col-md-6">
+           <Link href="/contact">
+          <img src="/assets/img/solutions/IT-infrastructure.gif" style={{ width: '450px', height: '350px' }} alt="" />
+           </Link>
+            </div>
+  
+          <div className="col-12 col-md-6" style={{paddingTop:'30px'}}>
+           <h2>Comprehensive IT Infrastructure</h2>
+           <p style={{fontSize:'18px'}} className="pt-20">
+            In today's digital landscape, a robust IT infrastructure is essential for ensuring seamless communication, safeguarding data, and maintaining business continuity. MacroLoop Technologies offers a comprehensive suite of IT Infrastructure solutions designed to empower your organization with secure, efficient, and scalable technology.
+          </p>
+          </div>
+          </div>
+
+                 
+            
                 </div>
                 {/* <div className="pf-details-banner__info">
                     <div className="row align-items-center align-items-xl-start">
@@ -57,58 +76,73 @@ const ContentArea = () => {
 
       <div className="tp-pf-detials-main dark-bg pt-50">
         <div className="container wow tpfadeUp">
-          <h2>Comprehensive IT Infrastructure Solutions</h2>
+          {/* <h2>Comprehensive IT Infrastructure</h2>
           <p className="pt-20">
-            At LoopTech, we offer a comprehensive range of IT infrastructure
-            solutions designed to meet the evolving needs of modern businesses.
-            Our commitment to excellence and innovation has led us to partner
-            with leading industry players to bring you cutting-edge technology
-            and unparalleled support.
+          In today's digital landscape, a robust IT infrastructure is essential for ensuring seamless communication, safeguarding data, and maintaining business continuity. MacroLoop Technologies offers a comprehensive suite of IT Infrastructure solutions designed to empower your organization with secure, efficient, and scalable technology.
+          </p> */}
+
+          <h2>Networking Services</h2>
+
+          <p className="pt-20">
+          Our <strong>Network Services</strong> provide a secure, reliable, and high-performing foundation for your organization's communication needs:       
+          
+          <ul>
+            <li>
+            &#8226; <strong>Network Security:</strong> Our multi-layered architecture defends against cyber threats with firewalls, intrusion detection, and encryption protocols, ensuring your data remains protected.
+            </li>
+        
+            <li>
+            &#8226; <strong>Performance Optimization: </strong>We conduct continuous monitoring and management to maximize uptime and speed, enabling seamless operations with minimal latency.
+            </li>
+       
+            <li>
+            &#8226; <strong>Proactive Threat Detection:</strong>Utilizing advanced Al-driven systems, we identify vulnerabilities before they escalate, offering real-time alerts and automated responses to keep your network secure.
+            </li>
+          </ul>                    
           </p>
 
-          <h2>Networking Solutions</h2>
+          <h2>Data Centre and Server Management</h2>
 
-          <p className="pt-20">
-            Our networking solutions are designed to keep your business
-            connected and running smoothly. Whether you require a robust and
-            secure wired network or a flexible and scalable wireless solution,
-            we have the expertise to design, implement, and manage a network
-            that meets your specific requirements. Benefit from high-speed,
-            reliable, and secure wired networking solutions that form the
-            backbone of your IT infrastructure. Experience seamless connectivity
-            and mobility with our tailored wireless networking solutions that
-            prioritize performance and security.
-          </p>
+          <p className="pt-20">          
+          Recognizing the value of your data, our<strong> Data Centre and Server Management </strong>services ensure your servers operate efficiently and securely:
 
-          <h2>Data Storage and Management</h2>
-
-          <p className="pt-20">
-            Efficient data storage and management are critical for businesses of
-            all sizes. Our solutions are designed to help you store, protect,
-            and manage your data effectively, ensuring accessibility, security,
-            and compliance. Leverage scalable and resilient storage solutions to
-            accommodate your growing data needs while ensuring data integrity
-            and availability. Streamline data management processes and gain
-            insights from your data with our robust data management solutions
-            that empower you to make informed decisions.
+          <ul>
+            <li>
+            &#8226; <strong>Server Security & Monitoring:</strong> We provide 24/7 surveillance and real-time issue resolution to minimize downtime and protect your infrastructure.
+            </li>
+         
+            <li>
+            &#8226; <strong>Data Protection: </strong>Our high-level security protocols, including encryption and access controls, ensure your data is safeguarded from unauthorized access.
+            </li>
+          
+            <li>
+            &#8226; <strong>Scalable Solutions: </strong>Our flexible server management adapts to your growing business needs, providing consistent performance without unnecessary costs.
+            </li>
+          </ul>          
           </p>
 
           <h2>Cloud Services</h2>
 
           <p className="pt-20">
-            Embrace the power of the cloud with our comprehensive cloud services
-            that enable you to optimize your IT resources, enhance
-            collaboration, and drive innovation. Seamlessly transition to the
-            cloud with our expertise in cloud migration and integration,
-            ensuring minimal disruption and maximum efficiency. Optimize your
-            cloud environment with our robust cloud management solutions that
-            prioritize performance, security, and cost-effectiveness. Harness
-            the benefits of both public and private cloud environments with our
-            hybrid cloud solutions, offering flexibility and control over your
-            workloads.
+          Leverage the cloud's power with our comprehensive <strong>Cloud Services</strong>, prioritizing safety and data protection:
+          
+          <ul>
+            <li>
+            &#8226; <strong>Secure Cloud Migration:</strong> We ensure a seamless transition to cloud platforms, maintaining data integrity and minimizing business disruption.
+            </li>
+
+            <li>
+            &#8226; <strong>Data Encryption & Backup:</strong> Advanced encryption techniques and regular backups protect your information and ensure recoverability.
+            </li>
+
+            <li>
+            &#8226; <strong>Disaster Recovery: </strong>Our tailored recovery solutions guarantee business continuity by restoring operations quickly and efficiently during unexpected disruptions.
+            </li>
+          </ul> 
+          
           </p>
 
-          <h2>Security Solutions</h2>
+          {/* <h2>Security Solutions</h2>
 
           <p className="pt-20">
             Protecting your digital assets and ensuring regulatory compliance
@@ -122,7 +156,7 @@ const ContentArea = () => {
             your endpoints from malware, ransomware, and other advanced threats
             with our endpoint security solutions that provide comprehensive
             threat protection.
-          </p>
+          </p> */}
 
           {/* <h2>Collaboration and Communication</h2>
 
