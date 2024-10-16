@@ -19,7 +19,12 @@ const menu_data = [
     has_dropdown: true,
     sub_menus: [{
       title: "CONSTRUCTION TECHNOLOGY",
-      link: "/solutions/Construction-Technical"
+      link: "/solutions/Construction-Technical",
+      sub: [
+        "Project Management Solutions",
+        "Document Management Solutions",
+        "Building Information Modeling"
+      ]
     },
     {
       title: "DIGITAL TRANSFORMATION",
@@ -59,11 +64,23 @@ const menu_data = [
           title: "IT INFRASTRUCTURE",
           title: "IT INFRASTRUCTURE",
           link: "/solutions/Digital-Transformation/Infrastructure"
-        }]
+        }
+      ],
+      sub: [
+        "Security Management",
+        "HRMS",
+        "Metaverse",
+        "IT Infrastructure"
+      ]
     },
     {
       title: "EDU-TECH",
-      link: "/solutions/Edu-Tech"
+      link: "/solutions/Edu-Tech",
+      sub: [
+        "Corporate Training",
+        "Institutional Training",
+        "Laboratory Solutions"
+      ]
     },
     ],
     title: "Our Solutions",
