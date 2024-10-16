@@ -45,7 +45,6 @@ const CallToActionForm = ({style_sv_details}) => {
         setAgen('')
         setMsg('')
         console.log('Response succeeded!')
-
       }
     })
     
@@ -62,7 +61,16 @@ const CallToActionForm = ({style_sv_details}) => {
               <span>
                 <i className="fas fa-user"></i>
               </span>
-              <input type="text" value={name} placeholder="Full name" name="name" onChange={(e)=>{setName(e.target.value)}}/>
+              <input 
+                type="text" 
+                value={name} 
+                placeholder="Full name" 
+                name="name" 
+                onChange={(e)=>{
+                  setName(e.target.value)
+                  setSubmitted(false)
+                }}
+              />
               <lable>Full name</lable>
             </div>
           </div>
@@ -72,7 +80,16 @@ const CallToActionForm = ({style_sv_details}) => {
               <span>
                 <i className="fas fa-envelope-open"></i>
               </span>
-              <input type="text" value={mail} placeholder="Email address"name="mail" onChange={(e)=>{setMail(e.target.value)}}/>
+              <input 
+                type="text" 
+                value={mail} 
+                placeholder="Email address"
+                name="mail" 
+                onChange={(e)=>{
+                  setMail(e.target.value)
+                  setSubmitted(false)
+                }}
+              />
               <lable>Email address</lable>
             </div>
           </div>
@@ -82,7 +99,18 @@ const CallToActionForm = ({style_sv_details}) => {
                 <span>
                   <i className="fas fa-phone"></i>
                 </span>
-                <input type="tel" value={phone} placeholder="Phone" name="phone" onChange={(e)=>{setPhone(e.target.value)}} />
+                <input 
+                  type="tel" 
+                  value={phone} 
+                  placeholder="Phone" 
+                  name="phone" 
+                  onChange={(e)=>{
+                    if(!isNaN(e.target.value)){
+                      setPhone(e.target.value)
+                      setSubmitted(false)
+                    }
+                  }}
+                />
                 <lable>Phone</lable>
               </div>
             </div>        
@@ -92,7 +120,16 @@ const CallToActionForm = ({style_sv_details}) => {
                 <span>
                   <i className="fa fa-sitemap"></i>
                 </span>
-                <input type="text" value={org} placeholder="Organisation" name="org" onChange={(e)=>{setOrg(e.target.value)}} />
+                <input 
+                  type="text" 
+                  value={org} 
+                  placeholder="Organisation" 
+                  name="org" 
+                  onChange={(e)=>{
+                    setOrg(e.target.value)
+                    setSubmitted(false)
+                  }} 
+                />
                 <lable>Organisation</lable>
               </div>
             </div>
@@ -107,14 +144,17 @@ const CallToActionForm = ({style_sv_details}) => {
                     value={re}
                     name="re"
                     className='nice-select'
-                    onChange={(e)=>setReq(e.target.value)}
-                       >
-                      {item.sub_menus.map((sub_item, sub_i) => (
-                        <option key={sub_i}>
-                          {sub_item.title}
-                        </option>
-                      ))}
-                    </select>
+                    onChange={(e)=>{
+                      setReq(e.target.value)
+                      setSubmitted(false)
+                    }}
+                  >
+                    {item.sub_menus.map((sub_item, sub_i) => (
+                      <option key={sub_i}>
+                        {sub_item.title}
+                      </option>
+                    ))}
+                  </select>
                 ))}
                 <lable>Requirement</lable>
 
@@ -125,7 +165,16 @@ const CallToActionForm = ({style_sv_details}) => {
             <div className="input-item">
                 <span>
                 <i className="fa-regular fa-rectangle-list"></i>                </span>
-                <input type="text" value={agen} placeholder="Agenda" name="agen" onChange={(e)=>{setAgen(e.target.value)}}  />
+                <input 
+                  type="text" 
+                  value={agen} 
+                  placeholder="Agenda" 
+                  name="agen" 
+                  onChange={(e)=>{
+                    setAgen(e.target.value)
+                    setSubmitted(false)
+                  }}
+                />
                 <lable>Agenda</lable>
               </div>
             </div>
@@ -150,6 +199,15 @@ const CallToActionForm = ({style_sv_details}) => {
 
         </div>
       </form>
+      
+      {/* Autofill styles */}
+      <style jsx>{`
+        input:-webkit-autofill {
+          background-color: transparent !important;
+          -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+          -webkit-text-fill-color: #000 !important;
+        }
+      `}</style>
     </>
   );
 };

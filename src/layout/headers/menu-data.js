@@ -25,28 +25,28 @@ const menu_data = [
       title: "DIGITAL TRANSFORMATION",
       link: "/solutions/Digital-Transformation",
       sub_menus: [
+        // {
+        //   title: "IOT SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/IOT-Solutions"
+        // },
         {
-          title: "IOT SOLUTIONS",
-          link: "/solutions/Digital-Transformation/IOT-Solutions"
-        },
-        {
-          title: "SECURITY SYSTEMS SOLUTIONS",
+          title: "SECURITY MANAGEMENT",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
-          title: "HRMS SOLUTIONS",
+          title: "HRMS",
           link: "/solutions/Digital-Transformation/HRMS"
         },
         {
-          title: "METAVERSE SOLUTIONS",
+          title: "METAVERSE",
           link: "/solutions/Digital-Transformation/Metaverse"
         },
+        // {
+        //   title: "AUTOMATION SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/Automation"
+        // },
         {
-          title: "AUTOMATION SOLUTIONS",
-          link: "/solutions/Digital-Transformation/Automation"
-        },
-        {
-          title: "IT INFRASTRUCTURE SOLUTIONS",
+          title: "IT INFRASTRUCTURE",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }]
     },
@@ -73,16 +73,16 @@ const menu_data = [
   //   title: "Looptech Synapse",
   //   link: "/LooptechSyanpse"
   // },
+  // {
+  //   id: 6,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "LCG",
+  //   link: "/lcg",
+
+  // },
   {
     id: 6,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "LCG",
-    link: "/lcg",
-
-  },
-  {
-    id: 7,
     mega_menu: false,
     has_dropdown: false,
     title: "Contact",
