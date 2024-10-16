@@ -223,6 +223,7 @@
             border: 2px solid var(--tp-border-10);
             background-color: transparent;
             -webkit-appearance: none;
+            text-transform: capitalize;
             
             @include tp-placeholder {
                 color: var(--tp-grey-5);
@@ -239,6 +240,7 @@
                 min-block-size: 1.2em;
                 padding-inline: -10px;
                 white-space: nowrap;
+                text-transform: capitalize;
             }
         }
 

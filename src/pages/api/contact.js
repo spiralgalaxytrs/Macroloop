@@ -12,18 +12,18 @@ export default async function (req, res) {
     })
     const mailData = {
       from: 'mailtrscbe@gmail.com',
-      to: 'info@looptech.in',
-      // to: 'vishaal.j.trs@gmail.com',
+      // to: 'info@looptech.in',
+      to: 'vishaal.j.trs@gmail.com',
       subject: `Message From ${req.body.name}`,
     //   text: req.body.msg + " | Sent from: " + req.body.mail,
       html: `<h1>MacroLoop Technologies  Enquiry</h1> 
-      Name:${req.body.name}<br>
-      Email:${req.body.mail}<br>
-      Mobile:${req.body.phone}<br>
-      ORG:${req.body.org}<br>
-      REQUIREMENT:${req.body.re}<br>
-      AGENDA:${req.body.agen}<br>
-      Message:${req.body.msg}`
+      Name: ${req.body.name ?? ''}<br>
+      Email: ${req.body.mail ?? ''}<br>
+      Mobile: ${req.body.phone ?? ''}<br>
+      Organisation: ${req.body.org ?? ''}<br>
+      Requirement: ${req.body.re ?? ''}<br>
+      Agenda: ${req.body.agen ?? ''}<br>
+      Message: ${req.body.msg ?? ''}`
     }
     // transporter.sendMail(mailData, function (err, info) {
     //   if(err)
