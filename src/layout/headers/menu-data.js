@@ -29,15 +29,21 @@ const menu_data = [
         //   title: "IOT SOLUTIONS",
         //   link: "/solutions/Digital-Transformation/IOT-Solutions"
         // },
+        // {
+        //   title: "IOT SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/IOT-Solutions"
+        // },
         {
           title: "SAFETY MANAGEMENT",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
           title: "HRMS",
+          title: "HRMS",
           link: "/solutions/Digital-Transformation/HRMS"
         },
         {
+          title: "METAVERSE",
           title: "METAVERSE",
           link: "/solutions/Digital-Transformation/Metaverse"
         },
@@ -45,7 +51,12 @@ const menu_data = [
         //   title: "AUTOMATION SOLUTIONS",
         //   link: "/solutions/Digital-Transformation/Automation"
         // },
+        // {
+        //   title: "AUTOMATION SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/Automation"
+        // },
         {
+          title: "IT INFRASTRUCTURE",
           title: "IT INFRASTRUCTURE",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }]
@@ -73,16 +84,16 @@ const menu_data = [
   //   title: "Looptech Synapse",
   //   link: "/LooptechSyanpse"
   // },
+  // {
+  //   id: 6,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "LCG",
+  //   link: "/lcg",
+
+  // },
   {
     id: 6,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "LCG",
-    link: "/lcg",
-
-  },
-  {
-    id: 7,
     mega_menu: false,
     has_dropdown: false,
     title: "Contact",
