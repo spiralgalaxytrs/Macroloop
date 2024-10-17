@@ -16,6 +16,7 @@ const CallToActionForm = ({style_sv_details}) => {
 
   const [errors, setErrors] = useState({});
   const [submited, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   // Regular expressions for validation
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -31,12 +32,14 @@ const CallToActionForm = ({style_sv_details}) => {
       delete errors[name];
     }
 
-    if (name == 're') {
-      setFormData({ ...formData, [name]: value, agen: '' });
+    if (name == 're' && value != 'DIGITAL TRANSFORMATION') {
+      setFormData({ ...formData, [name]: value, isagen:false , agen: '-' });
+    }else if (name == 're') {
+      setFormData({ ...formData, [name]: value, isagen:true , agen: '' });
     }else{ 
       setFormData({ ...formData, [name]: value });
     }
-
+    console.log("formData",formData)
   };
 
   const validateForm = () => {
@@ -79,6 +82,7 @@ const CallToActionForm = ({style_sv_details}) => {
     e.preventDefault()
     setErrors({})
     setSubmitted(false)
+    setLoading(true)
     console.log('Sending',e)
     
     console.log( formData , !formData.phone && formData.phone.trim() == '' , phoneRegex.test(formData.phone))
@@ -96,6 +100,7 @@ const CallToActionForm = ({style_sv_details}) => {
         console.log('Response received')
         if (res.status === 200) {
           setSubmitted(true)
+          setLoading(false)
           setErrors({})
           setFormData({
             name: '',
@@ -107,6 +112,9 @@ const CallToActionForm = ({style_sv_details}) => {
             msg: ''
           })
           console.log('Response succeeded!')
+          setTimeout(()=>{
+            setSubmitted(false)
+          },5000)
         }else{
           setSubmitted(false)
           setErrors({ all : 'Error Occured while subimtting form'})
@@ -114,16 +122,24 @@ const CallToActionForm = ({style_sv_details}) => {
       })
       return;
     }
+    else{
+      setSubmitted(false);
+      setLoading(false);
+    }
  
     
   }
   
   return (
     <>
-      <form onSubmit={handleSubmit}>
+    <div className="d-flex justify-content-center align-items-center" style={{width:"500px",height:"500px"}}>
+      { submited ? ( <div className="input-item-textarea text-center text-success d-flex flex-column justify-content-center align-items-center" style={{"fontWeight":700}}>
+            <img src='/assets/img/success.gif' width={650} /> Thanks for your enquiry. We'll contact you soon.
+            </div>) : loading ? 
+            (<div className="input-item-textarea text-center text-success d-flex flex-column justify-content-center align-items-center" style={{"fontWeight":700}}>
+            <img src='/assets/img/loading-gif.gif' width={300} />
+            </div>):( <form onSubmit={handleSubmit}>
         <div className="row">
-
-
           <div className="col-lg-6">
             <div className="input-item">
               <span>
@@ -226,7 +242,7 @@ const CallToActionForm = ({style_sv_details}) => {
             {errors.re && <p className="text-danger -mt-20" style={{"fontWeight":700,"fontSize":'14px'}}>{errors.re}</p>}
           </div>     
 
-          {formData.re &&
+          {formData.re && formData.isagen &&
             <div className="col-lg-6">
               <div className="input-item">
                 <span>
@@ -278,9 +294,9 @@ const CallToActionForm = ({style_sv_details}) => {
             </div>
             {errors.msg && <p className="text-danger -mt-20" style={{"fontWeight":700,"fontSize":'14px'}}>{errors.msg}</p>}
 
-            {submited && <div className="input-item-textarea text-center text-success d-flex justify-content-center align-items-center" style={{"fontWeight":700}}>
+            {/* {submited && <div className="input-item-textarea text-center text-success d-flex justify-content-center align-items-center" style={{"fontWeight":700}}>
               <img src='/assets/img/check.gif' width={28} height={28}/> Thanks for your enquiry. We'll contact you soon.
-            </div>}
+            </div>} */}
             {errors.all && <div className="input-item-textarea text-center text-danger d-flex justify-content-center align-items-center" style={{"fontWeight":700}}>
               <img src='/assets/img/red-cross.gif' width={28} height={28}/> {errors.all}
             </div>}
@@ -294,6 +310,8 @@ const CallToActionForm = ({style_sv_details}) => {
         </div>
       </form>
       
+      )}
+      </div>
       {/* Autofill styles */}
       <style jsx>{`
         input:-webkit-autofill {

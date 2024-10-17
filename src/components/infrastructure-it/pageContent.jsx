@@ -30,8 +30,8 @@ const ContentArea = () => {
             </div>
   
           <div className="col-12 col-md-6" style={{paddingTop:'30px'}}>
-           <h2>Comprehensive IT Infrastructure</h2>
-           <p style={{fontSize:'18px'}} className="pt-20">
+           <h2 style={{fontWeight:600}}>Comprehensive IT Infrastructure</h2>
+           <p style={{fontSize:'18px',wordSpacing:"4px"}} className="pt-20">
             In today's digital landscape, a robust IT infrastructure is essential for ensuring seamless communication, safeguarding data, and maintaining business continuity. MacroLoop Technologies offers a comprehensive suite of IT Infrastructure solutions designed to empower your organization with secure, efficient, and scalable technology.
           </p>
           </div>
@@ -81,62 +81,65 @@ const ContentArea = () => {
           In today's digital landscape, a robust IT infrastructure is essential for ensuring seamless communication, safeguarding data, and maintaining business continuity. MacroLoop Technologies offers a comprehensive suite of IT Infrastructure solutions designed to empower your organization with secure, efficient, and scalable technology.
           </p> */}
 
-          <h2>Networking Services</h2>
+          <h2 style={{fontWeight:500}}>Networking Services</h2>
 
-          <p className="pt-20">
-          Our <strong>Network Services</strong> provide a secure, reliable, and high-performing foundation for your organization's communication needs:       
-          
+          <p className="pt-20" style={{wordSpacing:"4px",marginBottom:"10px",paddingTop:"15px"}}>
+          Our <strong style={{fontWeight:450}}>Network Services</strong> provide a secure, reliable, and high-performing foundation for your organization's communication needs:       
+          </p>
+          <p className="pt-21" style={{wordSpacing:"4px"}}>
           <ul>
             <li>
-            &#8226; <strong>Network Security:</strong> Our multi-layered architecture defends against cyber threats with firewalls, intrusion detection, and encryption protocols, ensuring your data remains protected.
+            &#8226; <strong style={{fontWeight:450}}>Network Security:</strong> Our multi-layered architecture defends against cyber threats with firewalls, intrusion detection, and encryption protocols, ensuring your data remains protected.
             </li>
         
             <li>
-            &#8226; <strong>Performance Optimization: </strong>We conduct continuous monitoring and management to maximize uptime and speed, enabling seamless operations with minimal latency.
+            &#8226; <strong style={{fontWeight:450}}>Performance Optimization: </strong>We conduct continuous monitoring and management to maximize uptime and speed, enabling seamless operations with minimal latency.
             </li>
        
             <li>
-            &#8226; <strong>Proactive Threat Detection:</strong>Utilizing advanced Al-driven systems, we identify vulnerabilities before they escalate, offering real-time alerts and automated responses to keep your network secure.
+            &#8226; <strong style={{fontWeight:450}}>Proactive Threat Detection:</strong>Utilizing advanced Al-driven systems, we identify vulnerabilities before they escalate, offering real-time alerts and automated responses to keep your network secure.
             </li>
           </ul>                    
           </p>
 
-          <h2>Data Centre and Server Management</h2>
+          <h2 style={{fontWeight:500}}>Data Centre and Server Management</h2>
 
-          <p className="pt-20">          
-          Recognizing the value of your data, our<strong> Data Centre and Server Management </strong>services ensure your servers operate efficiently and securely:
-
+          <p className="pt-20" style={{wordSpacing:"4px",marginBottom:"10px",paddingTop:"15px"}}>          
+          Recognizing the value of your data, our<strong style={{fontWeight:450}}> Data Centre and Server Management </strong>services ensure your servers operate efficiently and securely:
+          </p>
+          <p className="pt-21" style={{wordSpacing:"4px"}}>
           <ul>
             <li>
-            &#8226; <strong>Server Security & Monitoring:</strong> We provide 24/7 surveillance and real-time issue resolution to minimize downtime and protect your infrastructure.
+            &#8226; <strong style={{fontWeight:450}}>Server Security & Monitoring:</strong> We provide 24/7 surveillance and real-time issue resolution to minimize downtime and protect your infrastructure.
             </li>
          
             <li>
-            &#8226; <strong>Data Protection: </strong>Our high-level security protocols, including encryption and access controls, ensure your data is safeguarded from unauthorized access.
+            &#8226; <strong style={{fontWeight:450}}>Data Protection: </strong>Our high-level security protocols, including encryption and access controls, ensure your data is safeguarded from unauthorized access.
             </li>
           
             <li>
-            &#8226; <strong>Scalable Solutions: </strong>Our flexible server management adapts to your growing business needs, providing consistent performance without unnecessary costs.
+            &#8226; <strong style={{fontWeight:450}}>Scalable Solutions: </strong>Our flexible server management adapts to your growing business needs, providing consistent performance without unnecessary costs.
             </li>
           </ul>          
           </p>
 
-          <h2>Cloud Services</h2>
+          <h2 style={{fontWeight:500}}>Cloud Services</h2>
 
-          <p className="pt-20">
-          Leverage the cloud's power with our comprehensive <strong>Cloud Services</strong>, prioritizing safety and data protection:
-          
+          <p className="pt-20" style={{wordSpacing:"4px",marginBottom:"10px",paddingTop:"15px"}}>
+          Leverage the cloud's power with our comprehensive <strong style={{fontWeight:450}}>Cloud Services</strong>, prioritizing safety and data protection:
+          </p>
+          <p className="pt-21" style={{wordSpacing:"4px"}}>
           <ul>
             <li>
-            &#8226; <strong>Secure Cloud Migration:</strong> We ensure a seamless transition to cloud platforms, maintaining data integrity and minimizing business disruption.
+            &#8226; <strong style={{fontWeight:450}}>Secure Cloud Migration:</strong> We ensure a seamless transition to cloud platforms, maintaining data integrity and minimizing business disruption.
             </li>
 
             <li>
-            &#8226; <strong>Data Encryption & Backup:</strong> Advanced encryption techniques and regular backups protect your information and ensure recoverability.
+            &#8226; <strong style={{fontWeight:450}}>Data Encryption & Backup:</strong> Advanced encryption techniques and regular backups protect your information and ensure recoverability.
             </li>
 
             <li>
-            &#8226; <strong>Disaster Recovery: </strong>Our tailored recovery solutions guarantee business continuity by restoring operations quickly and efficiently during unexpected disruptions.
+            &#8226; <strong style={{fontWeight:450}}>Disaster Recovery: </strong>Our tailored recovery solutions guarantee business continuity by restoring operations quickly and efficiently during unexpected disruptions.
             </li>
           </ul> 
           

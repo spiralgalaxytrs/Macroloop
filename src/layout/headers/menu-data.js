@@ -20,11 +20,11 @@ const menu_data = [
     sub_menus: [{
       title: "CONSTRUCTION TECHNOLOGY",
       link: "/solutions/Construction-Technical",
-      sub: [
-        "Project Management Solutions",
-        "Document Management Solutions",
-        "Building Information Modeling"
-      ]
+      // sub: [
+      //   "Project Management Solutions",
+      //   "Document Management Solutions",
+      //   "Building Information Modeling"
+      // ]
     },
     {
       title: "DIGITAL TRANSFORMATION",
@@ -76,11 +76,11 @@ const menu_data = [
     {
       title: "EDU-TECH",
       link: "/solutions/Edu-Tech",
-      sub: [
-        "Corporate Training",
-        "Institutional Training",
-        "Laboratory Solutions"
-      ]
+      // sub: [
+      //   "Corporate Training",
+      //   "Institutional Training",
+      //   "Laboratory Solutions"
+      // ]
     },
     ],
     title: "Our Solutions",

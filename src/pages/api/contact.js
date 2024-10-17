@@ -21,7 +21,7 @@ export default async function (req, res) {
       Email: ${req.body.mail ?? ''}<br>
       Mobile: ${req.body.phone ?? ''}<br>
       Organisation: ${req.body.org ?? ''}<br>
-      Requirement: ${req.body.re ?? ''}<br>
+      ${req.body.re!='-' ? `Requirement: ${req.body.re}<br>` : ''}
       Agenda: ${req.body.agen ?? ''}<br>
       Message: ${req.body.msg ?? ''}`
     }
