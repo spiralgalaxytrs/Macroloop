@@ -7,7 +7,10 @@ import { TypeAnimation } from 'react-type-animation';
 const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
   return (
     <>
-      <div className="tp-bs-cta-area pt-0 pb-55 dark-bg p-relative">
+      <div className="tp-bs-cta-area pt-0 pb-55 p-relative" style={{background:"url('/assets/img/parallax.jpg')",backgroundAttachment: "fixed",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover"}}>
         <div className="container">
           <div className="row">
             <div className="col-12">

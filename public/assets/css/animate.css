@@ -3138,3 +3138,40 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 
+
+img.animated-img {
+  /* transition: transform 0.4s ease-in-out;
+  position: relative;
+  animation: slide-left-right 3s ease-in-out infinite; */
+}
+
+@keyframes slide-left-right {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateX(30px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+}
+
+img.animated-img:hover {
+  transform: scale(1.1);
+}
+
+.project-img {
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .project-img {
+      margin-top: 0;
+      margin-bottom: 20px;
+  }
+}
+

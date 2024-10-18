@@ -64,11 +64,11 @@ const ContentArea = () => {
             At MacroLoop Technologies, we redefine construction project excellence with innovative, technology-driven solutions that transform workflows, amplify collaboration, and drive unparalleled efficiency. Our comprehensive suite-spanning Project Management, Document Management, and advanced Building Information Modeling (BIM)-is designed to keep your projects not just on schedule and within budget but positioned for success in a rapidly evolving industry. With MacroLoop, you're empowered to build smarter, faster, and with confidence, staying ahead of the curve and setting new benchmarks in construction excellence.
             </p>
 
-            <div class="row">
-            <div class="col-12 col-md-6">
-            <img src="/assets/img/about/1.jpg" className="img-fluid animated-img" alt=" " style={{height:"340px",width:"600px",marginTop:"70px"}} />
+            <div className="row">
+            <div className="col-12 col-md-6">
+            <img src="/assets/img/pms.png" className="img-fluid animated-img project-img" alt=" " style={{height:"340px",width:"600px",borderRadius: "15px"}} />
             </div>
-            <div class="col-12 col-md-6" >
+            <div className="col-12 col-md-6" >
             <h2>Project Management Solutions (PMS)</h2>
             <br></br>
             <p>
@@ -89,11 +89,11 @@ const ContentArea = () => {
 
             </div>
             </div>
-            <div class="row">
-            <div class="col-12 col-md-6">
-            <img src="/assets/img/about/1.jpg" className="img-fluid animated-img" alt=" " style={{height:"370px",width:"600px",marginTop:"70px"}} />
+            <div className="row">
+            <div className="col-12 col-md-6">
+            <img src="/assets/img/dms.png" className="img-fluid animated-img project-img" alt=" " style={{height:"370px",width:"600px",borderRadius: "15px"}} />
             </div>
-            <div class="col-12 col-md-6">
+            <div className="col-12 col-md-6">
             <h2>Document Management Solutions (DMS)</h2>
             <br></br>
             <p>
@@ -115,11 +115,11 @@ const ContentArea = () => {
 
             </div>
             </div>
-            <div class="row">
-            <div class="col-12 col-md-6">
-            <img src="/assets/img/about/1.jpg" className="img-fluid animated-img" alt=" " style={{height:"390px",width:"600px",marginTop:"70px"}} />
+            <div className="row">
+            <div className="col-12 col-md-6">
+            <img src="/assets/img/bim.png" className="img-fluid animated-img project-img" alt=" " style={{height:"390px",width:"600px",borderRadius: "15px"}} />
             </div>
-            <div class="col-12 col-md-6">
+            <div className="col-12 col-md-6">
             <h2>Building Information Modeling (BIM)</h2>
             <br></br>
             <p>
@@ -155,18 +155,18 @@ const ContentArea = () => {
             </p>
 
             <ul className="solutions_page_list">
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Managerial and engineering feasibility</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Precise inventory and vendor management</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Meticulous document control </li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Finance and budgeting</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Planning and design</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Labor and staff management</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Asset performance management</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Project portfolio management</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Finance data management</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Construction safety and risk management</li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Supplier relationship management  </li>
-              <li className="icon"><i class="fa fa-angle-double-right icon" aria-hidden="true"></i> Document management</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Managerial and engineering feasibility</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Precise inventory and vendor management</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Meticulous document control </li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Finance and budgeting</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Planning and design</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Labor and staff management</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Asset performance management</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Project portfolio management</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Finance data management</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Construction safety and risk management</li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Supplier relationship management  </li>
+              <li className="icon"><i className="fa fa-angle-double-right icon" aria-hidden="true"></i> Document management</li>
             </ul>
 
             <p>
