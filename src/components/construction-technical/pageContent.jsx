@@ -5,25 +5,25 @@ import Link from "next/link";
 const ContentArea = () => {
 
 
-    const img_gallery_working_process = [
-        "/assets/img/portfolio/pf-details-gl-1.jpg",
-        "/assets/img/portfolio/pf-details-gl-2.jpg",
-        "/assets/img/portfolio/pf-details-gl-3.jpg",
-    ]
+  const img_gallery_working_process = [
+    "/assets/img/portfolio/pf-details-gl-1.jpg",
+    "/assets/img/portfolio/pf-details-gl-2.jpg",
+    "/assets/img/portfolio/pf-details-gl-3.jpg",
+  ]
 
-    return (
-      <>
-        <div className="tp-pf-details-page-area wow dark-bg tpfadeUp">
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <div className="pf-details-page-banner p-relative">
-                  <div className="pf-details-banner-img1 w-img w-imgggg">
-                    <Link href="/contact">
+  return (
+    <>
+      <div className="tp-pf-details-page-area wow dark-bg tpfadeUp">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="pf-details-page-banner p-relative">
+                <div className="pf-details-banner-img1 w-img w-imgggg">
+                  <Link href="/contact">
                     <img src="/assets/img/solutions/construction.gif" alt="" />
-                    </Link>
-                  </div>
-                  {/* <div className="pf-details-banner__info">
+                  </Link>
+                </div>
+                {/* <div className="pf-details-banner__info">
                     <div className="row align-items-center align-items-xl-start">
                       <div className="col-lg-8">
                         <div className="pf-details-banner__info-left pl-30">
@@ -51,24 +51,231 @@ const ContentArea = () => {
                       </div>
                     </div>
                   </div> */}
-                </div>
               </div>
             </div>
           </div>
         </div>
-  
-        <div className="tp-pf-detials-main dark-bg pt-60">
-          <div className="container wow tpfadeUp" style={{wordSpacing:"4px"}}>
-            <h2>CONSTRUCTION TECHNOLOGY:</h2>
-            <p className="pt-20">
-            At MacroLoop Technologies, we redefine construction project excellence with innovative, technology-driven solutions that transform workflows, amplify collaboration, and drive unparalleled efficiency. Our comprehensive suite-spanning Project Management, Document Management, and advanced Building Information Modeling (BIM)-is designed to keep your projects not just on schedule and within budget but positioned for success in a rapidly evolving industry. With MacroLoop, you're empowered to build smarter, faster, and with confidence, staying ahead of the curve and setting new benchmarks in construction excellence.
-            </p>
+      </div>
 
-            <div className="row">
+      <div className="tp-pf-detials-main dark-bg pt-60">
+        <div className="container wow tpfadeUp" style={{ wordSpacing: "4px" }}>
+          <h2>CONSTRUCTION TECHNOLOGY:</h2>
+          <p className="pt-20">
+            At MacroLoop Technologies, we redefine construction project excellence with innovative, technology-driven solutions that transform workflows, amplify collaboration, and drive unparalleled efficiency. Our comprehensive suite-spanning Project Management, Document Management, and advanced Building Information Modeling (BIM)-is designed to keep your projects not just on schedule and within budget but positioned for success in a rapidly evolving industry. With MacroLoop, you're empowered to build smarter, faster, and with confidence, staying ahead of the curve and setting new benchmarks in construction excellence.
+          </p>
+
+          <div className="tp-ab-sv-tabs mb-30">
+            <ul className="nav nav-pills mb-30 d-flex justify-content-center" id="pills-tab" role="tablist">
+              <li className="nav-item" role="presentation">
+                <button tabIndex="-1" className="nav-link active" id="2000" data-bs-toggle="pill" data-bs-target="#pills-2000"
+                  type="button" role="tab" aria-controls="pills-2000" aria-selected="true">PMS</button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button tabIndex="-1" className="nav-link" id="2010" data-bs-toggle="pill" data-bs-target="#pills-2010"
+                  type="button" role="tab" aria-controls="pills-2010" aria-selected="false">DMS</button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button tabIndex="-1" className="nav-link" id="2020" data-bs-toggle="pill" data-bs-target="#pills-2020"
+                  type="button" role="tab" aria-controls="pills-2020" aria-selected="false">BIM</button>
+              </li>
+
+            </ul>
+
+            <div className="tab-content" id="pills-tabContent">
+              <div className="tab-pane fade show active" id="pills-2000" role="tabpanel" aria-labelledby="2000">
+                <div className="tp-ab-sv-tabs-content">
+                  <div className="row">
+                    <div className="col-12 col-md-6">
+                      <img src="/assets/img/pms.png" className="img-fluid animated-img project-img" alt=" " style={{ height: "340px", width: "600px", borderRadius: "15px" }} />
+                    </div>
+                    <div className="col-12 col-md-6" style={{ marginTop: "150px" }}>
+                      <h2>Project Management Solutions (PMS)</h2>
+                      <br></br>
+                      <p>
+                        Our Project Management Solutions (PMS) empower construction teams with real-time collaboration, task management, and streamlined communication. We help you oversee every aspect of your project, from planning to completion, with:
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="container" style={{ marginTop: "50px" }}>
+                    <div className="row">
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Task Scheduling & Allocation</h5>
+                            <p className="card-text" style={{color:"white"}}>Keep your projects on track with detailed task schedules, resource allocation, and real-time updates.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Collaboration Tools</h5>
+                            <p className="card-text" style={{color:"white"}}>Enhance teamwork with integrated communication tools, ensuring everyone from site teams to office managers stays aligned.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Cost & Risk Management</h5>
+                            <p className="card-text" style={{color:"white"}}>Identify potential risks and control costs throughout the lifecycle of your construction projects.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Performance Analytics</h5>
+                            <p className="card-text" style={{color:"white"}}>Access in-depth analytics to make informed decisions and optimize your project's success.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="tab-pane fade" id="pills-2010" role="tabpanel" aria-labelledby="2010">
+                <div className="tp-ab-sv-tabs-content">
+                  <div className="row">
+                    <div className="col-12 col-md-6">
+                      <img src="/assets/img/dms.png" className="img-fluid animated-img project-img" alt=" " style={{ height: "370px", width: "600px", borderRadius: "15px" }} />
+                    </div>
+                    <div className="col-12 col-md-6" style={{ marginTop: "150px" }}>
+                      <h2>Document Management Solutions (DMS)</h2>
+                      <br></br>
+                      <p>
+                        With MacroLoop's Document Management Solutions (DMS), handling construction documents becomes seamless. We provide a secure, centralized platform for managing all project documents, ensuring easy access, compliance, and accuracy:
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="container" style={{ marginTop: "100px" }}>
+
+                    <div className="row">
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title" >Centralized Storage</h5>
+                            <p className="card-text" style={{color:"white"}}>Access all your project documents in one secure location, from contracts and drawings to change orders and site reports.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Version Control</h5>
+                            <p className="card-text" style={{color:"white"}}>Eliminate confusion and errors with real-time version control and ensuring the entire team always works from the latest version.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Permission-based Access</h5>
+                            <p className="card-text" style={{color:"white"}}>Maintain control over who can view, edit, and approve documents, ensuring data security and project integrity.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Seamless Integration</h5>
+                            <p className="card-text" style={{color:"white"}}>Our DMS integrates with popular construction management tools, enhancing your workflow without disruption.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="tab-pane fade" id="pills-2020" role="tabpanel" aria-labelledby="2020">
+                <div className="tp-ab-sv-tabs-content">
+                  <div className="row">
+                    <div className="col-12 col-md-6">
+                      <img src="/assets/img/bim.png" className="img-fluid animated-img project-img" alt=" " style={{ height: "390px", width: "600px", borderRadius: "15px" }} />
+                    </div>
+                    <div className="col-12 col-md-6" style={{ marginTop: "150px" }}>
+                      <h2>Building Information Modeling (BIM)</h2>
+                      <br></br>
+                      <p>
+                        Building Information Modeling (BIM) is at the heart of modern construction, providing digital representations of a project's physical and functional characteristics. Our BIM solutions ensure detailed 3D models that streamline collaboration, reduce errors, and enhance project outcomes:
+                      </p>
+                    </div>
+                  </div>
+                  <div className="container" style={{ marginTop: "100px",paddingLeft:"-100px"}}>
+                    <div className="row">
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">3D Visualization</h5>
+                            <p className="card-text" style={{color:"white"}}>Create comprehensive models of your projects that allow for better visualization and understanding before breaking ground.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Coordination & Clash Detection</h5>
+                            <p className="card-text" style={{color:"white"}}>Identify potential conflicts in design early, ensuring smooth coordination between different trades and disciplines.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Cost & Time Efficiency</h5>
+                            <p className="card-text" style={{color:"white"}}>Optimize construction timelines and budgets with accurate data and
+
+                              scenario simulations.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12 col-lg-6 col-md-6 mt-4">
+                        <div className="card hover-effect custom-rounded-card">
+                          <div className="card-body">
+                            <h5 className="card-title">Collaborative Platform</h5>
+                            <p className="card-text" style={{color:"white"}}>Allow architects, engineers, and contractors to work together in a shared environment and improving decision-making.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          
+        <p  style={{marginBottom:"0px"}}>
+          At LoopTech, we are dedicated to revolutionizing construction project management through innovative IT
+          solutions and cutting-edge technologies. Contact us today to discover how our solutions can elevate your
+          construction projects to new heights of efficiency and success.
+        </p>
+        <div className="pt-20 solution_sponsor">
+          <span>Powered By</span>
+        </div>
+        <div className="pt-20 pb-100">
+          <img className="solutions_sponsor_img3" src="/assets/img/brand/asite.png" alt="" />
+        </div>
+        </div>
+
+        {/* <div className="row">
             <div className="col-12 col-md-6">
             <img src="/assets/img/pms.png" className="img-fluid animated-img project-img" alt=" " style={{height:"340px",width:"600px",borderRadius: "15px"}} />
             </div>
-            <div className="col-12 col-md-6" >
+            <div className="col-12 col-md-6" style={{marginTop:"150px"}}>
             <h2>Project Management Solutions (PMS)</h2>
             <br></br>
             <p>
@@ -143,10 +350,10 @@ const ContentArea = () => {
             </p>
 
             </div>
-            </div>
-           
+            </div> */}
 
-            {  /*<h2>Cutting-Edge AI-Powered Cloud Infrastructure</h2>
+
+        {  /*<h2>Cutting-Edge AI-Powered Cloud Infrastructure</h2>
            <p className="pt-20">
             Our AI-driven cloud infrastructure enables stakeholders to access intricate project insights from anywhere
             in the world, delivering unparalleled operational feasibility and real-time decision-making capabilities. LoopTech offers advanced construction information technology and project management solutions that are
@@ -202,26 +409,14 @@ const ContentArea = () => {
             technologies to elevate construction project management, streamline workflows, and drive profitability
             within the construction industry.
            </p> */}
-           <p>
-           At LoopTech, we are dedicated to revolutionizing construction project management through innovative IT
-            solutions and cutting-edge technologies. Contact us today to discover how our solutions can elevate your
-            construction projects to new heights of efficiency and success.
-           </p>
-            
-          <div className="pt-20 solution_sponsor">
-            <span>Powered By</span>
-          </div>
-          <div className="pt-20 pb-100">
-          <img className="solutions_sponsor_img3" src="/assets/img/brand/asite.png" alt="" />
-          </div>
-          </div>
-  
-          {/* <!-- cta are  --> */}
-          <CtaArea/>  
-          {/* <!-- cta end --> */}
-        </div>
-      </>
-    );
-  };
-  
-  export default ContentArea;
+
+      </div>
+
+      {/* <!-- cta are  --> */}
+      <CtaArea />
+      {/* <!-- cta end --> */}
+    </>
+  );
+};
+
+export default ContentArea;

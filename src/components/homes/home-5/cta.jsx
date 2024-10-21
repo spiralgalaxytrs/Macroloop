@@ -10,7 +10,7 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
       <div className="tp-bs-cta-area pt-0 pb-55 p-relative" style={{background:"url('/assets/img/parallax.jpg')",backgroundAttachment: "fixed",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
-  backgroundSize: "cover"}}>
+  backgroundSize: "cover",opacity:1.5}}>
         <div className="container">
           <div className="row">
             <div className="col-12">
