@@ -8,7 +8,7 @@ const Construction_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="Construction Technical" title="Construction Technology Solutions" />
+        <BreadcrumbArea acive_menu="Construction Technology" title="Construction Technology" />
         <ContentArea />
         <Footer tp_border={true} />
       </>

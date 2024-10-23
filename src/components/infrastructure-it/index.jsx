@@ -9,7 +9,7 @@ const Infrastructure_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="IT Infrastructure Solutions" title="IT Infrastructure Solutions" />
+        <BreadcrumbArea acive_menu="IT Infrastructure" title="IT Infrastructure" />
         <ContentArea />
         <Footer tp_border={true} />
       </>

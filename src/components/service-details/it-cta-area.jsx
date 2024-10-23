@@ -28,11 +28,13 @@ const ItCtaArea = ({ location }) => {
                               <div className="row gap-4">
                                  {location?.map((item, i) => (
                                     <div key={i} className="col-lg-12">
+                                       <a href={item.location} target="_blank" rel="noopener noreferrer">
                                       <div className="ptg-blog__item mb-30 wow tpfadeUp shadow p-3 rounded-2 h-100 mb-0 hover-card">
                                        
                                           <h3 className='title'>{item.titel}</h3>
                                           <p className='title'>{item.email}</p>
                                        </div>
+                                       </a>
                                     </div>
                                  ))}
                               </div>
