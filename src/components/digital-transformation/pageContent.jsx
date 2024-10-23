@@ -51,9 +51,10 @@ const service_data = [
     des: <>In conclusion, physical security and AI-driven cyber security are critical components of business resilience.</>,
     counter: "",
     delay: ".4s",
-    data_aos: "",
-    duration: "",
+    data_aos: "fade-up",
+    duration: "2500",
   },
+
   {
     id: 3,
     icon: "/assets/img/icons/4.png",
@@ -155,7 +156,7 @@ const ContentArea = () => {
                 {service_data.map((item, i) => (
                   <div
                     key={i}
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-6 col-md-6"
                     data-aos={item.data_aos}
                     data-aos-duration={item.duration}
                   >

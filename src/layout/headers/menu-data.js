@@ -20,11 +20,11 @@ const menu_data = [
     sub_menus: [{
       title: "CONSTRUCTION TECHNOLOGY",
       link: "/solutions/Construction-Technical",
-      sub: [
-        "Project Management Solutions",
-        "Document Management Solutions",
-        "Building Information Modeling"
-      ]
+      // sub: [
+      //   "Project Management Solutions",
+      //   "Document Management Solutions",
+      //   "Building Information Modeling"
+      // ]
     },
     {
       title: "DIGITAL TRANSFORMATION",
@@ -34,15 +34,21 @@ const menu_data = [
         //   title: "IOT SOLUTIONS",
         //   link: "/solutions/Digital-Transformation/IOT-Solutions"
         // },
+        // {
+        //   title: "IOT SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/IOT-Solutions"
+        // },
         {
-          title: "SECURITY MANAGEMENT",
+          title: "SAFETY MANAGEMENT",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
           title: "HRMS",
+          title: "HRMS",
           link: "/solutions/Digital-Transformation/HRMS"
         },
         {
+          title: "METAVERSE",
           title: "METAVERSE",
           link: "/solutions/Digital-Transformation/Metaverse"
         },
@@ -50,7 +56,12 @@ const menu_data = [
         //   title: "AUTOMATION SOLUTIONS",
         //   link: "/solutions/Digital-Transformation/Automation"
         // },
+        // {
+        //   title: "AUTOMATION SOLUTIONS",
+        //   link: "/solutions/Digital-Transformation/Automation"
+        // },
         {
+          title: "IT INFRASTRUCTURE",
           title: "IT INFRASTRUCTURE",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }
@@ -65,11 +76,11 @@ const menu_data = [
     {
       title: "EDU-TECH",
       link: "/solutions/Edu-Tech",
-      sub: [
-        "Corporate Training",
-        "Institutional Training",
-        "Laboratory Solutions"
-      ]
+      // sub: [
+      //   "Corporate Training",
+      //   "Institutional Training",
+      //   "Laboratory Solutions"
+      // ]
     },
     ],
     title: "Our Solutions",

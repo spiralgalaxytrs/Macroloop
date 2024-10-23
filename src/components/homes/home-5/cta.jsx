@@ -7,7 +7,10 @@ import { TypeAnimation } from 'react-type-animation';
 const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
   return (
     <>
-      <div className="tp-bs-cta-area pt-0 pb-55 dark-bg p-relative">
+      <div className="tp-bs-cta-area pt-0 pb-55 p-relative" style={{background:"url('/assets/img/parallax.jpg')",backgroundAttachment: "fixed",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",opacity:1.5}}>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -17,9 +20,9 @@ const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
                 </span> */}
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline text-black loading-bar mb-55 wow tpfadeUp">
-                  <div style={{color:"#000000"}}> 
+                  <div style={{color:"#000000",fontWeight:600}}> 
                       Start your technology journey better <br /> with LoopTech's  <br />
-                      Razor-Edged Solutions
+                      razor-edged solutions
                   </div>
                   </h3>
                 </div>
