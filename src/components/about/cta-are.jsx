@@ -18,7 +18,7 @@ const Cta = ({rButton="Join LCG" ,lbutton="Google Form"}) => {
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline text-black loading-bar mb-55 wow tpfadeUp">
                    
-                      Start your technology journey better <br /> with LoopTech's<br />razor-edged solutions
+                      Start your technology journey better <br /> with LoopTech's<br />Razor-Edged Solutions
 
                        
                     

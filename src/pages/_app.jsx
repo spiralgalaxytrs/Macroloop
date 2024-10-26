@@ -1,5 +1,4 @@
 import "@/src/styles/index.scss";
-// import "@/public/assets/css/style.css"
 
 
 

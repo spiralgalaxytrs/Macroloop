@@ -16,14 +16,14 @@ const slider_content = [
     id: 2,
     bg_img: "/assets/img/solutions/construction.gif",
     url: "/solutions/Construction-Technical",
-    title: <>IT Infrastructure:</>,
+    title: <>IT Infrastructure Solutions:</>,
     sub_title:<>Empowering Your Future with Resilient IT Foundations</>
   },
   {
     id: 3,
     bg_img: "/assets/img/solutions/DigT.gif",
     url: "/solutions/Digital-Transformation",
-    title: <>Security Management: </>,
+    title: <>Security Systems and Solutions: </>,
     sub_title:<>Uncompromised Security, Unmatched Peace of Mind</>
   },
   {
@@ -37,14 +37,14 @@ const slider_content = [
     id: 5,
     bg_img: "/assets/img/solutions/system-solutions.gif",
     url: "/solutions/Security-Systems",
-    title: <>Construction Technology : </>,
+    title: <>Construction Technology Solutions : </>,
     sub_title:<>Building Tomorrow's Landmarks with Cutting-Edge Technology</>
   },
   {
     id: 6,
     bg_img: "/assets/img/solutions/IT-infrastructure.gif",
     url: "/solutions/Infrastructure",
-    title: <>Edu Tech : </>,
+    title: <>Edu Tech Solutions : </>,
     sub_title:<>Innovating Education for a Brighter, Smarter Future</>
   }
 ];
