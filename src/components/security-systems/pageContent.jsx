@@ -62,7 +62,7 @@ const ContentArea = () => {
   
         <div className="tp-pf-detials-main dark-bg pt-60">
           <div className="container wow tpfadeUp">
-            <h2>Comprehensive Safety Management for Modern Businesses</h2>
+            <h2>Comprehensive Security Solutions for Modern Businesses</h2>
             <p className="pt-40">
             In today's dynamic business landscape, safeguarding physical assets, personnel, and sensitive data is
             paramount. At LoopTech, we offer tailored and comprehensive security solutions to protect your

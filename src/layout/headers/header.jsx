@@ -37,7 +37,7 @@ const Header = () => {
                                     <Link href="/"><img className='hero-logo' src="/assets/img/logo/logo.jpg" alt="logo" /></Link>
                                 </div>
                             </div>
-                            <div className="col-xl-6 col-auto d-hidden">
+                            <div className="col-xl-6 col-lg-9 d-hidden">
                                 <div className="main-menu da-menu">  
                                     <nav id="mobile-menu">
                                         <NavMenu />
