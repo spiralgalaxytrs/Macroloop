@@ -5,15 +5,15 @@ import React from "react";
 import ContentArea from "./pageContent";
 
 
-const Security_index = () => {
+const High_Tech_Laboratory_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="Safety Management" title="Safety Management" />
+        <BreadcrumbArea acive_menu="High Tech Laboratory" title="High Tech Laboratory" />
         <ContentArea />
         <Footer tp_border={true} />
       </>
     );
   };
 
-export default Security_index;
+export default High_Tech_Laboratory_index;

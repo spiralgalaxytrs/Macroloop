@@ -3136,3 +3136,123 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
 }
+
+
+
+img.animated-img {
+  /* transition: transform 0.4s ease-in-out;
+  position: relative;
+  animation: slide-left-right 3s ease-in-out infinite; */
+}
+
+@keyframes slide-left-right {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0.2;
+  }
+
+  50% {
+    transform: translateX(30px);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+}
+
+img.animated-img:hover {
+  transform: scale(1.1);
+}
+
+.project-img {
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .project-img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+  box-shadow: var(--bs-box-shadow);
+  color: white !important;
+  background: linear-gradient(to right, #773cce, #2e5abe) !important;
+  cursor: pointer;
+}
+
+.hover-effect:hover .card-title,
+.hover-effect:hover .card-text {
+  color: white !important;
+}
+
+.card-body {
+  background-image: linear-gradient(to right, #773cce, #2e5abe);
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+.custom-rounded-card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.security-img {
+  height: 520px;
+}
+
+@media (max-width: 1440px) {
+  .security-img {
+    height: 525px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .security-img {
+    height: 625px !important;
+    /* Ensure priority */
+  }
+}
+
+@media (max-width: 440px) {
+  .security-img {
+    height: 425px;
+  }
+}
+
+/* Row Animated style */
+.row-animation {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition-delay: 0.2s;
+}
+
+.row-animation-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.padding-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom-padding {
+  padding-bottom: 40px !important;
+}

@@ -48,11 +48,33 @@ const menu_data = [
         {
           title: "IT INFRASTRUCTURE SOLUTIONS",
           link: "/solutions/Digital-Transformation/Infrastructure"
-        }]
+        }
+      ],
+      sub: [
+        "SAFETY MANAGEMENT",
+        "HRMS",
+        "Metaverse",
+        "IT Infrastructure"
+      ]
     },
     {
       title: "EDU-TECH",
-      link: "/solutions/Edu-Tech"
+      link: "/solutions/Edu-Tech",
+      sub_menus: [
+        {
+          title: "TRAINING PROGRAMS",
+          link: "/solutions/Edu-Tech/Training-Programs"
+        },
+        {
+          title: "HIGH TECH LABORATORY",
+          link: "/solutions/Edu-Tech/High-Tech-Laboratory"
+        }
+      ],
+      sub: [
+        "Corporate Training",
+        "Institutional Training",
+        "Laboratory Solutions"
+      ]
     },
     ],
     title: "Our Solutions",
