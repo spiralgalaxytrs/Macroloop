@@ -6,28 +6,27 @@ import Image from "next/image";
 const ContentArea = () => {
   const sections = [
     {
-      title: "Corporate Training",
-      content: `LoopTech's corporate training program is designed to equip professionals with advanced technical skills tailored to the evolving demands of the industry. It empowers employees with practical knowledge that enhances their productivity and enables organizations to stay competitive. The training modules are customizable, ensuring alignment with specific business needs, while expert trainers provide real-world insights, making learning relevant and impactful. With a focus on skill enhancement and professional growth, LoopTech’s corporate training program fosters innovation and operational efficiency within organizations.`,
+      title1: "Corporate Training",
+      content1: `LoopTech’s Corporate Training program is tailored to equip professionals with advanced technical skills, improving productivity and competitiveness. Training modules are customizable, aligning with business needs, with expert-led sessions focused on skill enhancement.`,
     },
     {
-      title: "Courses offered",
+      title: "Courses Offered",
       list: [
         "Cyber Security",
-        "Electric Vehicle(EV)",
+        "Electric Vehicle (EV)",
         "Internet of Things (IoT)",
         "Big Data Analytics",
         "Machine Learning",
-        "MS Office",
         "Artificial Intelligence",
         "AUTOSAR",
         "Agile/Scrum",
-        "R Language",
-        "MATLAB Autocode Generation",
         "Software & Testing",
         "Embedded AI",
-        "Microcontroller & Automotive",
         "VLSI",
         "Digital Signal Processing",
+        "MS Office",
+        "MATLAB Autocode Generation",
+        "Microcontroller & Automotive",
         "Linux & RTOS",
         "Web Technologies",
         "Open Source",
@@ -35,43 +34,60 @@ const ContentArea = () => {
         "Programming Languages",
       ],
     },
+    ,
     {
       title: "Institutional Training",
       content: `Our Internship Programs are designed for students who wish to gain hands-on experience in cutting edge technology fields. These programs provide students with industry exposure, live project work, and guidance from expert professionals.`,
       list: [
-        "Internship in Embedded Systems",
-        "Internship in Internet Of Things",
-        "Internship in VLSI Design",
-        "Internship in Full Stack Java",
-        "Internship in Data Science with AI ML",
-        "Internship in Business Analytics",
-        "Internship in Embedded AI",
+        "Embedded Systems",
+        "Internet of Things",
+        "VLSI Design",
+        "Full Stack Java",
+        "Data Science with AI/ML",
+        "Business Analytics",
+        "Embedded AI",
+        "Cyber Security",
         "Internship in Cyber Security",
       ],
     },
     {
       title: "Technical Workshops",
-      content: `Our Technical Workshop for Students offers hands-on training in various advanced technology domains such as embedded systems, IoT, AI, and data science. These workshops aim to enhance students' practical knowledge by providing exposure to real-world applications and tools.`,
+      content: `Practical training in advanced technology domains, enhancing real-world application skills. Interactive sessions prepare students for careers in technology.`,
     },
     {
-      title: "Internet of Things (IoT)",
+      title: "Workshop Topics",
+      subtitle1: `Core Topics`,
       list: [
+        "IoT",
         "Data Analytics Using Python",
         "Machine Learning",
         "Deep Learning",
+        "Software Programming",
+        "Modern C++",
+        "Embedded C",
+        "Python Programming",
+        "Web Development",
+        "ARM - based Application Development",
+        "Raspberry Pi and Arduino Applications",
+      ],
+      subtitle2: `Specialized Training`,
+      list2: [
+        "Linux Kernel Programming",
+        "Automotive CAN Analysis & AUTOSAR",
+        "Digital Signal Processing",
+        "MATLAB & Simulink (Image, Video, Audio Processing)",
+        "Model-Based Design using Simulink and Stateflow",
+        "FPGA Design",
+        "Wireless Physical Layer Design",
+        "OFDM",
+        "Digital Signal Processing with FPGA",
       ],
     },
     {
-      title: "Software Programming",
-      list: [
-        "Interview level C",
-        "Modern C++: C++17",
-        "Embedded C",
-        "Python Programming",
-        "Interview level Java / Java for Certification",
-        "Web Development",
-      ],
+      title: "Faculty Development Programs",
+      content: `Our Faculty Development Program (FDP) aims to enhance the teaching skills and technical knowledge of educators. It equips faculty members with industry-relevant tools, teaching methodologies, and practical insights to help them stay updated with the latest trends and technologies.`,
     },
+
     {
       title: "Embedded Microcontroller",
       list: [
@@ -98,32 +114,33 @@ const ContentArea = () => {
     {
       title: "Advanced Digital System Design (VLSI)",
       list: [
-        "FPGA Design With Verilog",
-        "DSP design with Xilinx System Generator (Vivado, Cadence)",
-        "IP Designing",
-        "HDL Design for Performance (Speed, Area, Power)",
-        "Data Encryption Algorithm Design",
-        "Noise removal in speech signals",
-        "Digital Signal Processing with FPGA",
-        "Wireless Physical layer design",
-        "OFDM Design",
-        "Verification using System Verilog",
-        "HDL Synthesis and System Architecture",
+        "Verilog",
+        "VHDL",
+        "FPGA Design",
       ],
     },
     {
-      title: "Faculty Development Programs",
-      content: `Our Faculty Development Program (FDP) aims to enhance the teaching skills and technical knowledge of educators. It equips faculty members with industry-relevant tools, teaching methodologies, and practical insights to help them stay updated with the latest trends and technologies.`,
-    },
-    {
-      subtitle: "Program Take Away",
+      title: "Software Programming",
       list: [
-        "Certificate on Completion.",
-        "Hands on Session",
-        "Expert Coaching",
-        "Instructor led Online/Offline Session",
+        " Advanced C/C++",
+        "Core Java",
+        "Angular",
+        "React JS",
+        "Python",
+        "MongoDB",
+      ]
+    },
+    {
+      title: "Full Stack Java Development",
+      list: [
+        "RDBMS",
+        "Java SE9",
+        "Advanced Java",
+        "JDBC",
+        "Web Technologies",
       ],
     },
+
   ];
 
   return (
@@ -148,24 +165,66 @@ const ContentArea = () => {
         <div className="container wow tpfadeUp">
           {sections.map((section, index) => (
             <div key={index}>
+              {section.content1 && <div class="container py-5">
+                <h2>{section.title1}</h2>
+                <div class="row py-5 text-center text-xl-start align-items-center">
+                  <div class="col-xl-4 pt-5 pt-xl-0 order-lg-2">
+                    <div class="appear-animation" data-appear-animation="fadeIn"
+                      data-appear-animation-delay="800">
+
+                      <div class="col-lg-12">
+                        <img class="img-fluid rounded mb-4" src="/assets/img/about/about2.jpeg" alt="Project Image" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-xl-8 order-lg-1">
+                    <div class="overflow-hidden">
+                      <div class="appear-animation" data-appear-animation="maskUp"
+                        data-appear-animation-delay="0">
+                        <h3>{section.content1}</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>}
               <h2>{section.title}</h2>
-              <h4>{section.subtitle}</h4>
-              <p className={` ${!section.content && section.subtitle? 'pt-10' : "pt-30"}`}>
+              <h4>{section.subtitle1}</h4>
+              
+
+              {<p className={` ${!section.content && section.subtitle1 ? 'pt-10' : "pt-30"}`}>
                 {section.content}
                 {section.list && (
-                  <ul className={` ${section.content && !section.subtitle? 'pt-20' : "pt-0"}`}>
+                  <ul className={` ${section.content && !section.subtitle1 ? 'pt-20' : "pt-0"}`}>
                     {section.list.map((item, i) => (
                       <li key={i} className="pt-2">{item}</li>
                     ))}
                   </ul>
                 )}
-              </p>
+              </p>}
+              <h4>{section.subtitle2}</h4>
+              {<p className={` ${!section.content && section.subtitle2 ? 'pt-10' : "pt-30"}`}>
+
+                {section.list2 && (
+                  <ul className={` ${section.content && !section.subtitle2 ? 'pt-20' : "pt-0"}`}>
+                    {section.list.map((item, i) => (
+                      <li key={i} className="pt-2">{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </p>}
+
             </div>
+
+
           ))}
+          
         </div>
 
         {/* <!-- cta area --> */}
-        <CtaArea />
+        < CtaArea />
         {/* <!-- cta end --> */}
       </div>
     </>
