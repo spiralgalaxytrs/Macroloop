@@ -146,8 +146,10 @@ const ContentArea = () => {
 
           <h2>Industry Automation</h2>
           <p className="pt-20">
-            We collaborate with leading OEMs to integrate cutting-edge technologies and provide innovative Industry 4.0 solutions, helping customers solve challenges and enhance productivity. Our solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.
-            By leveraging technologies like IoT, AI, big data analytics, and cloud computing, we enable clients to achieve greater efficiency and operational insights. Additionally, we offer strategic support to guide their digital transformation, empowering them to thrive in the competitive, digital landscape.
+            MacroLoop Technologies specializes in digital transformation, empowering businesses to thriveintoday's fast-paced environment. By integrating cutting-edge technologies, they enable
+            organizations to enhance operational efficiency, improve safety standards, and streamline
+            workforce management. Their approach focuses on leveraging innovative solutions that driveengagement and foster growth, ensuring companies remain competitive in an ever-evolving
+            market.
           </p>
 
           <div className="tp-it-service serive-page-item-title pt-30 pb-90">

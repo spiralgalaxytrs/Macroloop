@@ -67,7 +67,7 @@ const menu_data = [
         }
       ],
       sub: [
-        "Security Management",
+        "SAFETY MANAGEMENT",
         "HRMS",
         "Metaverse",
         "IT Infrastructure"

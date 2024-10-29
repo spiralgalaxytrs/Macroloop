@@ -7,21 +7,21 @@ import { TypeAnimation } from 'react-type-animation';
 const Cta = ({rButton="Contact Us" ,lbutton="Request Meeting"}) => {
   return (
     <>
-      <div className="tp-bs-cta-area pt-0 pb-55 p-relative" style={{background:"url('/assets/img/parallax.jpg')",backgroundAttachment: "fixed",
+      <div className="tp-bs-cta-area pt-0 pb-55 p-relative" style={{background:"url('/assets/img/image.jpg')",backgroundAttachment: "fixed",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",opacity:1.5}}>
         <div className="container">
-          <div className="row">
+          <div className="row pt-50">
             <div className="col-12">
               <div className="bs-cta-section text-center">
                 {/* <span className="bs-cta-section__subtitle text-blue mb-5 d-inline-block wow tpfadeUp ">
                   Schedule a 30 minute call
                 </span> */}
                 <div className="cd-intro">
-                  <h3 className="bs-cta-section__title cd-headline text-black loading-bar mb-55 wow tpfadeUp">
-                  <div style={{color:"#000000",fontWeight:600}}> 
-                      Start your technology journey better <br /> with LoopTech's  <br />
+                  <h3 className="bs-cta-section__title cd-headline text-black loading-bar wow tpfadeUp">
+                  <div style={{color:"#000000",fontWeight:500}}> 
+                      Start your technology journey better with LoopTech's
                       razor-edged solutions
                   </div>
                   </h3>
