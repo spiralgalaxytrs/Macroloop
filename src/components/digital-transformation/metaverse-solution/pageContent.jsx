@@ -218,7 +218,7 @@ const ContentArea = () => {
 
           <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow mt-3">
             <div className="col-lg-7  pb-3 pt-lg-5" >
-              <h2 className="text-primary pt-lg-3">XR Experiences</h2>
+              <h2 className="text-primary pt-lg-3 ">XR Experiences</h2>
               <h5 className="pt-1">Designing Immersive Experiences for the Future</h5>
               <p className="pt-15 mb-0">
                 Create unforgettable immersive environments with our XR Experience services. From virtual
