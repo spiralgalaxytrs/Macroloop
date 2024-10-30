@@ -19,50 +19,34 @@ const menu_data = [
     has_dropdown: true,
     sub_menus: [{
       title: "CONSTRUCTION TECHNOLOGY",
-      link: "/solutions/Construction-Technical",
-      // sub: [
-      //   "Project Management Solutions",
-      //   "Document Management Solutions",
-      //   "Building Information Modeling"
-      // ]
+      link: "/solutions/Construction-Technical"
     },
     {
       title: "DIGITAL TRANSFORMATION",
       link: "/solutions/Digital-Transformation",
       sub_menus: [
-        // {
-        //   title: "IOT SOLUTIONS",
-        //   link: "/solutions/Digital-Transformation/IOT-Solutions"
-        // },
-        // {
-        //   title: "IOT SOLUTIONS",
-        //   link: "/solutions/Digital-Transformation/IOT-Solutions"
-        // },
         {
-          title: "SAFETY MANAGEMENT",
+          title: "IOT SOLUTIONS",
+          link: "/solutions/Digital-Transformation/IOT-Solutions"
+        },
+        {
+          title: "SECURITY SYSTEMS SOLUTIONS",
           link: "/solutions/Digital-Transformation/Security-Systems"
         },
         {
-          title: "HRMS",
-          title: "HRMS",
+          title: "HRMS SOLUTIONS",
           link: "/solutions/Digital-Transformation/HRMS"
         },
         {
-          title: "METAVERSE",
-          title: "METAVERSE",
+          title: "METAVERSE SOLUTIONS",
           link: "/solutions/Digital-Transformation/Metaverse"
         },
-        // {
-        //   title: "AUTOMATION SOLUTIONS",
-        //   link: "/solutions/Digital-Transformation/Automation"
-        // },
-        // {
-        //   title: "AUTOMATION SOLUTIONS",
-        //   link: "/solutions/Digital-Transformation/Automation"
-        // },
         {
-          title: "IT INFRASTRUCTURE",
-          title: "IT INFRASTRUCTURE",
+          title: "AUTOMATION SOLUTIONS",
+          link: "/solutions/Digital-Transformation/Automation"
+        },
+        {
+          title: "IT INFRASTRUCTURE SOLUTIONS",
           link: "/solutions/Digital-Transformation/Infrastructure"
         }
       ],
@@ -111,16 +95,16 @@ const menu_data = [
   //   title: "Looptech Synapse",
   //   link: "/LooptechSyanpse"
   // },
-  // {
-  //   id: 6,
-  //   mega_menu: false,
-  //   has_dropdown: false,
-  //   title: "LCG",
-  //   link: "/lcg",
-
-  // },
   {
     id: 6,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "LCG",
+    link: "/lcg",
+
+  },
+  {
+    id: 7,
     mega_menu: false,
     has_dropdown: false,
     title: "Contact",
