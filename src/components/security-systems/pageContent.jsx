@@ -34,16 +34,16 @@ const ContentArea = () => {
         </div>
       </div>
 
-      <div className="tp-pf-detials-main dark-bg pt-60">
+      <div className="tp-pf-detials-main dark-bg pt-3">
         <div className="container wow tpfadeUp">
-          <p className="pt-40">
+          <p className="pt-40" style={{ fontSize: "20px" }}>
             In an era where safety and efficiency are paramount, LoopTech's Safety Management Solutions
             harness the power of IoT technology to create a secure and streamlined operational environment. Our comprehensive suite of solutions is designed to address the multifaceted challenges facedbyindustries today, from asset tracking and people safety monitoring to cold chain management andperimeter security.
           </p>
         </div>
         <div className="container">
           <div className="row mt-3 mb-5 padding-section">
-            <div className="col-lg-8 col-12">
+            <div className="col-lg-8 col-12 right-padding mb-3">
               <h2>Asset Tracking</h2>
               <p className="pt-4 mb-3">
                 SenseGiz offers an asset tracking solution that utilizes IoT technology to monitor and manageassets in real time. The system provides visibility into asset location, usage, and condition, which enhances operational efficiency and reduces losses. It includes features like GPS
@@ -56,7 +56,7 @@ const ContentArea = () => {
                 <span >FEAT</span>URES
                 <i className="fa-solid fa-arrow-right ps-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
               </h5>
-              <p className="pt-3 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
                 </div>
@@ -64,7 +64,7 @@ const ContentArea = () => {
                   Tracks asset location in real-time within predefined areas
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
                 </div>
@@ -72,7 +72,7 @@ const ContentArea = () => {
                   User-friendly interface requires minimal administrator training
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -80,7 +80,7 @@ const ContentArea = () => {
                   Accurate tracking across floors or warehouse sections
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -88,7 +88,7 @@ const ContentArea = () => {
                   Geo-fencing alerts for asset movement in/out of restricted zones
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -100,7 +100,7 @@ const ContentArea = () => {
             <div className="col-lg-4 col-12">
               <div className="p-0 ">
                 <Image
-                  src="/assets/img/about/123.jpg"
+                  src="/assets/img/safety/1.jpg"
                   alt="img"
                   width={450}
                   height={500}
@@ -114,16 +114,16 @@ const ContentArea = () => {
             <div className="col-lg-4 col-12">
               <div className="p-0 ">
                 <Image
-                  src="/assets/img/about/123.jpg"
+                  src="/assets/img/safety/2.jpg"
                   alt="img"
                   width={450}
                   height={500}
-                  className="rounded-3"
-                  style={{ width: "100%", height: "520px", minHeight: "250px" }}
+                  className="rounded-3 security-img"
+                  style={{ width: "100%" }}
                 />
               </div>
             </div>
-            <div className="col-lg-8 col-12">
+            <div className="col-lg-8 col-12 left-padding mt-3">
               <h2>People safety tracking</h2>
               <p className="pt-4 mb-3">
                 SenseGiz offers a comprehensive people safety solution for high-risk environments like underground tunnels.
@@ -135,7 +135,7 @@ const ContentArea = () => {
                 <span >FEAT</span>URES
                 <i className="fa-solid fa-arrow-right ps-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
               </h5>
-              <p className="pt-3 mb-0  d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -143,7 +143,7 @@ const ContentArea = () => {
                   Set boundaries with geo-fencing using circles or polygons
                 </div>
               </p>
-              <p className="pt-2 mb-0  d-flex">
+              <p className="pt-2 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -151,7 +151,7 @@ const ContentArea = () => {
                   Trigger alerts when someone enters or exits designated areas.
                 </div>
               </p>
-              <p className="pt-2 mb-0  d-flex">
+              <p className="pt-2 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -159,7 +159,7 @@ const ContentArea = () => {
                   View activity on a dashboard with floor maps and COIN positions
                 </div>
               </p>
-              <p className="pt-2 mb-0  d-flex">
+              <p className="pt-2 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -167,7 +167,7 @@ const ContentArea = () => {
                   Real-time location tracking and user count in specific zones
                 </div>
               </p>
-              <p className="pt-2 mb-0  d-flex">
+              <p className="pt-2 mb-0  d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -179,7 +179,7 @@ const ContentArea = () => {
 
           </div>
           <div className="row mt-3 mb-5 padding-section">
-            <div className="col-lg-8 col-12">
+            <div className="col-lg-8 col-12 right-padding mb-3">
               <h2>Cold Chain Management</h2>
               <p className="pt-4 mb-3">
                 SenseGiz provides a cold chain monitoring solution to safeguard temperature-sensitive goods across the supply chain. IoT sensors continuously track temperature and humidity, sending real-time alerts for deviations.
@@ -190,7 +190,7 @@ const ContentArea = () => {
                 <span >FEAT</span>URES
                 <i className="fa-solid fa-arrow-right ps-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
               </h5>
-              <p className="pt-3 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -198,7 +198,7 @@ const ContentArea = () => {
                   Improved quality with full life cycle remote monitoring
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -206,7 +206,7 @@ const ContentArea = () => {
                   Real-time alerts for temperature and humidity changes
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -214,7 +214,7 @@ const ContentArea = () => {
                   Historical and current data reports accessible anytime, anywhere
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -222,7 +222,7 @@ const ContentArea = () => {
                   Notifications for doors left open
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -234,12 +234,12 @@ const ContentArea = () => {
             <div className="col-lg-4 col-12">
               <div className="p-0 ">
                 <Image
-                  src="/assets/img/about/123.jpg"
+                  src="/assets/img/safety/3.jpg"
                   alt="img"
                   width={450}
                   height={500}
-                  className="rounded-3"
-                  style={{ width: "100%", height: "520px", minHeight: "250px" }}
+                  className="rounded-3 security-img"
+                  style={{ width: "100%" }}
                 />
               </div>
             </div>
@@ -247,30 +247,30 @@ const ContentArea = () => {
 
           </div>
           <div className="row mt-3 mb-5 padding-section">
-            <div className="col-lg-5 col-12">
+            <div className="col-lg-4 col-12">
               <div className="p-0 ">
                 <Image
-                  src="/assets/img/about/123.jpg"
+                  src="/assets/img/safety/4.jpg"
                   alt="img"
                   width={450}
                   height={500}
-                  className="rounded-3"
-                  style={{ width: "100%", height: "520px", minHeight: "250px" }}
+                  className="rounded-3 security-img"
+                  style={{ width: "100%" }}
                 />
               </div>
             </div>
-            <div className="col-lg-7 col-12">
+            <div className="col-lg-8 col-12 left-padding mt-3">
               <h2>PIDS</h2>
               <p className="pt-4 mb-3">
-              SenseGiz's perimeter security solution employs IoT technology to protect property by detecting unauthorized intrusions. The system integrates sensors, cameras, and AI-powered analytics for real-time monitoring. 
-              It sends immediate alerts upon detecting breaches, allowing for quick responses. Ideal for critical infrastructure and large campuses, it distinguishes between human and non-human activity, significantly reducing false alarms and enhancing security
+                SenseGiz's perimeter security solution employs IoT technology to protect property by detecting unauthorized intrusions. The system integrates sensors, cameras, and AI-powered analytics for real-time monitoring.
+                It sends immediate alerts upon detecting breaches, allowing for quick responses. Ideal for critical infrastructure and large campuses, it distinguishes between human and non-human activity, significantly reducing false alarms and enhancing security
               </p>
               <h5 className="pt-3">
                 <i className="fa-solid fa-arrow-left  pe-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
                 <span >FEAT</span>URES
                 <i className="fa-solid fa-arrow-right ps-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
               </h5>
-              <p className="pt-3 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -278,7 +278,7 @@ const ContentArea = () => {
                   Requires no additional infrastructure
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -286,7 +286,7 @@ const ContentArea = () => {
                   Detects multiple intrusions simultaneously, even with background noise
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -294,7 +294,7 @@ const ContentArea = () => {
                   COINs detect vibration and motion for tampering or entry alerts
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -302,7 +302,7 @@ const ContentArea = () => {
                   Immediate WhatsApp alerts for real-time monitoring
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -313,26 +313,26 @@ const ContentArea = () => {
             </div>
           </div>
           <div className="row mt-2 mb-5">
-            <div className="col-lg-8">
+            <div className="col-lg-8 col-12">
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-12">
                   <div className="p-2 bottom-padding" style={{ background: "#d4d2d2" }}>
                     <video autoPlay muted loop src="/assets/img/videos/video2.mp4" type="video/mp4" style={{ width: "100%", height: "235px" }} />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-12">
                   <div className="p-2 bottom-padding" style={{ background: "#d4d2d2" }}>
                     <video autoPlay muted loop src="/assets/img/videos/video1.mp4" type="video/mp4" style={{ width: "100%" }} />
                   </div>
                 </div>
               </div>
               <div className="row mt-2">
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-12">
                   <div className="p-2 bottom-padding" style={{ background: "#d4d2d2" }}>
                     <video autoPlay muted loop src="/assets/img/videos/video3.mp4" type="video/mp4" style={{ width: "100%" }} />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-12">
                   <div className="p-2 bottom-padding" style={{ background: "#d4d2d2" }}>
                     <video autoPlay muted loop src="/assets/img/videos/video5.mp4" type="video/mp4" style={{ width: "100%" }} />
                   </div>
@@ -340,7 +340,7 @@ const ContentArea = () => {
               </div>
             </div>
 
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-12">
               <div className="p-2 bottom-padding" style={{ background: "#d4d2d2" }}>
                 <video autoPlay muted loop src="/assets/img/videos/video4.mp4" type="video/mp4" style={{ width: "100%", height: "530px" }} />
               </div>
@@ -349,18 +349,18 @@ const ContentArea = () => {
 
 
           <div className="row mt-3 mb-5 padding-section">
-            <div className="col-lg-7 col-12">
+            <div className="col-lg-8 col-12 right-padding mb-3">
               <h2>In-Plant vehicle Tracking</h2>
               <p className="pt-4 mb-3">
-              SenseGiz's in-plant vehicle tracking solution leverages IoT technology to monitor and manage vehiclemovement within industrial or manufacturing facilities. It provides real-time data on vehicle location, speed, and route efficiency, improving safety and operational efficiency. The systemcan alert management about unauthorized movements or operational anomalies, helping reduce accidents and optimize workflows.
-               This solution is particularly useful for large industrial plants where vehiclecoordination is crucial
+                SenseGiz's in-plant vehicle tracking solution leverages IoT technology to monitor vehicle movement within industrial facilities, offering real-time data on location, speed, and route efficiency. 
+                It improves safety and workflow efficiency by alerting management to unauthorized movements or operational issues, helping reduce accidents and downtime. This solution is ideal for large plants where vehicle coordination is critical, streamlining operations and enhancing overall productivity
               </p>
               <h5 className="pt-3">
                 <i className="fa-solid fa-arrow-left  pe-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
                 <span >FEAT</span>URES
                 <i className="fa-solid fa-arrow-right ps-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
               </h5>
-              <p className="pt-3 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -368,7 +368,7 @@ const ContentArea = () => {
                   Improved workforce coordination
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -376,7 +376,7 @@ const ContentArea = () => {
                   Real-time process management
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -384,7 +384,7 @@ const ContentArea = () => {
                   Location-based workflow management
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -392,7 +392,7 @@ const ContentArea = () => {
                   Inexpensive and time saving process
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -401,44 +401,44 @@ const ContentArea = () => {
                 </div>
               </p>
             </div>
-            <div className="col-lg-5 col-12">
+            <div className="col-lg-4 col-12">
               <div className="p-0 ">
                 <Image
-                  src="/assets/img/about/123.jpg"
+                  src="/assets/img/safety/5.jpg"
                   alt="img"
                   width={450}
                   height={500}
-                  className="rounded-3"
-                  style={{ width: "100%", height: "520px", minHeight: "250px" }}
+                  className="rounded-3 security-img"
+                  style={{ width: "100%" }}
                 />
               </div>
             </div>
           </div>
           <div className="row mt-3 mb-5 padding-section">
-            <div className="col-lg-5 col-12">
+            <div className="col-lg-4 col-12">
               <div className="p-0 ">
                 <Image
-                  src="/assets/img/about/123.jpg"
+                  src="/assets/img/safety/6.jpg"
                   alt="img"
                   width={450}
                   height={500}
-                  className="rounded-3"
-                  style={{ width: "100%", height: "520px", minHeight: "250px" }}
+                  className="rounded-3 security-img"
+                  style={{ width: "100%" }}
                 />
               </div>
             </div>
-            <div className="col-lg-7 col-12">
+            <div className="col-lg-8 col-12 left-padding mt-3">
               <h2>Predictive Maintenance</h2>
               <p className="pt-4 mb-3">
-              SenseGiz's predictive maintenance solution utilizes IoT sensors and data analytics to monitor equipment conditions in real time, predicting potential failures before they occur. By tracking metrics such as temperature and vibration, the system facilitates proactive maintenance and minimizes downtime. 
-              This approach extends equipment life and reduces repair costs, making it ideal for industries aiming to enhance operational efficiency and prevent unexpected breakdowns
+                SenseGiz's predictive maintenance solution utilizes IoT sensors and data analytics to monitor equipment conditions in real time, predicting potential failures before they occur. By tracking metrics such as temperature and vibration, the system facilitates proactive maintenance and minimizes downtime.
+                This approach extends equipment life and reduces repair costs, making it ideal for industries aiming to enhance operational efficiency and prevent unexpected breakdowns
               </p>
               <h5 className="pt-3">
                 <i className="fa-solid fa-arrow-left  pe-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
                 <span >FEAT</span>URES
                 <i className="fa-solid fa-arrow-right ps-2" style={{ color: "#0849BE", fontSize: "18px" }}></i>
               </h5>
-              <p className="pt-3 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -446,7 +446,7 @@ const ContentArea = () => {
                   Monitors machine performance and generates utilization reports
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -454,7 +454,7 @@ const ContentArea = () => {
                   Sends alarms when machines idle beyond set limits
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -462,7 +462,7 @@ const ContentArea = () => {
                   Uses cost-effective 4G/LTE with multi-sim aggregation for data transmission
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -470,7 +470,7 @@ const ContentArea = () => {
                   Processes 4000 vibration readings/second with FFT for fault detection
                 </div>
               </p>
-              <p className="pt-2 mb-0 d-flex">
+              <p className="pt-3 mb-0 d-flex" style={{fontSize:"17px"}}>
                 <div className="mt-1">
                   <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE" }}></i>
                 </div>
@@ -479,11 +479,7 @@ const ContentArea = () => {
                 </div>
               </p>
             </div>
-
-
           </div>
-
-
         </div>
       </div>
       {/* <!-- cta are  --> */}

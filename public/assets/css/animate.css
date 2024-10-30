@@ -3264,25 +3264,19 @@ img.animated-img:hover {
 }
 
 .security-img {
-  height: 520px;
+  height: 500px;
 }
 
-@media (max-width: 1440px) {
-  .security-img {
-    height: 525px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .security-img {
-    height: 625px !important;
-    /* Ensure priority */
-  }
-}
 
 @media (max-width: 440px) {
   .security-img {
     height: 425px;
+  }
+  .right-padding {
+    padding-right: 5px !important;
+  }
+  .left-padding {
+    padding-left: 20px !important;
   }
 }
 
@@ -3300,10 +3294,16 @@ img.animated-img:hover {
 }
 
 .padding-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .bottom-padding {
-  padding-bottom: 40px !important;
+  padding-bottom: 50px !important;
+}
+.right-padding {
+  padding-right: 40px;
+}
+.left-padding {
+  padding-left: 40px;
 }

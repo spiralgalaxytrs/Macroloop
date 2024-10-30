@@ -1,6 +1,7 @@
-import React from "react"; 
+import React from "react";
 import CtaArea from "../../homes/home-5/cta";
 import Link from "next/link";
+import Image from "next/image";
 
 // Example data arrays for the sections
 const services = [
@@ -118,11 +119,11 @@ const services = [
 ];
 
 const labSetups = [
-  "AI Lab", "Machine Learning Lab", "Robotics Lab", "Automation Lab", 
+  "AI Lab", "Machine Learning Lab", "Robotics Lab", "Automation Lab",
   "Data Centre Setup", "AR & VR Lab", "HPC Lab", "IoT / IIoT Lab",
-  "3D Printing Lab", "Cyber Security Lab", "AV Studio Lab", 
+  "3D Printing Lab", "Cyber Security Lab", "AV Studio Lab",
   "Bio-Research Lab", "Drone Making Lab", "Embedded Lab",
-  "Hardware Lab", "Blockchain Mining", "E-Vehicles Lab", 
+  "Hardware Lab", "Blockchain Mining", "E-Vehicles Lab",
   "VFX Lab", "Cloud/DevOps Lab", "E-Learning Lab",
   "Smart Classroom", "VR Classroom", "STEM Lab", "STEAM Lab"
 ];
@@ -146,53 +147,207 @@ const ContentArea = () => {
         </div>
       </div>
 
-      <div className="tp-pf-detials-main dark-bg pt-60">
+      <div className="tp-pf-detials-main dark-bg pt-3">
         <div className="container wow tpfadeUp">
-
-          <h2>Laboratory Solutions:</h2>
-          <h4 className="pt-5">Our Services:</h4>
-          <p className="pt-30">
+          <p className="pt-3">
             We offer comprehensive lab services, including consulting, lab equipment procurement, installation, and calibration. Our expertise spans various sectors, focusing on cutting-edge technology and environmental control for optimal lab performance.
           </p>
-
-          {/* Map through the services */}
-          {services.map((service, index) => (
-            <>
-              <h2>{service.title}</h2>
-              <p className="pt-30">
-              {service.list && (
-                <ul>
-                  {service.list.map((item, idx) => (
-                    <li key={idx} className="pt-2">
-                    {item.includes(":") ? <>
-                      <b>{item.split(":")[0]}:</b> 
-                      {item.split(":")[1]}
-                    </>
-                    : item
-                    }
-                    
-                    </li>
-                  ))}
-                </ul>
-              )}
-              </p>
-            </>
-          ))}
-
-          <h2>Lab setups offered:</h2>
-          <p className="pt-30">
-            <ul>
-              {/* Map through lab setups */}
-              {labSetups.map((setup, index) => (
-                <li key={index}>{setup}</li>
-              ))}
-            </ul>
-          </p>
-
         </div>
 
+        <div className="padding-section" style={{ backgroundColor: '#c5d4fb', backgroundImage: `linear-gradient(to right, #c5d4fb 0%, #d6efe8 100%)` }}>
+          <div className="container" >
+            <div className="row">
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Comprehensive Lab Services
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>
+                      Guidance for new or existing labs, focused on optimization, safety, and compliance
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Supply of high-quality instruments and cutting-edge technology
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Professional setup and compliance services for optimal performance
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Space Optimization & Lab Design
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Efficient layout and capacity maximization.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Flexible and scalable lab solutions
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Custom workstations, ergonomic seating, and storage
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Lab Safety Solutions
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Fume hoods, eyewash stations, and chemical storage solutions
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Best practices and compliance with safety regulations
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Turnkey Lab Solutions
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Complete setup from design to functional research-ready labs
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Assistance with SOPs, regulatory updates, and lab documentation.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Global Procurement Services
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Equipment and materials from international suppliers
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>High-quality, cost-effective solutions
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Lab Maintenance & Support
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Preventive maintenance to avoid downtime
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Continuous support for technical issues
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Environmental Control & Monitoring
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Temperature and humidity regulation
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Real-time tracking and analysis of environmental parameters
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Lab Automation Solutions
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Enhanced process efficiency
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>High-throughput solutions for repetitive tasks
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Lab Renovation & Upgrades
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Incorporation of the latest technologies
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Revamp outdated facilities for improved performance
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-3">
+                <div className="shadow bg-light p-3 rounded" >
+                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                  <h5 className="pt-2">
+                    Energy-Efficient Lab Solutions
+                  </h5>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Sustainable energy-saving technologies
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Sustainable design with renewable energy sources
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="padding-section">
+          <div className="container">
+            <div className="row py-3">
+              <h2 className="text-center">Lab Setups Offered</h2>
+            </div>
+            <div className="d-flex justify-content-between flex-wrap align-items-center">
+              {labSetups.map((labSetup, index) => (
+                <div key={index} className="bs-cta-btns">
+                  <div className="tp-black-btn wow tpfadeLeft m-2">{labSetup}</div>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </div>
+
+
         {/* cta area */}
-        <CtaArea/>
+        <CtaArea />
       </div>
     </>
   );
