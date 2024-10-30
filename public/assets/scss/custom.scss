@@ -5,14 +5,18 @@
     }
 }
 .d-hidden{
-    @media (max-width: 1280px) {
+    @media (max-width: 1000px) {
         display: none;
     }
 }
 
 .d-show{
     display: none;
-    @media (max-width: 1280px) {
+    @media (max-width: 1000px) {
         display: block;
     }
+}
+
+.-mt-20{
+  margin-top: -20px;
 }
