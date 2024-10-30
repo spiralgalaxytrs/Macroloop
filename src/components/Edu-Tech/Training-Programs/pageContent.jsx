@@ -444,7 +444,7 @@ const ContentArea = () => {
                         <div>
                           <ul className="d-flex flex-wrap gap-2 align-items-center">
                             {content.list.map((item, i) => (
-                              <li key={i} className="text-black" style={i % 2 == 0 ? { color: "#0849BE!important", fontSize: "16px" } : { color: "#000000", fontSize: "16px" }}>
+                              <li key={i} className={i % 2 == 0 ?"theme-text":""}style={ {fontSize: "16px" }}>
                                 <span style={{ fontSize: "20px" }}>|</span> {item}
                               </li>
                             ))}

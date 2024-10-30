@@ -3331,4 +3331,7 @@ img.animated-img:hover {
   height: 2px;
   background-image: linear-gradient(to right, #0849BE 60%, #d8ff2b); 
 }
+.theme-text{
+  color: #0849BE !important;
+}
 

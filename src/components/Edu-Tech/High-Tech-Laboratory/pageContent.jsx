@@ -334,9 +334,9 @@ const ContentArea = () => {
             <div className="row py-3">
               <h2 className="text-center">Lab Setups Offered</h2>
             </div>
-            <div className="d-flex justify-content-between flex-wrap align-items-center">
+            <div className="d-lg-flex justify-content-lg-between d-md-flex flex-wrap align-items-center">
               {labSetups.map((labSetup, index) => (
-                <div key={index} className="bs-cta-btns">
+                <div key={index} className="bs-cta-btns d-flex align-items-center justify-content-center">
                   <div className="tp-black-btn wow tpfadeLeft m-2">{labSetup}</div>
                 </div>
               ))}
