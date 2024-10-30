@@ -112,20 +112,130 @@ const ContentArea = () => {
       ],
     },
     {
-      title: "Faculty Development Programs",
-      content: `Our Faculty Development Program (FDP) aims to enhance the teaching skills and technical knowledge of educators. It equips faculty members with industry-relevant tools, teaching methodologies, and practical insights to help them stay updated with the latest trends and technologies.`,
+      title: "Software Programming",
+      list: [
+        " Advanced C/C++",
+        "Core Java",
+        "Angular",
+        "React JS",
+        "Python",
+        "MongoDB",
+      ]
     },
     {
-      subtitle: "Program Take Away",
+      title: "Full Stack Java Development",
       list: [
-        "Certificate on Completion.",
-        "Hands on Session",
-        "Expert Coaching",
-        "Instructor led Online/Offline Session",
+        "RDBMS",
+        "Java SE9",
+        "Advanced Java",
+        "JDBC",
+        "Web Technologies",
       ],
     },
+
   ];
 
+  const contents = [
+    {
+      id: "collapseOne",
+      title: "Core Technical Courses",
+      list: [
+        "Cyber Security",
+        "Electric Vehicle (EV)",
+        "Internet of Things (IoT)",
+        "Big Data Analytics",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "AUTOSAR",
+        "Agile/Scrum",
+        "Software & Testing",
+        "Embedded AI",
+        "VLSI",
+        "Digital Signal Processing",
+      ],
+    },
+    {
+      id: "collapseTwo",
+      title: "Software & Programming",
+      list: [
+        "MS Office",
+        "MATLAB Autocode Generation",
+        "Microcontroller & Automotive",
+        "Linux & RTOS",
+        "Web Technologies",
+        "Open Source",
+        "Relational Database Management System (RDBMS)",
+        "Programming Languages",
+      ],
+    }
+  ]
+
+  const contents1 = [
+    {
+      id: "collapseOne",
+      title: "Internship/Project Internship Program",
+      contentList: [
+        "Hands-on experience for students in cutting-edge technology fields. Gain industry exposure, work on live projects, and receive guidance from experts",
+      ],
+    },
+    {
+      id: "collapseTwo",
+      title: "Internship Tracks",
+      list: [
+        "Embedded Systems",
+        "Internet of Things",
+        "VLSI Design",
+        "Full Stack Java",
+        "Data Science with AI/ML",
+        "Business Analytics",
+        "Embedded AI",
+        "Cyber Security"
+      ]
+    },
+    {
+      id: "collapseThree",
+      title: "Technical Workshops",
+      contentList: [
+        "Practical training in advanced technology domains, enhancing real-world application skills. Interactive sessions prepare students for careers in technology",
+      ],
+    },
+    {
+      id: "collapseFour",
+      title: "Workshop Topics",
+      topics: [
+        {
+          title: "Core Topics",
+          list: [
+            "IoT",
+            "Data Analytics Using Python",
+            "Machine Learning",
+            "Deep Learning",
+            "Software Programming",
+            "Modern C++",
+            "Embedded C",
+            "Python Programming",
+            "Web Development",
+            "ARM - based Application Development",
+            "Raspberry Pi and Arduino Applications",
+          ],
+        },
+        {
+          title: "Specialized Training",
+          list: [
+            "Linux Kernel Programming",
+            "Automotive CAN Analysis & AUTOSAR",
+            "Digital Signal Processing",
+            "MATLAB & Simulink (Image, Video, Audio Processing)",
+            "Model-Based Design using Simulink and Stateflow",
+            "FPGA Design",
+            "Wireless Physical Layer Design",
+            "OFDM",
+            "Digital Signal Processing with FPGA"
+          ]
+        }
+      ]
+    },
+  ]
   return (
     <>
       <div className="tp-pf-details-page-area wow dark-bg tpfadeUp">
@@ -146,22 +256,139 @@ const ContentArea = () => {
 
       <div className="tp-pf-detials-main dark-bg pt-60">
         <div className="container wow tpfadeUp">
-          {sections.map((section, index) => (
-            <div key={index}>
-              <h2>{section.title}</h2>
-              <h4>{section.subtitle}</h4>
-              <p className={` ${!section.content && section.subtitle? 'pt-10' : "pt-30"}`}>
-                {section.content}
-                {section.list && (
-                  <ul className={` ${section.content && !section.subtitle? 'pt-20' : "pt-0"}`}>
-                    {section.list.map((item, i) => (
-                      <li key={i} className="pt-2">{item}</li>
-                    ))}
-                  </ul>
-                )}
+          <div className="row">
+            <h2 className="tp-section__title mb-30">Corporate Training</h2>
+            <p className=" mb-30">
+              LoopTech’s Corporate Training program is tailored to equip professionals with advanced technical skills, improving productivity and competitiveness.
+              Training modules are customizable, aligning with business needs, with expert-led sessions focused on skill enhancement
+            </p>
+          </div>
+          <div className="row padding-section">
+            <h3 className="mb-30">Courses Offered<i className="fa-solid fa-graduation-cap ps-3" style={{ color: "#0849BE" }}></i></h3>
+            {contents.map((content, index) => (
+              <div className="accordion" id="accordionExample" key={index}>
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button fw-bolder"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#collapse-${content.id}`}
+                      aria-expanded="true"
+                      aria-controls={content.id}
+                    >
+                      {content.title}
+                    </button>
+                  </h2>
+                  <div
+                    id={`collapse-${content.id}`}
+                    className="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      {content.list && <div className="d-flex justify-content-center flex-wrap align-items-center">
+                        {content.list.map((item, i) => (
+                          <div key={i} className="bs-cta-btns no-hover">
+                            <div className="tp-black-btn wow tpfadeLeft m-2 no-hover">{item}</div>
+                          </div>
+                        ))}
+                      </div>}
+                      {contents1.content_list && <p>{content.content_list}</p>}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+
+          </div>
+
+          <div className="row padding-section">
+            <h3 className="mb-30">
+              Institutional Training
+              <i className="fa-solid fa-laptop-code ps-3" style={{ color: "#0849BE" }}></i>
+            </h3>
+            {contents1.map((section, sectionIndex) => (
+              <div className="accordion" id="accordionExample" key={sectionIndex}>
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button fw-bolder"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#collapse-${section.id}`}
+                      aria-expanded="true"
+                      aria-controls={section.id}
+                    >
+                      {section.title}
+                    </button>
+                  </h2>
+                  <div
+                    id={`collapse-${section.id}`}
+                    className="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      {section.contentList && (
+                        <div>
+                          {section.contentList.map((item, itemIndex) => (
+                            <p key={itemIndex} className="my-3">{item}</p>
+                          ))}
+                        </div>
+                      )}
+
+                      {section.list && (
+                        <div className="d-flex justify-content-center flex-wrap align-items-center">
+                          {section.list.map((item, itemIndex) => (
+                            <div key={itemIndex} className="bs-cta-btns no-hover">
+                              <div className="tp-black-btn wow tpfadeLeft m-2 no-hover">{item}</div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+
+                      <div className="row">
+                        {section.topics && section.topics.map((topic, topicIndex) => (
+                          <div className="col-lg-6 col-12">
+                            <div key={topicIndex}>
+                              <h5 className="text-center bottom-bar">{topic.title}</h5>
+                              <div className="d-flex justify-content-center flex-wrap align-items-center">
+                                {topic.list.map((item, itemIndex) => (
+                                  <div key={itemIndex} className="bs-cta-btns no-hover">
+                                    <div className="tp-black-btn wow tpfadeLeft m-2 no-hover">{item}</div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="row padding-section">
+            <h3 className="mb-30">Faculty Development Programs (FDP)<i className="fa-solid fa-code ps-3" style={{ color: "#0849BE" }}></i></h3>
+            <div className="col-lg-8">
+              <p>
+                Enhance teaching skills and technical knowledge for educators, equipping them with industry-relevant tools, teaching methodologies, and practical insights
               </p>
+              {/* <div className="col-lg-6">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+              </div> */}
             </div>
-          ))}
+          </div>
+
         </div>
 
         {/* <!-- cta area --> */}

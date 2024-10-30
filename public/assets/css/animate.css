@@ -3307,3 +3307,28 @@ img.animated-img:hover {
 .left-padding {
   padding-left: 40px;
 }
+
+.no-hover:hover {
+  background: inherit !important; 
+  color: inherit !important;           
+  transform: none !important;           
+  transition: none !important;          
+}
+
+.bottom-bar {
+  position: relative;
+  text-align: center; 
+  padding-top: 8px;
+}
+
+.bottom-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  height: 2px;
+  background-image: linear-gradient(to right, #0849BE 60%, #d8ff2b); 
+}
+

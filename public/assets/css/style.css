@@ -2196,7 +2196,7 @@ input[type=color] {
 .tp-black-btn:hover span i {
   color: var(--tp-common-white);
 }
-.tp-black-btn i {
+. i {
   margin-left: 15px;
 }
 .tp-black-btn span {
@@ -12479,7 +12479,7 @@ xloading-bar
   opacity: 0.9;
 }
 
-.bs-cta-btns {
+. {
   z-index: 2;
 }
 
