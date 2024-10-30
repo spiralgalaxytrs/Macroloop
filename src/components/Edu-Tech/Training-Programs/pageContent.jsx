@@ -206,12 +206,12 @@ const ContentArea = () => {
         {
           title: "Core Topics",
           list: [
-            "IoT",
             "Data Analytics Using Python",
             "Machine Learning",
             "Deep Learning",
             "Software Programming",
             "Modern C++",
+            "IoT",
             "Embedded C",
             "Python Programming",
             "Web Development",
@@ -234,6 +234,66 @@ const ContentArea = () => {
           ]
         }
       ]
+    },
+  ]
+
+  const content3 = [
+
+    {
+      title: "VLSI",
+      list: [
+        "Verilog",
+        "VHDL",
+        "FPGA Design"
+      ],
+    },
+    {
+      title: "IoT",
+      list: [
+        "IoT Basics",
+        "Protocols",
+        "Edge Node & Gateway Computing",
+      ],
+    },
+
+    {
+      title: "Software Programming",
+      list: [
+        "Advanced C/C++",
+        "Core Java",
+        "Angular",
+        "React JS",
+        "Python",
+        "MongoDB"
+      ]
+    },
+    {
+      title: "Data Science",
+      list: [
+        "Math & Statistics for Data Science",
+        "NLP",
+        "Machine Learning",
+        "Data Visualization",
+      ]
+    },
+    {
+      title: "Full Stack Java Development",
+      list: [
+        "RDBMS",
+        "Java SE9",
+        "Advanced Java",
+        "JDBC",
+        "Web Technologies",
+      ],
+    },
+    {
+      title: "Embedded Systems",
+      list: [
+        "Embedded C Programming",
+        "ARM Cortex M3 Programming",
+        "Linux System & Device Drivers",
+        "RTOS",
+      ],
     },
   ]
   return (
@@ -348,9 +408,9 @@ const ContentArea = () => {
 
                       <div className="row">
                         {section.topics && section.topics.map((topic, topicIndex) => (
-                          <div className="col-lg-6 col-12">
+                          <div className=" col-12">
                             <div key={topicIndex}>
-                              <h5 className="text-center bottom-bar">{topic.title}</h5>
+                              <h5 className="text-center bottom-bar mt-4">{topic.title}</h5>
                               <div className="d-flex justify-content-center flex-wrap align-items-center">
                                 {topic.list.map((item, itemIndex) => (
                                   <div key={itemIndex} className="bs-cta-btns no-hover">
@@ -371,21 +431,68 @@ const ContentArea = () => {
 
           <div className="row padding-section">
             <h3 className="mb-30">Faculty Development Programs (FDP)<i className="fa-solid fa-code ps-3" style={{ color: "#0849BE" }}></i></h3>
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <p>
                 Enhance teaching skills and technical knowledge for educators, equipping them with industry-relevant tools, teaching methodologies, and practical insights
               </p>
-              {/* <div className="col-lg-6">
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+              <div className="row">
+                {content3.map((content, index) => (
+                  <div className="col-lg-6 mt-2" key={index}>
+                    <div className="card m-1" style={{ height: "100%" }} >
+                      <div className="p-3" style={{ background: "none!important" }}>
+                        <h5 className="card-title text-black">{content.title}</h5>
+                        <div>
+                          <ul className="d-flex flex-wrap gap-2 align-items-center">
+                            {content.list.map((item, i) => (
+                              <li key={i} className="text-black" style={i % 2 == 0 ? { color: "#0849BE!important", fontSize: "16px" } : { color: "#000000", fontSize: "16px" }}>
+                                <span style={{ fontSize: "20px" }}>|</span> {item}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="row padding-section">
+            <h3 className="mb-30">Program Takeaways<i className="fa-solid fa-file-code ps-3" style={{ color: "#0849BE" }}></i></h3>
+            <div className="col-lg-12">
+              <p className="pt-3 mb-0 d-flex">
+                <div className="mt-1">
+                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
                 </div>
-              </div> */}
+                <div className="mt-1">
+                  <b>Certification : </b> Completion Certificate for all programs
+                </div>
+              </p>
+              <p className="pt-3 mb-0 d-flex">
+                <div className="mt-1">
+                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                </div>
+                <div className="mt-1">
+                <b>Learning Modes : </b>  Online/Offline instructor-led sessions
+                </div>
+              </p>
+              <p className="pt-3 mb-0 d-flex">
+                <div className="mt-1">
+                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                </div>
+                <div className="mt-1">
+                <b>Hands-On Sessions : </b> Practical exposure through labs and interactive exercises
+                </div>
+              </p>
+              <p className="pt-3 mb-0 d-flex">
+                <div className="mt-1">
+                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                </div>
+                <div className="mt-1">
+                <b>Expert Coaching : </b> Guidance from industry experts
+                </div>
+              </p>
             </div>
           </div>
 
