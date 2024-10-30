@@ -16938,3 +16938,25 @@ p.checkout-coupon input[type=text]:focus {
 footer{
   font-family: var(--tp-ff-hf);
 }
+input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+  /* Set the text color */
+}
+
+input:-webkit-autofill:focus {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+.-mt-20{
+  margin-top: -20px;
+}
+
+
+
+
+
+
