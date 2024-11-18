@@ -10,42 +10,50 @@ const slider_content = [
     bg_img: "/assets/img/slider/BlogBanner.jpg",
     url: "/LooperHub",
     title: <>A LoopTech Venture:</>,
-    sub_title:<>LooperHub - A revolution in making.</>
-  },
-  {
-    id: 2,
-    bg_img: "/assets/img/solutions/construction.gif",
-    url: "/solutions/Construction-Technical",
-    title: <>IT Infrastructure Solutions:</>,
-    sub_title:<>Empowering Your Future with Resilient IT Foundations</>
-  },
-  {
-    id: 3,
-    bg_img: "/assets/img/solutions/DigT.gif",
-    url: "/solutions/Digital-Transformation",
-    title: <>Security Systems and Solutions: </>,
-    sub_title:<>Uncompromised Security, Unmatched Peace of Mind</>
-  },
-  {
-    id: 4,
-    bg_img: "/assets/img/solutions/ed.gif",
-    url: "/solutions/Edu-Tech",
-    title: <>IoT and Digital Transformation :</>,
-    sub_title:<>Connecting the Future: Revolutionizing Your Digital World</>
+    sub_title: <>LooperHub - A revolution in making.</>
   },
   {
     id: 5,
-    bg_img: "/assets/img/solutions/system-solutions.gif",
-    url: "/solutions/Security-Systems",
-    title: <>Construction Technology Solutions : </>,
-    sub_title:<>Building Tomorrow's Landmarks with Cutting-Edge Technology</>
+    bg_img: "/assets/img/solutions/construction.gif",
+    url: "/solutions/Construction-Technical",
+    title: <>Construction Technology : </>,
+    sub_title: <>Building Tomorrow's Landmarks with Cutting-Edge Technology</>
   },
+  {
+    id: 7,
+    bg_img: "/assets/img/solutions/digital.gif",
+    url: "/solutions/Digital-Transformation",
+    title: <>Digital-Transformation : </>,
+    sub_title: <>They deliver digital solutions for efficiency, safety, and workforce management</>
+  },
+  // {
+  //   id: 2,
+  //   bg_img: "/assets/img/solutions/construction.gif",
+  //   url: "/solutions/Construction-Technical",
+  //   title: <>IT Infrastructure:</>,
+  //   sub_title: <>Empowering Your Future with Resilient IT Foundations</>
+  // },
+  // {
+  //   id: 3,
+  //   bg_img: "/assets/img/solutions/DigT.gif",
+  //   url: "/solutions/Digital-Transformation",
+  //   title: <>Security Management: </>,
+  //   sub_title: <>Uncompromised Security, Unmatched Peace of Mind</>
+  // },
+  // {
+  //   id: 4,
+  //   bg_img: "/assets/img/solutions/ed.gif",
+  //   url: "/solutions/Edu-Tech",
+  //   title: <>IoT and Digital Transformation :</>,
+  //   sub_title: <>Connecting the Future: Revolutionizing Your Digital World</>
+  // },
+  
   {
     id: 6,
     bg_img: "/assets/img/solutions/IT-infrastructure.gif",
-    url: "/solutions/Infrastructure",
-    title: <>Edu Tech Solutions : </>,
-    sub_title:<>Innovating Education for a Brighter, Smarter Future</>
+    url: "solutions/Edu-Tech",
+    title: <>Edu Tech : </>,
+    sub_title: <>Innovating Education for a Brighter, Smarter Future</>
   }
 ];
 
@@ -99,15 +107,15 @@ const HeroSlider = () => {
               <div className="container d-flex flex-column slider_content" >
                 <div className="row pt-100">
                   <div className="col-lg-10 col-12 align-self-end">
-                  <h4 className="text-white display-5" style={{ fontWeight: 700 }}>{item?.title}</h4>
-                  <h6 className="text-white display-5" style={{ fontWeight: 500 }}>{item?.sub_title}</h6> 
-              
+                    <h4 className="text-white display-5" style={{ fontWeight: 700 }}>{item?.title}</h4>
+                    <h6 className="text-white display-5" style={{ fontWeight: 500 }}>{item?.sub_title}</h6>
+
                   </div>
                   <div className="self-end pt-10 readMore d-flex flex-row-reverse" style={{
-  position: "absolute",
-  bottom: "90px", 
-  right: "20px",
-}}>
+                    position: "absolute",
+                    bottom: "90px",
+                    right: "20px",
+                  }}>
 
                     <div className="ptg-about-btn-wrapper mb-30 d-none d-sm-block wow tpfadeUp" data-wow-delay=".3s">
                       <Link href={item?.url} className="tp-black-btn">
@@ -118,7 +126,7 @@ const HeroSlider = () => {
                         </span>
                       </Link>
                     </div>
-                    <div className="ptg-about-btn-wrapper d-sm-none wow tpfadeUp" style={{marginBottom:'-10px'}} data-wow-delay=".3s">
+                    <div className="ptg-about-btn-wrapper d-sm-none wow tpfadeUp" style={{ marginBottom: '-10px' }} data-wow-delay=".3s">
                       <Link href={item?.url} className="tp-black-btn">
                         {btn}
                         <span className="ml-10">

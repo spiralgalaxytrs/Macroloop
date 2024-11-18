@@ -1,114 +1,230 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CtaArea from "../homes/home-5/cta";
 import Link from "next/link";
+import Image from "next/image";
 
 const ContentArea = () => {
-  const img_gallery_working_process = [
-    "/assets/img/portfolio/pf-details-gl-1.jpg",
-    "/assets/img/portfolio/pf-details-gl-2.jpg",
-    "/assets/img/portfolio/pf-details-gl-3.jpg",
-  ];
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check window width after component mounts
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+
+    // Initial check and add event listener for resizing
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    // Cleanup event listener on unmount
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   return (
     <>
+      <style>
+
+      </style>
       <div className="tp-pf-details-page-area wow dark-bg tpfadeUp">
         <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
-                    <img src="/assets/img/solutions/IT-infrastructure.gif" alt="" />
-                  </Link>
-                </div>
-                {/* <div className="pf-details-banner__info">
-                    <div className="row align-items-center align-items-xl-start">
-                      <div className="col-lg-8">
-                        <div className="pf-details-banner__info-left pl-30">
-                          <span>
-                            <b>Learn</b> 
-                          </span>
-                          <span>
-                            <b>Contribute</b> 
-                          </span>
-                          <span>
-                            <b>Grow</b>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-lg-4">
-                        <div className="pf-details-banner__info-right text-lg-end pl-30">
-                          
-                           <Link href="/contact">
-                           Contact Us
-                            <span>
-                              <i className="fal fa-long-arrow-right"></i>
-                            </span></Link>
-                          
-                        </div>
+                  <div className="row">
+                    <div className="col-12 col-md-6">
+                      <Link href="/solutions/Digital-Transformation/Infrastructure">
+                        <img
+                          src="/assets/img/solutions/IT-infrastructure.gif"
+                          style={{ width: "100%", height: "350px" }}
+                          alt=""
+                        />
+                      </Link>
+                    </div>
+
+                    <div className="col-12 col-md-6">
+                      <div className="d-flex h-100 flex-column justify-content-center">
+                        <h2 style={{ fontWeight: 600 }}>Comprehensive IT Infrastructure</h2>
+                        <p
+                          style={{ fontSize: "18px", wordSpacing: "4px" }}
+                          className="pt-20"
+                        >
+                          In today's digital landscape, a robust IT infrastructure is
+                          essential for ensuring seamless communication, safeguarding data,
+                          and maintaining business continuity. MacroLoop Technologies offers
+                          a comprehensive suite of IT Infrastructure solutions designed to
+                          empower your organization with secure, efficient, and scalable
+                          technology.
+                        </p>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+
+
+
+
+
       <div className="tp-pf-detials-main dark-bg pt-50">
         <div className="container wow tpfadeUp">
-          <h2>Comprehensive IT Infrastructure Solutions</h2>
+
+          {/* <h2>Comprehensive IT Infrastructure</h2>
           <p className="pt-20">
-            At LoopTech, we offer a comprehensive range of IT infrastructure
-            solutions designed to meet the evolving needs of modern businesses.
-            Our commitment to excellence and innovation has led us to partner
-            with leading industry players to bring you cutting-edge technology
-            and unparalleled support.
-          </p>
+          In today's digital landscape, a robust IT infrastructure is essential for ensuring seamless communication, safeguarding data, and maintaining business continuity. MacroLoop Technologies offers a comprehensive suite of IT Infrastructure solutions designed to empower your organization with secure, efficient, and scalable technology.
+          </p> */}
 
-          <h2>Networking Solutions</h2>
+          <div className="pas1 border-2 border-gray-300 rounded-full p-6 shadow-lg mb-4 hover-effect1 rounded">
+            <h2 className="text-center text-xl font-medium pt-3" style={{ color: '#0D6EFD' }}>
+              Networking Services
+            </h2>
 
-          <p className="pt-20">
-            Our networking solutions are designed to keep your business
-            connected and running smoothly. Whether you require a robust and
-            secure wired network or a flexible and scalable wireless solution,
-            we have the expertise to design, implement, and manage a network
-            that meets your specific requirements. Benefit from high-speed,
-            reliable, and secure wired networking solutions that form the
-            backbone of your IT infrastructure. Experience seamless connectivity
-            and mobility with our tailored wireless networking solutions that
-            prioritize performance and security.
-          </p>
 
-          <h2>Data Storage and Management</h2>
+            <div className="row col-12 align-middle space-x-4">
+              <div className="col-12 col-md-6 inline-block align-text-middle order-2	order-lg-1 p-4">
+                <div className="col-lg-12">
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Network Security: </b> Our multi-layered architecture defends against cyber threats with firewalls, intrusion detection, and encryption protocols, ensuring your data remains protected.
+                    </div>
+                  </p>
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Performance Optimization: </b> We conduct continuous monitoring and management to maximize uptime and speed, enabling seamless operations with minimal latency.
+                    </div>
+                  </p>
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Proactive Threat Detection: </b> Utilizing advanced AI-driven systems, we identify vulnerabilities before they escalate, offering real-time alerts and automated responses to keep your network secure.
+                    </div>
+                  </p>
+                  {/* <p className="pt-3 mb-0 d-flex">
+                <div className="mt-1">
+                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                </div>
+                <div className="mt-1">
+                <b>Expert Coaching : </b> Guidance from industry experts
+                </div>
+              </p> */}
+                </div>
+              </div>
+              <div className="col-12 col-md-6 img23 order-1 order-lg-2 p-4 rounded ps-5">
+                <Image classname='animated-img1 p-4 rounded-md' src="/assets/img/solutions/a.png" alt="Cloud Services" width={550} height={300} style={{width: "100%",borderRadius: "10px"}}  />
+              </div>
+              {/* <div className="col-12 col-md-6 order-1 order-lg-2 img23 rounded">
+                <Image className="animated-img1 p-4" src="/assets/img/solutions/a.png" alt="Cloud Services" width={600} height={350} style={{width: "100%",borderRadius: "10px"}}  />
+              </div> */}
 
-          <p className="pt-20">
-            Efficient data storage and management are critical for businesses of
-            all sizes. Our solutions are designed to help you store, protect,
-            and manage your data effectively, ensuring accessibility, security,
-            and compliance. Leverage scalable and resilient storage solutions to
-            accommodate your growing data needs while ensuring data integrity
-            and availability. Streamline data management processes and gain
-            insights from your data with our robust data management solutions
-            that empower you to make informed decisions.
-          </p>
+            </div>
+          </div>
+          <div className="pas1 border-2 border-gray-300 rounded-lg p-6 shadow-lg mb-4 hover-effect1 rounded">
+            <h2 className="text-center text-xl font-medium pt-3" style={{ color: '#0D6EFD' }}>Data Centre and Server Management</h2>
 
-          <h2>Cloud Services</h2>
+            <div className="row col-12 align-middle space-x-4">
 
-          <p className="pt-20">
-            Embrace the power of the cloud with our comprehensive cloud services
-            that enable you to optimize your IT resources, enhance
-            collaboration, and drive innovation. Seamlessly transition to the
-            cloud with our expertise in cloud migration and integration,
-            ensuring minimal disruption and maximum efficiency. Optimize your
-            cloud environment with our robust cloud management solutions that
-            prioritize performance, security, and cost-effectiveness. Harness
-            the benefits of both public and private cloud environments with our
-            hybrid cloud solutions, offering flexibility and control over your
-            workloads.
-          </p>
+              <div className="col-12 col-md-6 img23 p-4 rounded ps-5 img23">
+                <Image classname='animated-img1 p-4 rounded-md' src="/assets/img/solutions/b.png" alt="Cloud Services" width={550} height={300} style={{width: "100%",borderRadius: "10px"}}  />
+              </div>
+              <div className="col-12 col-md-6 inline-block align-text-middle order-2	order-lg-1 p-4">
+                <div className="col-lg-12">
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Server Security & Monitoring: </b> We provide 24/7 surveillance and real-time issue resolution to minimize downtime and protect your infrastructure.
+                    </div>
+                  </p>
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Data Protection:  </b>  Our high-level security protocols, including encryption and access controls, ensure your data is safeguarded from unauthorized access.
+                    </div>
+                  </p>
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Scalable Solutions:</b> Our flexible server management adapts to your growing business needs, providing consistent performance without unnecessary costs.
+                    </div>
+                  </p>
+                  {/* <p className="pt-3 mb-0 d-flex">
+                <div className="mt-1">
+                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                </div>
+                <div className="mt-1">
+                <b>Expert Coaching : </b> Guidance from industry experts
+                </div>
+              </p> */}
+                </div>
+              </div>
 
-          <h2>Security Solutions</h2>
+            </div>
+          </div>
+          <div className="pas1 border-2 border-gray-300 rounded-lg p-6 shadow-lg mb-4 hover-effect1 rounded">
+            <h2 className="text-center text-xl font-medium pt-3" style={{ color: '#0D6EFD' }}>Cloud Services</h2>
+
+            <div className="row col-12 align-middle space-x-4 ">
+
+              <div className="col-12 col-md-6 inline-block align-text-middle order-2	order-lg-1 p-4">
+                <div className="col-lg-12">
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Secure Cloud Migration: </b> We ensure a seamless transition to cloud platforms, maintaining data integrity and minimizing the business disruption.
+                    </div>
+                  </p>
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Data Encryption & Backup: </b>  Advanced encryption techniques and regular backups protect your information and ensure recoverability of data.
+                    </div>
+                  </p>
+                  <p className="pt-3 mb-0 d-flex">
+                    <div className="mt-1">
+                      <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                    </div>
+                    <div className="mt-1">
+                      <b>Disaster Recovery:  </b> Our tailored recovery solutions guarantee business continuity by restoring operations quickly and efficiently during unexpected disruptions.
+                    </div>
+                  </p>
+                  {/* <p className="pt-3 mb-0 d-flex">
+                <div className="mt-1">
+                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
+                </div>
+                <div className="mt-1">
+                <b>Expert Coaching : </b> Guidance from industry experts
+                </div>
+              </p> */}
+                </div>
+              </div>
+              <div className="col-12 col-md-6 order-1 order-lg-2 img23 p-4" >
+                <Image classname='animated-img1 p-4' src="/assets/img/solutions/c.png" alt="Cloud Services" width={600} height={300} style={{width: "100%",borderRadius: "10px"}}/>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        {/* <h2>Security Solutions</h2>
 
           <p className="pt-20">
             Protecting your digital assets and ensuring regulatory compliance
@@ -122,9 +238,9 @@ const ContentArea = () => {
             your endpoints from malware, ransomware, and other advanced threats
             with our endpoint security solutions that provide comprehensive
             threat protection.
-          </p>
+          </p> */}
 
-          {/* <h2>Collaboration and Communication</h2>
+        {/* <h2>Collaboration and Communication</h2>
 
           <p className="pt-20">
             Efficient collaboration and communication are essential for modern
@@ -160,7 +276,7 @@ const ContentArea = () => {
             solutions can drive the success of your business.
           </p> */}
 
-          {/* <div className="pt-20 solution_sponsor">
+        {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>
           </div>
           <div className="pt-20 pb-100">
@@ -185,12 +301,13 @@ const ContentArea = () => {
               alt=""
             />
           </div> */}
-        </div>
 
-        {/* <!-- cta are  --> */}
-        <CtaArea />
-        {/* <!-- cta end --> */}
       </div>
+
+      {/* <!-- cta are  --> */}
+      <CtaArea />
+      {/* <!-- cta end --> */}
+
     </>
   );
 };

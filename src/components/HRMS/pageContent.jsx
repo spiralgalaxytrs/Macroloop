@@ -73,7 +73,7 @@ const ContentArea = () => {
                 paddingBottom: '56.25%',
                 overflow: 'hidden',
               }}>
-                <Link href="/contact">
+                
                   <video src="/assets/img/solutions/HRMS.mp4" alt="Metaverse" autoPlay loop muted playsInline
                     style={{
                       position: 'absolute',
@@ -84,7 +84,7 @@ const ContentArea = () => {
                       objectFit: 'cover',
                     }}>
                   </video>
-                </Link>
+                
               </div>
             </div>
 

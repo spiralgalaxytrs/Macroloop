@@ -27,7 +27,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
@@ -44,7 +49,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -69,21 +79,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes flash {
-  0%, 50%, 100% {
+
+  0%,
+  50%,
+  100% {
     opacity: 1;
   }
 
-  25%, 75% {
+  25%,
+  75% {
     opacity: 0;
   }
 }
 
 @keyframes flash {
-  0%, 50%, 100% {
+
+  0%,
+  50%,
+  100% {
     opacity: 1;
   }
 
-  25%, 75% {
+  25%,
+  75% {
     opacity: 0;
   }
 }
@@ -139,36 +157,54 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes shake {
-  0%, 100% {
+
+  0%,
+  100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
   }
 }
 
 @keyframes shake {
-  0%, 100% {
+
+  0%,
+  100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
 
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     -webkit-transform: translateX(10px);
     -ms-transform: translateX(10px);
     transform: translateX(10px);
@@ -253,17 +289,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 
-  10%, 20% {
+  10%,
+  20% {
     -webkit-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg);
   }
 
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg);
   }
 
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg);
   }
@@ -281,19 +323,25 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 
-  10%, 20% {
+  10%,
+  20% {
     -webkit-transform: scale(0.9) rotate(-3deg);
     -ms-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg);
   }
 
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale(1.1) rotate(3deg);
     -ms-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg);
   }
 
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale(1.1) rotate(-3deg);
     -ms-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg);
@@ -2576,7 +2624,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     -webkit-transform: rotate(80deg);
     transform: rotate(80deg);
     -webkit-transform-origin: top left;
@@ -2623,7 +2672,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     -webkit-transform: rotate(80deg);
     -ms-transform: rotate(80deg);
     transform: rotate(80deg);
@@ -2743,6 +2793,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
+
 @-webkit-keyframes zoomIn {
   from {
     opacity: 0;
@@ -3136,3 +3187,161 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
 }
+
+
+
+
+
+@keyframes slide-left-right {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0.2;
+  }
+
+  50% {
+    transform: translateX(30px);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+}
+
+img.animated-img:hover {
+  transform: scale(1.1);
+}
+.hover-effect1:hover img.animated-img1  {
+  transform: scale(1.05);
+}
+img.animated-img1 {
+  transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+  .project-img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-effect1 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+  box-shadow: var(--bs-box-shadow);
+  color: white !important;
+  background: linear-gradient(to right, #773cce, #2e5abe) !important;
+  cursor: pointer;
+}
+.hover-effect1:hover {
+  transform: scale(1.02);
+  box-shadow: var(--bs-box-shadow);
+  cursor:pointer !important;
+}
+.hover-effect:hover .card-title,
+.hover-effect:hover .card-text {
+  color: white !important;
+}
+
+.card-body {
+  background-image: linear-gradient(to right, #773cce, #2e5abe);
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+.custom-rounded-card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.security-img {
+  height: 500px;
+}
+
+
+@media (max-width: 440px) {
+  .security-img {
+    height: 425px;
+  }
+  .right-padding {
+    padding-right: 5px !important;
+  }
+  .left-padding {
+    padding-left: 20px !important;
+  }
+  .padding-section {
+    padding-top: 10px ! important;
+    padding-bottom: 10px !important;
+  }
+}
+
+/* Row Animated style */
+.row-animation {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition-delay: 0.2s;
+}
+
+.row-animation-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.padding-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bottom-padding {
+  padding-bottom: 50px !important;
+}
+.right-padding {
+  padding-right: 40px;
+}
+.left-padding {
+  padding-left: 40px;
+}
+
+.no-hover:hover {
+  background: inherit !important; 
+  color: inherit !important;           
+  transform: none !important;           
+  transition: none !important;          
+}
+
+.bottom-bar {
+  position: relative;
+  text-align: center; 
+  padding-top: 8px;
+}
+
+.bottom-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  height: 2px;
+  background-image: linear-gradient(to right, #0849BE 60%, #d8ff2b); 
+}
+.theme-text{
+  color: #0849BE !important;
+}
+

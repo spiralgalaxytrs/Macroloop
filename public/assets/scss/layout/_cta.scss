@@ -204,25 +204,29 @@
 
 .it-cta-form {
     @media #{$xs,$md} {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     & .input-item {
         position: relative;
         font-size: 16px;
         margin-bottom: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
 
         & input,
         & select,
         & .nice-select {
-            width: 100%;
+            // width: 100%;
             height: 60px;
             padding-right: 40px;
             padding-left: 10px;
             border-radius: 8px;
+            width: 100%;
             border: 2px solid var(--tp-border-10);
             background-color: transparent;
             -webkit-appearance: none;
+            text-transform: capitalize;
             
             @include tp-placeholder {
                 color: var(--tp-grey-5);
@@ -239,6 +243,7 @@
                 min-block-size: 1.2em;
                 padding-inline: -10px;
                 white-space: nowrap;
+                text-transform: capitalize;
             }
         }
 
@@ -260,6 +265,7 @@
             left: 15px;
             background-color: #ffffff;
             z-index:100;
+            padding: 2px;
         }
 
         & input[value=""] + lable {
@@ -310,6 +316,7 @@
         left: 15px;
         background-color: #ffffff;
         z-index: 100;
+        padding: 2px;
     }
 
     & textarea.content + lable {

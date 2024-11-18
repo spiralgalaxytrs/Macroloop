@@ -43,7 +43,7 @@ const AboutArea = ({style_about}) => {
                                     <div className='col-12 mb-5'>
                                         {/* <span><i className="flaticon-global"></i></span>
                                         <span>{left_title}</span> */}
-                                        <img className='shadow rounded img-fluid' src="assets/img/about/keeppushing.jpg" alt="about-image" style={{height: "210px",width:"295px",objectFit: "cover"}} />
+                                        <img className='shadow rounded img-fluid' src="assets/img/about/aboutus.png" alt="about-image" style={{height: "210px",width:"295px",objectFit: "cover"}} />
                                     </div>
                                     <div className="law-about-img-1">
                                         <img className="shadow rounded img-fluid" src={img_1} alt="" style={{height: "210px",width:"295px",objectFit: "cover"}}/>

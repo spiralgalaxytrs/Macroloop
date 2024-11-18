@@ -9,7 +9,7 @@ const Metaverse_index = () => {
     return (
       <>
         <Header />
-        <BreadcrumbArea acive_menu="Metaverse Solutions" title="Metaverse Solutions" />
+        <BreadcrumbArea acive_menu="Metaverse" title="Metaverse" />
         <ContentArea />
         <Footer tp_border={true} />
       </>

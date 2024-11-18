@@ -2182,6 +2182,10 @@ input[type=color] {
   color: var(--tp-common-white);
   background-color: var(--tp-theme-orange);
 }
+.tp-black-btn:hover {
+  color: var(--tp-common-dark);
+  background-color: #CFE2FF;
+}
 .tp-black-btn:hover.br-btn-bg-dark {
   background-color: var(--tp-common-black);
 }
@@ -2196,7 +2200,7 @@ input[type=color] {
 .tp-black-btn:hover span i {
   color: var(--tp-common-white);
 }
-.tp-black-btn i {
+. i {
   margin-left: 15px;
 }
 .tp-black-btn span {
@@ -12141,11 +12145,13 @@ xloading-bar
   position: relative;
   font-size: 16px;
   margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 .it-cta-form .input-item input, .it-cta-form .input-item select, .it-cta-form .input-item .nice-select {
   width: 100%;
   height: 60px;
-  padding-left: 40px;
+  padding-left: 100px;
   padding-right: 10px;
   border-radius: 8px;
   border: 2px solid var(--tp-border-8);
@@ -12479,7 +12485,7 @@ xloading-bar
   opacity: 0.9;
 }
 
-.bs-cta-btns {
+. {
   z-index: 2;
 }
 
@@ -16938,3 +16944,30 @@ p.checkout-coupon input[type=text]:focus {
 footer{
   font-family: var(--tp-ff-hf);
 }
+input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+  /* Set the text color */
+}
+
+input:-webkit-autofill:focus {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+.-mt-20{
+  margin-top: -20px;
+}
+.img23 img{
+  width: "80%";
+  height: "400px";
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+
+
+

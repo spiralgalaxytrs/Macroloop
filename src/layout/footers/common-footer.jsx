@@ -10,8 +10,8 @@ const footer_links = [
     links: [
       { title: "About", link: "/about" },
       { title: "Solutions", link: "/solutions" },
-      { title: "LCG", link: "/lcg" },
-      // { title: "LooperHub", link: "/LooperHub" },
+      // { title: "LCG", link: "/lcg" },
+      { title: "LooperHub", link: "/LooperHub" },
       // { title: "Contact", link: "/contact" },
       // { title: "Privacy Policy", link: "/privacy-policy" }
      
@@ -25,7 +25,7 @@ const footer_links = [
       // { title: "About", link: "/about" },
       // { title: "Solutions", link: "/solutions" },
       // { title: "LCG", link: "/lcg" },
-      { title: "LooperHub", link: "/LooperHub" },
+      // { title: "LooperHub", link: "/LooperHub" },
       { title: "Contact", link: "/contact" },
       { title: "Privacy Policy", link: "/privacy-policy" }
      

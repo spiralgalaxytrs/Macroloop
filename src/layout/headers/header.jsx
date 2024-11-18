@@ -37,7 +37,7 @@ const Header = () => {
                                     <Link href="/"><img className='hero-logo' src="/assets/img/logo/logo.jpg" alt="logo" /></Link>
                                 </div>
                             </div>
-                            <div className="col-xl-6 col-lg-9 d-hidden">
+                            <div className="col-xl-6 col-auto d-hidden">
                                 <div className="main-menu da-menu">  
                                     <nav id="mobile-menu">
                                         <NavMenu />
@@ -46,7 +46,7 @@ const Header = () => {
                             </div>
                             <div className="col-xl-2 col-auto">
                                 <div className="tp-header-search-nav d-flex align-items-center dark-header justify-content-end ">
-                                    <div className="tp-header-nav tp-header-nav-2 d-flex" onClick={() => setIsActive(true)}  style={{height:"100px"}}>
+                                    <div className="tp-header-nav tp-header-nav-2 d-flex" onClick={() => setIsActive(true)}  >
                                         <i className="flaticon-more"></i>
                                     </div>
                                 </div>

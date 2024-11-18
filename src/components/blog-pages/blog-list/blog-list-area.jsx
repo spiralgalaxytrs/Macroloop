@@ -1,4 +1,4 @@
-import VideoPopup from '@/src/Modals/VideoPopup';
+// import VideoPopup from '@/src/Modals/VideoPopup';
 import Link from 'next/link';
 import React,{useState} from 'react';
 import Category from '../category';
@@ -269,11 +269,11 @@ const BlogListArea = () => {
 
 
       {/* video modal start */}
-      <VideoPopup
+      {/* <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
         videoId={"gmB_TC92I8w"}
-      />
+      /> */}
       {/* video modal end */}
         </>
     );
