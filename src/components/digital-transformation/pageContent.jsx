@@ -47,7 +47,7 @@ const service_data = [
     icon: "/assets/img/icons/service-icons-6.png",
     link: "/solutions/Digital-Transformation/Security-Systems",
     img: "/assets/img/icons/service-icons-6.png",
-    title: "SECURITY MANAGEMENT",
+    title: "SAFETY MANAGEMENT",
     des: <>In conclusion, physical security and AI-driven cyber security are critical components of business resilience.</>,
     counter: "",
     delay: ".4s",
@@ -122,7 +122,7 @@ const ContentArea = () => {
                 paddingBottom: '56.25%',
                 overflow: 'hidden',
               }}>
-                <Link href="/contact">
+                <Link href="/solutions/Digital-Transformation">
                   <video src="/assets/img/solutions/Digital.mp4" alt="Metaverse" autoPlay loop muted playsInline
                     style={{
                       position: 'absolute',
@@ -144,8 +144,8 @@ const ContentArea = () => {
       <div className="tp-pf-detials-main dark-bg">
         <div className="container wow tpfadeUp">
 
-          <h2>Industry Automation</h2>
-          <p className="pt-20">
+          {/* <h2>Industry Automation</h2> */}
+          <p className="pt-10">
             MacroLoop Technologies specializes in digital transformation, empowering businesses to thriveintoday's fast-paced environment. By integrating cutting-edge technologies, they enable
             organizations to enhance operational efficiency, improve safety standards, and streamline
             workforce management. Their approach focuses on leveraging innovative solutions that driveengagement and foster growth, ensuring companies remain competitive in an ever-evolving

@@ -5,8 +5,8 @@ import React from "react";
 import AboutArea from "../homes/home-7/about-area";
 import AbFactArea from "./ab-fact-area";
 import AboutDeatialsArea from "./about-deatials-area";
-import CtaAre from "./cta-are";
 import TeamArea from "./team-area";
+import Cta from "../homes/home-5/cta";
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
       {/* <AbFactArea /> */}
       {/* <TeamArea /> */}
       <AboutDeatialsArea />
-      <CtaAre rButton="Contact Us" lbutton="Request Meeting" link="mailto:info@looptech.in?subject=Requesting a meeting to  discuss our requirement-Reg." />
+      <Cta />
       <Footer />
     </>
   );

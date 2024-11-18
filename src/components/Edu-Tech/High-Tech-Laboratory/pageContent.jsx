@@ -137,7 +137,7 @@ const ContentArea = () => {
             <div className="col-12">
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
+                  <Link href="/solutions/Edu-Tech/High-Tech-Laboratory">
                     <img src="/assets/img/solutions/ed.gif" alt="Lab Solutions" />
                   </Link>
                 </div>
@@ -158,8 +158,8 @@ const ContentArea = () => {
           <div className="container" >
             <div className="row">
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Comprehensive Lab Services
                   </h5>
@@ -178,8 +178,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Space Optimization & Lab Design
                   </h5>
@@ -197,8 +197,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Lab Safety Solutions
                   </h5>
@@ -213,8 +213,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Turnkey Lab Solutions
                   </h5>
@@ -230,8 +230,8 @@ const ContentArea = () => {
               </div>
 
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Global Procurement Services
                   </h5>
@@ -246,8 +246,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Lab Maintenance & Support
                   </h5>
@@ -262,8 +262,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Environmental Control & Monitoring
                   </h5>
@@ -278,8 +278,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Lab Automation Solutions
                   </h5>
@@ -294,8 +294,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Lab Renovation & Upgrades
                   </h5>
@@ -310,8 +310,8 @@ const ContentArea = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded" >
-                  <Image src="/assets/img/solutions/ed.gif" alt="Lab Solutions" width={80} height={80} />
+                <div className="shadow bg-light p-3 rounded hover-effect1" >
+                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
                   <h5 className="pt-2">
                     Energy-Efficient Lab Solutions
                   </h5>

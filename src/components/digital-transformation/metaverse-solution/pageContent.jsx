@@ -120,7 +120,7 @@ const ContentArea = () => {
                   overflow: "hidden",
                 }}
               >
-                <Link href="/contact">
+              
                   <video
                     src="/assets/img/solutions/Metaverse.mp4"
                     alt="Metaverse"
@@ -137,7 +137,7 @@ const ContentArea = () => {
                       objectFit: "cover",
                     }}
                   />
-                </Link>
+                
               </div>
             </div>
           </div>
@@ -154,9 +154,9 @@ const ContentArea = () => {
             their operations, enhancing customer engagement, productivity, and digital transformation.
           </p>
 
-          <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow">
-            <div className="col-lg-7  pb-3 pt-lg-5 pt-3" >
-              <h2 className="text-primary pt-lg-3">360 VR Video Production</h2>
+          <div className="row border  py-2 border-3 rounded-3 shadow hover-effect1">
+            <div className="col-lg-7  pb-3 pt-lg-5 pt-3 order-lg-0 order-md-0 order-2" >
+              <h2 className="text-primary pt-lg-3 pt-1">360 VR Video Production</h2>
               <h5 className="pt-1">Capture Reality in Full Immersion</h5>
               <p className="pt-15 mb-0">
                 Step into a new dimension of storytelling with our 360 VR Video Production services. We create
@@ -164,17 +164,17 @@ const ContentArea = () => {
                 action, providing unparalleled engagement for marketing, events, training, and more.
               </p>
             </div>
-            <div className="col-lg-5">
-              <Image src={`/assets/img/metaverse/card1.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
+            <div className="col-lg-5 order-lg-0 order-md-0 order-1">
+              <Image  className="animated-img1" src={`/assets/img/metaverse/card1.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
             </div>
           </div>
 
-          <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow mt-3">
+          <div className="row border  py-2 border-3 rounded-3 shadow mt-3 hover-effect1">
             <div className="col-lg-5">
-               <Image src={`/assets/img/metaverse/card2.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
+               <Image className="animated-img1" src={`/assets/img/metaverse/card2.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
             </div>
             <div className="col-lg-7  pb-3 pt-lg-5" >
-              <h2 className="text-primary pt-lg-3">Interactive VR</h2>
+              <h2 className="text-primary pt-lg-3 pt-1">Interactive VR</h2>
               <h5 className="pt-1">Interactive Virtual Worlds at Your Fingertips</h5>
               <p className="pt-15 mb-0">
                 Our Interactive VR solutions allow users to go beyond passive viewing and actively engage with
@@ -184,9 +184,9 @@ const ContentArea = () => {
             </div>
           </div>
 
-          <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow mt-3">
-            <div className="col-lg-7  pb-3 pt-lg-5" >
-              <h2 className="text-primary pt-lg-3">AR Development</h2>
+          <div className="row border  py-2 border-3 rounded-3 shadow mt-3 hover-effect1">
+            <div className="col-lg-7  pb-3 pt-lg-5 order-lg-0 order-md-0 order-2" >
+              <h2 className="text-primary pt-lg-3 pt-1">AR Development</h2>
               <h5 className="pt-1">Augment Your Reality with Cutting-Edge AR Solutions</h5>
               <p className="pt-15 mb-0">
                 Blend the physical and digital worlds with our Augmented Reality (AR) development services.
@@ -195,17 +195,17 @@ const ContentArea = () => {
                 engaging ways.
               </p>
             </div>
-            <div className="col-lg-5">
-               <Image src={`/assets/img/metaverse/card3.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
+            <div className="col-lg-5 order-lg-0 order-md-0 order-1">
+               <Image className="animated-img1" src={`/assets/img/metaverse/card3.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
             </div>
           </div>
 
-          <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow mt-3">
+          <div className="row border  py-2 border-3 rounded-3 shadow mt-3 hover-effect1">
             <div className="col-lg-5">
-               <Image src={`/assets/img/metaverse/card4.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
+               <Image className="animated-img1" src={`/assets/img/metaverse/card4.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
             </div>
             <div className="col-lg-7  pb-3 pt-lg-5" >
-              <h2 className="text-primary pt-lg-3">XR Consulting</h2>
+              <h2 className="text-primary pt-lg-3 pt-1">XR Consulting</h2>
               <h5 className="pt-1">Expert Guidance for Navigating Extended Reality</h5>
               <p className="pt-15 mb-0">
                 Looking to integrate XR (Extended Reality) into your business strategy? Our XR Consulting
@@ -216,9 +216,9 @@ const ContentArea = () => {
             </div>
           </div>
 
-          <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow mt-3">
-            <div className="col-lg-7  pb-3 pt-lg-5" >
-              <h2 className="text-primary pt-lg-3 ">XR Experiences</h2>
+          <div className="row border  py-2 border-3 rounded-3 shadow mt-3 hover-effect1">
+            <div className="col-lg-7  pb-3 pt-lg-5 order-lg-0 order-md-0 order-2" >
+              <h2 className="text-primary pt-lg-3 pt-1">XR Experiences</h2>
               <h5 className="pt-1">Designing Immersive Experiences for the Future</h5>
               <p className="pt-15 mb-0">
                 Create unforgettable immersive environments with our XR Experience services. From virtual
@@ -226,17 +226,17 @@ const ContentArea = () => {
                 integration of VR, AR, and MR technologies to engage and captivate your audience.
               </p>
             </div>
-            <div className="col-lg-5">
-               <Image src={`/assets/img/metaverse/card5.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
+            <div className="col-lg-5 order-lg-0 order-md-0 order-1">
+               <Image  className="animated-img1" src={`/assets/img/metaverse/card5.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
             </div>
           </div>
 
-          <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow mt-3">
+          <div className="row border  py-2 border-3 rounded-3 shadow mt-3 hover-effect1">
             <div className="col-lg-5">
-               <Image src={`/assets/img/metaverse/card6.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
+               <Image className="animated-img1" src={`/assets/img/metaverse/card6.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
             </div>
             <div className="col-lg-7  pb-3 pt-lg-5" >
-              <h2 className="text-primary pt-lg-3">XR Training</h2>
+              <h2 className="text-primary pt-lg-3 pt-1">XR Training</h2>
               <h5 className="pt-1">Revolutionizing Learning with XR Training</h5>
               <p className="pt-15 mb-0">
                 Empower your team with immersive XR Training solutions. We develop custom VR and AR training
@@ -246,9 +246,9 @@ const ContentArea = () => {
             </div>
           </div>
 
-          <div className="row border pe-lg-5 py-2 border-3 rounded-3 shadow mt-3 mb-4">
-            <div className="col-lg-7  pb-3 pt-lg-5" >
-              <h2 className="text-primary pt-lg-3">VR/AR Tech Support</h2>
+          <div className="row border  py-2 border-3 rounded-3 shadow mt-3 mb-4 hover-effect1">
+            <div className="col-lg-7  pb-3 pt-lg-5 order-lg-0 order-md-0 order-2" >
+              <h2 className="text-primary pt-lg-3 pt-1">VR/AR Tech Support</h2>
               <h5 className="pt-1">Comprehensive Tech Support for Immersive Solutions</h5>
               <p className="pt-15 mb-0">
                 Ensure smooth operation of your VR and AR systems with our expert technical support services.
@@ -256,8 +256,8 @@ const ContentArea = () => {
                 your immersive solutions running seamlessly.
               </p>
             </div>
-            <div className="col-lg-5">
-               <Image src={`/assets/img/metaverse/card7.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
+            <div className="col-lg-5 order-lg-0 order-md-0 order-1">
+               <Image className="animated-img1" src={`/assets/img/metaverse/card7.jpg`} width={475} height={325} alt="pure" style={{width:"100%"}} />
             </div>
           </div>
         </div>

@@ -204,22 +204,25 @@
 
 .it-cta-form {
     @media #{$xs,$md} {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     & .input-item {
         position: relative;
         font-size: 16px;
         margin-bottom: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
 
         & input,
         & select,
         & .nice-select {
-            width: 100%;
+            // width: 100%;
             height: 60px;
             padding-right: 40px;
             padding-left: 10px;
             border-radius: 8px;
+            width: 100%;
             border: 2px solid var(--tp-border-10);
             background-color: transparent;
             -webkit-appearance: none;

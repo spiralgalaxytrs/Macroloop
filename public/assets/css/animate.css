@@ -3190,11 +3190,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-img.animated-img {
-  /* transition: transform 0.4s ease-in-out;
-  position: relative;
-  animation: slide-left-right 3s ease-in-out infinite; */
-}
+
 
 @keyframes slide-left-right {
   0% {
@@ -3216,10 +3212,13 @@ img.animated-img {
 img.animated-img:hover {
   transform: scale(1.1);
 }
-
-.project-img {
-  margin-top: 70px;
+.hover-effect1:hover img.animated-img1  {
+  transform: scale(1.05);
 }
+img.animated-img1 {
+  transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+
 
 @media (max-width: 768px) {
   .project-img {
@@ -3232,6 +3231,9 @@ img.animated-img:hover {
 .hover-effect {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.hover-effect1 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 .hover-effect:hover {
   transform: scale(1.05);
@@ -3240,7 +3242,11 @@ img.animated-img:hover {
   background: linear-gradient(to right, #773cce, #2e5abe) !important;
   cursor: pointer;
 }
-
+.hover-effect1:hover {
+  transform: scale(1.02);
+  box-shadow: var(--bs-box-shadow);
+  cursor:pointer !important;
+}
 .hover-effect:hover .card-title,
 .hover-effect:hover .card-text {
   color: white !important;
@@ -3277,6 +3283,10 @@ img.animated-img:hover {
   }
   .left-padding {
     padding-left: 20px !important;
+  }
+  .padding-section {
+    padding-top: 10px ! important;
+    padding-bottom: 10px !important;
   }
 }
 

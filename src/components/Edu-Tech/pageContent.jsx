@@ -75,7 +75,7 @@ const ContentArea = () => {
               <div className="col-12">
                 <div className="pf-details-page-banner p-relative">
                   <div className="pf-details-banner-img1 w-img w-imgggg">
-                    <Link href="/contact">
+                    <Link href="solutions/Edu-Tech">
                     <img src="/assets/img/solutions/ed.gif" alt="" />
                     </Link>
                   </div>

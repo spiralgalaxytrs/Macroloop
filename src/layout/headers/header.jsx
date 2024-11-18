@@ -46,7 +46,7 @@ const Header = () => {
                             </div>
                             <div className="col-xl-2 col-auto">
                                 <div className="tp-header-search-nav d-flex align-items-center dark-header justify-content-end ">
-                                    <div className="tp-header-nav tp-header-nav-2 d-flex" onClick={() => setIsActive(true)}  style={{height:"100px"}}>
+                                    <div className="tp-header-nav tp-header-nav-2 d-flex" onClick={() => setIsActive(true)}  >
                                         <i className="flaticon-more"></i>
                                     </div>
                                 </div>

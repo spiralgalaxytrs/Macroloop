@@ -19,38 +19,10 @@ const ContentArea = () => {
             <div className="col-12">
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
+                  <Link href="/solutions/Construction-Technical">
                     <img src="/assets/img/solutions/construction.gif" alt="" />
                   </Link>
                 </div>
-                {/* <div className="pf-details-banner__info">
-                    <div className="row align-items-center align-items-xl-start">
-                      <div className="col-lg-8">
-                        <div className="pf-details-banner__info-left pl-30">
-                          <span>
-                            <b>Learn</b> 
-                          </span>
-                          <span>
-                            <b>Contribute</b> 
-                          </span>
-                          <span>
-                            <b>Grow</b>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-lg-4">
-                        <div className="pf-details-banner__info-right text-lg-end pl-30">
-                          
-                           <Link href="/contact">
-                           Contact Us
-                            <span>
-                              <i className="fal fa-long-arrow-right"></i>
-                            </span></Link>
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
               </div>
             </div>
           </div>
@@ -88,16 +60,18 @@ const ContentArea = () => {
                     <div className="col-12 col-md-6">
                       <img src="/assets/img/pms.png" className="img-fluid animated-img project-img" alt=" " style={{ height: "340px", width: "600px", borderRadius: "15px" }} />
                     </div>
-                    <div className="col-12 col-md-6" style={{ marginTop: "150px" }}>
+                    <div className="col-12 col-md-6">
+                      <div className="d-flex h-100 flex-column justify-content-center">
                       <h2>Project Management Solutions (PMS)</h2>
                       <br></br>
                       <p>
                         Our Project Management Solutions (PMS) empower construction teams with real-time collaboration, task management, and streamlined communication. We help you oversee every aspect of your project, from planning to completion, with:
                       </p>
                     </div>
+                    </div>
                   </div>
 
-                  <div className="container" style={{ marginTop: "50px" }}>
+                  <div className="container" style={{ marginTop: "20px" }}>
                     <div className="row">
                       <div className="col-12 col-lg-6 col-md-6 mt-4">
                         <div className="card hover-effect custom-rounded-card">
@@ -145,16 +119,18 @@ const ContentArea = () => {
                     <div className="col-12 col-md-6">
                       <img src="/assets/img/dms.png" className="img-fluid animated-img project-img" alt=" " style={{ height: "370px", width: "600px", borderRadius: "15px" }} />
                     </div>
-                    <div className="col-12 col-md-6" style={{ marginTop: "150px" }}>
+                    <div className="col-12 col-md-6">
+                    <div className="d-flex h-100 flex-column justify-content-center">
                       <h2>Document Management Solutions (DMS)</h2>
                       <br></br>
                       <p>
                         With MacroLoop's Document Management Solutions (DMS), handling construction documents becomes seamless. We provide a secure, centralized platform for managing all project documents, ensuring easy access, compliance, and accuracy:
                       </p>
                     </div>
+                    </div>
                   </div>
 
-                  <div className="container" style={{ marginTop: "100px" }}>
+                  <div className="container" style={{ marginTop: "20px" }}>
 
                     <div className="row">
                       <div className="col-12 col-lg-6 col-md-6 mt-4">
@@ -199,18 +175,20 @@ const ContentArea = () => {
               <div className="tab-pane fade" id="pills-2020" role="tabpanel" aria-labelledby="2020">
                 <div className="tp-ab-sv-tabs-content">
                   <div className="row">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6 d-flex h-100 align-items-center ">
                       <img src="/assets/img/bim.png" className="img-fluid animated-img project-img" alt=" " style={{ height: "390px", width: "600px", borderRadius: "15px" }} />
                     </div>
-                    <div className="col-12 col-md-6" style={{ marginTop: "150px" }}>
+                    <div className="col-12 col-md-6">
+                    <div className="d-flex h-100 flex-column justify-content-center">
                       <h2>Building Information Modeling (BIM)</h2>
                       <br></br>
                       <p>
                         Building Information Modeling (BIM) is at the heart of modern construction, providing digital representations of a project's physical and functional characteristics. Our BIM solutions ensure detailed 3D models that streamline collaboration, reduce errors, and enhance project outcomes:
                       </p>
                     </div>
+                    </div>
                   </div>
-                  <div className="container" style={{ marginTop: "100px",paddingLeft:"-100px"}}>
+                  <div className="container" style={{ marginTop: "20px",paddingLeft:"-100px"}}>
                     <div className="row">
                       <div className="col-12 col-lg-6 col-md-6 mt-4">
                         <div className="card hover-effect custom-rounded-card">

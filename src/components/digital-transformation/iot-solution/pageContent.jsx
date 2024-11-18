@@ -26,18 +26,18 @@ const ContentArea = () => {
                 paddingBottom: '56.25%',
                 overflow: 'hidden',
               }}>
-                <Link href="/contact">
-                  <video src="/assets/img/solutions/IOT.mp4" alt="Metaverse" autoPlay loop muted playsInline
-                    style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                    }}>
-                  </video>
-                </Link>
+
+                <video src="/assets/img/solutions/IOT.mp4" alt="Metaverse" autoPlay loop muted playsInline
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                  }}>
+                </video>
+
               </div>
             </div>
           </div>

@@ -304,7 +304,7 @@ const ContentArea = () => {
             <div className="col-12">
               <div className="pf-details-page-banner p-relative">
                 <div className="pf-details-banner-img1 w-img w-imgggg">
-                  <Link href="/contact">
+                  <Link href="/solutions/Edu-Tech/High-Tech-Laboratory">
                     <img src="/assets/img/solutions/ed.gif" alt="" />
                   </Link>
                 </div>
@@ -349,7 +349,7 @@ const ContentArea = () => {
                       {content.list && <div className="d-flex justify-content-center flex-wrap align-items-center">
                         {content.list.map((item, i) => (
                           <div key={i} className="bs-cta-btns no-hover">
-                            <div className="tp-black-btn wow tpfadeLeft m-2 no-hover">{item}</div>
+                            <div className="tp-black-btn wow tpfadeLeft m-2 ">{item}</div>
                           </div>
                         ))}
                       </div>}
@@ -400,7 +400,7 @@ const ContentArea = () => {
                         <div className="d-flex justify-content-center flex-wrap align-items-center">
                           {section.list.map((item, itemIndex) => (
                             <div key={itemIndex} className="bs-cta-btns no-hover">
-                              <div className="tp-black-btn wow tpfadeLeft m-2 no-hover">{item}</div>
+                              <div className="tp-black-btn wow tpfadeLeft m-2 ">{item}</div>
                             </div>
                           ))}
                         </div>
@@ -414,7 +414,7 @@ const ContentArea = () => {
                               <div className="d-flex justify-content-center flex-wrap align-items-center">
                                 {topic.list.map((item, itemIndex) => (
                                   <div key={itemIndex} className="bs-cta-btns no-hover">
-                                    <div className="tp-black-btn wow tpfadeLeft m-2 no-hover">{item}</div>
+                                    <div className="tp-black-btn wow tpfadeLeft m-2 ">{item}</div>
                                   </div>
                                 ))}
                               </div>
@@ -438,7 +438,7 @@ const ContentArea = () => {
               <div className="row">
                 {content3.map((content, index) => (
                   <div className="col-lg-6 mt-2" key={index}>
-                    <div className="card m-1" style={{ height: "100%" }} >
+                    <div className="card m-1 hover-effect1" style={{ height: "100%" }} >
                       <div className="p-3" style={{ background: "none!important" }}>
                         <h5 className="card-title text-black">{content.title}</h5>
                         <div>
