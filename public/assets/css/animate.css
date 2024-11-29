@@ -3212,9 +3212,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 img.animated-img:hover {
   transform: scale(1.1);
 }
-.hover-effect1:hover img.animated-img1  {
+
+.hover-effect1:hover img.animated-img1 {
   transform: scale(1.05);
 }
+
 img.animated-img1 {
   transition: transform 0.8s ease, box-shadow 0.3s ease;
 }
@@ -3231,6 +3233,7 @@ img.animated-img1 {
 .hover-effect {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .hover-effect1 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -3242,11 +3245,13 @@ img.animated-img1 {
   background: linear-gradient(to right, #773cce, #2e5abe) !important;
   cursor: pointer;
 }
+
 .hover-effect1:hover {
   transform: scale(1.02);
   box-shadow: var(--bs-box-shadow);
-  cursor:pointer !important;
+  cursor: pointer !important;
 }
+
 .hover-effect:hover .card-title,
 .hover-effect:hover .card-text {
   color: white !important;
@@ -3278,12 +3283,15 @@ img.animated-img1 {
   .security-img {
     height: 425px;
   }
+
   .right-padding {
     padding-right: 5px !important;
   }
+
   .left-padding {
     padding-left: 20px !important;
   }
+
   .padding-section {
     padding-top: 10px ! important;
     padding-bottom: 10px !important;
@@ -3311,23 +3319,25 @@ img.animated-img1 {
 .bottom-padding {
   padding-bottom: 50px !important;
 }
+
 .right-padding {
   padding-right: 40px;
 }
+
 .left-padding {
   padding-left: 40px;
 }
 
 .no-hover:hover {
-  background: inherit !important; 
-  color: inherit !important;           
-  transform: none !important;           
-  transition: none !important;          
+  background: inherit !important;
+  color: inherit !important;
+  transform: none !important;
+  transition: none !important;
 }
 
 .bottom-bar {
   position: relative;
-  text-align: center; 
+  text-align: center;
   padding-top: 8px;
 }
 
@@ -3339,9 +3349,34 @@ img.animated-img1 {
   transform: translateX(-50%);
   width: 10%;
   height: 2px;
-  background-image: linear-gradient(to right, #0849BE 60%, #d8ff2b); 
+  background-image: linear-gradient(to right, #0849BE 60%, #d8ff2b);
 }
-.theme-text{
+
+.theme-text {
   color: #0849BE !important;
 }
 
+.slider-content {
+  position: relative;
+}
+
+.slider-title {
+  visibility: hidden;
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  color: #fff;
+}
+
+.slider-img {
+  cursor: pointer;
+}
+
+.slider-content:hover .slider-title {
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+}
+
+.slider-img:hover{
+  filter: brightness(80%);
+}
