@@ -1,171 +1,43 @@
 import React from "react";
+import Image from "next/image";
 import CtaArea from "../../homes/home-5/cta";
 import Link from "next/link";
-import Image from "next/image";
+import { Navigation , Autoplay} from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 
 const ContentArea = () => {
-  const sections = [
-    {
-      title: "Corporate Training",
-      content: `LoopTech's corporate training program is designed to equip professionals with advanced technical skills tailored to the evolving demands of the industry. It empowers employees with practical knowledge that enhances their productivity and enables organizations to stay competitive. The training modules are customizable, ensuring alignment with specific business needs, while expert trainers provide real-world insights, making learning relevant and impactful. With a focus on skill enhancement and professional growth, LoopTech’s corporate training program fosters innovation and operational efficiency within organizations.`,
-    },
-    {
-      title: "Courses offered",
-      list: [
-        "Cyber Security",
-        "Electric Vehicle(EV)",
-        "Internet of Things (IoT)",
-        "Big Data Analytics",
-        "Machine Learning",
-        "MS Office",
-        "Artificial Intelligence",
-        "AUTOSAR",
-        "Agile/Scrum",
-        "R Language",
-        "MATLAB Autocode Generation",
-        "Software & Testing",
-        "Embedded AI",
-        "Microcontroller & Automotive",
-        "VLSI",
-        "Digital Signal Processing",
-        "Linux & RTOS",
-        "Web Technologies",
-        "Open Source",
-        "Relational Database Management System (RDBMS)",
-        "Programming Languages",
-      ],
-    },
-    {
-      title: "Institutional Training",
-      content: `Our Internship Programs are designed for students who wish to gain hands-on experience in cutting edge technology fields. These programs provide students with industry exposure, live project work, and guidance from expert professionals.`,
-      list: [
-        "Internship in Embedded Systems",
-        "Internship in Internet Of Things",
-        "Internship in VLSI Design",
-        "Internship in Full Stack Java",
-        "Internship in Data Science with AI ML",
-        "Internship in Business Analytics",
-        "Internship in Embedded AI",
-        "Internship in Cyber Security",
-      ],
-    },
-    {
-      title: "Technical Workshops",
-      content: `Our Technical Workshop for Students offers hands-on training in various advanced technology domains such as embedded systems, IoT, AI, and data science. These workshops aim to enhance students' practical knowledge by providing exposure to real-world applications and tools.`,
-    },
-    {
-      title: "Internet of Things (IoT)",
-      list: [
-        "Data Analytics Using Python",
-        "Machine Learning",
-        "Deep Learning",
-      ],
-    },
-    {
-      title: "Software Programming",
-      list: [
-        "Interview level C",
-        "Modern C++: C++17",
-        "Embedded C",
-        "Python Programming",
-        "Interview level Java / Java for Certification",
-        "Web Development",
-      ],
-    },
-    {
-      title: "Embedded Microcontroller",
-      list: [
-        "High-performance application development with ARM",
-        "Application development using Raspberry Pi or Arduino board",
-        "Linux Kernel programming- Device driver",
-        "Automotive with CAN Analysis & AUTOSAR",
-        "Embedded Linux Porting with Beagle Board/Beagle Bone Black",
-      ],
-    },
-    {
-      title: "Modelling & Simulation, Digital Signal Processing",
-      list: [
-        "Matlab & Simulink-Fundamentals",
-        "Image Processing using Matlab & Simulink",
-        "Video/Audio Processing using MATLAB",
-        "Model-Based Design using Simulink and Stateflow",
-        "DSP System design using TI TMS320 C6000",
-        "Real-time application using MATLAB with Raspberry Pi/Arduino",
-        "Digital signal controller Simscape Design for Analog Circuit",
-        "Graphical User Interface in MATLAB",
-      ],
-    },
-    {
-      title: "Advanced Digital System Design (VLSI)",
-      list: [
-        "FPGA Design With Verilog",
-        "DSP design with Xilinx System Generator (Vivado, Cadence)",
-        "IP Designing",
-        "HDL Design for Performance (Speed, Area, Power)",
-        "Data Encryption Algorithm Design",
-        "Noise removal in speech signals",
-        "Digital Signal Processing with FPGA",
-        "Wireless Physical layer design",
-        "OFDM Design",
-        "Verification using System Verilog",
-        "HDL Synthesis and System Architecture",
-      ],
-    },
-    {
-      title: "Software Programming",
-      list: [
-        " Advanced C/C++",
-        "Core Java",
-        "Angular",
-        "React JS",
-        "Python",
-        "MongoDB",
-      ]
-    },
-    {
-      title: "Full Stack Java Development",
-      list: [
-        "RDBMS",
-        "Java SE9",
-        "Advanced Java",
-        "JDBC",
-        "Web Technologies",
-      ],
-    },
-
-  ];
-
+ 
   const contents = [
     {
       id: "collapseOne",
       title: "Core Technical Courses",
       list: [
-        "Cyber Security",
-        "Electric Vehicle (EV)",
-        "Internet of Things (IoT)",
-        "Big Data Analytics",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "AUTOSAR",
-        "Agile/Scrum",
-        "Software & Testing",
-        "Embedded AI",
-        "VLSI",
-        "Digital Signal Processing",
+        { title: "Cyber Security", img: "/assets/img/services/trail/Cyber Security.png" },
+        { title: "Electric Vehicle (EV)", img: "/assets/img/services/trail/EV.png" },
+        { title: "Internet of Things (IoT)", img: "/assets/img/services/trail/IoT.png" },
+        { title: "Big Data Analytics", img: "/assets/img/services/trail/Big Data Analytics.png" },
+        { title: "Machine Learning", img: "/assets/img/services/trail/ML[1].png" },
+        { title: "Artificial Intelligence", img: "/assets/img/services/trail/AI.png" },
+        { title: "AUTOSAR", img: "/assets/img/services/trail/AUTOSAR.PNG" },
+        { title: "Agile/Scrum", img: "/assets/img/services/trail/Agile.png" },
+        { title: "Embedded AI", img: "/assets/img/services/trail/Embedded AI.png" },
+        { title: "VLSI", img: "/assets/img/services/trail/VLSI.png" },
+        { title: "Digital Signal Processing", img: "/assets/img/services/trail/digital signal processing.png" }
       ],
     },
     {
       id: "collapseTwo",
       title: "Software & Programming",
       list: [
-        "MS Office",
-        "MATLAB Autocode Generation",
-        "Microcontroller & Automotive",
-        "Linux & RTOS",
-        "Web Technologies",
-        "Open Source",
-        "Relational Database Management System (RDBMS)",
-        "Programming Languages",
+        { title: "MS Office", img: "/assets/img/services/trail/Microsoft office.png" },
+        { title: "MATLAB Autocode Generation", img: "/assets/img/services/trail/MATLAB.png" },
+        { title: "Microcontroller & Automotive", img: "/assets/img/services/trail/Microcontroller & Automotive.png" },
+        { title: "Linux & RTOS", img: "/assets/img/services/trail/Linux & RTOS.png" },
+        { title: "Web Technologies", img: "/assets/img/services/trail/Web Technologies.png" },
+        { title: "Open Source", img: "/assets/img/services/trail/Open Source.png" },
+        { title: "Relational Database Management System (RDBMS)", img: "/assets/img/services/trail/RDBMS.png" },
+        { title: "Programming Languages", img: "/assets/img/services/trail/Programming Language.png" }
       ],
     }
   ]
@@ -296,6 +168,42 @@ const ContentArea = () => {
       ],
     },
   ]
+
+  
+
+  const setting = {
+    speed: 1500,
+    slidesPerView: 5,
+    spaceBetween: 15,
+    centeredSlides: true,
+    centeredSlidesBounds: true,
+    breakpoints: {
+      1200: {
+        slidesPerView: 5,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      576: {
+        slidesPerView: 2,
+      },
+      0: {
+        slidesPerView: 1,
+      },
+    },
+  };
+
+
+  const takeaways = [
+    { title: "Certification", content: "Completion Certificate for all programs" },
+    { title: "Learning Modes", content: "Online/Offline instructor-led sessions" },
+    { title: "Hands-On Sessions", content: "Practical exposure through labs and interactive exercises" },
+    { title: "Expert Coaching", content: "Guidance from industry experts" },
+  ];
+
   return (
     <>
       <div className="tp-pf-details-page-area wow dark-bg tpfadeUp">
@@ -346,13 +254,27 @@ const ContentArea = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      {content.list && <div className="d-flex justify-content-center flex-wrap align-items-center">
-                        {content.list.map((item, i) => (
-                          <div key={i} className="bs-cta-btns no-hover">
-                            <div className="tp-black-btn wow tpfadeLeft m-2 ">{item}</div>
-                          </div>
-                        ))}
-                      </div>}
+                      {content.list &&
+                        <Swiper {...setting}
+                          autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false
+                          }}
+                          modules={[Autoplay, Navigation]}
+                        >
+                          {content.list.map((item, i) => (
+                            <SwiperSlide
+                              key={i}
+                              className={`tp-bs-brand-item wow`}
+                              data-wow-delay={item?.delay}
+                            >
+                              <div className="slider-content">
+                                <Image src={item?.img} alt={item?.title} width={800} height={200} className="slider-img"  />
+                                <h6 className="slider-title " >{item?.title}</h6>
+                              </div>
+                            </SwiperSlide>
+                          ))}
+                        </Swiper>}
                       {contents1.content_list && <p>{content.content_list}</p>}
                     </div>
                   </div>
@@ -365,7 +287,6 @@ const ContentArea = () => {
           <div className="row padding-section">
             <h3 className="mb-30">
               Institutional Training
-              <i className="fa-solid fa-laptop-code ps-3" style={{ color: "#0849BE" }}></i>
             </h3>
             {contents1.map((section, sectionIndex) => (
               <div className="accordion" id="accordionExample" key={sectionIndex}>
@@ -429,22 +350,58 @@ const ContentArea = () => {
             ))}
           </div>
 
-          <div className="row padding-section">
-            <h3 className="mb-30">Faculty Development Programs (FDP)<i className="fa-solid fa-code ps-3" style={{ color: "#0849BE" }}></i></h3>
-            <div className="col-lg-12">
-              <p>
-                Enhance teaching skills and technical knowledge for educators, equipping them with industry-relevant tools, teaching methodologies, and practical insights
-              </p>
+      
+
+
+{/* //Faculty Development Programs (FDP)*/}
+
+
+     <div className="row padding-section">
+      <h3 className="mb-30">Faculty Development Programs (FDP)
+      <i className="fa-solid fa-code ps-3" style={{ color: "#0849BE" }}></i>
+      </h3>
+      <div className="col-lg-12">
+        <p>
+          Enhance teaching skills and technical knowledge for educators, equipping them with industry-relevant tools, teaching methodologies, and practical insights.
+        </p>
+        <Swiper
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+          loop={true} // Optional: allows the slider to loop
+          className="mySwiper"
+        >
+          {content3.map((content, index) => (
+            <SwiperSlide key={index}>
               <div className="row">
-                {content3.map((content, index) => (
-                  <div className="col-lg-6 mt-2" key={index}>
-                    <div className="card m-1 hover-effect1" style={{ height: "100%" }} >
-                      <div className="p-3" style={{ background: "none!important" }}>
-                        <h5 className="card-title text-black">{content.title}</h5>
+                <div className="col-lg-6">
+                  <div className="card m-1 hover-effect1" style={{ height: "auto", minHeight: "150px" }}>
+                    <div className="p-2" style={{ background: "none!important" }}>
+                      <h5 className="card-title text-black">{content.title}</h5>
+                      <div>
+                        <ul className="d-flex flex-wrap gap-2 align-items-center">
+                          {content.list.map((item, i) => (
+                            <li key={i} className={i % 2 === 0 ? "theme-text" : ""} style={{ fontSize: "16px" }}>
+                              <span style={{ fontSize: "20px" }}>|</span> {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {content3[index + 1] && (
+                  <div className="col-lg-6">
+                    <div className="card m-1 hover-effect1" style={{ height: "auto", minHeight: "150px" }}>
+                      <div className="p-2" style={{ background: "none!important" }}>
+                        <h5 className="card-title text-black">{content3[index + 1].title}</h5>
                         <div>
                           <ul className="d-flex flex-wrap gap-2 align-items-center">
-                            {content.list.map((item, i) => (
-                              <li key={i} className={i % 2 == 0 ?"theme-text":""}style={ {fontSize: "16px" }}>
+                            {content3[index + 1].list.map((item, i) => (
+                              <li key={i} className={i % 2 === 0 ? "theme-text" : ""} style={{ fontSize: "16px" }}>
                                 <span style={{ fontSize: "20px" }}>|</span> {item}
                               </li>
                             ))}
@@ -453,49 +410,34 @@ const ContentArea = () => {
                       </div>
                     </div>
                   </div>
-                ))}
+                )}
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+
+{/* Program Takeaways */}
+
+
+<div className="row padding-section">
+      <h3 className="mb-30">Program Takeaways <i className="fa-solid fa-file-code ps-3" style={{ color: "#0849BE" }}></i></h3>
+      <div className="col-lg-12">
+        <div className="row">
+          {takeaways.map((item, index) => (
+            <div className="col-lg-3 col-md-6" key={index}> 
+              <div className="card m-1 hover-effect1" style={{ height: "auto", minHeight: "100px" }}>
+                <div className="p-3">
+                  <h5 className="card-title text-black">{item.title}</h5>
+                  <p>{item.content}</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="row padding-section">
-            <h3 className="mb-30">Program Takeaways<i className="fa-solid fa-file-code ps-3" style={{ color: "#0849BE" }}></i></h3>
-            <div className="col-lg-12">
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                  <b>Certification : </b> Completion Certificate for all programs
-                </div>
-              </p>
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                <b>Learning Modes : </b>  Online/Offline instructor-led sessions
-                </div>
-              </p>
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                <b>Hands-On Sessions : </b> Practical exposure through labs and interactive exercises
-                </div>
-              </p>
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                <b>Expert Coaching : </b> Guidance from industry experts
-                </div>
-              </p>
-            </div>
-          </div>
-
+          ))}
+        </div>
+      </div>
+    </div>
         </div>
 
         {/* <!-- cta area --> */}
@@ -506,4 +448,4 @@ const ContentArea = () => {
   );
 };
 
-export default ContentArea;
+export default ContentArea
