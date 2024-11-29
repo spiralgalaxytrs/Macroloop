@@ -2200,7 +2200,7 @@ input[type=color] {
 .tp-black-btn:hover span i {
   color: var(--tp-common-white);
 }
-. i {
+.i {
   margin-left: 15px;
 }
 .tp-black-btn span {
@@ -15761,7 +15761,7 @@ td.product-thumbnail img {
   border: medium none;
   color: #fff;
   display: inline-block;
-  float: left;
+  float:left;
   font-size: 12px;
   font-weight: 700;
   height: 40px;

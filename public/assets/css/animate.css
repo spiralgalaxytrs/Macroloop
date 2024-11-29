@@ -3356,8 +3356,8 @@ img.animated-img1 {
   color: #0849BE !important;
 }
 
-.slider-content {
-  position: relative;
+ .slider-content {
+  position: relative; 
 }
 
 .slider-title {
@@ -3365,18 +3365,25 @@ img.animated-img1 {
   position: absolute;
   bottom: 5px;
   left: 15px;
-  color: #fff;
+  color: #ffffff;
+  font-family: var(--tp-ff-p) !important; 
+  transition: visibility 0s 0.3s, transform 0.3s ease-in-out; 
+  transform: scale(1.1); 
 }
 
 .slider-img {
   cursor: pointer;
+  transition: filter 0.3s ease, opacity 0.3s ease; 
 }
 
 .slider-content:hover .slider-title {
-  visibility: visible;
-  transition: all 0.3s ease-in-out;
+  visibility: visible; 
+  transition: transform 0.3s ease-in-out; 
+  transform: scale(1.1); 
+ 
 }
 
-.slider-img:hover{
-  filter: brightness(80%);
+.slider-content:hover .slider-img {
+  filter: brightness(50%);
+  transform: scale(1.05); 
 }

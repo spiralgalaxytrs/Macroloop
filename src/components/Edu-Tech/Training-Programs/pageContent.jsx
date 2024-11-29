@@ -7,37 +7,37 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 
 const ContentArea = () => {
-
+ 
   const contents = [
     {
       id: "collapseOne",
       title: "Core Technical Courses",
       list: [
-        { title: "Cyber Security", img: "/assets/img/services/about-service.jpg" },
-        { title: "Electric Vehicle (EV)", img: "/assets/img/services/about-service.jpg" },
-        { title: "Internet of Things (IoT)", img: "/assets/img/services/about-service.jpg" },
-        { title: "Big Data Analytics", img: "/assets/img/services/about-service.jpg" },
-        { title: "Machine Learning", img: "/assets/img/services/about-service.jpg" },
-        { title: "Artificial Intelligence", img: "/assets/img/services/about-service.jpg" },
-        { title: "AUTOSAR", img: "/assets/img/services/about-service.jpg" },
-        { title: "Agile/Scrum", img: "/assets/img/services/about-service.jpg" },
-        { title: "Embedded AI", img: "/assets/img/services/about-service.jpg" },
-        { title: "VLSI", img: "/assets/img/services/about-service.jpg" },
-        { title: "Digital Signal Processing", img: "/assets/img/services/about-service.jpg" }
+        { title: "Cyber Security", img: "/assets/img/services/trail/Cyber Security.png" },
+        { title: "Electric Vehicle (EV)", img: "/assets/img/services/trail/EV.png" },
+        { title: "Internet of Things (IoT)", img: "/assets/img/services/trail/IoT.png" },
+        { title: "Big Data Analytics", img: "/assets/img/services/trail/Big Data Analytics.png" },
+        { title: "Machine Learning", img: "/assets/img/services/trail/ML[1].png" },
+        { title: "Artificial Intelligence", img: "/assets/img/services/trail/AI.png" },
+        { title: "AUTOSAR", img: "/assets/img/services/trail/AUTOSAR.PNG" },
+        { title: "Agile/Scrum", img: "/assets/img/services/trail/Agile.png" },
+        { title: "Embedded AI", img: "/assets/img/services/trail/Embedded AI.png" },
+        { title: "VLSI", img: "/assets/img/services/trail/VLSI.png" },
+        { title: "Digital Signal Processing", img: "/assets/img/services/trail/digital signal processing.png" }
       ],
     },
     {
       id: "collapseTwo",
       title: "Software & Programming",
       list: [
-        { title: "MS Office", img: "/assets/img/services/about-service.jpg" },
-        { title: "MATLAB Autocode Generation", img: "/assets/img/services/about-service.jpg" },
-        { title: "Microcontroller & Automotive", img: "/assets/img/services/about-service.jpg" },
-        { title: "Linux & RTOS", img: "/assets/img/services/about-service.jpg" },
-        { title: "Web Technologies", img: "/assets/img/services/about-service.jpg" },
-        { title: "Open Source", img: "/assets/img/services/about-service.jpg" },
-        { title: "Relational Database Management System (RDBMS)", img: "/assets/img/services/about-service.jpg" },
-        { title: "Programming Languages", img: "/assets/img/services/about-service.jpg" }
+        { title: "MS Office", img: "/assets/img/services/trail/Microsoft office.png" },
+        { title: "MATLAB Autocode Generation", img: "/assets/img/services/trail/MATLAB.png" },
+        { title: "Microcontroller & Automotive", img: "/assets/img/services/trail/Microcontroller & Automotive.png" },
+        { title: "Linux & RTOS", img: "/assets/img/services/trail/Linux & RTOS.png" },
+        { title: "Web Technologies", img: "/assets/img/services/trail/Web Technologies.png" },
+        { title: "Open Source", img: "/assets/img/services/trail/Open Source.png" },
+        { title: "Relational Database Management System (RDBMS)", img: "/assets/img/services/trail/RDBMS.png" },
+        { title: "Programming Languages", img: "/assets/img/services/trail/Programming Language.png" }
       ],
     }
   ]
@@ -169,10 +169,12 @@ const ContentArea = () => {
     },
   ]
 
+  
+
   const setting = {
     speed: 1500,
     slidesPerView: 5,
-    spaceBetween: 80,
+    spaceBetween: 15,
     centeredSlides: true,
     centeredSlidesBounds: true,
     breakpoints: {
@@ -195,6 +197,12 @@ const ContentArea = () => {
   };
 
 
+  const takeaways = [
+    { title: "Certification", content: "Completion Certificate for all programs" },
+    { title: "Learning Modes", content: "Online/Offline instructor-led sessions" },
+    { title: "Hands-On Sessions", content: "Practical exposure through labs and interactive exercises" },
+    { title: "Expert Coaching", content: "Guidance from industry experts" },
+  ];
 
   return (
     <>
@@ -261,8 +269,8 @@ const ContentArea = () => {
                               data-wow-delay={item?.delay}
                             >
                               <div className="slider-content">
-                                <Image src={item?.img} alt={item?.title} width={300} height={100} className="slider-img" />
-                                <h6 className="slider-title">{item?.title}</h6>
+                                <Image src={item?.img} alt={item?.title} width={800} height={200} className="slider-img"  />
+                                <h6 className="slider-title " >{item?.title}</h6>
                               </div>
                             </SwiperSlide>
                           ))}
@@ -279,7 +287,6 @@ const ContentArea = () => {
           <div className="row padding-section">
             <h3 className="mb-30">
               Institutional Training
-              <i className="fa-solid fa-laptop-code ps-3" style={{ color: "#0849BE" }}></i>
             </h3>
             {contents1.map((section, sectionIndex) => (
               <div className="accordion" id="accordionExample" key={sectionIndex}>
@@ -343,22 +350,58 @@ const ContentArea = () => {
             ))}
           </div>
 
-          <div className="row padding-section">
-            <h3 className="mb-30">Faculty Development Programs (FDP)<i className="fa-solid fa-code ps-3" style={{ color: "#0849BE" }}></i></h3>
-            <div className="col-lg-12">
-              <p>
-                Enhance teaching skills and technical knowledge for educators, equipping them with industry-relevant tools, teaching methodologies, and practical insights
-              </p>
+      
+
+
+{/* //Faculty Development Programs (FDP)*/}
+
+
+     <div className="row padding-section">
+      <h3 className="mb-30">Faculty Development Programs (FDP)
+      <i className="fa-solid fa-code ps-3" style={{ color: "#0849BE" }}></i>
+      </h3>
+      <div className="col-lg-12">
+        <p>
+          Enhance teaching skills and technical knowledge for educators, equipping them with industry-relevant tools, teaching methodologies, and practical insights.
+        </p>
+        <Swiper
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+          loop={true} // Optional: allows the slider to loop
+          className="mySwiper"
+        >
+          {content3.map((content, index) => (
+            <SwiperSlide key={index}>
               <div className="row">
-                {content3.map((content, index) => (
-                  <div className="col-lg-6 mt-2" key={index}>
-                    <div className="card m-1 hover-effect1" style={{ height: "100%" }} >
-                      <div className="p-3" style={{ background: "none!important" }}>
-                        <h5 className="card-title text-black">{content.title}</h5>
+                <div className="col-lg-6">
+                  <div className="card m-1 hover-effect1" style={{ height: "auto", minHeight: "150px" }}>
+                    <div className="p-2" style={{ background: "none!important" }}>
+                      <h5 className="card-title text-black">{content.title}</h5>
+                      <div>
+                        <ul className="d-flex flex-wrap gap-2 align-items-center">
+                          {content.list.map((item, i) => (
+                            <li key={i} className={i % 2 === 0 ? "theme-text" : ""} style={{ fontSize: "16px" }}>
+                              <span style={{ fontSize: "20px" }}>|</span> {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {content3[index + 1] && (
+                  <div className="col-lg-6">
+                    <div className="card m-1 hover-effect1" style={{ height: "auto", minHeight: "150px" }}>
+                      <div className="p-2" style={{ background: "none!important" }}>
+                        <h5 className="card-title text-black">{content3[index + 1].title}</h5>
                         <div>
                           <ul className="d-flex flex-wrap gap-2 align-items-center">
-                            {content.list.map((item, i) => (
-                              <li key={i} className={i % 2 == 0 ? "theme-text" : ""} style={{ fontSize: "16px" }}>
+                            {content3[index + 1].list.map((item, i) => (
+                              <li key={i} className={i % 2 === 0 ? "theme-text" : ""} style={{ fontSize: "16px" }}>
                                 <span style={{ fontSize: "20px" }}>|</span> {item}
                               </li>
                             ))}
@@ -367,49 +410,34 @@ const ContentArea = () => {
                       </div>
                     </div>
                   </div>
-                ))}
+                )}
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+
+{/* Program Takeaways */}
+
+
+<div className="row padding-section">
+      <h3 className="mb-30">Program Takeaways <i className="fa-solid fa-file-code ps-3" style={{ color: "#0849BE" }}></i></h3>
+      <div className="col-lg-12">
+        <div className="row">
+          {takeaways.map((item, index) => (
+            <div className="col-lg-3 col-md-6" key={index}> 
+              <div className="card m-1 hover-effect1" style={{ height: "auto", minHeight: "100px" }}>
+                <div className="p-3">
+                  <h5 className="card-title text-black">{item.title}</h5>
+                  <p>{item.content}</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="row padding-section">
-            <h3 className="mb-30">Program Takeaways<i className="fa-solid fa-file-code ps-3" style={{ color: "#0849BE" }}></i></h3>
-            <div className="col-lg-12">
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                  <b>Certification : </b> Completion Certificate for all programs
-                </div>
-              </p>
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                  <b>Learning Modes : </b>  Online/Offline instructor-led sessions
-                </div>
-              </p>
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                  <b>Hands-On Sessions : </b> Practical exposure through labs and interactive exercises
-                </div>
-              </p>
-              <p className="pt-3 mb-0 d-flex">
-                <div className="mt-1">
-                  <i className="fa-solid fa-circle-chevron-right pe-2" style={{ color: "#0849BE", height: "18px" }}></i>
-                </div>
-                <div className="mt-1">
-                  <b>Expert Coaching : </b> Guidance from industry experts
-                </div>
-              </p>
-            </div>
-          </div>
-
+          ))}
+        </div>
+      </div>
+    </div>
         </div>
 
         {/* <!-- cta area --> */}
@@ -420,4 +448,4 @@ const ContentArea = () => {
   );
 };
 
-export default ContentArea;
+export default ContentArea
