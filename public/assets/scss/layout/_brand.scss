@@ -53,8 +53,9 @@
     }
     & img {
         max-width: 100%;
-        height: 133px;
-        padding:11px;
+        height: 190px;
+        padding:3px;
+        width: 500px;
     }
 }
 
@@ -62,8 +63,10 @@
 // it brand area 
 
 .it-breand-title {
-    font-size: 18px;
+    font-size: 4rem;
     color: #fff;
+    padding: 2px 15px !important;
+    
 }
 .app-breand-title {
     font-size: 20px;
