@@ -150,184 +150,57 @@ const ContentArea = () => {
       <div className="tp-pf-detials-main dark-bg pt-3">
         <div className="container wow tpfadeUp">
           <p className="pt-3">
-            We offer comprehensive lab services, including consulting, lab equipment procurement, installation, and calibration. Our expertise spans various sectors, focusing on cutting-edge technology and environmental control for optimal lab performance.
-          </p>
+          We offer comprehensive lab services, including consulting, lab equipment procurement, installation, and calibration. They specialize in turnkey lab solutions, safety compliance, and lab automation, ensuring efficient, innovative, and fully functional laboratories. Our expertise spans various sectors, from scientific research to corporate setups, focusing on cutting-edge technology and environmental
+          control for optimal lab performance. Additionally, we provide training, maintenance, and customfurniture solutions for enhanced lab productivity.  </p>
         </div>
 
-        <div className="padding-section" style={{ backgroundColor: '#c5d4fb', backgroundImage: `linear-gradient(to right, #c5d4fb 0%, #d6efe8 100%)` }}>
-          <div className="container" >
-            <div className="row">
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Comprehensive Lab Services
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>
-                      Guidance for new or existing labs, focused on optimization, safety, and compliance
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Supply of high-quality instruments and cutting-edge technology
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Professional setup and compliance services for optimal performance
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Space Optimization & Lab Design
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Efficient layout and capacity maximization.
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Flexible and scalable lab solutions
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Custom workstations, ergonomic seating, and storage
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Lab Safety Solutions
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Fume hoods, eyewash stations, and chemical storage solutions
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Best practices and compliance with safety regulations
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Turnkey Lab Solutions
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Complete setup from design to functional research-ready labs
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Assistance with SOPs, regulatory updates, and lab documentation.
-                    </li>
-                  </ul>
-                </div>
-              </div>
 
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Global Procurement Services
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Equipment and materials from international suppliers
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>High-quality, cost-effective solutions
-                    </li>
-                  </ul>
-                </div>
+        <div className="padding-section" style={{ backgroundColor: '#c5d4fb', backgroundImage: `linear-gradient(to right, #c5d4fb 0%, #d6efe8 100%)` }}>
+  <div className="container">
+    <div className="row">
+      {services.map((service, index) => (
+        <div className="col-lg-6 col-md-6 col-12 mt-3" key={index}> {/* Change col-lg-4 to col-lg-6 */}
+          {/* Outer Div with Background Image */}
+          <div 
+            className="outer-box" 
+            style={{ 
+              backgroundImage: `url('/assets/img/services/trail/lap.png')`, // Replace with your image path
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              borderRadius: '10px', // Optional: add rounded corners
+              padding: '20px',
+              height: '100%', // Ensure it takes full height
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between', // Space out content
+            }}
+          >
+            {/* Inner Box with Content */}
+            <div className="shadow bg-light p-3 rounded hover-effect1" style={{ height: "100%", width: '100%' }}>
+              {/* Centering the icon */}
+              <div className="text-center mb-3">
+                <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
               </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Lab Maintenance & Support
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Preventive maintenance to avoid downtime
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Continuous support for technical issues
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Environmental Control & Monitoring
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Temperature and humidity regulation
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Real-time tracking and analysis of environmental parameters
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Lab Automation Solutions
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Enhanced process efficiency
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>High-throughput solutions for repetitive tasks
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Lab Renovation & Upgrades
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Incorporation of the latest technologies
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i> Revamp outdated facilities for improved performance
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 mt-3">
-                <div className="shadow bg-light p-3 rounded hover-effect1" >
-                  <Image src="/assets/img/solutions/lab-icon.png" alt="Lab Solutions" width={80} height={80} />
-                  <h5 className="pt-2">
-                    Energy-Efficient Lab Solutions
-                  </h5>
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Sustainable energy-saving technologies
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-circle pe-2" style={{ fontSize: "7px" }}></i>Sustainable design with renewable energy sources
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <h5 className="text-center pt-2" style={{color:"#2e5abe"}}>{service.title}</h5>
+             
+              <ul className="list-unstyled flex-grow-1" style={{ paddingLeft: '0', marginLeft: '0' }}>
+                {service.list.map((item, itemIndex) => (
+                  <li key={itemIndex} className="d-flex align-items-center mb-2" style={{ paddingLeft: '1.5em' }}>
+                    <span style={{fontSize:"16px"}}> 
+                      <i className="fa-solid fa-arrow-right pe-2" style={{ fontSize: "7px", marginLeft: '-1.5em', position: 'relative',color:"#2e5abe" }}></i>
+                      {item}
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
+      ))}
+    </div>
+  </div>
+</div>
+
 
         <div className="padding-section">
           <div className="container">

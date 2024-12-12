@@ -14,7 +14,7 @@ const slider_content = [
   },
   {
     id: 5,
-    bg_img: "/assets/img/solutions/construction.gif",
+    bg_img: "/assets/img/solutions/const-tech.gif",
     url: "/solutions/Construction-Technical",
     title: <>Construction Technology : </>,
     sub_title: <>Building Tomorrow's Landmarks with Cutting-Edge Technology</>
@@ -74,26 +74,34 @@ const HeroSlider = () => {
   return (
     <>
       <div className="tp-ptg-slider p-relative bg-black">
-        <Swiper
-          slidesPerView={1}
-          loop={true}
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
-          className="swiper-container ptg-slider-active"
-          effect="fade"
-          modules={[Autoplay, EffectFade, Navigation, Pagination]}
-          pagination={{
-            el: ".ptg-sldider-dot",
-            clickable: true,
-            renderBullet: function (index, className) {
-              return `<span class=${className}>
-              <button>${index < 9 ? "0" : ""}${index + 1}</button>
-             </span>`;
-            },
-          }}
-        >
+      <Swiper
+  slidesPerView={1}
+  spaceBetween={10}
+  loop={true}
+  autoplay={{
+    delay: 5000,
+    disableOnInteraction: false,
+  }}
+  breakpoints={{
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+  }}
+  className="swiper-container ptg-slider-active"
+  effect="fade"
+  modules={[Autoplay, EffectFade, Navigation, Pagination]}
+  pagination={{
+    el: ".ptg-sldider-dot",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return `<span class=${className}>
+      <button>${index < 9 ? "0" : ""}${index + 1}</button>
+     </span>`;
+    },
+  }}
+>
+
           {slider_content.map((item, i) => (
             <SwiperSlide
               key={i}
@@ -113,7 +121,7 @@ const HeroSlider = () => {
                   </div>
                   <div className="self-end pt-10 readMore d-flex flex-row-reverse" style={{
                     position: "absolute",
-                    bottom: "90px",
+                    bottom: "95px",
                     right: "20px",
                   }}>
 

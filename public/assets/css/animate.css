@@ -3212,9 +3212,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 img.animated-img:hover {
   transform: scale(1.1);
 }
-.hover-effect1:hover img.animated-img1  {
+
+.hover-effect1:hover img.animated-img1 {
   transform: scale(1.05);
 }
+
 img.animated-img1 {
   transition: transform 0.8s ease, box-shadow 0.3s ease;
 }
@@ -3230,7 +3232,9 @@ img.animated-img1 {
 
 .hover-effect {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
+
 .hover-effect1 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -3241,12 +3245,15 @@ img.animated-img1 {
   color: white !important;
   background: linear-gradient(to right, #773cce, #2e5abe) !important;
   cursor: pointer;
+
 }
+
 .hover-effect1:hover {
   transform: scale(1.02);
   box-shadow: var(--bs-box-shadow);
-  cursor:pointer !important;
+  cursor: pointer !important;
 }
+
 .hover-effect:hover .card-title,
 .hover-effect:hover .card-text {
   color: white !important;
@@ -3278,12 +3285,15 @@ img.animated-img1 {
   .security-img {
     height: 425px;
   }
+
   .right-padding {
     padding-right: 5px !important;
   }
+
   .left-padding {
     padding-left: 20px !important;
   }
+
   .padding-section {
     padding-top: 10px ! important;
     padding-bottom: 10px !important;
@@ -3311,23 +3321,25 @@ img.animated-img1 {
 .bottom-padding {
   padding-bottom: 50px !important;
 }
+
 .right-padding {
   padding-right: 40px;
 }
+
 .left-padding {
   padding-left: 40px;
 }
 
 .no-hover:hover {
-  background: inherit !important; 
-  color: inherit !important;           
-  transform: none !important;           
-  transition: none !important;          
+  background: inherit !important;
+  color: inherit !important;
+  transform: none !important;
+  transition: none !important;
 }
 
 .bottom-bar {
   position: relative;
-  text-align: center; 
+  text-align: center;
   padding-top: 8px;
 }
 
@@ -3339,9 +3351,247 @@ img.animated-img1 {
   transform: translateX(-50%);
   width: 10%;
   height: 2px;
-  background-image: linear-gradient(to right, #0849BE 60%, #d8ff2b); 
+  background-image: linear-gradient(to right, #0849BE 60%, #d8ff2b);
 }
-.theme-text{
+
+.theme-text {
   color: #0849BE !important;
+}
+
+ .slider-content {
+  position: relative; 
+}
+
+.slider-title {
+  visibility: hidden;
+  position: absolute;
+  bottom: 45%;
+  left: 50%;
+  color: white;
+  font-family: var(--tp-ff-p) !important; 
+  transition: visibility 0s 0.3s, transform 0.3s ease-in-out; 
+  transform: scale(1.1); 
+}
+
+.slider-img {
+  cursor: pointer;
+  transition: filter 0.3s ease, opacity 0.3s ease; 
+}
+
+.slider-content:hover .slider-title {
+  visibility: visible; 
+  transition: transform 0.3s ease-in-out; 
+ 
+ 
+}
+
+.slider-content:hover .slider-img {
+  filter: brightness(50%);
+  transform: scale(1.05); 
+}
+
+.workshop-title {
+  margin-bottom: 20px;
+  color: black; /* Tomato color for the title */
+}
+
+.workshop-description {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.swiper-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.workshop-slide {
+  position: relative;
+}
+
+.workshop-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.workshop-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.workshop-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.workshop-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(43, 41, 41, 0.8); /* Darker overlay for better contrast */
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  text-align: center;
+}
+
+.workshop-overlay.visible {
+  opacity: 1; /* Show overlay when hovered */
+}
+
+.workshop-hover-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color:white
+}
+
+.workshop-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.workshop-item {
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.workshop-item:hover {
+  color: #355fdf; /* Change color on hover */
+}
+
+.topic-card {
+  flex: 0 0 calc(20% - 16px); /* 5 boxes per row with gap */
+  max-width: calc(20% - 16px); /* Ensure max width */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center; /* Center text horizontally */
+  background-color: #f9f9f9;
+  display: flex; /* Use flexbox for vertical centering */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  min-height: 100px; /* Set a minimum height for consistent card sizes */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.topic-card:hover {
+  box-shadow: 0 8px 16px #355fdf;/* Change background on hover */
+  color: white; /* Change text color on hover */
+  transform: rotate(5deg);
+}
+
+.topic-card.active {
+  box-shadow: 0 8px 16px #355fdf; /* Change background when active */
+  transform: rotate(3deg);
+}
+
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: flex-start; /* Align items to the start */
+  gap: 16px; /* Space between images */
+}
+
+.course-item {
+  flex: 0 0 calc(20% - 16px); /* 5 images per row */
+  max-width: calc(20% - 16px); /* Ensure max width */
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Optional: add a border for better visibility */
+  border-radius: 8px; /* Optional: rounded corners */
+  overflow: hidden; /* Optional: hide overflow */
+}
+
+.slider-content {
+  position: relative;
+}
+
+.slider-img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-title {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  white-space: normal; /* Allow text to wrap */
+  text-align: center; /* Center align text */
+  width: 90%; /* Limit the width to help with wrapping */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .course-item {
+    flex: 0 0 calc(50% - 16px); /* 2 images per row on tablets */
+    max-width: calc(50% - 16px); /* Ensure max width */
+  }
+}
+
+@media (max-width: 480px) {
+  .course-item {
+    flex: 0 0 calc(50% - 16px); /* 1 image per row on mobile */
+    max-width: calc(80% - 16px); /* Ensure max width */
+  }
+}
+
+
+.tp-ptg-slider {
+  width: 100vw !important; /* Make slider span the full width of the viewport */
+  margin: 0 auto; /* Center align the slider */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.ptg-slider-item {
+  width: 100%; /* Ensure each slide fills the width */
+  height: auto; /* Adjust the height to maintain aspect ratio */
+  background-size: cover; /* Ensure background covers the slide */
+  background-position: center; /* Center the background image */
+}
+
+@media (max-width: 768px) {
+  .slider_content {
+    text-align: left; /* Keep the text aligned to the left */
+    padding: 20px; /* Add padding for proper spacing */
+    position: relative; /* Ensure positioning context for button alignment */
+  }
+
+  .ptg-slider-item h4 {
+    font-size: 18px; /* Adjust title font size */
+    margin-bottom: 10px; /* Spacing between title and subtitle */
+  }
+
+  .ptg-slider-item h6 {
+    font-size: 16px; /* Adjust subtitle font size */
+    margin-bottom: 25px; /* Spacing between subtitle and button */
+  }slider-img
+
+  .readMore {
+    position: absolute; /* Position the button container absolutely */
+    bottom: 30px; /* Move the button further down (increase or decrease as needed) */
+    right: 20px; /* Maintain spacing from the right edge */
+  }
+
+  .readMore .tp-black-btn {
+    font-size: 14px; /* Reduce button font size */
+    padding: 8px 12px; /* Adjust button padding */
+    
+  }
 }
 

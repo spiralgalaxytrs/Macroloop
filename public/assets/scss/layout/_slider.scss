@@ -327,7 +327,7 @@
         color: white;
 
         & button {
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 700;
             position: absolute;
             top: -15px;
@@ -337,7 +337,7 @@
 
         &-active {
             background-color: #fff;
-            height: 40px;
+            height: 35px;
 
             & button {
                 opacity: 1;
