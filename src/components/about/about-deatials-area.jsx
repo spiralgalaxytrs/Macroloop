@@ -7,7 +7,9 @@ const about_details_content  = {
     title: <>Associate with us to adapt the Forthwith Technologies</>,
 
 
-    info_2000: <>We recognize that businesses need
+    info_2000: <>
+    
+ We recognize that businesses need
     to concentrate on their core
     competencies to thrive in today's
     dynamic market. Therefore, our
@@ -54,7 +56,7 @@ const AboutDeatialsArea = () => {
                      <ul className="nav nav-pills mb-30" id="pills-tab" role="tablist">
                         <li className="nav-item" role="presentation">
                            <button tabIndex="-1" className="nav-link active" id="2000" data-bs-toggle="pill" data-bs-target="#pills-2000"
-                              type="button" role="tab" aria-controls="pills-2000" aria-selected="true">Why Looptech?</button>
+                              type="button" role="tab" aria-controls="pills-2000" aria-selected="true">Why LoopTech?</button>
                         </li>
                         <li className="nav-item" role="presentation">
                            <button tabIndex="-1" className="nav-link" id="2010" data-bs-toggle="pill" data-bs-target="#pills-2010"

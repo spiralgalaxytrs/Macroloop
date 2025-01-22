@@ -4,7 +4,10 @@ import React from 'react';
 import Solutions from "../../../data/solution1.json"
 
 
+
 const Services = () => {
+  
+
     return (
         <>
             <div className="ptg-blog-area dark-bg pt- pb-90">
@@ -36,15 +39,23 @@ const Services = () => {
                                     <span><a href="#"><b className="ptg-blog-cta">{item.category}</b></a></span>
                                     {/* <span><a href="#"> / <b> {item.month} {item.date}</b></a> </span> */}
                                 </div>
-                                <h3 className="ptg-blog__item-title text-black"><Link href={`/solutions/${item.id}`} className='title'>{item.title}</Link></h3>
+                                <h3 className="title ptg-blog__item-title text-black"> {item.title} </h3>
                                 
                             </div> 
-                            <div className="d-flex flex-row-reverse" style={{position:'absolute', bottom : '40px', right : '40px' }}>
-                                <Link href={`/solutions/${item.id}`} className="ptg-blog-btn">Read More
+                            <div className="d-flex flex-row-reverse" >
+                                <Link 
+                                    href={`/solutions/${item.id}`} 
+                                    className="ptg-blog-btn" 
+                                    aria-label={`Read more about ${item.title}`} 
+                                    style={{ cursor: 'pointer' }}
+                                    
+                                >
+                                    Read More
                                     <span className="pl-10">
                                         <i className="fal fa-long-arrow-right"></i>
                                     </span>
                                 </Link>
+                             
                             </div>
                         </div>
                     </div>

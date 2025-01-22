@@ -117,12 +117,20 @@ const ContentArea = () => {
           <div className="container wow tpfadeUp">
             <h2> Edu-Tech division</h2>
             <p className="pt-30">
-            At our Edu-Tech division, we are committed to providing universities with cutting-edge technologies that
-            empower smart management features and offer hands-on training for students. Our focus areas include:
-            Certainly! Here's the elaborated content for each focus area:
+            At LoopTech, we are redefining the future of education with our cutting-edge Edu-Tech solutions. By seamlessly integrating technology with education, we empower students, educators, and institutions to embrace experiential learning and industry-relevant skills.
+
             </p>
 
-            <div className="pf-dt-process-wrapper pb-60 container">
+            <h2>Why Choose LoopTech for Edu-Tech?</h2>
+            <div >
+        <p className="pt-10">→ Innovative Approach: We combine advanced technologies with experiential learning techniques.</p>
+        <p className="pt-10">→ Customized Solutions: Tailored offerings to meet the unique needs of educational institutions.</p>
+        <p className="pt-10">→ Global Standards: Partnered with industry leaders to deliver world-class solutions.</p>
+        <p className="pt-10">→ Sustainability: Focused on building a future-ready generation through sustainable technologies.</p>
+        <p className="pt-10">→ Empower the next generation with LoopTech's Edu-Tech solutions, where innovation and education converge to create endless possibilities.</p>
+      </div>
+
+            <div className="pf-dt-process-wrapper pb-60 container mt-4">
               <div className="row row-cols-5 justify-content-evenly">
                 {Edu_Tech_data.map((item, i) => (
                   <div key={i} className="col" style={{width:'400px'}}>

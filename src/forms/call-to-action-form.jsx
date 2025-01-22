@@ -32,7 +32,7 @@ const CallToActionForm = ({ style_sv_details }) => {
       delete errors[name];
     }
 
-    if (name == 're' && value != 'DIGITAL TRANSFORMATION') {
+    if (name == 're' && value != 'DIGITAL TRANSFORMATION'&& value != "CONSTRUCTION TECHNOLOGY" && value !="EDU-TECH") {
       setFormData({ ...formData, [name]: value, isagen: false, agen: '-' });
     } else if (name == 're') {
       setFormData({ ...formData, [name]: value, isagen: true, agen: '' });
@@ -322,3 +322,5 @@ const CallToActionForm = ({ style_sv_details }) => {
 };
 
 export default CallToActionForm;
+
+

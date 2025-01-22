@@ -128,7 +128,7 @@ const ContentArea = () => {
             including ERP, CRM, and other third-party systems, ensuring that you get a unified and 
             comprehensive approach to HR management. Whether you're accessing the platform from a 
             desktop or mobile device, MAX HCM suite provides a consistent and intuitive experience for 
-            both HR professionals andemployees. 
+            both HR professionals and employees. 
           </p>
           
           {/* <div className="container">
@@ -144,7 +144,7 @@ const ContentArea = () => {
           <div className="container m-20 py-60">
             <div className="row">
               {Features.map((feature,i)=>(
-                <div key={i} className="col-lg-3 col-md-4 col-6">
+                <div key={i} className="col-lg-3 col-md-4 col-6 p-3">
                   <div className="content-container" style={{ borderLeft: `5px solid ${feature.color}`, }}>
                     <div className="border-box ps-3">
                       <h4>{feature.title}</h4>

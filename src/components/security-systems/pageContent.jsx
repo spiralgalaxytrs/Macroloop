@@ -46,7 +46,7 @@ const ContentArea = () => {
             <div className="col-lg-8 col-12 right-padding mb-3 order-lg-0 order-md-0 order-2">
               <h2 className="mt-lg-0 mt-3">Asset Tracking</h2>
               <p className="pt-lg-4 mb-3">
-                Looptech offers an asset tracking solution that utilizes IoT technology to monitor and manageassets in real time. The system provides visibility into asset location, usage, and condition, which enhances operational efficiency and reduces losses. It includes features like GPS
+                LoopTech offers an asset tracking solution that utilizes IoT technology to monitor and manageassets in real time. The system provides visibility into asset location, usage, and condition, which enhances operational efficiency and reduces losses. It includes features like GPS
                 tracking, geofencing, and alerts for unauthorized movements. The solution is designedfor
                 various industries, ensuring compliance and safety through comprehensive asset
                 management.
@@ -126,7 +126,7 @@ const ContentArea = () => {
             <div className="col-lg-8 col-12 left-padding mt-3">
               <h2 className="mt-lg-0 mt-3">People safety tracking</h2>
               <p className="pt-lg-4 mb-3">
-                Looptech offers a comprehensive people safety solution for high-risk environments like underground tunnels.
+                LoopTech offers a comprehensive people safety solution for high-risk environments like underground tunnels.
                 Using IoT technology, devices monitor worker locations in real time, sending alerts if an employee is inactive for extended periods, enabling rapid emergency responses.
                 FIND wristbands allow employees to trigger alerts, enhancing safety. Bluetooth mesh and cloud integration ensure reliable data transmission
               </p>
@@ -182,7 +182,7 @@ const ContentArea = () => {
             <div className="col-lg-8 col-12 right-padding mb-3 order-lg-0 order-md-0 order-2">
               <h2 className="mt-lg-0 mt-3">Cold Chain Management</h2>
               <p className="pt-lg-4 mb-3">
-                Looptech provides a cold chain monitoring solution to safeguard temperature-sensitive goods across the supply chain. IoT sensors continuously track temperature and humidity, sending real-time alerts for deviations.
+                LoopTech provides a cold chain monitoring solution to safeguard temperature-sensitive goods across the supply chain. IoT sensors continuously track temperature and humidity, sending real-time alerts for deviations.
                 This proactive approach prevents spoilage and supports regulatory compliance, making it ideal for industries like pharmaceuticals and food, where strict environmental control is essential for product integrity
               </p>
               <h5 className="pt-3">
@@ -250,7 +250,7 @@ const ContentArea = () => {
             <div className="col-lg-4 col-12">
               <div className="p-0 ">
                 <Image
-                  src="/assets/img/safety/4.jpg"
+                  src="/assets/img/safety/7.webp"
                   alt="img"
                   width={450}
                   height={500}
@@ -262,7 +262,7 @@ const ContentArea = () => {
             <div className="col-lg-8 col-12 left-padding mt-3">
               <h2 className="mt-lg-0 mt-3">PIDS</h2>
               <p className="pt-lg-4 mb-3">
-                Looptech's perimeter security solution employs IoT technology to protect property by detecting unauthorized intrusions. The system integrates sensors, cameras, and AI-powered analytics for real-time monitoring.
+                LoopTech's perimeter security solution employs IoT technology to protect property by detecting unauthorized intrusions. The system integrates sensors, cameras, and AI-powered analytics for real-time monitoring.
                 It sends immediate alerts upon detecting breaches, allowing for quick responses. Ideal for critical infrastructure and large campuses, it distinguishes between human and non-human activity, significantly reducing false alarms and enhancing security
               </p>
               <h5 className="pt-3">
@@ -312,53 +312,125 @@ const ContentArea = () => {
               </p>
             </div>
           </div>
-          
-          <div className="row mt-2 mb-lg-5">
-            <div className="col-lg-8 col-12">
-              <div className="row">
-                <div className="col-lg-6 col-12 mt-2">
-                  <div className="p-2 " style={{ background: "#d4d2d2" }}>
-                    <video autoPlay muted loop src="/assets/img/videos/Video2.mp4" type="video/mp4" style={{ width: "100%", height: "235px" }} />
-                    <p className="mb-0 pt-2 text-center">Desktop AI for human detection</p>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-12 mt-2">
-                  <div className="p-2" style={{ background: "#d4d2d2" }}>
-                    <video autoPlay muted loop src="/assets/img/videos/Video1.mp4" type="video/mp4" style={{ width: "100%" }} />
-                    <p className="mb-0 pt-2 text-center">Long-range human detection</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row mt-2">
-                <div className="col-lg-6 col-12 mt-2">
-                  <div className="p-2" style={{ background: "#d4d2d2" }}>
-                    <video autoPlay muted loop src="/assets/img/videos/Video3.mp4" type="video/mp4" style={{ width: "100%" }} />
-                    <p className="mb-0 pt-2 text-center">Siren alert at command room; PTZ moves to coin location</p>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-12 mt-2">
-                  <div className="p-2" style={{ background: "#d4d2d2" }}>
-                    <video autoPlay muted loop src="/assets/img/videos/Video5.mp4" type="video/mp4" style={{ width: "100%" }} />
-                    <p className="mb-0 pt-2 text-center">Siren alert; PTZ moves to coin location</p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div className="col-lg-4 col-12 mt-2">
-              <div className="p-2" style={{ background: "#d4d2d2" }}>
-                <video autoPlay muted loop src="/assets/img/videos/Video4.mp4" type="video/mp4" style={{ width: "100%", height: "530px" }} />
-                <p className="mb-0 pt-2 text-center">PTZ moves to coin location on alert for suspicious activity</p>
-              </div>
-            </div>
-          </div>
+<div className="row mt-2 mb-lg-5">
+  <div className="col-lg-8 col-12">
+    <div className="row">
+      <div className="col-lg-6 col-12 mt-2">
+        <div className="p-2" style={{ background: "#d4d2d2" }}>
+          <video
+            loop
+            src="/assets/img/videos/Video2.mp4"
+            type="video/mp4"
+            style={{ width: "100%", height: "235px" }}
+            onClick={(e) => {
+              if (e.target.paused) {
+                e.target.muted = false;
+                e.target.play();
+              } else {
+                e.target.pause();
+              }
+            }}
+          />
+          <p className="mb-0 pt-2 text-center">Desktop AI for human detection</p>
+        </div>
+      </div>
+      <div className="col-lg-6 col-12 mt-2">
+        <div className="p-2" style={{ background: "#d4d2d2" }}>
+          <video
+            loop
+            src="/assets/img/videos/Video1.mp4"
+            type="video/mp4"
+            style={{ width: "100%" }}
+            onClick={(e) => {
+              if (e.target.paused) {
+                e.target.muted = false;
+                e.target.play();
+              } else {
+                e.target.pause();
+              }
+            }}
+          />
+          <p className="mb-0 pt-2 text-center">Long-range human detection</p>
+        </div>
+      </div>
+    </div>
+    <div className="row mt-2">
+      <div className="col-lg-6 col-12 mt-2">
+        <div className="p-2" style={{ background: "#d4d2d2" }}>
+          <video
+            loop
+            src="/assets/img/videos/Video3.mp4"
+            type="video/mp4"
+            style={{ width: "100%" }}
+            onClick={(e) => {
+              if (e.target.paused) {
+                e.target.muted = false;
+                e.target.play();
+              } else {
+                e.target.pause();
+              }
+            }}
+          />
+          <p className="mb-0 pt-2 text-center">
+            Siren alert at command room; PTZ moves to coin location
+          </p>
+        </div>
+      </div>
+      <div className="col-lg-6 col-12 mt-2">
+        <div className="p-2" style={{ background: "#d4d2d2" }}>
+          <video
+            loop
+            src="/assets/img/videos/Video5.mp4"
+            type="video/mp4"
+            style={{ width: "100%" }}
+            onClick={(e) => {
+              if (e.target.paused) {
+                e.target.muted = false;
+                e.target.play();
+              } else {
+                e.target.pause();
+              }
+            }}
+          />
+          <p className="mb-0 pt-2 text-center">
+            Siren alert; PTZ moves to coin location
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-lg-4 col-12 mt-2">
+    <div className="p-2" style={{ background: "#d4d2d2" }}>
+      <video
+        loop
+        src="/assets/img/videos/Video4.mp4"
+        type="video/mp4"
+        style={{ width: "100%", height: "530px" }}
+        onClick={(e) => {
+          if (e.target.paused) {
+            e.target.muted = false;
+            e.target.play();
+          } else {
+            e.target.pause();
+          }
+        }}
+      />
+      <p className="mb-0 pt-2 text-center">
+        PTZ moves to coin location on alert for suspicious activity
+      </p>
+    </div>
+  </div>
+</div>
+
 
 
           <div className="row mt-3 mb-lg-5 padding-section">
             <div className="col-lg-8 col-12 right-padding mb-3 order-lg-0 order-md-0 order-2">
               <h2 className="mt-lg-0 mt-3">In-Plant vehicle Tracking</h2>
               <p className="pt-lg-4 mb-3">
-                Looptech's in-plant vehicle tracking solution leverages IoT technology to monitor vehicle movement within industrial facilities, offering real-time data on location, speed, and route efficiency. 
+                LoopTech's in-plant vehicle tracking solution leverages IoT technology to monitor vehicle movement within industrial facilities, offering real-time data on location, speed, and route efficiency. 
                 It improves safety and workflow efficiency by alerting management to unauthorized movements or operational issues, helping reduce accidents and downtime. This solution is ideal for large plants where vehicle coordination is critical, streamlining operations and enhancing overall productivity
               </p>
               <h5 className="pt-3">
@@ -436,7 +508,7 @@ const ContentArea = () => {
             <div className="col-lg-8 col-12 left-padding mt-3">
               <h2 className="mt-lg-0 mt-3">Predictive Maintenance</h2>
               <p className="pt-lg-4 mb-3">
-                Looptech's predictive maintenance solution utilizes IoT sensors and data analytics to monitor equipment conditions in real time, predicting potential failures before they occur. By tracking metrics such as temperature and vibration, the system facilitates proactive maintenance and minimizes downtime.
+                LoopTech's predictive maintenance solution utilizes IoT sensors and data analytics to monitor equipment conditions in real time, predicting potential failures before they occur. By tracking metrics such as temperature and vibration, the system facilitates proactive maintenance and minimizes downtime.
                 This approach extends equipment life and reduces repair costs, making it ideal for industries aiming to enhance operational efficiency and prevent unexpected breakdowns
               </p>
               <h5 className="pt-3">
