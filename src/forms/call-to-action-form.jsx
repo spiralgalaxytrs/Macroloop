@@ -109,7 +109,8 @@ const CallToActionForm = ({ style_sv_details }) => {
             org: '',
             re: '',
             agen: '',
-            msg: ''
+            msg: '',
+            loc: ''
           })
           console.log('Response succeeded!')
           setTimeout(() => {
@@ -214,6 +215,24 @@ const CallToActionForm = ({ style_sv_details }) => {
                   <lable>Organisation</lable>
                 </div>
                 {errors.org && <p className="text-danger -mt-20" style={{ "fontWeight": 700, "fontSize": '14px' }}>{errors.org}</p>}
+              </div>
+
+              <div className="col-lg-6">
+                <div className="input-item">
+                  <span>
+                    <i className="fa fa-location-dot"></i>
+                  </span>
+                  <input
+                    type="text"
+                    value={formData.loc}
+                    placeholder="Location"
+                    name="loc"
+                    onChange={handleInputChange}
+                    className={`${errors.mail ? "border-danger" : ""}border-0`}
+                  />
+                  <lable>Email address</lable>
+                </div>
+                {errors.mail && <p className="text-danger -mt-20" style={{ "fontWeight": 700, "fontSize": '14px' }}>{errors.mail}</p>}
               </div>
 
               <div className="col-lg-6">
