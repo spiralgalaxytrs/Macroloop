@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import MobileMenus from './mobile-menus';
-import SocialLinks, { SocialLinksHomeTwo } from '@/src/common/social-links';
+import SocialLinks, { SocialLinksHomeTwo } from '../../common/social-links';
 
 
 

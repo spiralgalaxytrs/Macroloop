@@ -236,17 +236,17 @@ const ContentArea = () => {
 
           </div>
           
-        <p  style={{marginBottom:"0px"}}>
+        <p  style={{marginBottom:"10px",marginTop:"10px"}}>
           At LoopTech, we are dedicated to revolutionizing construction project management through innovative IT
           solutions and cutting-edge technologies. Contact us today to discover how our solutions can elevate your
           construction projects to new heights of efficiency and success.
         </p>
-        <div className="pt-20 solution_sponsor">
+        {/* <div className="pt-20 solution_sponsor">
           <span>Powered By</span>
         </div>
         <div className="pt-20 pb-100">
           <img className="solutions_sponsor_img3" src="/assets/img/brand/asite.png" alt="" />
-        </div>
+        </div> */}
         </div>
 
         {/* <div className="row">

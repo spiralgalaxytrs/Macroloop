@@ -1,6 +1,6 @@
 import React from "react";
-import SEO from "@/src/common/seo";
-import Robotic_index from "@/src/components/digital-transformation/robotic-automation";
+import SEO from "../../../../common/seo";
+import Robotic_index from "../../../../components/digital-transformation/robotic-automation";
 
 
 const index = () => {

@@ -1,7 +1,7 @@
 // Header.js
 
-import useSticky from '@/hooks/use-sticky';
-import Sidebar from '@/src/layout/headers/sidebar';
+import useSticky from '../../../hooks/use-sticky';
+import Sidebar from '../../layout/headers/sidebar';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import NavMenu from './nav-menu';

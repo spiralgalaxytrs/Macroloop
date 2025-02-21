@@ -1,5 +1,5 @@
 import React from 'react'
-import BreadcrumbArea from "@/src/common/breadcrumb-area";
+import BreadcrumbArea from "../common/breadcrumb-area";
 import LHfooter from "../components/portfolio-details/lhfooter"
 import Wrapper from '../layout/wrapper'
 import SEO from '../common/seo'

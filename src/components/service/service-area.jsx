@@ -20,6 +20,7 @@ const PortfolioItemsArea = ({data}) => {
               <div
                 key={i}
                 className={`col-lg-6 tp-portfolio-item shadow p-3 rounded-2 mb-25 w-img ${item.cls}`}
+                style={i === 2 ? { marginLeft: 'auto', marginRight: 'auto', display: 'block' } : {}}
               >
                 <div className="pf-item-wrapper p-relative">
                   <div className="pf-single-item">

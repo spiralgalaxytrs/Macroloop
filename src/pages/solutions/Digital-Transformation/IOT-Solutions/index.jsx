@@ -1,6 +1,6 @@
 import React from "react";
-import SEO from "@/src/common/seo";
-import IOT_index from "@/src/components/digital-transformation/iot-solution";
+import SEO from "../../../../common/seo";
+import IOT_index from "../../../../components/digital-transformation/iot-solution";
 
 
 const index = () => {

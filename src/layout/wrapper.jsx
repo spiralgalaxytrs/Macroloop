@@ -1,5 +1,5 @@
-import ScrollToTop from "@/hooks/scroll-to-top";
-import { animationCreate } from "@/utils/utils";
+import ScrollToTop from "../../hooks/scroll-to-top";
+import { animationCreate } from "../../utils/utils";
 import React, { useEffect } from "react";
 
 

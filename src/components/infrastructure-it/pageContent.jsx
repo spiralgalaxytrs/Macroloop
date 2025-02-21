@@ -244,7 +244,7 @@ const ContentArea = () => {
 
           <p className="pt-20">
             Efficient collaboration and communication are essential for modern
-            businesses. Our solutions enable seamless communication and
+            businesses.  solutions enable seamless communication and
             collaboration across teams, enhancing productivity and innovation.
             Streamline communication with integrated voice, video, and messaging
             solutions that enable seamless collaboration across your

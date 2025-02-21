@@ -1,4 +1,4 @@
-import our_blog_data from '@/src/data/our-blog-data';
+import our_blog_data from '../../../data/our-blog-data';
 import Link from 'next/link';
 import React from 'react';
 

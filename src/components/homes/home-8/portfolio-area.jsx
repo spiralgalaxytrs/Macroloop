@@ -59,7 +59,7 @@ const PortfolioArea = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
           <div className="row pt-130">
             <div className="col-xl-6">
             <h2 className="tp-section__title mb-50 mt-20 text-black" style={{fontFamily:"Metropolis",letterSpacing:"0.7px" }}>

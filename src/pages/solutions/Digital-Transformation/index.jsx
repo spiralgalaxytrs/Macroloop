@@ -1,8 +1,8 @@
 import React from "react";
-import SEO from "@/src/common/seo";
-import Service from "@/src/components/serve";
+import SEO from "../../../common/seo";
+import Service from "../../../components/serve";
 import Solutions from "../../../data/rk.json"
-import Digital_index from "@/src/components/digital-transformation";
+import Digital_index from "../../../components/digital-transformation";
 
 
 const index = () => {

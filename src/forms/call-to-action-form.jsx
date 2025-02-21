@@ -65,8 +65,8 @@ const CallToActionForm = ({ style_sv_details }) => {
     // Organisation validation
     if (!formData.org && formData.org.trim() == '') validationErrors.org = 'Organisation is required';
 
-    // Our Solutions validation
-    if (!formData.re && formData.re.trim() == '') validationErrors.re = 'Our Solutions is required';
+    //  Solutions validation
+    if (!formData.re && formData.re.trim() == '') validationErrors.re = 'Solutions is required';
 
     // Requirement validation
     if (!formData.agen && formData.agen.trim() == '') validationErrors.agen = 'Requirement is required';
@@ -230,7 +230,7 @@ const CallToActionForm = ({ style_sv_details }) => {
                       onChange={handleInputChange}
                       className={`${errors.re ? "border-danger " : ""} border-0`}
                     >
-                      <option value="" disabled className='d-none border-0'>Select Our Solutions</option>
+                      <option value="" disabled className='d-none border-0'>Select Solutions</option>
                       {item.sub_menus.map((sub_item, sub_i) => (
                         <option key={sub_i} value={sub_item.title} className="border-0">
                           {sub_item.title.toLowerCase()}
@@ -238,7 +238,7 @@ const CallToActionForm = ({ style_sv_details }) => {
                       ))}
                     </select>
                   ))}
-                  <lable>Our Solutions</lable>
+                  <lable>Solutions</lable>
                 </div>
                 {errors.re && <p className="text-danger -mt-20" style={{ "fontWeight": 700, "fontSize": '14px' }}>{errors.re}</p>}
               </div>

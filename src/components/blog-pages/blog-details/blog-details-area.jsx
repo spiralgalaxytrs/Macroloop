@@ -1,4 +1,4 @@
-import CommentForm from '@/src/forms/comment-form';
+import CommentForm from '../../../forms/comment-form';
 import Link from 'next/link';
 import React from 'react';
 import Category from '../category';

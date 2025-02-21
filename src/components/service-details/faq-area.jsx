@@ -1,4 +1,4 @@
-import Accordion from "@/src/common/accordion";
+import Accordion from "../../common/accordion";
 import React from "react";
 
 

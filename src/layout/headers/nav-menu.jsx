@@ -13,13 +13,18 @@ const NavMenu = () => {
               item.mega_menu ? "has-megamenu" : ""
             }`}
           >
-            <Link href={item.link}>{item.title}</Link>
+           <Link href={item.link}>{item.title}</Link>
 
             {item.sub_menus && (
               <ul className="submenu">
                 {item.sub_menus.map((sub_item, sub_i) => (
                   <li key={sub_i} className={`${sub_item.sub_menus ? "has-dropdown" : ""}`}>
-                    <Link href={sub_item.link}>{sub_item.title}</Link>
+                    <Link 
+                      href={sub_item.link} 
+                      style={{paddingLeft: sub_item.title === "EDU-TECH" ? "100px" : "40px"}}
+                    >
+                      {sub_item.title}
+                    </Link>
 
                     {sub_item.sub_menus && (
                       <ul className="submenu">

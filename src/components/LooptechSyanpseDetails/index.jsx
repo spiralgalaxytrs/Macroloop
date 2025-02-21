@@ -1,4 +1,4 @@
-import service_data from "@/src/data/service-data";
+import service_data from "../../data/service-data";
 import React from "react";
 import CtaArea from "../homes/home-5/cta";
 import Link from "next/link";

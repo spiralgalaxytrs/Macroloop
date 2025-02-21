@@ -1,6 +1,6 @@
 import React from "react";
-import SEO from "@/src/common/seo";
-import Metaverse_index from "@/src/components/digital-transformation/metaverse-solution";
+import SEO from "../../../../common/seo";
+import Metaverse_index from "../../../../components/digital-transformation/metaverse-solution";
 
 
 const index = () => {

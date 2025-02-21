@@ -45,7 +45,7 @@ const {
 const AboutDeatialsArea = () => {
     return (
         <>
-            <div className="tp-about-deatials-service dark-bg pt-55 pb-55">
+            <div className="tp-about-deatials-service dark-bg pt-55 pb-20">
          <div className="container">
             <div className="row">
                <div className="col-xl-6 wow tpfadeUp">
@@ -76,6 +76,29 @@ const AboutDeatialsArea = () => {
                            </div>
                         </div>
                        
+                     {/* ---Advisory part ---*/}
+                     {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "16px", border: "1px solid #ddd", borderRadius: "8px", backgroundColor: "#f9f9f9", maxWidth: "550px" }}>
+                     <h6 className='text-black font-size-16' style={{ color: "#333", marginBottom: "16px",color:"#333" }}>Our Advisory Board</h6>
+                      <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", justifyContent: "center" }}>
+                        {["Mr.Vijay Balah", "Mr.Sebin Sunny P"].map((member, index) => {
+                          const images = ["/assets/img/services/no1.jpg", "/assets/img/services/no2.jpg"];
+                          const designations=["Regional Head-Sales","Cheif Executive Officer"];
+                          const organizations=["VisiLean","TBI,Thigarajar College of Engineering"];
+                          return (
+                            <div key={index} style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "8px", border: "1px solid #ddd", borderRadius: "8px",width:"230px", maxWidth: "270px", backgroundColor: "#fff" }}>
+                              <img src={images[index]} alt="Profile" style={{ width: "100px", height: "100px", borderRadius: "50%", marginBottom: "12px" }} />
+                              <h6 style={{ fontSize: "16px", fontWeight: "600", marginBottom: "4px", color: "#333" }}>{member}</h6>
+                              <p style={{ fontSize: "14px", color: "#555", marginBottom: "4px" }}>{designations[index]}</p>
+                              <p style={{ fontSize: "14px", color: "#555", marginBottom: "12px", textAlign: "center" }}>{organizations[index]}</p>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>  */}
+
+
+
+
                      </div>
                   </div>
                   <div className="tp-sv-tabs-btn-wrapper mb-30">
@@ -88,14 +111,75 @@ const AboutDeatialsArea = () => {
                      </Link>
                   </div>
                </div>
+
+
+               
                <div className="col-xl-6 wow tpfadeUp">
                   <div className="about-sv-img">
                      <img src="/assets/img/services/about-service.jpg" alt="" />
                   </div>
                </div>
+
+
+
+             
             </div>
+        
          </div>
       </div>
+
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "16px", borderRadius: "8px", marginTop: "20px", marginBottom: "0px", backgroundColor:"#ececec"}}>
+        <h6 className='text-black' style={{ color: "#333", marginBottom: "16px", fontSize: "40px" }}>Our Advisory Board</h6>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "30px", justifyContent: "center" }}>
+            {["Mr.Vijay Balah", "Mr.Sebin Sunny P"].map((member, index) => {
+                const images = ["/assets/img/services/no1.jpg", "/assets/img/services/no2.jpg"];
+                const designations = ["Regional Head-Sales", "Chief Executive Officer"];
+                const organizations = ["VisiLean", "TBI,Thigarajar College of Engineering"];
+                const linkedinUrls = [
+                    "https://www.linkedin.com/in/vijaybalah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                    "https://www.linkedin.com/in/sebinsunny?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ];
+                return (
+                    <div key={index} style={{ 
+                        display: "flex", 
+                        flexDirection: "column", 
+                        alignItems: "center", 
+                        padding: "8px", 
+                        border: "1px solid #ddd", 
+                        borderRadius: "8px", 
+                        width: "500px", 
+                        maxWidth: "500px", 
+                        backgroundColor: "#fff", 
+                        transition: "box-shadow 0.3s ease, transform 0.3s ease", 
+                        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", 
+                        transform: "scale(1)",
+                        cursor: "pointer",
+                        marginBottom:"30px"
+                    }} 
+                    onMouseEnter={(e) => {
+                        e.currentTarget.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.2)";
+                        e.currentTarget.style.transform = "scale(1.05)";
+                    }}
+                    onMouseLeave={(e) => {
+                        e.currentTarget.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.1)";
+                        e.currentTarget.style.transform = "scale(1)";
+                    }}>
+                        <div style={{ display: "flex", alignItems: "center", marginBottom: "12px" }}>
+                            <img src={images[index]} alt="Profile" style={{ width: "100px", height: "100px", borderRadius: "50%" }} />
+                           
+                        </div>
+                        <h6 style={{ fontSize: "16px", fontWeight: "600", marginBottom: "4px", color: "#333" }}>{member}</h6>
+                        <p style={{ fontSize: "14px", color: "#555", marginBottom: "4px" }}>{designations[index]}</p>
+                        <p style={{ fontSize: "14px", color: "#555", marginBottom: "12px", textAlign: "center" }}>{organizations[index]}</p>
+                        <a href={linkedinUrls[index]} target="_blank" rel="noopener noreferrer" style={{ color: "#0077b5", fontSize: "24px", marginLeft: "10px" }}>
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                    </div>
+                );
+            })}
+        </div>
+    </div>
+    
         </>
     );
 };

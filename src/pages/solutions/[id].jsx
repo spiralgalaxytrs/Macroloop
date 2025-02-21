@@ -1,6 +1,6 @@
 import React from "react";
-import SEO from "@/src/common/seo";
-import JobDetails from "@/src/components/job-details";
+import SEO from "../../common/seo";
+import JobDetails from "../../components/job-details";
 import data from "../../data/solution1.json"
 
 export const getStaticProps = async ({params})=>{

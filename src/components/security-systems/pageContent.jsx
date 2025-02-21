@@ -38,7 +38,7 @@ const ContentArea = () => {
         <div className="container wow tpfadeUp">
           <p className="pt-lg-40" style={{ fontSize: "20px" }}>
             In an era where safety and efficiency are paramount, LoopTech's Safety Management Solutions
-            harness the power of IoT technology to create a secure and streamlined operational environment. Our comprehensive suite of solutions is designed to address the multifaceted challenges facedbyindustries today, from asset tracking and people safety monitoring to cold chain management andperimeter security.
+            harness the power of IoT technology to create a secure and streamlined operational environment. Our comprehensive suite of solutions is designed to address the multifaceted challenges faced by industries today, from asset tracking and people safety monitoring to cold chain management and perimeter security.
           </p>
         </div>
         <div className="container">
@@ -46,8 +46,8 @@ const ContentArea = () => {
             <div className="col-lg-8 col-12 right-padding mb-3 order-lg-0 order-md-0 order-2">
               <h2 className="mt-lg-0 mt-3">Asset Tracking</h2>
               <p className="pt-lg-4 mb-3">
-                LoopTech offers an asset tracking solution that utilizes IoT technology to monitor and manageassets in real time. The system provides visibility into asset location, usage, and condition, which enhances operational efficiency and reduces losses. It includes features like GPS
-                tracking, geofencing, and alerts for unauthorized movements. The solution is designedfor
+                LoopTech offers an asset tracking solution that utilizes IoT technology to monitor and manage assets in real time. The system provides visibility into asset location, usage, and condition, which enhances operational efficiency and reduces losses. It includes features like GPS
+                tracking, geofencing, and alerts for unauthorized movements. The solution is designed for
                 various industries, ensuring compliance and safety through comprehensive asset
                 management.
               </p>

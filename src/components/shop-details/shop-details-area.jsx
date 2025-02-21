@@ -1,4 +1,4 @@
-import AddReviewForm from '@/src/forms/add-review-form';
+import AddReviewForm from '../../forms/add-review-form';
 import React, {useState} from 'react';
 import UserReview from './review';
 

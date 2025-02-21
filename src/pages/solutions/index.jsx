@@ -1,6 +1,6 @@
 import React from "react";
-import SEO from "@/src/common/seo";
-import Service from "@/src/components/service";
+import SEO from "../../common/seo";
+import Service from "../../components/service";
 import Solutions from "../../data/solution1.json"
 
 

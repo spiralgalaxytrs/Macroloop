@@ -1,6 +1,6 @@
 import React from "react";
-import SEO from "@/src/common/seo";
-import HRMS_index from "@/src/components/HRMS";
+import SEO from "../../../../common/seo";
+import HRMS_index from "../../../../components/HRMS";
 
 
 const index = () => {
