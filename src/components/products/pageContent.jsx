@@ -6,7 +6,7 @@ const ContentArea = () => {
 
 
   const img_gallery_working_process = [
-    "/assets/img/portfolio/pf-details-gl-1.jpg",
+    // "/assets/img/portfolio/pf-details-gl-1.jpg",
     "/assets/img/portfolio/pf-details-gl-2.jpg",
     "/assets/img/portfolio/pf-details-gl-3.jpg",
   ]
