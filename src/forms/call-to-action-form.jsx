@@ -11,7 +11,8 @@ const CallToActionForm = ({ style_sv_details }) => {
     org: '',
     re: '',
     agen: '',
-    msg: ''
+    msg: '',
+    loc: ''
   });
 
   const [errors, setErrors] = useState({});
