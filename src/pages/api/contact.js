@@ -12,8 +12,8 @@ export default async function (req, res) {
     })
     const mailData = {
       from: 'mailtrscbe@gmail.com',
-      // to: 'manojkumartrs2023@gmail.com',
-      to: 'info@looptech.in',
+       to: 'manojkumartrs2023@gmail.com',
+     /// to: 'info@looptech.in',
       subject: `Message From ${req.body.name}`,
     //   text: req.body.msg + " | Sent from: " + req.body.mail,
       html: `<h1>MacroLoop Technologies  Enquiry</h1> 

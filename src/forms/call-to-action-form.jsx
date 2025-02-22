@@ -66,14 +66,19 @@ const CallToActionForm = ({ style_sv_details }) => {
     // Organisation validation
     if (!formData.org && formData.org.trim() == '') validationErrors.org = 'Organisation is required';
 
+    // Location validation
+    if (!formData.loc && formData.loc.trim() == '') validationErrors.loc = 'Location is required';
+
     //  Solutions validation
-    if (!formData.re && formData.re.trim() == '') validationErrors.re = 'Solutions is required';
+    if (!formData.re && formData.re.trim() == '') validationErrors.re = 'Category is required';
 
     // Requirement validation
     if (!formData.agen && formData.agen.trim() == '') validationErrors.agen = 'Requirement is required';
 
     // Message validation
     if (!formData.msg && formData.msg.trim() == '') validationErrors.msg = 'Message is required';
+
+    
 
     setErrors(validationErrors);
     return Object.keys(validationErrors).length === 0;
@@ -136,10 +141,10 @@ const CallToActionForm = ({ style_sv_details }) => {
     <>
       <div className="d-flex justify-content-center align-items-center" >
         {submited ? (<div className="input-item-textarea text-center text-success d-flex flex-column justify-content-center align-items-center" style={{ "fontWeight": 700 }}>
-          <img src='/assets/img/success.gif' width={650} /> Thanks for your enquiry. We'll contact you soon.
+          <img src='/assets/img/submit.gif' width={650} /> Thanks for your enquiry. We'll contact you soon.
         </div>) : loading ?
           (<div className="input-item-textarea text-center text-success d-flex flex-column justify-content-center align-items-center" style={{ "fontWeight": 700 }}>
-            <img src='/assets/img/loading-gif.gif' width={300} />
+            <img src='/assets/img/loading.gif' width={300} />
           </div>) : (<form onSubmit={handleSubmit}>
             <div className="row">
               <div className="col-lg-6">
@@ -229,11 +234,11 @@ const CallToActionForm = ({ style_sv_details }) => {
                     placeholder="Location"
                     name="loc"
                     onChange={handleInputChange}
-                    className={`${errors.mail ? "border-danger" : ""}border-0`}
+                    className={`${errors.loc ? "border-danger" : ""}border-0`}
                   />
-                  <lable>Email address</lable>
+                  <lable>Location</lable>
                 </div>
-                {errors.mail && <p className="text-danger -mt-20" style={{ "fontWeight": 700, "fontSize": '14px' }}>{errors.mail}</p>}
+                {errors.loc && <p className="text-danger -mt-20" style={{ "fontWeight": 700, "fontSize": '14px' }}>{errors.loc}</p>}
               </div>
 
               <div className="col-lg-6">
@@ -244,21 +249,34 @@ const CallToActionForm = ({ style_sv_details }) => {
                   </span>
                   {menu_data.filter((item) => item.has_dropdown && item.sub_menus).map((item, i) => (
                     <select
-                      key={i}
-                      value={formData.re}
-                      name="re"
-                      onChange={handleInputChange}
-                      className={`${errors.re ? "border-danger " : ""} border-0`}
-                    >
-                      <option value="" disabled className='d-none border-0'>Select Solutions</option>
-                      {item.sub_menus.map((sub_item, sub_i) => (
-                        <option key={sub_i} value={sub_item.title} className="border-0">
-                          {sub_item.title.toLowerCase()}
-                        </option>
-                      ))}
-                    </select>
+                    value={formData.re}
+                    name="re"
+                    onChange={handleInputChange}
+                    className={`${errors.re ? "border-danger " : ""} border-0`}
+                  >
+                    <option value="" disabled className='d-none border-0'>Select Category</option>
+                    
+                    {menu_data.filter((item) => item.has_dropdown && item.sub_menus).map((item, i) => (
+                      <optgroup key={i} label={item.title}>
+                        {item.sub_menus.map((sub_item, sub_i) => (
+                          <option key={sub_i} value={sub_item.title} className="border-0">
+                            {sub_item.title}
+                          </option>
+                        ))}
+                      </optgroup>
+                    ))}
+              
+                    
+                    <optgroup label="PRODUCTS">
+                      <option value="SIRUS">SIRUS</option>
+                      <option value="LUNA">LUNA</option>
+                      <option value="EdgeEstate">EDGE ESTATE</option>
+                    </optgroup>
+                    
+                  </select>
+              
                   ))}
-                  <lable>Solutions</lable>
+                  <lable>What is your inquiry about?</lable>
                 </div>
                 {errors.re && <p className="text-danger -mt-20" style={{ "fontWeight": 700, "fontSize": '14px' }}>{errors.re}</p>}
               </div>

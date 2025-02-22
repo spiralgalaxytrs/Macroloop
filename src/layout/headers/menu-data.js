@@ -1,3 +1,5 @@
+import { title } from "process";
+
 const menu_data = [
   {
     id: 1,
@@ -13,11 +15,15 @@ const menu_data = [
     title: "ABOUT US",
     link: "/about",
   },
+ 
+
   {
     id: 3,
     mega_menu: false,
     has_dropdown: true,
+  
     sub_menus: [{
+     
       title: "CONSTRUCTION TECHNOLOGY",
       link: "/solutions/Construction-Technical",
       // sub: [
@@ -110,6 +116,10 @@ const menu_data = [
     has_dropdown: false,
     title: "PRODUCTS",
     link: "/products",
+   
+    
+     
+    // ]
   },
   // {
   //   id: 5,
@@ -133,5 +143,7 @@ const menu_data = [
     title: "CONTACT",
     link: "/contact",
   },
+
+
 ];
 export default menu_data;
