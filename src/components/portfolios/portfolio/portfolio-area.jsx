@@ -1,5 +1,5 @@
 // import portfolio_data from '@/src/data/portfolio-data';
-import fillter_data from "@/src/data/fillter-data";
+import fillter_data from "../../../data/fillter-data";
 import React, { useState } from "react";
 import { LayoutGroup, motion } from "framer-motion";
 import Link from "next/link";

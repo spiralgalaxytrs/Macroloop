@@ -37597,7 +37597,7 @@ input[type=color] {
   }
 }
 .da-menu ul li a {
-  color: var(--tp-common-black);
+color:var(--tp-common-black);
   padding: 38px 0;
   font-weight: 900;
 }

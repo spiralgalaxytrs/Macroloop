@@ -1,8 +1,8 @@
-import BreadcrumbArea from "@/src/common/breadcrumb-area";
-import Header from "@/src/layout/headers/header";
+import BreadcrumbArea from "../../../common/breadcrumb-area";
+import Header from "../../../layout/headers/header";
 import React from "react";
 import PortfolioArea from "./portfolio-area";
-import Footer from "@/src/layout/footers/footer";
+import Footer from "../../../layout/footers/footer";
 
 
 const Portfolio = () => {

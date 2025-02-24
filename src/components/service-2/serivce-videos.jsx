@@ -1,4 +1,4 @@
-import VideoPopup from '@/src/Modals/VideoPopup';
+import VideoPopup from '../../Modals/VideoPopup';
 import React,{useState} from 'react';
 
 const SerivceVideos = () => {

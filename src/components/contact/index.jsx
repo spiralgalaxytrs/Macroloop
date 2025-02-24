@@ -1,7 +1,7 @@
-import BreadcrumbArea from "@/src/common/breadcrumb-area";
+import BreadcrumbArea from "../../common/breadcrumb-area";
 
-import Footer from "@/src/layout/footers/footer";
-import Header from "@/src/layout/headers/header";
+import Footer from "../../layout/footers/footer";
+import Header from "../../layout/headers/header";
 import React from "react";
 import ContactArea from "./contact-area";
 import ItCtaArea from "../service-details/it-cta-area";

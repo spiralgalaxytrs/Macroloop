@@ -10,7 +10,7 @@ const service_data = [
   //   link: "/solutions/Digital-Transformation/IOT-Solutions",
   //   img: "/assets/img/services/seo-sv-img-4.jpg",
   //   title: "IOT ",
-  //   des: <>Our solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.</>,
+  //   des: <> solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.</>,
   //   counter: "",
   //   delay: ".4s"
   // },
@@ -72,7 +72,7 @@ const service_data = [
     id: 4,
     icon: "/assets/img/icons/5.png",
     icon: "/assets/img/icons/5.png",
-    link: "/solutions/Digital-Transformation/Infrastructure",
+    link: "/solutions/Digital-Transformation/HRMS",
     img: "/assets/img/icons/service-icons-7.png",
     title: "HRMS",
     des: <>At LoopTech, we offer a streamlining workforce management with our future-ready HRMS platform.</>,
@@ -146,7 +146,7 @@ const ContentArea = () => {
 
           {/* <h2>Industry Automation</h2> */}
           <p className="pt-10">
-            MacroLoop Technologies specializes in digital transformation, empowering businesses to thrive into day's fast-paced environment. By integrating cutting-edge technologies, we enable
+            MacroLoop Technologies specializes in digital transformation, empowering businesses to thrive in today's fast-paced environment. By integrating cutting-edge technologies, we enable
             organizations to enhance operational efficiency, improve safety standards, and streamline
             workforce management. Our approach focuses on leveraging innovative solutions that drive engagement and foster growth, ensuring companies remain competitive in an ever-evolving
             market.

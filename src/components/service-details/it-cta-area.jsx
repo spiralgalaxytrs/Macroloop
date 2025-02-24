@@ -1,4 +1,4 @@
-import CallToActionForm from '@/src/forms/call-to-action-form';
+import CallToActionForm from '../../forms/call-to-action-form';
 import React from 'react';
 
 

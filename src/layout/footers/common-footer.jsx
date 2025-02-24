@@ -6,31 +6,32 @@ const footer_links = [
   {
     id: 1,
     title: "Quick Links",
-    col: "col-lg-2",
+    col: "col-lg-3",
     links: [
       { title: "About", link: "/about" },
       { title: "Solutions", link: "/solutions" },
       // { title: "LCG", link: "/lcg" },
-      { title: "LooperHub", link: "/LooperHub" },
+      { title: "Products", link: "/products" },
+      { title: "Contact", link: "/contact" },
       // { title: "Contact", link: "/contact" },
       // { title: "Privacy Policy", link: "/privacy-policy" }
      
     ],
   },
-  {
-    id: 2,
-    title: "Quick Links",
-    col: "col-lg-2",
-    links: [
-      // { title: "About", link: "/about" },
-      // { title: "Solutions", link: "/solutions" },
-      // { title: "LCG", link: "/lcg" },
-      // { title: "LooperHub", link: "/LooperHub" },
-      { title: "Contact", link: "/contact" },
-      { title: "Privacy Policy", link: "/privacy-policy" }
+  // {
+  //   id: 2,
+  //   title: "Quick Links",
+  //   col: "col-lg-2",
+  //   links: [
+  //     // { title: "About", link: "/about" },
+  //     // { title: "Solutions", link: "/solutions" },
+  //     // { title: "LCG", link: "/lcg" },
+  //     // { title: "LooperHub", link: "/LooperHub" },
+  //     { title: "Contact", link: "/contact" },
+  //     { title: "Privacy Policy", link: "/privacy-policy" }
      
-    ],
-  }
+  //   ],
+  // }
   // {
   //   id: 2,
   //   title: "Our Policies",
@@ -63,7 +64,7 @@ const CommonFooter = () => {
   return (
     <>
       {footer_links.map((item, i) => (
-        <div key={i} className={`${item.col} col-md-6`}>
+        <div key={i} className={`${item.col} col-md-6  `}>
           <div className="tp-footer__widget  mb-40">
             <h3 className="tp-footer__widget-title  mb-35" style={{color:"#044CBC"}}>{item.title}</h3>
             <ul id={item.id}>

@@ -1,4 +1,4 @@
-import portfolio_data from '@/src/data/portfolio-data';
+import portfolio_data from '../data/portfolio-data';
 import Link from 'next/link';
 import React, {useState, useEffect} from 'react';
 import { Navigation } from 'swiper';

@@ -9,7 +9,7 @@ const Edu_Tech_data = [
       id: 1,
       img:  "/assets/img/eduTech/1.png",
       title: " Automation Technology",
-      desctiption: "Our comprehensive training in automation technology encompasses the latest advancements in industrial automation, robotics, and control systems. Students gain practical experience in programming andoperating automated systems, preparing them for careers in manufacturing, process control, and industrial engineering."
+      desctiption: "Our comprehensive training in automation technology encompasses the latest advancements in industrial automation, robotics, and control systems. Students gain practical experience in programming and operating automated systems, preparing them for careers in manufacturing, process control, and industrial engineering."
   },
   {
       id: 2,
@@ -29,7 +29,7 @@ const Edu_Tech_data = [
       id: 4,
       img:"/assets/img/eduTech/4.png",
       title: "Automotive and EV Technologies",
-      desctiption: "Our hands-on training in automotive and electric vehicle technologies covers vehicle electronics, powertrains, and advanced propulsion systems. Students gain practical skills in electric vehicle design and maintenance, positioning them at the forefront of the automotive industry's shift towards electric andsustainable transportation solutions.",
+      desctiption: "Our hands-on training in automotive and electric vehicle technologies covers vehicle electronics, powertrains, and advanced propulsion systems. Students gain practical skills in electric vehicle design and maintenance, positioning them at the forefront of the automotive industry's shift towards electric and sustainable transportation solutions.",
 
   },
   {
@@ -60,6 +60,76 @@ const Edu_Tech_data = [
 //     desctiption: "The app allows users to showcase their work, projects, or ideas, providing a platform to attract potential partners, investors, or customers and establish meaningful connections within the entrepreneurial community.",
 
 // },
+]
+
+
+
+const service_data = [
+  // {
+  //   id: 1,
+  //   icon: "/assets/img/icons/IOT.png",
+  //   icon: "/assets/img/icons/IOT.png",
+  //   link: "/solutions/Digital-Transformation/IOT-Solutions",
+  //   img: "/assets/img/services/seo-sv-img-4.jpg",
+  //   title: "IOT ",
+  //   des: <> solutions streamline operations, automate processes, and optimize resource allocation, allowing businesses to focus on core activities.</>,
+  //   counter: "",
+  //   delay: ".4s"
+  // },
+
+  // {
+  //   id: 2,
+  //   icon: "/assets/img/icons/2.png",
+  //   icon: "/assets/img/icons/2.png",
+  //   link: "/solutions/Digital-Transformation/Robotic-Automation",
+  //   img: "/assets/img/icons/service-icons-4.png",
+  //   title: "AUTOMATION",
+  //   des: <>Robotic Process Automation bots have the same digital skill sets as people—and then some.</>,
+  //   counter: "",
+  //   delay: ".4s",
+  //   data_aos: "",
+  //   duration: "",
+  // },
+
+  {
+    id: 1,
+    icon: "/assets/img/icons/3.png",
+    icon: "/assets/img/icons/3.png",
+    link: "/solutions/Edu-Tech/Training-Programs",
+    img: "/assets/img/icons/service-icons-5.png",
+    title: "Training Programs",
+    des: <></>,
+    counter: "",
+    delay: ".4s",
+    data_aos: "",
+    duration: "",
+  },
+  {
+    id: 2,
+    icon: "/assets/img/icons/service-icons-6.png",
+    link: "/solutions/Edu-Tech/High-Tech-Laboratory",
+    img: "/assets/img/icons/service-icons-6.png",
+    title: "High Tech Laboratory",
+    des: <></>,
+    counter: "",
+    delay: ".4s",
+    data_aos: "fade-up",
+    duration: "2500",
+  },
+
+
+  // {
+  //     id: 6,
+  //     icon: "/assets/img/icons/service-icons-8.png",
+  //     link: "#",
+  //     img: "/assets/img/icons/service-icons-8.png",
+  //     title: "Website Development",
+  //     des: <>Our typical customer doesn’t want to be distracted by IT Services that don’t add direct value to their customers.</>,
+  //     counter: "", 
+  //     delay: ".4s",
+  //     data_aos: "fade-up",
+  //     duration: "2500",
+  // }, 
 ]
 
 
@@ -130,7 +200,38 @@ const ContentArea = () => {
         <p className="pt-10">→ Empower the next generation with LoopTech's Edu-Tech solutions, where innovation and education converge to create endless possibilities.</p>
       </div>
 
-            <div className="pf-dt-process-wrapper pb-60 container mt-4">
+
+
+
+
+      <div className="tp-it-service serive-page-item-title pt-30 pb-90">
+            <div className="container">
+              <div className="row it-sv-counter">
+                {service_data.map((item, i) => (
+                  <div
+                    key={i}
+                    className="col-lg-6 col-md-6"
+                    data-aos={item.data_aos}
+                    data-aos-duration={item.duration}
+                  >
+                    <div className="it-service__item mb-30 text-center">
+                      <div className="it-servicce__item-img mb-35">
+                        <img src={item.icon} alt="them-pure" />
+                      </div>
+                      <h3 className="it-service__item-title mb-20">
+                        <a href={item.link}>{item.title}</a>
+                      </h3>
+                      <p className="mb-0">{item.des}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+
+
+            {/* <div className="pf-dt-process-wrapper pb-60 container mt-4">
               <div className="row row-cols-5 justify-content-evenly">
                 {Edu_Tech_data.map((item, i) => (
                   <div key={i} className="col" style={{width:'400px'}}>
@@ -153,13 +254,15 @@ const ContentArea = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
-            <p className="pt-20">
+
+
+            {/* <p className="pt-20">
             Our organization, we are proud to have established strong partnerships with leading industry players, enabling us to offer innovative educational programs in collaboration with:
-            </p>
+            </p> */}
 
-            <h2>Lucas Nuelle Germany</h2>
+            {/* <h2>Lucas Nuelle Germany</h2>
 
             <p className="pt-20">
             Our partnership with Lucas Nuelle Germany allows us to integrate state-of-the-art training systems in key
@@ -197,9 +300,9 @@ const ContentArea = () => {
             <p>
              Dedicated to teaching and enriching Industry 4.0 and future technologies, we are committed to preparing
             students for the technological advancements and challenges of tomorrow. Through our Edu-Tech division, we are dedicated to nurturing the next generation of tech-savvy professionals, providing them with the tools and knowledge to excel in their respective fields.
-            </p>
+            </p> */}
             
-          <div className="pt-20 solution_sponsor">
+          {/* <div className="pt-20 solution_sponsor">
             <span>Powered By</span>
           </div>
           <div className="pt-20 pb-100">
@@ -207,7 +310,7 @@ const ContentArea = () => {
           <img className="solutions_sponsor_img3" src="/assets/img/brand/ibm.png" alt="" />
           <img className="solutions_sponsor_img3" src="/assets/img/brand/lucas_new.png" alt="" />
           <img className="solutions_sponsor_img3" src="/assets/img/brand/KEWAUNEE.png" alt="" />
-          </div>
+          </div> */}
           </div>
   
           {/* <!-- cta are  --> */}

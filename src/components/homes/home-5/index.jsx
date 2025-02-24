@@ -1,5 +1,5 @@
-import FooterTwo from "@/src/layout/footers/footer";
-import Header from "@/src/layout/headers/header";
+import FooterTwo from "../../../layout/footers/footer";
+import Header from "../../../layout/headers/header";
 import React from "react";
 import AboutArea from "./about-area";
 

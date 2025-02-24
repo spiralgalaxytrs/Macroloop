@@ -1,5 +1,5 @@
-import products_data from "@/src/data/product-data";
-import NiceSelect from "@/src/ui/nice-select";
+import products_data from "../../data/product-data";
+import NiceSelect from "../..//ui/nice-select";
 import Link from "next/link";
 import React from "react";
 

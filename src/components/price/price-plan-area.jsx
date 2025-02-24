@@ -1,4 +1,4 @@
-import PricingPlan from '@/src/common/pricing-plan';
+import PricingPlan from '../../common/pricing-plan';
 import React from 'react';
 
 const PricePlan = () => {

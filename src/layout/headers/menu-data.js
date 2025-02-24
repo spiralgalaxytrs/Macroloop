@@ -1,23 +1,29 @@
+import { title } from "process";
+
 const menu_data = [
   {
     id: 1,
     mega_menu: false,
     has_dropdown: false,
-    title: "Home",
+    title: "HOME",
     link: "/",
   },
   {
     id: 2,
     mega_menu: false,
     has_dropdown: false,
-    title: "About Us",
+    title: "ABOUT US",
     link: "/about",
   },
+ 
+
   {
     id: 3,
     mega_menu: false,
     has_dropdown: true,
+  
     sub_menus: [{
+     
       title: "CONSTRUCTION TECHNOLOGY",
       link: "/solutions/Construction-Technical",
       // sub: [
@@ -93,16 +99,27 @@ const menu_data = [
       ]
     },
     ],
-    title: "Our Solutions",
+    title: "SOLUTIONS",
     link: "/solutions",
 
   },
+  // {
+  //   id: 4,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "LooperHub",
+  //   link: "/LooperHub",
+  // },
   {
-    id: 4,
+    id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "LooperHub",
-    link: "/LooperHub",
+    title: "PRODUCTS",
+    link: "/products",
+   
+    
+     
+    // ]
   },
   // {
   //   id: 5,
@@ -123,8 +140,10 @@ const menu_data = [
     id: 6,
     mega_menu: false,
     has_dropdown: false,
-    title: "Contact",
+    title: "CONTACT",
     link: "/contact",
   },
+
+
 ];
 export default menu_data;

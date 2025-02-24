@@ -1,4 +1,4 @@
-import our_blog_data from '@/src/data/our-blog-data';
+// import our_blog_data from '@/src/data/our-blog-data';
 import Link from 'next/link';
 import React from 'react';
 import Solutions from "../../../data/solution1.json"
@@ -19,7 +19,7 @@ const Services = () => {
                                 {/* <span className="tp-section__subtitle mb-15 shadow-none text-rgb p-0 wow tpfadeUp">Studio News</span> */}
                                 <h2
                                     className="tp-section__title text-non-rgb tp-rgb-border text-black text-uppercase mb-65 wow tpfadeUp" data-wow-delay=".4s">
-                                    Our Solutions
+                                     Solutions
                                 </h2>
                             </div>
                         </div>

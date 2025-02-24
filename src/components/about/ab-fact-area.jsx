@@ -1,4 +1,4 @@
-import Count from '@/src/common/count';
+import Count from '../../../src/common/count';
 import React from 'react';
 
 const about_feature_data = [

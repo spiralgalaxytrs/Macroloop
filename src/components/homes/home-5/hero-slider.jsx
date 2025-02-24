@@ -1,4 +1,4 @@
-import SocialLinks from "@/src/common/social-links";
+
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";

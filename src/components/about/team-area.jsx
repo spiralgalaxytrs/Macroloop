@@ -1,4 +1,4 @@
-import team_data from '@/src/data/team-data';
+import team_data from '../../../src/data/team-data';
 import Link from 'next/link';
 import React from 'react';
 

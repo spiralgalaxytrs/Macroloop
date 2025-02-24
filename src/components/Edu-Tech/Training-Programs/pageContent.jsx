@@ -563,7 +563,7 @@ const ContentArea = () => {
             <h3 className="workshop-title">Faculty Development Programs (FDP)<i className="fa-solid fa-code ps-3" style={{ color: "#0849BE" }}></i></h3>
             <p className="workshop-description">
             Our Faculty Development Program (FDP) aims to enhance the teaching skills and technical knowledgeof educators. It equips faculty members with industry-relevant tools, teaching methodologies, and
-practical insights to help them stay updated with the latest trends and technologies. The programpromotes a hands-on learning approach to improve the quality of technical education delivered in institutions.
+practical insights to help them stay updated with the latest trends and technologies. The program promotes a hands-on learning approach to improve the quality of technical education delivered in institutions.
             </p>
 {/* //destop slider */}
             <div className="swiper-container d-block d-lg-none">
